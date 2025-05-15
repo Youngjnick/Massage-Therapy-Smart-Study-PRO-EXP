@@ -1,0 +1,202 @@
+[
+  {
+    "id": "Plasma Membrane Potential 001",
+    "topic": "Plasma Membrane Potential",
+    "difficulty": "intermediate",
+    "question": "What is membrane potential?",
+    "answers": [
+      "The pressure inside the nucleus",
+      "The voltage difference across the plasma membrane",
+      "The size of the cell membrane",
+      "The thickness of the lipid bilayer"
+    ],
+    "correct": 1,
+    "tags": [
+      "Plasma Membrane Potential"
+    ],
+    "stats": {
+      "correct": 0,
+      "incorrect": 0
+    }
+  },
+  {
+    "id": "Plasma Membrane Potential 002",
+    "topic": "Plasma Membrane Potential",
+    "difficulty": "intermediate",
+    "question": "What ions are most responsible for establishing resting membrane potential?",
+    "answers": [
+      "Na+ and Cl-",
+      "Ca2+ and Mg2+",
+      "Na+ and K+",
+      "H+ and OH-"
+    ],
+    "correct": 2,
+    "tags": [
+      "Plasma Membrane Potential"
+    ],
+    "stats": {
+      "correct": 0,
+      "incorrect": 0
+    }
+  },
+  {
+    "id": "Plasma Membrane Potential 003",
+    "topic": "Plasma Membrane Potential",
+    "difficulty": "intermediate",
+    "question": "What is the typical resting membrane potential of a neuron?",
+    "answers": [
+      "+70 mV",
+      "0 mV",
+      "-70 mV",
+      "-30 mV"
+    ],
+    "correct": 2,
+    "tags": [
+      "Plasma Membrane Potential"
+    ],
+    "stats": {
+      "correct": 0,
+      "incorrect": 0
+    }
+  },
+  {
+    "id": "Plasma Membrane Potential 004",
+    "topic": "Plasma Membrane Potential",
+    "difficulty": "intermediate",
+    "question": "Which protein helps maintain resting membrane potential by pumping ions against their gradient?",
+    "answers": [
+      "Calcium channel",
+      "Glucose transporter",
+      "Na+/K+ ATPase pump",
+      "Aquaporin"
+    ],
+    "correct": 2,
+    "tags": [
+      "Plasma Membrane Potential"
+    ],
+    "stats": {
+      "correct": 0,
+      "incorrect": 0
+    }
+  },
+  {
+    "id": "Plasma Membrane Potential 005",
+    "topic": "Plasma Membrane Potential",
+    "difficulty": "intermediate",
+    "question": "What does the Na+/K+ pump do?",
+    "answers": [
+      "Moves 2 K+ in and 3 Na+ out using ATP",
+      "Moves 3 K+ in and 2 Na+ out using ATP",
+      "Only moves sodium into the cell",
+      "Transports glucose"
+    ],
+    "correct": 0,
+    "tags": [
+      "Plasma Membrane Potential"
+    ],
+    "stats": {
+      "correct": 0,
+      "incorrect": 0
+    }
+  },
+  {
+    "id": "Plasma Membrane Potential 006",
+    "topic": "Plasma Membrane Potential",
+    "difficulty": "intermediate",
+    "question": "Which of the following is true of a polarized membrane?",
+    "answers": [
+      "There is no difference in charge across the membrane",
+      "The outside is negative relative to the inside",
+      "The inside is negative relative to the outside",
+      "It is not influenced by ions"
+    ],
+    "correct": 2,
+    "tags": [
+      "Plasma Membrane Potential"
+    ],
+    "stats": {
+      "correct": 0,
+      "incorrect": 0
+    }
+  },
+  {
+    "id": "Plasma Membrane Potential 007",
+    "topic": "Plasma Membrane Potential",
+    "difficulty": "intermediate",
+    "question": "What happens during depolarization?",
+    "answers": [
+      "K+ rushes out of the cell",
+      "Na+ channels open and Na+ rushes in",
+      "Ca2+ is released",
+      "The membrane becomes more negative"
+    ],
+    "correct": 1,
+    "tags": [
+      "Plasma Membrane Potential"
+    ],
+    "stats": {
+      "correct": 0,
+      "incorrect": 0
+    }
+  },
+  {
+    "id": "Plasma Membrane Potential 008",
+    "topic": "Plasma Membrane Potential",
+    "difficulty": "intermediate",
+    "question": "During repolarization, the membrane potential is:",
+    "answers": [
+      "Returning to its resting negative value",
+      "Becoming more positive",
+      "Maintained at 0 mV",
+      "Dropping to -90 mV permanently"
+    ],
+    "correct": 0,
+    "tags": [
+      "Plasma Membrane Potential"
+    ],
+    "stats": {
+      "correct": 0,
+      "incorrect": 0
+    }
+  },
+  {
+    "id": "Plasma Membrane Potential 009",
+    "topic": "Plasma Membrane Potential",
+    "difficulty": "intermediate",
+    "question": "Hyperpolarization occurs when:",
+    "answers": [
+      "The membrane becomes more positive",
+      "The membrane returns to baseline",
+      "The inside of the cell becomes more negative than resting potential",
+      "The membrane breaks down"
+    ],
+    "correct": 2,
+    "tags": [
+      "Plasma Membrane Potential"
+    ],
+    "stats": {
+      "correct": 0,
+      "incorrect": 0
+    }
+  },
+  {
+    "id": "Plasma Membrane Potential 010",
+    "topic": "Plasma Membrane Potential",
+    "difficulty": "intermediate",
+    "question": "Which ion contributes most to the resting membrane potential?",
+    "answers": [
+      "Na+",
+      "K+",
+      "Ca2+",
+      "Cl-"
+    ],
+    "correct": 1,
+    "tags": [
+      "Plasma Membrane Potential"
+    ],
+    "stats": {
+      "correct": 0,
+      "incorrect": 0
+    }
+  }
+]

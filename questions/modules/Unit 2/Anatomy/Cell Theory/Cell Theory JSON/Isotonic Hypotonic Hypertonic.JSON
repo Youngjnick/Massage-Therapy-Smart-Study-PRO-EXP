@@ -1,0 +1,202 @@
+[
+  {
+    "id": "Isotonic Hypotonic Hypertonic 001",
+    "topic": "Isotonic Hypotonic Hypertonic",
+    "difficulty": "intermediate",
+    "question": "What happens to a cell placed in an isotonic solution?",
+    "answers": [
+      "It swells and bursts",
+      "It shrinks",
+      "It maintains its shape with no net water movement",
+      "It digests itself"
+    ],
+    "correct": 2,
+    "tags": [
+      "Isotonic Hypotonic Hypertonic"
+    ],
+    "stats": {
+      "correct": 0,
+      "incorrect": 0
+    }
+  },
+  {
+    "id": "Isotonic Hypotonic Hypertonic 002",
+    "topic": "Isotonic Hypotonic Hypertonic",
+    "difficulty": "intermediate",
+    "question": "In a hypertonic solution, water moves:",
+    "answers": [
+      "Into the cell",
+      "Out of the cell",
+      "Equally in and out",
+      "Nowhere at all"
+    ],
+    "correct": 1,
+    "tags": [
+      "Isotonic Hypotonic Hypertonic"
+    ],
+    "stats": {
+      "correct": 0,
+      "incorrect": 0
+    }
+  },
+  {
+    "id": "Isotonic Hypotonic Hypertonic 003",
+    "topic": "Isotonic Hypotonic Hypertonic",
+    "difficulty": "intermediate",
+    "question": "A hypotonic solution has:",
+    "answers": [
+      "More solute than the cell",
+      "The same solute concentration as the cell",
+      "Less solute and more water than the cell",
+      "No solutes"
+    ],
+    "correct": 2,
+    "tags": [
+      "Isotonic Hypotonic Hypertonic"
+    ],
+    "stats": {
+      "correct": 0,
+      "incorrect": 0
+    }
+  },
+  {
+    "id": "Isotonic Hypotonic Hypertonic 004",
+    "topic": "Isotonic Hypotonic Hypertonic",
+    "difficulty": "intermediate",
+    "question": "What effect does a hypotonic solution have on an animal cell?",
+    "answers": [
+      "The cell stays the same",
+      "The cell shrinks",
+      "The cell may swell and burst",
+      "The cell forms a wall"
+    ],
+    "correct": 2,
+    "tags": [
+      "Isotonic Hypotonic Hypertonic"
+    ],
+    "stats": {
+      "correct": 0,
+      "incorrect": 0
+    }
+  },
+  {
+    "id": "Isotonic Hypotonic Hypertonic 005",
+    "topic": "Isotonic Hypotonic Hypertonic",
+    "difficulty": "intermediate",
+    "question": "Which solution type would cause plasmolysis in plant cells?",
+    "answers": [
+      "Isotonic",
+      "Hypotonic",
+      "Hypertonic",
+      "Acidic"
+    ],
+    "correct": 2,
+    "tags": [
+      "Isotonic Hypotonic Hypertonic"
+    ],
+    "stats": {
+      "correct": 0,
+      "incorrect": 0
+    }
+  },
+  {
+    "id": "Isotonic Hypotonic Hypertonic 006",
+    "topic": "Isotonic Hypotonic Hypertonic",
+    "difficulty": "intermediate",
+    "question": "Which solution is best for intravenous rehydration?",
+    "answers": [
+      "Hypertonic",
+      "Hypotonic",
+      "Isotonic",
+      "Colloid"
+    ],
+    "correct": 2,
+    "tags": [
+      "Isotonic Hypotonic Hypertonic"
+    ],
+    "stats": {
+      "correct": 0,
+      "incorrect": 0
+    }
+  },
+  {
+    "id": "Isotonic Hypotonic Hypertonic 007",
+    "topic": "Isotonic Hypotonic Hypertonic",
+    "difficulty": "intermediate",
+    "question": "In a hypertonic environment, a red blood cell will:",
+    "answers": [
+      "Expand and lyse",
+      "Remain the same",
+      "Shrink (crenate)",
+      "Become isotonic"
+    ],
+    "correct": 2,
+    "tags": [
+      "Isotonic Hypotonic Hypertonic"
+    ],
+    "stats": {
+      "correct": 0,
+      "incorrect": 0
+    }
+  },
+  {
+    "id": "Isotonic Hypotonic Hypertonic 008",
+    "topic": "Isotonic Hypotonic Hypertonic",
+    "difficulty": "intermediate",
+    "question": "In osmosis, water moves from:",
+    "answers": [
+      "High solute to low solute",
+      "Low water to high water",
+      "High water concentration to low water concentration",
+      "Equilibrium to gradient"
+    ],
+    "correct": 2,
+    "tags": [
+      "Isotonic Hypotonic Hypertonic"
+    ],
+    "stats": {
+      "correct": 0,
+      "incorrect": 0
+    }
+  },
+  {
+    "id": "Isotonic Hypotonic Hypertonic 009",
+    "topic": "Isotonic Hypotonic Hypertonic",
+    "difficulty": "intermediate",
+    "question": "Which of the following best defines an isotonic solution?",
+    "answers": [
+      "Higher solute than the cell",
+      "Lower solute than the cell",
+      "Equal solute concentration as the cell",
+      "No water present"
+    ],
+    "correct": 2,
+    "tags": [
+      "Isotonic Hypotonic Hypertonic"
+    ],
+    "stats": {
+      "correct": 0,
+      "incorrect": 0
+    }
+  },
+  {
+    "id": "Isotonic Hypotonic Hypertonic 010",
+    "topic": "Isotonic Hypotonic Hypertonic",
+    "difficulty": "intermediate",
+    "question": "What condition results from placing animal cells in a hypotonic solution for too long?",
+    "answers": [
+      "Hemolysis",
+      "Plasmolysis",
+      "Crenation",
+      "Osmotic dehydration"
+    ],
+    "correct": 0,
+    "tags": [
+      "Isotonic Hypotonic Hypertonic"
+    ],
+    "stats": {
+      "correct": 0,
+      "incorrect": 0
+    }
+  }
+]

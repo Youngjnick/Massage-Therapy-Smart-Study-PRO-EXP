@@ -1,0 +1,202 @@
+[
+  {
+    "id": "Cellular Anatomy 001",
+    "topic": "Cellular Anatomy",
+    "difficulty": "intermediate",
+    "question": "What is the function of the cell membrane?",
+    "answers": [
+      "Stores genetic information",
+      "Produces energy",
+      "Controls movement of substances in and out of the cell",
+      "Synthesizes proteins"
+    ],
+    "correct": 2,
+    "tags": [
+      "Cellular Anatomy"
+    ],
+    "stats": {
+      "correct": 0,
+      "incorrect": 0
+    }
+  },
+  {
+    "id": "Cellular Anatomy 002",
+    "topic": "Cellular Anatomy",
+    "difficulty": "intermediate",
+    "question": "Which organelle is known as the 'powerhouse' of the cell?",
+    "answers": [
+      "Nucleus",
+      "Ribosome",
+      "Mitochondrion",
+      "Golgi apparatus"
+    ],
+    "correct": 2,
+    "tags": [
+      "Cellular Anatomy"
+    ],
+    "stats": {
+      "correct": 0,
+      "incorrect": 0
+    }
+  },
+  {
+    "id": "Cellular Anatomy 003",
+    "topic": "Cellular Anatomy",
+    "difficulty": "intermediate",
+    "question": "Which structure contains the cell’s genetic material?",
+    "answers": [
+      "Endoplasmic reticulum",
+      "Golgi body",
+      "Nucleus",
+      "Lysosome"
+    ],
+    "correct": 2,
+    "tags": [
+      "Cellular Anatomy"
+    ],
+    "stats": {
+      "correct": 0,
+      "incorrect": 0
+    }
+  },
+  {
+    "id": "Cellular Anatomy 004",
+    "topic": "Cellular Anatomy",
+    "difficulty": "intermediate",
+    "question": "What is the primary function of ribosomes?",
+    "answers": [
+      "Break down waste",
+      "Transport lipids",
+      "Produce proteins",
+      "Store water"
+    ],
+    "correct": 2,
+    "tags": [
+      "Cellular Anatomy"
+    ],
+    "stats": {
+      "correct": 0,
+      "incorrect": 0
+    }
+  },
+  {
+    "id": "Cellular Anatomy 005",
+    "topic": "Cellular Anatomy",
+    "difficulty": "intermediate",
+    "question": "What is the role of lysosomes in a cell?",
+    "answers": [
+      "Synthesizing proteins",
+      "Breaking down cellular waste and debris",
+      "Transporting RNA",
+      "Generating energy"
+    ],
+    "correct": 1,
+    "tags": [
+      "Cellular Anatomy"
+    ],
+    "stats": {
+      "correct": 0,
+      "incorrect": 0
+    }
+  },
+  {
+    "id": "Cellular Anatomy 006",
+    "topic": "Cellular Anatomy",
+    "difficulty": "intermediate",
+    "question": "What does the endoplasmic reticulum (ER) do?",
+    "answers": [
+      "Stores calcium and lipids",
+      "Produces glucose",
+      "Processes and packages proteins and lipids",
+      "Synthesizes DNA"
+    ],
+    "correct": 2,
+    "tags": [
+      "Cellular Anatomy"
+    ],
+    "stats": {
+      "correct": 0,
+      "incorrect": 0
+    }
+  },
+  {
+    "id": "Cellular Anatomy 007",
+    "topic": "Cellular Anatomy",
+    "difficulty": "intermediate",
+    "question": "Which type of ER has ribosomes attached and assists in protein synthesis?",
+    "answers": [
+      "Smooth ER",
+      "Rough ER",
+      "Golgi body",
+      "Nucleolus"
+    ],
+    "correct": 1,
+    "tags": [
+      "Cellular Anatomy"
+    ],
+    "stats": {
+      "correct": 0,
+      "incorrect": 0
+    }
+  },
+  {
+    "id": "Cellular Anatomy 008",
+    "topic": "Cellular Anatomy",
+    "difficulty": "intermediate",
+    "question": "What is the function of the Golgi apparatus?",
+    "answers": [
+      "Powering the cell",
+      "Producing enzymes",
+      "Modifying, sorting, and packaging proteins",
+      "Destroying toxins"
+    ],
+    "correct": 2,
+    "tags": [
+      "Cellular Anatomy"
+    ],
+    "stats": {
+      "correct": 0,
+      "incorrect": 0
+    }
+  },
+  {
+    "id": "Cellular Anatomy 009",
+    "topic": "Cellular Anatomy",
+    "difficulty": "intermediate",
+    "question": "What is cytoplasm?",
+    "answers": [
+      "A type of DNA",
+      "A jelly-like substance that holds organelles",
+      "A protein transporter",
+      "A structure in the cell wall"
+    ],
+    "correct": 1,
+    "tags": [
+      "Cellular Anatomy"
+    ],
+    "stats": {
+      "correct": 0,
+      "incorrect": 0
+    }
+  },
+  {
+    "id": "Cellular Anatomy 010",
+    "topic": "Cellular Anatomy",
+    "difficulty": "intermediate",
+    "question": "What is the function of the nucleolus?",
+    "answers": [
+      "Produces ATP",
+      "Produces ribosomes",
+      "Breaks down sugars",
+      "Directs cell division"
+    ],
+    "correct": 1,
+    "tags": [
+      "Cellular Anatomy"
+    ],
+    "stats": {
+      "correct": 0,
+      "incorrect": 0
+    }
+  }
+]

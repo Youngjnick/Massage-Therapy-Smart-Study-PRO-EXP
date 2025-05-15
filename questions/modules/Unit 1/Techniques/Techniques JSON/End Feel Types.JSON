@@ -1,0 +1,202 @@
+[
+  {
+    "id": "End Feel Types 001",
+    "topic": "End Feel Types",
+    "difficulty": "intermediate",
+    "question": "What is an 'end feel' in manual therapy assessment?",
+    "answers": [
+      "A client’s emotional reaction to a stretch",
+      "The therapist’s final muscle contraction",
+      "The quality of resistance felt at the end of passive range of motion",
+      "The pressure applied during deep tissue massage"
+    ],
+    "correct": 2,
+    "tags": [
+      "End Feel Types"
+    ],
+    "stats": {
+      "correct": 0,
+      "incorrect": 0
+    }
+  },
+  {
+    "id": "End Feel Types 002",
+    "topic": "End Feel Types",
+    "difficulty": "intermediate",
+    "question": "Which of the following is a normal soft end feel?",
+    "answers": [
+      "Elbow extension",
+      "Hip flexion with knee flexed (contact between soft tissues)",
+      "Wrist extension",
+      "Forearm pronation"
+    ],
+    "correct": 1,
+    "tags": [
+      "End Feel Types"
+    ],
+    "stats": {
+      "correct": 0,
+      "incorrect": 0
+    }
+  },
+  {
+    "id": "End Feel Types 003",
+    "topic": "End Feel Types",
+    "difficulty": "intermediate",
+    "question": "Which end feel is typically described as 'leathery or springy'?",
+    "answers": [
+      "Soft",
+      "Firm",
+      "Hard",
+      "Empty"
+    ],
+    "correct": 1,
+    "tags": [
+      "End Feel Types"
+    ],
+    "stats": {
+      "correct": 0,
+      "incorrect": 0
+    }
+  },
+  {
+    "id": "End Feel Types 004",
+    "topic": "End Feel Types",
+    "difficulty": "intermediate",
+    "question": "What is a normal hard end feel?",
+    "answers": [
+      "Forearm pronation",
+      "Elbow extension (contact between bone surfaces)",
+      "Shoulder internal rotation",
+      "Hip adduction"
+    ],
+    "correct": 1,
+    "tags": [
+      "End Feel Types"
+    ],
+    "stats": {
+      "correct": 0,
+      "incorrect": 0
+    }
+  },
+  {
+    "id": "End Feel Types 005",
+    "topic": "End Feel Types",
+    "difficulty": "intermediate",
+    "question": "Which of the following would be considered an abnormal end feel?",
+    "answers": [
+      "Soft tissue approximation at elbow flexion",
+      "Springy resistance at hip extension",
+      "Bony stop at elbow extension",
+      "Rubbery resistance at ankle dorsiflexion"
+    ],
+    "correct": 1,
+    "tags": [
+      "End Feel Types"
+    ],
+    "stats": {
+      "correct": 0,
+      "incorrect": 0
+    }
+  },
+  {
+    "id": "End Feel Types 006",
+    "topic": "End Feel Types",
+    "difficulty": "intermediate",
+    "question": "Which end feel occurs when there is pain with no mechanical resistance?",
+    "answers": [
+      "Firm",
+      "Hard",
+      "Empty",
+      "Soft"
+    ],
+    "correct": 2,
+    "tags": [
+      "End Feel Types"
+    ],
+    "stats": {
+      "correct": 0,
+      "incorrect": 0
+    }
+  },
+  {
+    "id": "End Feel Types 007",
+    "topic": "End Feel Types",
+    "difficulty": "intermediate",
+    "question": "What might a springy abnormal end feel indicate?",
+    "answers": [
+      "Bone-on-bone restriction",
+      "Joint effusion",
+      "Internal derangement such as a torn meniscus",
+      "Normal muscle tension"
+    ],
+    "correct": 2,
+    "tags": [
+      "End Feel Types"
+    ],
+    "stats": {
+      "correct": 0,
+      "incorrect": 0
+    }
+  },
+  {
+    "id": "End Feel Types 008",
+    "topic": "End Feel Types",
+    "difficulty": "intermediate",
+    "question": "A boggy, soft end feel could indicate:",
+    "answers": [
+      "Capsular restriction",
+      "Joint inflammation or edema",
+      "Osteoarthritis",
+      "Normal resistance"
+    ],
+    "correct": 1,
+    "tags": [
+      "End Feel Types"
+    ],
+    "stats": {
+      "correct": 0,
+      "incorrect": 0
+    }
+  },
+  {
+    "id": "End Feel Types 009",
+    "topic": "End Feel Types",
+    "difficulty": "intermediate",
+    "question": "Which end feel is typically associated with a capsular stretch?",
+    "answers": [
+      "Soft",
+      "Hard",
+      "Firm",
+      "Empty"
+    ],
+    "correct": 2,
+    "tags": [
+      "End Feel Types"
+    ],
+    "stats": {
+      "correct": 0,
+      "incorrect": 0
+    }
+  },
+  {
+    "id": "End Feel Types 010",
+    "topic": "End Feel Types",
+    "difficulty": "intermediate",
+    "question": "What would an unexpectedly hard end feel in a joint normally soft or firm suggest?",
+    "answers": [
+      "Joint laxity",
+      "Inflammation",
+      "Abnormal bony growth or joint dysfunction",
+      "Ligament tear"
+    ],
+    "correct": 2,
+    "tags": [
+      "End Feel Types"
+    ],
+    "stats": {
+      "correct": 0,
+      "incorrect": 0
+    }
+  }
+]

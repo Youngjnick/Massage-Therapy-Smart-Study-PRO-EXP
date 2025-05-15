@@ -1,0 +1,202 @@
+[
+  {
+    "id": "Deep Tissue 001",
+    "topic": "Deep Tissue",
+    "difficulty": "intermediate",
+    "question": "What is the primary goal of deep tissue massage?",
+    "answers": [
+      "Promoting relaxation",
+      "Stimulating the lymphatic system",
+      "Releasing chronic muscle tension",
+      "Reducing skin sensitivity"
+    ],
+    "correct": 2,
+    "tags": [
+      "Deep Tissue"
+    ],
+    "stats": {
+      "correct": 0,
+      "incorrect": 0
+    }
+  },
+  {
+    "id": "Deep Tissue 002",
+    "topic": "Deep Tissue",
+    "difficulty": "intermediate",
+    "question": "Which layer of tissue is the focus in deep tissue massage?",
+    "answers": [
+      "Superficial fascia",
+      "Deep muscles and connective tissue",
+      "Epidermis",
+      "Synovial lining"
+    ],
+    "correct": 1,
+    "tags": [
+      "Deep Tissue"
+    ],
+    "stats": {
+      "correct": 0,
+      "incorrect": 0
+    }
+  },
+  {
+    "id": "Deep Tissue 003",
+    "topic": "Deep Tissue",
+    "difficulty": "intermediate",
+    "question": "Which technique is most commonly associated with deep tissue work?",
+    "answers": [
+      "Feather stroking",
+      "Gliding with oil",
+      "Slow strokes and firm pressure",
+      "Brushing"
+    ],
+    "correct": 2,
+    "tags": [
+      "Deep Tissue"
+    ],
+    "stats": {
+      "correct": 0,
+      "incorrect": 0
+    }
+  },
+  {
+    "id": "Deep Tissue 004",
+    "topic": "Deep Tissue",
+    "difficulty": "intermediate",
+    "question": "Deep tissue massage is especially useful for clients with:",
+    "answers": [
+      "High blood pressure",
+      "Chronic pain and postural issues",
+      "Nausea",
+      "Sunburn"
+    ],
+    "correct": 1,
+    "tags": [
+      "Deep Tissue"
+    ],
+    "stats": {
+      "correct": 0,
+      "incorrect": 0
+    }
+  },
+  {
+    "id": "Deep Tissue 005",
+    "topic": "Deep Tissue",
+    "difficulty": "intermediate",
+    "question": "A common sensation after a deep tissue massage may be:",
+    "answers": [
+      "Heightened anxiety",
+      "Muscle soreness",
+      "Loss of appetite",
+      "Dehydration"
+    ],
+    "correct": 1,
+    "tags": [
+      "Deep Tissue"
+    ],
+    "stats": {
+      "correct": 0,
+      "incorrect": 0
+    }
+  },
+  {
+    "id": "Deep Tissue 006",
+    "topic": "Deep Tissue",
+    "difficulty": "intermediate",
+    "question": "What is a potential contraindication for deep tissue massage?",
+    "answers": [
+      "Stress",
+      "Chronic fatigue",
+      "Recent surgery or injury",
+      "Insomnia"
+    ],
+    "correct": 2,
+    "tags": [
+      "Deep Tissue"
+    ],
+    "stats": {
+      "correct": 0,
+      "incorrect": 0
+    }
+  },
+  {
+    "id": "Deep Tissue 007",
+    "topic": "Deep Tissue",
+    "difficulty": "intermediate",
+    "question": "What massage stroke is commonly used to warm tissues before deeper pressure?",
+    "answers": [
+      "Effleurage",
+      "Tapotement",
+      "Friction",
+      "Vibration"
+    ],
+    "correct": 0,
+    "tags": [
+      "Deep Tissue"
+    ],
+    "stats": {
+      "correct": 0,
+      "incorrect": 0
+    }
+  },
+  {
+    "id": "Deep Tissue 008",
+    "topic": "Deep Tissue",
+    "difficulty": "intermediate",
+    "question": "Which therapist tool is often used in deep tissue work to apply pinpoint pressure?",
+    "answers": [
+      "Thumbs or elbows",
+      "Feathers",
+      "Cupping jars",
+      "Stones"
+    ],
+    "correct": 0,
+    "tags": [
+      "Deep Tissue"
+    ],
+    "stats": {
+      "correct": 0,
+      "incorrect": 0
+    }
+  },
+  {
+    "id": "Deep Tissue 009",
+    "topic": "Deep Tissue",
+    "difficulty": "intermediate",
+    "question": "Which outcome is NOT commonly expected from deep tissue massage?",
+    "answers": [
+      "Improved posture",
+      "Greater mobility",
+      "Temporary muscle bruising",
+      "Long-term dehydration"
+    ],
+    "correct": 3,
+    "tags": [
+      "Deep Tissue"
+    ],
+    "stats": {
+      "correct": 0,
+      "incorrect": 0
+    }
+  },
+  {
+    "id": "Deep Tissue 010",
+    "topic": "Deep Tissue",
+    "difficulty": "intermediate",
+    "question": "Deep tissue massage is ideal for addressing:",
+    "answers": [
+      "Liver toxicity",
+      "Joint hypermobility",
+      "Trigger points and adhesions",
+      "Mild cold symptoms"
+    ],
+    "correct": 2,
+    "tags": [
+      "Deep Tissue"
+    ],
+    "stats": {
+      "correct": 0,
+      "incorrect": 0
+    }
+  }
+]

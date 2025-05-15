@@ -1,0 +1,202 @@
+[
+  {
+    "id": "Connective Tissue 001",
+    "topic": "Connective Tissue",
+    "difficulty": "intermediate",
+    "question": "What is the primary function of connective tissue?",
+    "answers": [
+      "Conduct electrical impulses",
+      "Line body cavities",
+      "Support, bind, and protect other tissues",
+      "Secrete digestive enzymes"
+    ],
+    "correct": 2,
+    "tags": [
+      "Connective Tissue"
+    ],
+    "stats": {
+      "correct": 0,
+      "incorrect": 0
+    }
+  },
+  {
+    "id": "Connective Tissue 002",
+    "topic": "Connective Tissue",
+    "difficulty": "intermediate",
+    "question": "Which of the following is a type of connective tissue?",
+    "answers": [
+      "Epithelial tissue",
+      "Muscle tissue",
+      "Adipose tissue",
+      "Neural tissue"
+    ],
+    "correct": 2,
+    "tags": [
+      "Connective Tissue"
+    ],
+    "stats": {
+      "correct": 0,
+      "incorrect": 0
+    }
+  },
+  {
+    "id": "Connective Tissue 003",
+    "topic": "Connective Tissue",
+    "difficulty": "intermediate",
+    "question": "What is the extracellular matrix in connective tissue composed of?",
+    "answers": [
+      "DNA and proteins",
+      "Plasma and organelles",
+      "Fibers and ground substance",
+      "Cholesterol and enzymes"
+    ],
+    "correct": 2,
+    "tags": [
+      "Connective Tissue"
+    ],
+    "stats": {
+      "correct": 0,
+      "incorrect": 0
+    }
+  },
+  {
+    "id": "Connective Tissue 004",
+    "topic": "Connective Tissue",
+    "difficulty": "intermediate",
+    "question": "Which connective tissue acts as a fat storage site and cushions organs?",
+    "answers": [
+      "Cartilage",
+      "Adipose tissue",
+      "Areolar tissue",
+      "Dense regular tissue"
+    ],
+    "correct": 1,
+    "tags": [
+      "Connective Tissue"
+    ],
+    "stats": {
+      "correct": 0,
+      "incorrect": 0
+    }
+  },
+  {
+    "id": "Connective Tissue 005",
+    "topic": "Connective Tissue",
+    "difficulty": "intermediate",
+    "question": "Which connective tissue type connects muscle to bone?",
+    "answers": [
+      "Ligaments",
+      "Cartilage",
+      "Tendons",
+      "Adipose"
+    ],
+    "correct": 2,
+    "tags": [
+      "Connective Tissue"
+    ],
+    "stats": {
+      "correct": 0,
+      "incorrect": 0
+    }
+  },
+  {
+    "id": "Connective Tissue 006",
+    "topic": "Connective Tissue",
+    "difficulty": "intermediate",
+    "question": "Ligaments connect:",
+    "answers": [
+      "Muscle to bone",
+      "Bone to bone",
+      "Bone to cartilage",
+      "Muscle to muscle"
+    ],
+    "correct": 1,
+    "tags": [
+      "Connective Tissue"
+    ],
+    "stats": {
+      "correct": 0,
+      "incorrect": 0
+    }
+  },
+  {
+    "id": "Connective Tissue 007",
+    "topic": "Connective Tissue",
+    "difficulty": "intermediate",
+    "question": "Which type of connective tissue is found in the dermis of the skin and provides strength in multiple directions?",
+    "answers": [
+      "Dense irregular connective tissue",
+      "Loose connective tissue",
+      "Cartilage",
+      "Compact bone"
+    ],
+    "correct": 0,
+    "tags": [
+      "Connective Tissue"
+    ],
+    "stats": {
+      "correct": 0,
+      "incorrect": 0
+    }
+  },
+  {
+    "id": "Connective Tissue 008",
+    "topic": "Connective Tissue",
+    "difficulty": "intermediate",
+    "question": "What cell type is primarily responsible for producing connective tissue fibers?",
+    "answers": [
+      "Osteocytes",
+      "Chondrocytes",
+      "Fibroblasts",
+      "Erythrocytes"
+    ],
+    "correct": 2,
+    "tags": [
+      "Connective Tissue"
+    ],
+    "stats": {
+      "correct": 0,
+      "incorrect": 0
+    }
+  },
+  {
+    "id": "Connective Tissue 009",
+    "topic": "Connective Tissue",
+    "difficulty": "intermediate",
+    "question": "Which of the following is NOT a fiber found in connective tissue?",
+    "answers": [
+      "Collagen",
+      "Elastin",
+      "Keratin",
+      "Reticular"
+    ],
+    "correct": 2,
+    "tags": [
+      "Connective Tissue"
+    ],
+    "stats": {
+      "correct": 0,
+      "incorrect": 0
+    }
+  },
+  {
+    "id": "Connective Tissue 010",
+    "topic": "Connective Tissue",
+    "difficulty": "intermediate",
+    "question": "Which connective tissue has a solid, mineralized matrix and supports the body structurally?",
+    "answers": [
+      "Cartilage",
+      "Bone tissue",
+      "Adipose tissue",
+      "Blood"
+    ],
+    "correct": 1,
+    "tags": [
+      "Connective Tissue"
+    ],
+    "stats": {
+      "correct": 0,
+      "incorrect": 0
+    }
+  }
+]

@@ -1,0 +1,202 @@
+[
+  {
+    "id": "Endangerment Sites 001",
+    "topic": "Endangerment Sites",
+    "difficulty": "intermediate",
+    "question": "What is an endangerment site in massage therapy?",
+    "answers": [
+      "An area that is always painful to touch",
+      "A location where vital structures are close to the surface and can be injured",
+      "A bony landmark with limited circulation",
+      "A common site for cramping"
+    ],
+    "correct": 1,
+    "tags": [
+      "Endangerment Sites"
+    ],
+    "stats": {
+      "correct": 0,
+      "incorrect": 0
+    }
+  },
+  {
+    "id": "Endangerment Sites 002",
+    "topic": "Endangerment Sites",
+    "difficulty": "intermediate",
+    "question": "Which of the following is an endangerment site?",
+    "answers": [
+      "Deltoid muscle belly",
+      "Posterior forearm",
+      "Anterior triangle of the neck",
+      "Sole of the foot"
+    ],
+    "correct": 2,
+    "tags": [
+      "Endangerment Sites"
+    ],
+    "stats": {
+      "correct": 0,
+      "incorrect": 0
+    }
+  },
+  {
+    "id": "Endangerment Sites 003",
+    "topic": "Endangerment Sites",
+    "difficulty": "intermediate",
+    "question": "Why is the axilla considered an endangerment site?",
+    "answers": [
+      "It contains major arteries, veins, and lymph nodes",
+      "It is surrounded by muscle tissue",
+      "It has few nerve endings",
+      "It is located near the scapula"
+    ],
+    "correct": 0,
+    "tags": [
+      "Endangerment Sites"
+    ],
+    "stats": {
+      "correct": 0,
+      "incorrect": 0
+    }
+  },
+  {
+    "id": "Endangerment Sites 004",
+    "topic": "Endangerment Sites",
+    "difficulty": "intermediate",
+    "question": "Which structure is located in the anterior triangle of the neck?",
+    "answers": [
+      "Sciatic nerve",
+      "Femoral artery",
+      "Carotid artery and vagus nerve",
+      "Median nerve"
+    ],
+    "correct": 2,
+    "tags": [
+      "Endangerment Sites"
+    ],
+    "stats": {
+      "correct": 0,
+      "incorrect": 0
+    }
+  },
+  {
+    "id": "Endangerment Sites 005",
+    "topic": "Endangerment Sites",
+    "difficulty": "intermediate",
+    "question": "Which of the following should be avoided due to proximity to the kidneys?",
+    "answers": [
+      "Upper trapezius",
+      "Low back near the 12th rib",
+      "Gluteal fold",
+      "Posterior thigh"
+    ],
+    "correct": 1,
+    "tags": [
+      "Endangerment Sites"
+    ],
+    "stats": {
+      "correct": 0,
+      "incorrect": 0
+    }
+  },
+  {
+    "id": "Endangerment Sites 006",
+    "topic": "Endangerment Sites",
+    "difficulty": "intermediate",
+    "question": "Why is the popliteal fossa considered an endangerment site?",
+    "answers": [
+      "It has thick connective tissue",
+      "It contains the femoral artery",
+      "It contains blood vessels and nerves behind the knee",
+      "It is prone to soreness after exercise"
+    ],
+    "correct": 2,
+    "tags": [
+      "Endangerment Sites"
+    ],
+    "stats": {
+      "correct": 0,
+      "incorrect": 0
+    }
+  },
+  {
+    "id": "Endangerment Sites 007",
+    "topic": "Endangerment Sites",
+    "difficulty": "intermediate",
+    "question": "Which of the following structures lies within the cubital (antecubital) fossa?",
+    "answers": [
+      "Carotid artery",
+      "Sciatic nerve",
+      "Brachial artery and median nerve",
+      "Femoral nerve"
+    ],
+    "correct": 2,
+    "tags": [
+      "Endangerment Sites"
+    ],
+    "stats": {
+      "correct": 0,
+      "incorrect": 0
+    }
+  },
+  {
+    "id": "Endangerment Sites 008",
+    "topic": "Endangerment Sites",
+    "difficulty": "intermediate",
+    "question": "Where is the femoral triangle located?",
+    "answers": [
+      "Behind the knee",
+      "Medial thigh near the groin",
+      "Posterior calf",
+      "Lower abdomen"
+    ],
+    "correct": 1,
+    "tags": [
+      "Endangerment Sites"
+    ],
+    "stats": {
+      "correct": 0,
+      "incorrect": 0
+    }
+  },
+  {
+    "id": "Endangerment Sites 009",
+    "topic": "Endangerment Sites",
+    "difficulty": "intermediate",
+    "question": "Which technique is appropriate when working near an endangerment site?",
+    "answers": [
+      "Deep pressure with knuckles",
+      "Rapid tapotement",
+      "Gentle, superficial contact or avoidance",
+      "Cross-fiber friction"
+    ],
+    "correct": 2,
+    "tags": [
+      "Endangerment Sites"
+    ],
+    "stats": {
+      "correct": 0,
+      "incorrect": 0
+    }
+  },
+  {
+    "id": "Endangerment Sites 010",
+    "topic": "Endangerment Sites",
+    "difficulty": "intermediate",
+    "question": "Why must care be taken when massaging the subclavian region under the clavicle?",
+    "answers": [
+      "The skin is thin and delicate",
+      "It contains lymph nodes and major blood vessels",
+      "It leads to muscle cramping",
+      "It is a common site for trigger points"
+    ],
+    "correct": 1,
+    "tags": [
+      "Endangerment Sites"
+    ],
+    "stats": {
+      "correct": 0,
+      "incorrect": 0
+    }
+  }
+]

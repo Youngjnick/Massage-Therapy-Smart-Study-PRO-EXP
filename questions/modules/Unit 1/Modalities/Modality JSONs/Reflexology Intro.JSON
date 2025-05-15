@@ -1,0 +1,202 @@
+[
+  {
+    "id": "Reflexology Intro 001",
+    "topic": "Reflexology Intro",
+    "difficulty": "intermediate",
+    "question": "Which ancient civilization has the earliest recorded use of foot-based therapy resembling reflexology?",
+    "answers": [
+      "Greece",
+      "Egypt",
+      "India",
+      "China"
+    ],
+    "correct": 1,
+    "tags": [
+      "Reflexology Intro"
+    ],
+    "stats": {
+      "correct": 0,
+      "incorrect": 0
+    }
+  },
+  {
+    "id": "Reflexology Intro 002",
+    "topic": "Reflexology Intro",
+    "difficulty": "intermediate",
+    "question": "What artifact shows evidence of reflexology being practiced in ancient Egypt?",
+    "answers": [
+      "Rosetta Stone",
+      "Temple of Isis relief",
+      "The Physician's Tomb painting",
+      "Pyramid of Giza markings"
+    ],
+    "correct": 2,
+    "tags": [
+      "Reflexology Intro"
+    ],
+    "stats": {
+      "correct": 0,
+      "incorrect": 0
+    }
+  },
+  {
+    "id": "Reflexology Intro 003",
+    "topic": "Reflexology Intro",
+    "difficulty": "intermediate",
+    "question": "Which early 20th century American doctor is credited with developing Zone Therapy, a precursor to reflexology?",
+    "answers": [
+      "William Fitzgerald",
+      "Ida Rolf",
+      "Milton Trager",
+      "John Upledger"
+    ],
+    "correct": 0,
+    "tags": [
+      "Reflexology Intro"
+    ],
+    "stats": {
+      "correct": 0,
+      "incorrect": 0
+    }
+  },
+  {
+    "id": "Reflexology Intro 004",
+    "topic": "Reflexology Intro",
+    "difficulty": "intermediate",
+    "question": "What is Zone Therapy in relation to reflexology?",
+    "answers": [
+      "A method for treating muscle adhesions",
+      "Dividing the body into longitudinal zones for therapeutic pressure",
+      "A form of heat therapy",
+      "A technique for diagnosing illness by skin color"
+    ],
+    "correct": 1,
+    "tags": [
+      "Reflexology Intro"
+    ],
+    "stats": {
+      "correct": 0,
+      "incorrect": 0
+    }
+  },
+  {
+    "id": "Reflexology Intro 005",
+    "topic": "Reflexology Intro",
+    "difficulty": "intermediate",
+    "question": "Who expanded and mapped out modern reflexology points on the feet and hands?",
+    "answers": [
+      "Dr. Emil Vodder",
+      "Eunice Ingham",
+      "Dr. James Cyriax",
+      "Dr. John Upledger"
+    ],
+    "correct": 1,
+    "tags": [
+      "Reflexology Intro"
+    ],
+    "stats": {
+      "correct": 0,
+      "incorrect": 0
+    }
+  },
+  {
+    "id": "Reflexology Intro 006",
+    "topic": "Reflexology Intro",
+    "difficulty": "intermediate",
+    "question": "Eunice Ingham's work was based primarily on which body part?",
+    "answers": [
+      "Face",
+      "Hands",
+      "Feet",
+      "Abdomen"
+    ],
+    "correct": 2,
+    "tags": [
+      "Reflexology Intro"
+    ],
+    "stats": {
+      "correct": 0,
+      "incorrect": 0
+    }
+  },
+  {
+    "id": "Reflexology Intro 007",
+    "topic": "Reflexology Intro",
+    "difficulty": "intermediate",
+    "question": "Which statement best reflects the theory of reflexology?",
+    "answers": [
+      "Muscles can be manipulated to stimulate lymph flow",
+      "Pressure on reflex zones corresponds to and affects organs and systems",
+      "Essential oils must be applied to reflex zones",
+      "Massage must always follow the direction of blood flow"
+    ],
+    "correct": 1,
+    "tags": [
+      "Reflexology Intro"
+    ],
+    "stats": {
+      "correct": 0,
+      "incorrect": 0
+    }
+  },
+  {
+    "id": "Reflexology Intro 008",
+    "topic": "Reflexology Intro",
+    "difficulty": "intermediate",
+    "question": "In reflexology, how many longitudinal zones is the body traditionally divided into?",
+    "answers": [
+      "5",
+      "6",
+      "10",
+      "12"
+    ],
+    "correct": 2,
+    "tags": [
+      "Reflexology Intro"
+    ],
+    "stats": {
+      "correct": 0,
+      "incorrect": 0
+    }
+  },
+  {
+    "id": "Reflexology Intro 009",
+    "topic": "Reflexology Intro",
+    "difficulty": "intermediate",
+    "question": "Which U.S. movement helped bring reflexology into the public eye in the 20th century?",
+    "answers": [
+      "The holistic health movement",
+      "The chiropractic movement",
+      "The osteopathic surge",
+      "Ayurvedic revival"
+    ],
+    "correct": 0,
+    "tags": [
+      "Reflexology Intro"
+    ],
+    "stats": {
+      "correct": 0,
+      "incorrect": 0
+    }
+  },
+  {
+    "id": "Reflexology Intro 010",
+    "topic": "Reflexology Intro",
+    "difficulty": "intermediate",
+    "question": "What is the primary difference between reflexology and general foot massage?",
+    "answers": [
+      "Reflexology includes aromatherapy oils",
+      "Reflexology targets specific mapped points believed to affect internal organs",
+      "Reflexology uses more pressure",
+      "Foot massage requires certification"
+    ],
+    "correct": 1,
+    "tags": [
+      "Reflexology Intro"
+    ],
+    "stats": {
+      "correct": 0,
+      "incorrect": 0
+    }
+  }
+]

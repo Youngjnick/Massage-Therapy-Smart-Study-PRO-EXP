@@ -1,0 +1,102 @@
+[
+  {
+    "id": "Technique Anatomy Pairing 001",
+    "topic": "Technique Anatomy Pairing",
+    "difficulty": "intermediate",
+    "question": "Which technique is most effective for releasing tension in the upper trapezius muscle?",
+    "answers": [
+      "Effleurage",
+      "Tapotement",
+      "Petrissage",
+      "Joint movement"
+    ],
+    "correct": 2,
+    "tags": [
+      "Technique Anatomy Pairing"
+    ],
+    "stats": {
+      "correct": 0,
+      "incorrect": 0
+    }
+  },
+  {
+    "id": "Technique Anatomy Pairing 002",
+    "topic": "Technique Anatomy Pairing",
+    "difficulty": "intermediate",
+    "question": "Which muscle group would benefit most from deep friction massage to address adhesion?",
+    "answers": [
+      "Hamstrings",
+      "Forearm flexors",
+      "IT band",
+      "Abdominals"
+    ],
+    "correct": 2,
+    "tags": [
+      "Technique Anatomy Pairing"
+    ],
+    "stats": {
+      "correct": 0,
+      "incorrect": 0
+    }
+  },
+  {
+    "id": "Technique Anatomy Pairing 003",
+    "topic": "Technique Anatomy Pairing",
+    "difficulty": "intermediate",
+    "question": "Which massage technique is best suited for the paraspinal muscles?",
+    "answers": [
+      "Friction",
+      "Compression",
+      "Tapotement",
+      "Effleurage"
+    ],
+    "correct": 3,
+    "tags": [
+      "Technique Anatomy Pairing"
+    ],
+    "stats": {
+      "correct": 0,
+      "incorrect": 0
+    }
+  },
+  {
+    "id": "Technique Anatomy Pairing 004",
+    "topic": "Technique Anatomy Pairing",
+    "difficulty": "intermediate",
+    "question": "What technique is recommended for relieving tightness in the gastrocnemius and soleus?",
+    "answers": [
+      "Tapotement",
+      "Vibration",
+      "Petrissage",
+      "Effleurage"
+    ],
+    "correct": 2,
+    "tags": [
+      "Technique Anatomy Pairing"
+    ],
+    "stats": {
+      "correct": 0,
+      "incorrect": 0
+    }
+  },
+  {
+    "id": "Technique Anatomy Pairing 005",
+    "topic": "Technique Anatomy Pairing",
+    "difficulty": "intermediate",
+    "question": "Which technique is most helpful for relaxing hypertonic forearm extensors?",
+    "answers": [
+      "Trigger point therapy",
+      "Vibration",
+      "Tapotement",
+      "Joint mobilization"
+    ],
+    "correct": 0,
+    "tags": [
+      "Technique Anatomy Pairing"
+    ],
+    "stats": {
+      "correct": 0,
+      "incorrect": 0
+    }
+  }
+]

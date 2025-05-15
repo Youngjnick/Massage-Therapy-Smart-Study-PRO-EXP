@@ -1,0 +1,202 @@
+[
+  {
+    "id": "SOAP Notes Easy 001",
+    "topic": "Soap Notes Easy",
+    "difficulty": "intermediate",
+    "question": "What does the 'S' in SOAP stand for?",
+    "answers": [
+      "Soft tissue",
+      "Subjective",
+      "Stretching",
+      "Surface"
+    ],
+    "correct": 1,
+    "tags": [
+      "Soap Notes Easy"
+    ],
+    "stats": {
+      "correct": 0,
+      "incorrect": 0
+    }
+  },
+  {
+    "id": "SOAP Notes Easy 002",
+    "topic": "Soap Notes Easy",
+    "difficulty": "intermediate",
+    "question": "What does the 'O' in SOAP notes stand for?",
+    "answers": [
+      "Outline",
+      "Objective",
+      "Observation",
+      "Outcome"
+    ],
+    "correct": 1,
+    "tags": [
+      "Soap Notes Easy"
+    ],
+    "stats": {
+      "correct": 0,
+      "incorrect": 0
+    }
+  },
+  {
+    "id": "SOAP Notes Easy 003",
+    "topic": "Soap Notes Easy",
+    "difficulty": "intermediate",
+    "question": "What does the 'A' in SOAP stand for?",
+    "answers": [
+      "Action",
+      "Assessment",
+      "Application",
+      "Awareness"
+    ],
+    "correct": 1,
+    "tags": [
+      "Soap Notes Easy"
+    ],
+    "stats": {
+      "correct": 0,
+      "incorrect": 0
+    }
+  },
+  {
+    "id": "SOAP Notes Easy 004",
+    "topic": "Soap Notes Easy",
+    "difficulty": "intermediate",
+    "question": "What does the 'P' in SOAP stand for?",
+    "answers": [
+      "Procedure",
+      "Plan",
+      "Pulse",
+      "Pathology"
+    ],
+    "correct": 1,
+    "tags": [
+      "Soap Notes Easy"
+    ],
+    "stats": {
+      "correct": 0,
+      "incorrect": 0
+    }
+  },
+  {
+    "id": "SOAP Notes Easy 005",
+    "topic": "Soap Notes Easy",
+    "difficulty": "intermediate",
+    "question": "What kind of information goes in the Subjective section?",
+    "answers": [
+      "Client’s verbal description of symptoms",
+      "Therapist’s observation",
+      "Treatment plan",
+      "Session summary"
+    ],
+    "correct": 0,
+    "tags": [
+      "Soap Notes Easy"
+    ],
+    "stats": {
+      "correct": 0,
+      "incorrect": 0
+    }
+  },
+  {
+    "id": "SOAP Notes Easy 006",
+    "topic": "Soap Notes Easy",
+    "difficulty": "intermediate",
+    "question": "Which of the following is appropriate for the Objective section?",
+    "answers": [
+      "Client’s sleep habits",
+      "Palpation findings and posture assessment",
+      "Suggested home care",
+      "Massage goals"
+    ],
+    "correct": 1,
+    "tags": [
+      "Soap Notes Easy"
+    ],
+    "stats": {
+      "correct": 0,
+      "incorrect": 0
+    }
+  },
+  {
+    "id": "SOAP Notes Easy 007",
+    "topic": "Soap Notes Easy",
+    "difficulty": "intermediate",
+    "question": "Where do you record your clinical impression of the client?",
+    "answers": [
+      "Subjective",
+      "Assessment",
+      "Plan",
+      "Summary"
+    ],
+    "correct": 1,
+    "tags": [
+      "Soap Notes Easy"
+    ],
+    "stats": {
+      "correct": 0,
+      "incorrect": 0
+    }
+  },
+  {
+    "id": "SOAP Notes Easy 008",
+    "topic": "Soap Notes Easy",
+    "difficulty": "intermediate",
+    "question": "Which part of SOAP describes the next steps in treatment?",
+    "answers": [
+      "Subjective",
+      "Assessment",
+      "Plan",
+      "Objective"
+    ],
+    "correct": 2,
+    "tags": [
+      "Soap Notes Easy"
+    ],
+    "stats": {
+      "correct": 0,
+      "incorrect": 0
+    }
+  },
+  {
+    "id": "SOAP Notes Easy 009",
+    "topic": "Soap Notes Easy",
+    "difficulty": "intermediate",
+    "question": "Who provides the information in the Subjective section?",
+    "answers": [
+      "Therapist",
+      "Doctor",
+      "Client",
+      "Insurance provider"
+    ],
+    "correct": 2,
+    "tags": [
+      "Soap Notes Easy"
+    ],
+    "stats": {
+      "correct": 0,
+      "incorrect": 0
+    }
+  },
+  {
+    "id": "SOAP Notes Easy 010",
+    "topic": "Soap Notes Easy",
+    "difficulty": "intermediate",
+    "question": "SOAP notes help therapists:",
+    "answers": [
+      "Get higher pay",
+      "Track client progress and structure sessions",
+      "Write blogs",
+      "Avoid giving referrals"
+    ],
+    "correct": 1,
+    "tags": [
+      "Soap Notes Easy"
+    ],
+    "stats": {
+      "correct": 0,
+      "incorrect": 0
+    }
+  }
+]

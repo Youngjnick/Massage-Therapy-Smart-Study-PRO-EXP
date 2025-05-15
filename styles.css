@@ -1,0 +1,832 @@
+body {
+  font-family: 'Inter', sans-serif;
+  background: linear-gradient(to bottom right, #38c172, #1f9d55);
+  color: white;
+  margin: 0;
+  padding: 24px;
+  line-height: 1.5;
+}
+.app-container {
+  max-width: 500px;
+  margin: 0 auto;
+}
+.title-bar-box {
+  background: rgba(255, 255, 255, 0.08);
+  border-radius: 28px;
+  padding: 20px;
+  margin-bottom: 20px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.25);
+}
+.title-bar {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  margin-bottom: 18px;
+}
+.app-icon {
+  width: 48px;
+  height: 48px;
+}
+.title-text h1 {
+  font-size: 1.4rem;
+  font-weight: 600;
+  margin: 0;
+}
+.title-text h2 {
+  font-size: 1rem;
+  font-weight: 400;
+  margin: 0;
+}
+.header-controls {
+  display: flex;
+  gap: 12px;
+  margin-bottom: 14px;
+}
+.control, .start-btn {
+  padding: 0px 4px;
+  border-radius: 16px;
+  background: rgba(255, 255, 255, 0.08);
+  border: 1px solid rgba(255, 255, 255, 0.15);
+  color: white;
+  font-weight: 500;
+  text-align: center;
+  box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.1);
+  transition: background 0.2s;
+  cursor: pointer;
+}
+.control:hover, .start-btn:hover {
+  background: rgba(255, 255, 255, 0.18);
+}
+.inline-controls {
+  display: flex;
+  gap: 18px;
+  font-size: 0.95rem;
+  font-weight: 500;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-items: center;
+  margin-bottom: 10px;
+}
+.inline-icon svg {
+  vertical-align: middle;
+  margin-right: 5px;
+}
+.quiz-card {
+  background: rgba(255, 255, 255, 0.08);
+  border-radius: 20px;
+  padding: 20px;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.25);
+}
+.quiz-header {
+  display: flex;
+  justify-content: space-between;
+  font-size: 0.95rem;
+  margin-bottom: 16px;
+  font-weight: 500;
+}
+.question-block {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  font-size: 1.2rem;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+.question-icon svg {
+  width: 26px;
+  height: 26px;
+  flex-shrink: 0;
+}
+.answers .answer {
+  background: rgba(255, 255, 255, 0.10);
+  padding: 14px;
+  margin-bottom: 12px;
+  border-radius: 14px;
+  text-align: center;
+  font-size: 0.95rem;
+  cursor: pointer;
+  transition: background 0.2s;
+  border: 1px solid rgba(255, 255, 255, 0.12);
+}
+.answers .answer:hover {
+  background: rgba(255, 255, 255, 0.2);
+}
+.feedback {
+  margin: 16px 0;
+  font-size: 0.95rem;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+.feedback svg {
+  width: 16px;
+  height: 16px;
+}
+.progress-section {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  font-size: 0.9rem;
+  margin-top: 12px;
+}
+.progress-bar {
+  flex: 1;
+  height: 10px;
+  background: rgba(255, 255, 255, 0.25);
+  border-radius: 6px;
+  overflow: hidden;
+  box-shadow: inset 0 0 3px rgba(0, 0, 0, 0.2);
+}
+.progress-fill {
+  height: 100%;
+  background: linear-gradient(to right, #b0f2b6, #7be495);
+  transition: width 0.4s ease;
+}
+
+/* Glow & Glassmorphism Enhancements */
+.title-bar-box,
+.quiz-card {
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  box-shadow: 0 12px 32px rgba(0, 0, 0, 0.3);
+}
+
+.title-text h1,
+.title-text h2,
+.control,
+.start-btn,
+.inline-controls span,
+.quiz-header,
+.question-text,
+.answers .answer,
+.feedback,
+.progress-section span {
+  text-shadow: 0 1px 3px rgba(0, 0, 0, 0.3);
+}
+
+.control, .start-btn {
+  box-shadow: 0 2px 8px rgba(255, 255, 255, 0.1),
+              inset 0 0 0 1px rgba(255,255,255,0.2);
+}
+
+.progress-fill {
+  background: linear-gradient(to right, #d0ffc8, #84e9ae);
+  filter: brightness(1.15);
+}
+
+/* ✨ Final visual matching enhancements */
+
+.title-bar-box,
+.quiz-card {
+  border: 1px solid rgba(255, 255, 255, 0.15);
+  box-shadow:
+    0 12px 32px rgba(0, 0, 0, 0.3),
+    inset 0 0 16px rgba(255, 255, 255, 0.05);
+}
+
+.app-icon {
+  border-radius: 14px;
+  box-shadow: 0 0 12px rgba(255, 255, 255, 0.12);
+  width: 56px;
+  height: 56px;
+}
+
+.control:hover,
+.start-btn:hover {
+  background: rgba(255, 255, 255, 0.25);
+  transform: translateY(-1px);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
+
+.answers .answer.selected {
+  background: rgba(255, 255, 255, 0.3);
+  box-shadow: 0 0 12px rgba(255, 255, 255, 0.3);
+  border: 2px solid #ffffff66;
+}
+
+.inline-icon svg {
+  width: 18px;
+  height: 18px;
+  margin-right: 8px;
+}
+
+.progress-bar {
+  box-shadow: inset 0 0 6px rgba(255,255,255,0.12), 0 0 8px rgba(255,255,255,0.05);
+}
+
+/* ✨ Final enhancements: background gradients, highlights, and answer glass effects */
+
+.quiz-card,
+.title-bar-box {
+  background: linear-gradient(145deg, rgba(255,255,255,0.06), rgba(255,255,255,0.02));
+  position: relative;
+  overflow: hidden;
+  z-index: 1;
+}
+
+.quiz-card::before,
+.title-bar-box::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  border-radius: inherit;
+  padding: 2px;
+  background: linear-gradient(135deg, #ffffff66, #ffffff11, #ffffff66);
+  mask:
+    linear-gradient(#fff 0 0) content-box,
+    linear-gradient(#fff 0 0);
+  -webkit-mask:
+    linear-gradient(#fff 0 0) content-box,
+    linear-gradient(#fff 0 0);
+  -webkit-mask-composite: xor;
+  mask-composite: exclude;
+  opacity: 1;
+  z-index: -1;
+}
+
+.answers .answer {
+  background: linear-gradient(to bottom right, rgba(255,255,255,0.12), rgba(255,255,255,0.04));
+  border: 1px solid rgba(255,255,255,0.15);
+  box-shadow: inset 0 0 6px rgba(255,255,255,0.05), 0 2px 6px rgba(0,0,0,0.15);
+}
+
+.answers .answer.selected {
+  background: rgba(255, 255, 255, 0.25);
+  border: 2px solid rgba(255, 255, 255, 0.6);
+  box-shadow: 0 0 12px rgba(255, 255, 255, 0.4);
+}
+
+/* 🔹 Final mockup fidelity enhancements */
+
+/* Divider bar under topic/streak */
+.quiz-header::after {
+  content: "";
+  display: block;
+  margin-top: 10px;
+  height: 1px;
+  background: linear-gradient(to right, rgba(255,255,255,0.15), rgba(255,255,255,0));
+}
+
+/* Segmented progress bar style */
+.progress-bar {
+  background: repeating-linear-gradient(
+    to right,
+    rgba(255,255,255,0.25) 0 8px,
+    rgba(255,255,255,0.05) 8px 16px
+  );
+  border-radius: 6px;
+  overflow: hidden;
+  box-shadow: inset 0 0 6px rgba(255,255,255,0.12), 0 0 8px rgba(255,255,255,0.05);
+}
+
+/* Brighter green background gradient */
+body {
+  background: linear-gradient(to bottom right, #3fd88a, #1b854f);
+}
+
+/* Crisper card borders */
+.quiz-card,
+.title-bar-box {
+  border: 1px solid rgba(255,255,255,0.2);
+  box-shadow:
+    0 16px 32px rgba(0, 0, 0, 0.35),
+    inset 0 0 16px rgba(255, 255, 255, 0.06);
+}
+
+.inline-controls {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.inline-pair {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  font-size: 0.95rem;
+  font-weight: 500;
+  white-space: nowrap;
+}
+
+.inline-pair svg {
+  width: 18px;
+  height: 18px;
+  flex-shrink: 0;
+  filter: drop-shadow(0 0 2px rgba(255,255,255,0.4));
+}
+
+/* Modal Overlay */
+.modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background: rgba(0, 0, 0, 0.7); /* Darker overlay for better contrast */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 9999;
+  animation: fadeIn 0.3s ease-in-out; /* Smooth fade-in animation */
+}
+
+/* Modal */
+.modal {
+  background: rgba(255, 255, 255, 0.15);
+  backdrop-filter: blur(15px); /* Glassmorphism effect */
+  border-radius: 16px;
+  box-shadow: 0 12px 32px rgba(0, 0, 0, 0.5); /* Add depth */
+  padding: 24px;
+  max-width: 420px; /* Limit the modal width */
+  width: 90%; /* Responsive width */
+  max-height: 90%; /* Limit the modal height to 90% of the viewport */
+  overflow-y: auto; /* Enable vertical scrolling if content overflows */
+  color: white;
+  text-align: center;
+  position: relative;
+  animation: slideIn 0.4s ease-out; /* Slide-in animation */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.modal-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 12px;
+}
+
+.modal-header h2 {
+  font-size: 1rem; /* Reduce header font size */
+  margin: 0;
+}
+
+.modal-body {
+  font-size: 0.9rem; /* Adjust body text size */
+  line-height: 1.4;
+}
+
+.close-modal {
+  background: none;
+  border: none;
+  font-size: 20px; /* Adjust size for smaller screens */
+  color: white;
+  cursor: pointer;
+  position: absolute;
+  top: 8px; /* Ensure the close button is always visible */
+  right: 8px;
+  z-index: 10;
+}
+
+.close-modal:hover {
+  color: #ff6b6b; /* Add a hover effect for better UX */
+  transform: scale(1.1); /* Slightly enlarge on hover */
+}
+
+@media (max-width: 600px) {
+  .modal {
+    padding: 12px; /* Further reduce padding for very small screens */
+    max-width: 95%; /* Ensure the modal fits within the screen */
+    max-height: 75%; /* Reduce height for smaller screens */
+  }
+
+  .modal-header h2 {
+    font-size: 0.9rem; /* Further reduce the header font size */
+  }
+
+  .modal-body {
+    font-size: 0.85rem; /* Further reduce the body text size */
+  }
+}
+
+/* Modal Overlay */
+.modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+}
+
+/* Modal */
+.modal {
+  background: white;
+  padding: 20px;
+  border-radius: 8px;
+  text-align: center;
+  max-width: 400px;
+  width: 90%;
+}
+
+.modal-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.modal-header h2 {
+  margin: 0;
+}
+
+.close-modal {
+  background: none;
+  border: none;
+  font-size: 24px;
+  cursor: pointer;
+}
+
+.modal-body img {
+  margin-top: 10px;
+}
+
+/* Modal Overlay */
+.modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background: rgba(0, 0, 0, 0.6);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 9999;
+}
+
+/* Modal */
+.modal {
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(12px);
+  border-radius: 20px;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.4);
+  padding: 24px;
+  max-width: 420px;
+  width: 90%;
+  color: white;
+  text-align: center;
+  position: relative; /* Ensure the close button is positioned relative to the modal */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 16px;
+}
+
+.close-modal-btn {
+  margin-top: 16px;
+  padding: 8px 16px;
+  background-color: #007BFF;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.close-modal-btn:hover {
+  background-color: #0056b3;
+}
+
+/* Modal Header */
+.modal-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 12px;
+}
+
+.modal-header h2 {
+  font-size: 1.2rem;
+  margin: 0;
+}
+
+.close-modal {
+  background: none;
+  border: none;
+  font-size: 24px;
+  color: white;
+  cursor: pointer;
+  position: absolute;
+  top: 12px;
+  right: 12px;
+  z-index: 10; /* Ensure it appears above other elements */
+}
+
+.close-modal:hover {
+  color: #ff6b6b; /* Add a hover effect for better UX */
+  transform: scale(1.1); /* Slightly enlarge on hover */
+}
+
+/* Modal Body */
+.modal-body {
+  font-size: 0.95rem;
+  line-height: 1.5;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+
+/* Fade-in Animation */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: scale(0.9);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+/* Popup Overlay */
+.popup-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background: rgba(0, 0, 0, 0.4); /* Slightly transparent background */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 9999;
+}
+
+/* Popup */
+.popup {
+  background: white;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.3);
+  max-width: 300px;
+  width: 90%;
+  text-align: center;
+  position: relative;
+  animation: fadeIn 0.3s ease-in-out;
+}
+
+/* Popup Header */
+.popup-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.popup-header h2 {
+  font-size: 1.2rem;
+  margin: 0;
+}
+
+.close-popup {
+  background: none;
+  border: none;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+/* Popup Body */
+.popup-body img {
+  margin-top: 10px;
+  border-radius: 8px;
+}
+
+canvas {
+  max-width: 100%;
+  height: auto;
+}
+
+.badge-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+  gap: 20px;
+  justify-items: center;
+  margin-top: 20px;
+}
+
+.badge-item {
+  text-align: center;
+}
+
+.badge-item img {
+  width: 100px;
+  height: 100px;
+  object-fit: contain;
+}
+
+.badge-item p {
+  margin-top: 10px;
+  font-size: 14px;
+  color: #333;
+}
+
+.badge-item.unearned {
+  opacity: 0.5;
+  filter: grayscale(100%);
+}
+
+.notification-container {
+  position: fixed;
+  top: 20px;
+  right: 20px;
+  z-index: 9999;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.notification {
+  background: rgba(0, 0, 0, 0.8);
+  color: white;
+  padding: 16px;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  animation: fadeIn 0.3s ease, fadeOut 0.3s ease 3s;
+}
+
+.notification img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+
+.hidden {
+  display: none;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(-10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes fadeOut {
+  from {
+    opacity: 1;
+    transform: translateY(0);
+  }
+  to {
+    opacity: 0;
+    transform: translateY(-10px);
+  }
+}
+
+@media (max-width: 600px) {
+  .modal {
+    padding: 12px; /* Reduce padding further for very small screens */
+    max-width: 95%; /* Increase the width slightly for very small screens */
+  }
+
+  .modal-header h2 {
+    font-size: 1rem; /* Further reduce the header font size */
+  }
+
+  .modal-body p {
+    font-size: 0.85rem; /* Further reduce the body text size */
+  }
+}
+
+.modal::-webkit-scrollbar {
+  width: 8px;
+}
+
+.modal::-webkit-scrollbar-thumb {
+  background: rgba(255, 255, 255, 0.3);
+  border-radius: 4px;
+}
+
+.modal-btn {
+  background: #007bff;
+  color: #fff;
+  border: none;
+  padding: 8px 8px;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-left: 12px;
+}
+.modal-btn:hover {
+  background: #0056b3;
+}
+
+.question-actions {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 8px;
+  margin-top: 1px;
+  flex-wrap: wrap;
+}
+.question-actions button,
+.question-actions .rate-question {
+  flex: unset;
+  min-width: unset;
+  width: auto;
+  margin: 4px 0;
+  font-size: 0.92rem; /* Slightly smaller than normal text */
+}
+
+.quiz-header-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 16px; /* Adjust as needed */
+  width: 100%;
+}
+.topic-streak {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+@media (max-width: 600px) {
+  .quiz-header-row {
+    flex-direction: row;
+    align-items: stretch;
+    gap: 8px;
+  }
+  .topic-streak {
+    flex-direction: row;
+    align-items: flex-start;
+    gap: 4px;
+  }
+}
+
+.topic-streak-bookmark {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+width: 100%;
+}
+
+.quiz-header-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 16px;
+  width: 100%;
+}
+.header-topic,
+.header-streak,
+.header-bookmark {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.header-topic {
+  justify-content: flex-start;
+}
+.header-bookmark {
+  justify-content: flex-end;
+}
+
+select, .select-topic-btn {
+  width: auto;
+  flex: unset;
+}
+
+select.control[data-topic] {
+  min-width: 60px;
+  max-width: 180px;
+  width: auto;
+  flex: 0 0 auto;
+}
+
+.skip-link {
+  position: absolute;
+  left: -999px;
+  top: auto;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  background: #222;
+  color: #fff;
+  padding: 8px 16px;
+  z-index: 1000;
+  border-radius: 4px;
+}
+.skip-link:focus {
+  left: 16px;
+  top: 16px;
+  width: auto;
+  height: auto;
+  font-size: 1rem;
+  outline: 2px solid #fff;
+}

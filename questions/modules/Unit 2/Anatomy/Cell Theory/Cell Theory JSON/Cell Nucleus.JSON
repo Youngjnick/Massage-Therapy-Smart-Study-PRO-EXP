@@ -1,0 +1,202 @@
+[
+  {
+    "id": "Cell Nucleus 001",
+    "topic": "Cell Nucleus",
+    "difficulty": "intermediate",
+    "question": "What is the main function of the cell nucleus?",
+    "answers": [
+      "Energy production",
+      "Protein synthesis",
+      "Controlling cell activities and storing DNA",
+      "Packaging proteins for transport"
+    ],
+    "correct": 2,
+    "tags": [
+      "Cell Nucleus"
+    ],
+    "stats": {
+      "correct": 0,
+      "incorrect": 0
+    }
+  },
+  {
+    "id": "Cell Nucleus 002",
+    "topic": "Cell Nucleus",
+    "difficulty": "intermediate",
+    "question": "Which structure within the nucleus is responsible for making ribosomes?",
+    "answers": [
+      "Chromatin",
+      "Nucleolus",
+      "Nuclear envelope",
+      "Centrosome"
+    ],
+    "correct": 1,
+    "tags": [
+      "Cell Nucleus"
+    ],
+    "stats": {
+      "correct": 0,
+      "incorrect": 0
+    }
+  },
+  {
+    "id": "Cell Nucleus 003",
+    "topic": "Cell Nucleus",
+    "difficulty": "intermediate",
+    "question": "What material is found within the nucleus and carries genetic instructions?",
+    "answers": [
+      "RNA",
+      "Ribosomes",
+      "Chromatin (DNA and proteins)",
+      "Cytoplasm"
+    ],
+    "correct": 2,
+    "tags": [
+      "Cell Nucleus"
+    ],
+    "stats": {
+      "correct": 0,
+      "incorrect": 0
+    }
+  },
+  {
+    "id": "Cell Nucleus 004",
+    "topic": "Cell Nucleus",
+    "difficulty": "intermediate",
+    "question": "The nuclear envelope:",
+    "answers": [
+      "Is a rigid outer layer made of cellulose",
+      "Regulates what enters and leaves the nucleus",
+      "Generates ATP for the cell",
+      "Is found in prokaryotic cells"
+    ],
+    "correct": 1,
+    "tags": [
+      "Cell Nucleus"
+    ],
+    "stats": {
+      "correct": 0,
+      "incorrect": 0
+    }
+  },
+  {
+    "id": "Cell Nucleus 005",
+    "topic": "Cell Nucleus",
+    "difficulty": "intermediate",
+    "question": "How many membranes make up the nuclear envelope?",
+    "answers": [
+      "One",
+      "Two",
+      "Three",
+      "None"
+    ],
+    "correct": 1,
+    "tags": [
+      "Cell Nucleus"
+    ],
+    "stats": {
+      "correct": 0,
+      "incorrect": 0
+    }
+  },
+  {
+    "id": "Cell Nucleus 006",
+    "topic": "Cell Nucleus",
+    "difficulty": "intermediate",
+    "question": "Which of the following is NOT found in the nucleus?",
+    "answers": [
+      "DNA",
+      "Nucleolus",
+      "Ribosomes",
+      "Nuclear pores"
+    ],
+    "correct": 2,
+    "tags": [
+      "Cell Nucleus"
+    ],
+    "stats": {
+      "correct": 0,
+      "incorrect": 0
+    }
+  },
+  {
+    "id": "Cell Nucleus 007",
+    "topic": "Cell Nucleus",
+    "difficulty": "intermediate",
+    "question": "Which cell type lacks a nucleus?",
+    "answers": [
+      "Plant cells",
+      "Animal cells",
+      "Prokaryotic cells",
+      "Fungal cells"
+    ],
+    "correct": 2,
+    "tags": [
+      "Cell Nucleus"
+    ],
+    "stats": {
+      "correct": 0,
+      "incorrect": 0
+    }
+  },
+  {
+    "id": "Cell Nucleus 008",
+    "topic": "Cell Nucleus",
+    "difficulty": "intermediate",
+    "question": "What is the function of nuclear pores?",
+    "answers": [
+      "Provide structural support",
+      "Allow the exchange of materials between the nucleus and cytoplasm",
+      "Store energy molecules",
+      "Digest old organelles"
+    ],
+    "correct": 1,
+    "tags": [
+      "Cell Nucleus"
+    ],
+    "stats": {
+      "correct": 0,
+      "incorrect": 0
+    }
+  },
+  {
+    "id": "Cell Nucleus 009",
+    "topic": "Cell Nucleus",
+    "difficulty": "intermediate",
+    "question": "During cell division, chromatin condenses to form:",
+    "answers": [
+      "Centrioles",
+      "Enzymes",
+      "Chromosomes",
+      "Plasmids"
+    ],
+    "correct": 2,
+    "tags": [
+      "Cell Nucleus"
+    ],
+    "stats": {
+      "correct": 0,
+      "incorrect": 0
+    }
+  },
+  {
+    "id": "Cell Nucleus 010",
+    "topic": "Cell Nucleus",
+    "difficulty": "intermediate",
+    "question": "Which of the following is made in the nucleolus and exits through nuclear pores?",
+    "answers": [
+      "ATP",
+      "rRNA",
+      "Mitochondria",
+      "Lysosomes"
+    ],
+    "correct": 1,
+    "tags": [
+      "Cell Nucleus"
+    ],
+    "stats": {
+      "correct": 0,
+      "incorrect": 0
+    }
+  }
+]

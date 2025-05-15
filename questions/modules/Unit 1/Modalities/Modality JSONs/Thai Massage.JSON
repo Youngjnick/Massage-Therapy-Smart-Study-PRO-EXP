@@ -1,0 +1,202 @@
+[
+  {
+    "id": "Thai Massage 001",
+    "topic": "Thai Massage",
+    "difficulty": "intermediate",
+    "question": "Thai massage is also known as:",
+    "answers": [
+      "Nuad Thai",
+      "Shiatsu",
+      "Tui Na",
+      "Swedish massage"
+    ],
+    "correct": 0,
+    "tags": [
+      "Thai Massage"
+    ],
+    "stats": {
+      "correct": 0,
+      "incorrect": 0
+    }
+  },
+  {
+    "id": "Thai Massage 002",
+    "topic": "Thai Massage",
+    "difficulty": "intermediate",
+    "question": "Thai massage is characterized by:",
+    "answers": [
+      "Deep pressure using only elbows",
+      "Gentle stroking",
+      "Passive stretching and compression along energy lines",
+      "Cupping and scraping"
+    ],
+    "correct": 2,
+    "tags": [
+      "Thai Massage"
+    ],
+    "stats": {
+      "correct": 0,
+      "incorrect": 0
+    }
+  },
+  {
+    "id": "Thai Massage 003",
+    "topic": "Thai Massage",
+    "difficulty": "intermediate",
+    "question": "Thai massage is traditionally performed with the client:",
+    "answers": [
+      "Nude on a heated table",
+      "Clothed on a floor mat",
+      "Standing in water",
+      "Seated on a stool"
+    ],
+    "correct": 1,
+    "tags": [
+      "Thai Massage"
+    ],
+    "stats": {
+      "correct": 0,
+      "incorrect": 0
+    }
+  },
+  {
+    "id": "Thai Massage 004",
+    "topic": "Thai Massage",
+    "difficulty": "intermediate",
+    "question": "Which energy lines are used in Thai massage?",
+    "answers": [
+      "Meridians",
+      "Sen lines",
+      "Chakras",
+      "Channels"
+    ],
+    "correct": 1,
+    "tags": [
+      "Thai Massage"
+    ],
+    "stats": {
+      "correct": 0,
+      "incorrect": 0
+    }
+  },
+  {
+    "id": "Thai Massage 005",
+    "topic": "Thai Massage",
+    "difficulty": "intermediate",
+    "question": "What is one major benefit of Thai massage?",
+    "answers": [
+      "Increased muscle size",
+      "Improved flexibility and energy flow",
+      "Nutrient absorption",
+      "Sun protection"
+    ],
+    "correct": 1,
+    "tags": [
+      "Thai Massage"
+    ],
+    "stats": {
+      "correct": 0,
+      "incorrect": 0
+    }
+  },
+  {
+    "id": "Thai Massage 006",
+    "topic": "Thai Massage",
+    "difficulty": "intermediate",
+    "question": "Thai massage incorporates elements of which ancient system?",
+    "answers": [
+      "Kalaripayattu",
+      "Ayurveda",
+      "Qi Gong",
+      "Osteopathy"
+    ],
+    "correct": 1,
+    "tags": [
+      "Thai Massage"
+    ],
+    "stats": {
+      "correct": 0,
+      "incorrect": 0
+    }
+  },
+  {
+    "id": "Thai Massage 007",
+    "topic": "Thai Massage",
+    "difficulty": "intermediate",
+    "question": "Which of the following is a contraindication for Thai massage?",
+    "answers": [
+      "Mild stress",
+      "Recent surgery or herniated discs",
+      "Fatigue",
+      "Mild headache"
+    ],
+    "correct": 1,
+    "tags": [
+      "Thai Massage"
+    ],
+    "stats": {
+      "correct": 0,
+      "incorrect": 0
+    }
+  },
+  {
+    "id": "Thai Massage 008",
+    "topic": "Thai Massage",
+    "difficulty": "intermediate",
+    "question": "A key technique used in Thai massage is:",
+    "answers": [
+      "Oil-based gliding",
+      "Percussion",
+      "Joint mobilization",
+      "Yoga-like assisted stretching"
+    ],
+    "correct": 3,
+    "tags": [
+      "Thai Massage"
+    ],
+    "stats": {
+      "correct": 0,
+      "incorrect": 0
+    }
+  },
+  {
+    "id": "Thai Massage 009",
+    "topic": "Thai Massage",
+    "difficulty": "intermediate",
+    "question": "How long is a traditional Thai massage session?",
+    "answers": [
+      "10–15 minutes",
+      "30 minutes",
+      "60–120 minutes",
+      "All day"
+    ],
+    "correct": 2,
+    "tags": [
+      "Thai Massage"
+    ],
+    "stats": {
+      "correct": 0,
+      "incorrect": 0
+    }
+  },
+  {
+    "id": "Thai Massage 010",
+    "topic": "Thai Massage",
+    "difficulty": "intermediate",
+    "question": "Thai massage is most appropriate for clients seeking:",
+    "answers": [
+      "Deep sleep therapy",
+      "Dynamic flexibility, movement, and energy balance",
+      "Weight loss",
+      "Surgical prep"
+    ],
+    "correct": 1,
+    "tags": [
+      "Thai Massage"
+    ],
+    "stats": {
+      "correct": 0,
+      "incorrect": 0
+    }
+  }
+]

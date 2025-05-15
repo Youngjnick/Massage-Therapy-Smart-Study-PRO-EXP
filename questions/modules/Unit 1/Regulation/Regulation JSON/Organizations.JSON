@@ -1,0 +1,202 @@
+[
+  {
+    "id": "Organizations 001",
+    "topic": "Organizations",
+    "difficulty": "intermediate",
+    "question": "What does AMTA stand for?",
+    "answers": [
+      "American Massage Therapy Association",
+      "Association of Manual Therapists of America",
+      "American Manual Treatment Alliance",
+      "Alliance of Massage Therapy Advocates"
+    ],
+    "correct": 0,
+    "tags": [
+      "Organizations"
+    ],
+    "stats": {
+      "correct": 0,
+      "incorrect": 0
+    }
+  },
+  {
+    "id": "Organizations 002",
+    "topic": "Organizations",
+    "difficulty": "intermediate",
+    "question": "What is the role of the FSMTB in massage therapy?",
+    "answers": [
+      "It provides continuing education credits",
+      "It certifies schools",
+      "It administers the MBLEx licensing exam",
+      "It represents clients in malpractice cases"
+    ],
+    "correct": 2,
+    "tags": [
+      "Organizations"
+    ],
+    "stats": {
+      "correct": 0,
+      "incorrect": 0
+    }
+  },
+  {
+    "id": "Organizations 003",
+    "topic": "Organizations",
+    "difficulty": "intermediate",
+    "question": "Which organization provides national certification for massage therapists?",
+    "answers": [
+      "NCBTMB",
+      "FSMTB",
+      "NCCIH",
+      "AMTA"
+    ],
+    "correct": 0,
+    "tags": [
+      "Organizations"
+    ],
+    "stats": {
+      "correct": 0,
+      "incorrect": 0
+    }
+  },
+  {
+    "id": "Organizations 004",
+    "topic": "Organizations",
+    "difficulty": "intermediate",
+    "question": "What is the function of the Massage Therapy Foundation (MTF)?",
+    "answers": [
+      "To license massage therapists",
+      "To regulate massage schools",
+      "To fund massage therapy research and education",
+      "To provide malpractice insurance"
+    ],
+    "correct": 2,
+    "tags": [
+      "Organizations"
+    ],
+    "stats": {
+      "correct": 0,
+      "incorrect": 0
+    }
+  },
+  {
+    "id": "Organizations 005",
+    "topic": "Organizations",
+    "difficulty": "intermediate",
+    "question": "What does NCCIH stand for?",
+    "answers": [
+      "National Center for Complementary and Integrative Health",
+      "National Certification Center for Holistic Healing",
+      "National Committee for Clinical and Integrative Healing",
+      "National Chiropractic and Complementary Health"
+    ],
+    "correct": 0,
+    "tags": [
+      "Organizations"
+    ],
+    "stats": {
+      "correct": 0,
+      "incorrect": 0
+    }
+  },
+  {
+    "id": "Organizations 006",
+    "topic": "Organizations",
+    "difficulty": "intermediate",
+    "question": "Which organization helps improve communication between U.S. state licensing boards?",
+    "answers": [
+      "FSMTB",
+      "AMTA",
+      "NCBTMB",
+      "NCCIH"
+    ],
+    "correct": 0,
+    "tags": [
+      "Organizations"
+    ],
+    "stats": {
+      "correct": 0,
+      "incorrect": 0
+    }
+  },
+  {
+    "id": "Organizations 007",
+    "topic": "Organizations",
+    "difficulty": "intermediate",
+    "question": "What is the purpose of the MBLEx exam?",
+    "answers": [
+      "To obtain national certification",
+      "To demonstrate mastery of advanced modalities",
+      "To meet licensure requirements for massage practice",
+      "To teach anatomy and physiology"
+    ],
+    "correct": 2,
+    "tags": [
+      "Organizations"
+    ],
+    "stats": {
+      "correct": 0,
+      "incorrect": 0
+    }
+  },
+  {
+    "id": "Organizations 008",
+    "topic": "Organizations",
+    "difficulty": "intermediate",
+    "question": "Which organization offers liability insurance to massage therapists?",
+    "answers": [
+      "AMTA and ABMP",
+      "FSMTB and NCCIH",
+      "NCBTMB and MTF",
+      "MBLEx and HIPAA"
+    ],
+    "correct": 0,
+    "tags": [
+      "Organizations"
+    ],
+    "stats": {
+      "correct": 0,
+      "incorrect": 0
+    }
+  },
+  {
+    "id": "Organizations 009",
+    "topic": "Organizations",
+    "difficulty": "intermediate",
+    "question": "What was the former name of NCCIH?",
+    "answers": [
+      "NCBTMB",
+      "NCCAM",
+      "FSMTB",
+      "ABMP"
+    ],
+    "correct": 1,
+    "tags": [
+      "Organizations"
+    ],
+    "stats": {
+      "correct": 0,
+      "incorrect": 0
+    }
+  },
+  {
+    "id": "Organizations 010",
+    "topic": "Organizations",
+    "difficulty": "intermediate",
+    "question": "What does NCBTMB stand for?",
+    "answers": [
+      "National Certification Board for Therapeutic Massage and Bodywork",
+      "National Council for Bodywork Therapists and Massage",
+      "National Committee for Balanced Therapy and Massage",
+      "National Clinical Board of Therapeutic Massage and Bodyworkers"
+    ],
+    "correct": 0,
+    "tags": [
+      "Organizations"
+    ],
+    "stats": {
+      "correct": 0,
+      "incorrect": 0
+    }
+  }
+]

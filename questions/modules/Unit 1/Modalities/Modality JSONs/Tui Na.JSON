@@ -1,0 +1,202 @@
+[
+  {
+    "id": "Tui Na 001",
+    "topic": "Tui Na",
+    "difficulty": "intermediate",
+    "question": "What is Tui Na?",
+    "answers": [
+      "A Swedish massage technique",
+      "A Chinese hands-on body treatment using acupressure and rhythmic movements",
+      "A reflexology style from Thailand",
+      "A Japanese energy healing method"
+    ],
+    "correct": 1,
+    "tags": [
+      "Tui Na"
+    ],
+    "stats": {
+      "correct": 0,
+      "incorrect": 0
+    }
+  },
+  {
+    "id": "Tui Na 002",
+    "topic": "Tui Na",
+    "difficulty": "intermediate",
+    "question": "Tui Na is a branch of which traditional healing system?",
+    "answers": [
+      "Ayurveda",
+      "Western medicine",
+      "Traditional Chinese Medicine (TCM)",
+      "Japanese Shiatsu"
+    ],
+    "correct": 2,
+    "tags": [
+      "Tui Na"
+    ],
+    "stats": {
+      "correct": 0,
+      "incorrect": 0
+    }
+  },
+  {
+    "id": "Tui Na 003",
+    "topic": "Tui Na",
+    "difficulty": "intermediate",
+    "question": "What are common techniques used in Tui Na?",
+    "answers": [
+      "Sliding, gliding, and feather strokes",
+      "Tapping, kneading, pressing, and rolling",
+      "Cupping and scraping only",
+      "Stretching with yoga postures"
+    ],
+    "correct": 1,
+    "tags": [
+      "Tui Na"
+    ],
+    "stats": {
+      "correct": 0,
+      "incorrect": 0
+    }
+  },
+  {
+    "id": "Tui Na 004",
+    "topic": "Tui Na",
+    "difficulty": "intermediate",
+    "question": "Tui Na is especially effective for:",
+    "answers": [
+      "Improving posture only",
+      "Energetic balancing and musculoskeletal complaints",
+      "Skin exfoliation",
+      "Blood pressure regulation"
+    ],
+    "correct": 1,
+    "tags": [
+      "Tui Na"
+    ],
+    "stats": {
+      "correct": 0,
+      "incorrect": 0
+    }
+  },
+  {
+    "id": "Tui Na 005",
+    "topic": "Tui Na",
+    "difficulty": "intermediate",
+    "question": "Tui Na is often used in conjunction with:",
+    "answers": [
+      "X-rays",
+      "Herbal medicine, acupuncture, and qigong",
+      "Chiropractic adjustments",
+      "Oxygen therapy"
+    ],
+    "correct": 1,
+    "tags": [
+      "Tui Na"
+    ],
+    "stats": {
+      "correct": 0,
+      "incorrect": 0
+    }
+  },
+  {
+    "id": "Tui Na 006",
+    "topic": "Tui Na",
+    "difficulty": "intermediate",
+    "question": "What does 'Tui' mean in Chinese?",
+    "answers": [
+      "Stretch",
+      "Push",
+      "Knead",
+      "Heal"
+    ],
+    "correct": 1,
+    "tags": [
+      "Tui Na"
+    ],
+    "stats": {
+      "correct": 0,
+      "incorrect": 0
+    }
+  },
+  {
+    "id": "Tui Na 007",
+    "topic": "Tui Na",
+    "difficulty": "intermediate",
+    "question": "What does 'Na' mean in Chinese?",
+    "answers": [
+      "Pinch or grasp",
+      "Heal",
+      "Slide",
+      "Tap"
+    ],
+    "correct": 0,
+    "tags": [
+      "Tui Na"
+    ],
+    "stats": {
+      "correct": 0,
+      "incorrect": 0
+    }
+  },
+  {
+    "id": "Tui Na 008",
+    "topic": "Tui Na",
+    "difficulty": "intermediate",
+    "question": "Which of the following is a contraindication for Tui Na?",
+    "answers": [
+      "Chronic back pain",
+      "Muscle tension",
+      "Fractures and open wounds",
+      "Joint stiffness"
+    ],
+    "correct": 2,
+    "tags": [
+      "Tui Na"
+    ],
+    "stats": {
+      "correct": 0,
+      "incorrect": 0
+    }
+  },
+  {
+    "id": "Tui Na 009",
+    "topic": "Tui Na",
+    "difficulty": "intermediate",
+    "question": "Tui Na aims to balance the flow of which vital energy?",
+    "answers": [
+      "Qi (Chi)",
+      "Ojas",
+      "Aura",
+      "Yin"
+    ],
+    "correct": 0,
+    "tags": [
+      "Tui Na"
+    ],
+    "stats": {
+      "correct": 0,
+      "incorrect": 0
+    }
+  },
+  {
+    "id": "Tui Na 010",
+    "topic": "Tui Na",
+    "difficulty": "intermediate",
+    "question": "Tui Na is typically performed with the client:",
+    "answers": [
+      "Standing and dancing",
+      "Fully clothed on a massage table or chair",
+      "Floating in warm water",
+      "Strapped into resistance bands"
+    ],
+    "correct": 1,
+    "tags": [
+      "Tui Na"
+    ],
+    "stats": {
+      "correct": 0,
+      "incorrect": 0
+    }
+  }
+]

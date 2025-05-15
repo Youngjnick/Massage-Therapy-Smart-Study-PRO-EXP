@@ -1,0 +1,202 @@
+[
+  {
+    "id": "Characteristics Of Cells 001",
+    "topic": "Characteristics Of Cells",
+    "difficulty": "intermediate",
+    "question": "Which of the following is a universal characteristic of all cells?",
+    "answers": [
+      "Presence of nucleus",
+      "Ability to photosynthesize",
+      "Enclosed by a cell membrane",
+      "Multicellular structure"
+    ],
+    "correct": 2,
+    "tags": [
+      "Characteristics Of Cells"
+    ],
+    "stats": {
+      "correct": 0,
+      "incorrect": 0
+    }
+  },
+  {
+    "id": "Characteristics Of Cells 002",
+    "topic": "Characteristics Of Cells",
+    "difficulty": "intermediate",
+    "question": "What is the function of DNA in cells?",
+    "answers": [
+      "Produces energy",
+      "Controls cell activities and stores genetic information",
+      "Forms ribosomes",
+      "Carries oxygen"
+    ],
+    "correct": 1,
+    "tags": [
+      "Characteristics Of Cells"
+    ],
+    "stats": {
+      "correct": 0,
+      "incorrect": 0
+    }
+  },
+  {
+    "id": "Characteristics Of Cells 003",
+    "topic": "Characteristics Of Cells",
+    "difficulty": "intermediate",
+    "question": "Which of the following best describes the cytoplasm?",
+    "answers": [
+      "The outer covering of the cell",
+      "The site of energy production",
+      "The jelly-like substance that holds organelles",
+      "The storage site for waste"
+    ],
+    "correct": 2,
+    "tags": [
+      "Characteristics Of Cells"
+    ],
+    "stats": {
+      "correct": 0,
+      "incorrect": 0
+    }
+  },
+  {
+    "id": "Characteristics Of Cells 004",
+    "topic": "Characteristics Of Cells",
+    "difficulty": "intermediate",
+    "question": "All cells arise from:",
+    "answers": [
+      "DNA molecules",
+      "Spontaneous generation",
+      "Other pre-existing cells",
+      "Tissues"
+    ],
+    "correct": 2,
+    "tags": [
+      "Characteristics Of Cells"
+    ],
+    "stats": {
+      "correct": 0,
+      "incorrect": 0
+    }
+  },
+  {
+    "id": "Characteristics Of Cells 005",
+    "topic": "Characteristics Of Cells",
+    "difficulty": "intermediate",
+    "question": "Which component do all cells use to synthesize proteins?",
+    "answers": [
+      "Chloroplasts",
+      "Ribosomes",
+      "Mitochondria",
+      "Golgi bodies"
+    ],
+    "correct": 1,
+    "tags": [
+      "Characteristics Of Cells"
+    ],
+    "stats": {
+      "correct": 0,
+      "incorrect": 0
+    }
+  },
+  {
+    "id": "Characteristics Of Cells 006",
+    "topic": "Characteristics Of Cells",
+    "difficulty": "intermediate",
+    "question": "What do both prokaryotic and eukaryotic cells have in common?",
+    "answers": [
+      "Nucleus",
+      "Chloroplasts",
+      "Ribosomes",
+      "Endoplasmic reticulum"
+    ],
+    "correct": 2,
+    "tags": [
+      "Characteristics Of Cells"
+    ],
+    "stats": {
+      "correct": 0,
+      "incorrect": 0
+    }
+  },
+  {
+    "id": "Characteristics Of Cells 007",
+    "topic": "Characteristics Of Cells",
+    "difficulty": "intermediate",
+    "question": "Which structure regulates what enters and exits a cell?",
+    "answers": [
+      "Cytoplasm",
+      "Nucleus",
+      "Mitochondria",
+      "Cell membrane"
+    ],
+    "correct": 3,
+    "tags": [
+      "Characteristics Of Cells"
+    ],
+    "stats": {
+      "correct": 0,
+      "incorrect": 0
+    }
+  },
+  {
+    "id": "Characteristics Of Cells 008",
+    "topic": "Characteristics Of Cells",
+    "difficulty": "intermediate",
+    "question": "Which type of cell is typically larger and more complex?",
+    "answers": [
+      "Prokaryotic",
+      "Eukaryotic",
+      "Viral",
+      "Bacterial"
+    ],
+    "correct": 1,
+    "tags": [
+      "Characteristics Of Cells"
+    ],
+    "stats": {
+      "correct": 0,
+      "incorrect": 0
+    }
+  },
+  {
+    "id": "Characteristics Of Cells 009",
+    "topic": "Characteristics Of Cells",
+    "difficulty": "intermediate",
+    "question": "Which cell function is most related to mitochondria?",
+    "answers": [
+      "Protein production",
+      "Cell division",
+      "Energy production",
+      "Transport of materials"
+    ],
+    "correct": 2,
+    "tags": [
+      "Characteristics Of Cells"
+    ],
+    "stats": {
+      "correct": 0,
+      "incorrect": 0
+    }
+  },
+  {
+    "id": "Characteristics Of Cells 010",
+    "topic": "Characteristics Of Cells",
+    "difficulty": "intermediate",
+    "question": "The fluid portion of the cell outside the nucleus is called:",
+    "answers": [
+      "Plasma",
+      "Cytosol",
+      "Nucleoplasm",
+      "Periplasm"
+    ],
+    "correct": 1,
+    "tags": [
+      "Characteristics Of Cells"
+    ],
+    "stats": {
+      "correct": 0,
+      "incorrect": 0
+    }
+  }
+]

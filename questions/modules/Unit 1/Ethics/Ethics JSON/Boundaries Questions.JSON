@@ -1,0 +1,202 @@
+[
+  {
+    "id": "Ethics Boundaries 001",
+    "topic": "Ethics Boundaries",
+    "difficulty": "intermediate",
+    "question": "What is informed consent in massage therapy?",
+    "answers": [
+      "Permission given automatically when the session begins",
+      "Permission granted after the session ends",
+      "Permission given after full disclosure of treatment details",
+      "Verbal agreement during treatment"
+    ],
+    "correct": 2,
+    "tags": [
+      "Ethics Boundaries"
+    ],
+    "stats": {
+      "correct": 0,
+      "incorrect": 0
+    }
+  },
+  {
+    "id": "Ethics Boundaries 002",
+    "topic": "Ethics Boundaries",
+    "difficulty": "intermediate",
+    "question": "Why is informed consent important?",
+    "answers": [
+      "It allows the therapist to work freely",
+      "It protects both client and therapist legally and ethically",
+      "It avoids having to record SOAP notes",
+      "It increases tips from clients"
+    ],
+    "correct": 1,
+    "tags": [
+      "Ethics Boundaries"
+    ],
+    "stats": {
+      "correct": 0,
+      "incorrect": 0
+    }
+  },
+  {
+    "id": "Ethics Boundaries 003",
+    "topic": "Ethics Boundaries",
+    "difficulty": "intermediate",
+    "question": "When should a massage therapist obtain informed consent?",
+    "answers": [
+      "Only for deep tissue work",
+      "Only during the first session",
+      "Before starting each session or making changes to treatment",
+      "Only if the client asks questions"
+    ],
+    "correct": 2,
+    "tags": [
+      "Ethics Boundaries"
+    ],
+    "stats": {
+      "correct": 0,
+      "incorrect": 0
+    }
+  },
+  {
+    "id": "Ethics Boundaries 004",
+    "topic": "Ethics Boundaries",
+    "difficulty": "intermediate",
+    "question": "Which of the following best describes a physical boundary?",
+    "answers": [
+      "Client’s right to personal space and draping",
+      "Avoiding political conversations",
+      "Listening carefully during sessions",
+      "Sharing business cards with clients"
+    ],
+    "correct": 0,
+    "tags": [
+      "Ethics Boundaries"
+    ],
+    "stats": {
+      "correct": 0,
+      "incorrect": 0
+    }
+  },
+  {
+    "id": "Ethics Boundaries 005",
+    "topic": "Ethics Boundaries",
+    "difficulty": "intermediate",
+    "question": "What is an emotional boundary in massage therapy?",
+    "answers": [
+      "Limiting emotional involvement and maintaining professionalism",
+      "Only working on muscles",
+      "Using emotional music during sessions",
+      "Avoiding eye contact with the client"
+    ],
+    "correct": 0,
+    "tags": [
+      "Ethics Boundaries"
+    ],
+    "stats": {
+      "correct": 0,
+      "incorrect": 0
+    }
+  },
+  {
+    "id": "Ethics Boundaries 006",
+    "topic": "Ethics Boundaries",
+    "difficulty": "intermediate",
+    "question": "What is an intellectual boundary?",
+    "answers": [
+      "Respecting the client’s beliefs, thoughts, and opinions",
+      "Avoiding any discussion during the session",
+      "Focusing only on physical symptoms",
+      "Performing techniques only with certification"
+    ],
+    "correct": 0,
+    "tags": [
+      "Ethics Boundaries"
+    ],
+    "stats": {
+      "correct": 0,
+      "incorrect": 0
+    }
+  },
+  {
+    "id": "Ethics Boundaries 007",
+    "topic": "Ethics Boundaries",
+    "difficulty": "intermediate",
+    "question": "Which of the following is an example of violating a sexual boundary?",
+    "answers": [
+      "Working on the back with permission",
+      "Discussing appropriate pressure preferences",
+      "Making suggestive comments during a session",
+      "Offering a water bottle after the session"
+    ],
+    "correct": 2,
+    "tags": [
+      "Ethics Boundaries"
+    ],
+    "stats": {
+      "correct": 0,
+      "incorrect": 0
+    }
+  },
+  {
+    "id": "Ethics Boundaries 008",
+    "topic": "Ethics Boundaries",
+    "difficulty": "intermediate",
+    "question": "How should a therapist respond if a client appears confused about the session plan?",
+    "answers": [
+      "Begin treatment and clarify later",
+      "Proceed unless the client protests",
+      "Pause and re-explain until the client clearly understands",
+      "Ask the client to sign a waiver"
+    ],
+    "correct": 2,
+    "tags": [
+      "Ethics Boundaries"
+    ],
+    "stats": {
+      "correct": 0,
+      "incorrect": 0
+    }
+  },
+  {
+    "id": "Ethics Boundaries 009",
+    "topic": "Ethics Boundaries",
+    "difficulty": "intermediate",
+    "question": "Which of the following ensures maintenance of ethical boundaries?",
+    "answers": [
+      "Avoiding informed consent",
+      "Allowing dual relationships without discussion",
+      "Clear communication and consistent professional behavior",
+      "Treating clients like family"
+    ],
+    "correct": 2,
+    "tags": [
+      "Ethics Boundaries"
+    ],
+    "stats": {
+      "correct": 0,
+      "incorrect": 0
+    }
+  },
+  {
+    "id": "Ethics Boundaries 010",
+    "topic": "Ethics Boundaries",
+    "difficulty": "intermediate",
+    "question": "What should a therapist do if a client begins disclosing deeply personal issues?",
+    "answers": [
+      "Encourage deeper discussion to build trust",
+      "Stay quiet and let the client vent",
+      "Redirect the session and reinforce professional boundaries",
+      "Give advice based on personal opinion"
+    ],
+    "correct": 2,
+    "tags": [
+      "Ethics Boundaries"
+    ],
+    "stats": {
+      "correct": 0,
+      "incorrect": 0
+    }
+  }
+]

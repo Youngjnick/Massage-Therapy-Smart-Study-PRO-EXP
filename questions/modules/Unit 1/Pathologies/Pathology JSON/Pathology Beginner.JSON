@@ -1,0 +1,202 @@
+[
+  {
+    "id": "Pathology Beginner 001",
+    "topic": "Pathology Beginner",
+    "difficulty": "intermediate",
+    "question": "What is scoliosis?",
+    "answers": [
+      "A degeneration of vertebral discs",
+      "A forward bending of the spine",
+      "An abnormal lateral curvature of the spine",
+      "A shortening of spinal ligaments"
+    ],
+    "correct": 2,
+    "tags": [
+      "Pathology Beginner"
+    ],
+    "stats": {
+      "correct": 0,
+      "incorrect": 0
+    }
+  },
+  {
+    "id": "Pathology Beginner 002",
+    "topic": "Pathology Beginner",
+    "difficulty": "intermediate",
+    "question": "What causes varicose veins?",
+    "answers": [
+      "Inflammation of arteries",
+      "Collapsed or malfunctioning vein valves",
+      "Calcium buildup in arteries",
+      "Blood clots in lymph vessels"
+    ],
+    "correct": 1,
+    "tags": [
+      "Pathology Beginner"
+    ],
+    "stats": {
+      "correct": 0,
+      "incorrect": 0
+    }
+  },
+  {
+    "id": "Pathology Beginner 003",
+    "topic": "Pathology Beginner",
+    "difficulty": "intermediate",
+    "question": "Osteoporosis primarily affects the:",
+    "answers": [
+      "Joints",
+      "Lymph nodes",
+      "Arteries",
+      "Bones"
+    ],
+    "correct": 3,
+    "tags": [
+      "Pathology Beginner"
+    ],
+    "stats": {
+      "correct": 0,
+      "incorrect": 0
+    }
+  },
+  {
+    "id": "Pathology Beginner 004",
+    "topic": "Pathology Beginner",
+    "difficulty": "intermediate",
+    "question": "What is a hematoma?",
+    "answers": [
+      "Inflamed vein",
+      "Blocked artery",
+      "Pooling of blood outside a vessel",
+      "Bone fracture"
+    ],
+    "correct": 2,
+    "tags": [
+      "Pathology Beginner"
+    ],
+    "stats": {
+      "correct": 0,
+      "incorrect": 0
+    }
+  },
+  {
+    "id": "Pathology Beginner 005",
+    "topic": "Pathology Beginner",
+    "difficulty": "intermediate",
+    "question": "Phlebitis refers to:",
+    "answers": [
+      "A blood clot in a coronary artery",
+      "Inflammation of a vein",
+      "Air bubbles in the bloodstream",
+      "Infection of lymph nodes"
+    ],
+    "correct": 1,
+    "tags": [
+      "Pathology Beginner"
+    ],
+    "stats": {
+      "correct": 0,
+      "incorrect": 0
+    }
+  },
+  {
+    "id": "Pathology Beginner 006",
+    "topic": "Pathology Beginner",
+    "difficulty": "intermediate",
+    "question": "Thrombophlebitis involves:",
+    "answers": [
+      "Arterial bleeding",
+      "Clot formation in a lymph vessel",
+      "Clotting in an inflamed vein",
+      "Bone marrow overgrowth"
+    ],
+    "correct": 2,
+    "tags": [
+      "Pathology Beginner"
+    ],
+    "stats": {
+      "correct": 0,
+      "incorrect": 0
+    }
+  },
+  {
+    "id": "Pathology Beginner 007",
+    "topic": "Pathology Beginner",
+    "difficulty": "intermediate",
+    "question": "What is an embolus?",
+    "answers": [
+      "A blood clot that travels through the bloodstream",
+      "A bruise from deep pressure",
+      "A blocked lymph node",
+      "An inflamed artery"
+    ],
+    "correct": 0,
+    "tags": [
+      "Pathology Beginner"
+    ],
+    "stats": {
+      "correct": 0,
+      "incorrect": 0
+    }
+  },
+  {
+    "id": "Pathology Beginner 008",
+    "topic": "Pathology Beginner",
+    "difficulty": "intermediate",
+    "question": "An aneurysm is:",
+    "answers": [
+      "A thickening of joint cartilage",
+      "A pooling of blood within the lungs",
+      "A ballooning or weakening of an artery wall",
+      "A displaced vertebral disc"
+    ],
+    "correct": 2,
+    "tags": [
+      "Pathology Beginner"
+    ],
+    "stats": {
+      "correct": 0,
+      "incorrect": 0
+    }
+  },
+  {
+    "id": "Pathology Beginner 009",
+    "topic": "Pathology Beginner",
+    "difficulty": "intermediate",
+    "question": "Lymphedema is caused by:",
+    "answers": [
+      "A blocked artery",
+      "Nerve compression",
+      "Lymphatic system obstruction causing swelling",
+      "Increased red blood cell production"
+    ],
+    "correct": 2,
+    "tags": [
+      "Pathology Beginner"
+    ],
+    "stats": {
+      "correct": 0,
+      "incorrect": 0
+    }
+  },
+  {
+    "id": "Pathology Beginner 010",
+    "topic": "Pathology Beginner",
+    "difficulty": "intermediate",
+    "question": "Massage is generally contraindicated in which of the following?",
+    "answers": [
+      "Mild scoliosis",
+      "Stable osteoporosis",
+      "Thrombophlebitis",
+      "Mild varicose veins"
+    ],
+    "correct": 2,
+    "tags": [
+      "Pathology Beginner"
+    ],
+    "stats": {
+      "correct": 0,
+      "incorrect": 0
+    }
+  }
+]

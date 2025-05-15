@@ -1,0 +1,102 @@
+[
+  {
+    "id": "Reflexology Comparison 001",
+    "topic": "Reflexology Comparison",
+    "difficulty": "intermediate",
+    "question": "What is the primary difference between Shiatsu and reflexology?",
+    "answers": [
+      "Shiatsu uses essential oils, reflexology does not",
+      "Reflexology focuses on the feet/hands, Shiatsu uses whole-body meridian pathways",
+      "Shiatsu is only for muscle injuries",
+      "Reflexology requires acupuncture needles"
+    ],
+    "correct": 1,
+    "tags": [
+      "Reflexology Comparison"
+    ],
+    "stats": {
+      "correct": 0,
+      "incorrect": 0
+    }
+  },
+  {
+    "id": "Reflexology Comparison 002",
+    "topic": "Reflexology Comparison",
+    "difficulty": "intermediate",
+    "question": "Which energy therapy works with poles of energy and includes structural alignment?",
+    "answers": [
+      "Reflexology",
+      "Shiatsu",
+      "Polarity Therapy",
+      "Reiki"
+    ],
+    "correct": 2,
+    "tags": [
+      "Reflexology Comparison"
+    ],
+    "stats": {
+      "correct": 0,
+      "incorrect": 0
+    }
+  },
+  {
+    "id": "Reflexology Comparison 003",
+    "topic": "Reflexology Comparison",
+    "difficulty": "intermediate",
+    "question": "Which of the following uses mapped zones and specific pressure points without involving meridians?",
+    "answers": [
+      "Shiatsu",
+      "Polarity Therapy",
+      "Reflexology",
+      "Acupuncture"
+    ],
+    "correct": 2,
+    "tags": [
+      "Reflexology Comparison"
+    ],
+    "stats": {
+      "correct": 0,
+      "incorrect": 0
+    }
+  },
+  {
+    "id": "Reflexology Comparison 004",
+    "topic": "Reflexology Comparison",
+    "difficulty": "intermediate",
+    "question": "Which technique is most rooted in Traditional Chinese Medicine principles?",
+    "answers": [
+      "Rolfing",
+      "Shiatsu",
+      "Reflexology",
+      "Trigger point therapy"
+    ],
+    "correct": 1,
+    "tags": [
+      "Reflexology Comparison"
+    ],
+    "stats": {
+      "correct": 0,
+      "incorrect": 0
+    }
+  },
+  {
+    "id": "Reflexology Comparison 005",
+    "topic": "Reflexology Comparison",
+    "difficulty": "intermediate",
+    "question": "How does Polarity Therapy differ from reflexology?",
+    "answers": [
+      "It uses needles and electricity",
+      "It integrates energy balancing across chakras and body polarities",
+      "It focuses exclusively on feet",
+      "It is only used in physical therapy"
+    ],
+    "correct": 1,
+    "tags": [
+      "Reflexology Comparison"
+    ],
+    "stats": {
+      "correct": 0,
+      "incorrect": 0
+    }
+  }
+]

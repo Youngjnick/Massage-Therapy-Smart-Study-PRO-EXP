@@ -1,0 +1,102 @@
+[
+  {
+    "id": "Reflexology Point Map Short Module 001",
+    "topic": "Reflexology Point Map Short Module",
+    "difficulty": "intermediate",
+    "question": "Where on the foot is the reflex point for the lungs located?",
+    "answers": [
+      "Toes",
+      "Ball of the foot",
+      "Arch of the foot",
+      "Heel"
+    ],
+    "correct": 1,
+    "tags": [
+      "Reflexology Point Map Short Module"
+    ],
+    "stats": {
+      "correct": 0,
+      "incorrect": 0
+    }
+  },
+  {
+    "id": "Reflexology Point Map Short Module 002",
+    "topic": "Reflexology Point Map Short Module",
+    "difficulty": "intermediate",
+    "question": "Which reflex area corresponds to the liver?",
+    "answers": [
+      "Left arch",
+      "Right arch",
+      "Both heels",
+      "Top of the toes"
+    ],
+    "correct": 1,
+    "tags": [
+      "Reflexology Point Map Short Module"
+    ],
+    "stats": {
+      "correct": 0,
+      "incorrect": 0
+    }
+  },
+  {
+    "id": "Reflexology Point Map Short Module 003",
+    "topic": "Reflexology Point Map Short Module",
+    "difficulty": "intermediate",
+    "question": "Where is the reflex point for the head and brain located?",
+    "answers": [
+      "Heel",
+      "Ball of the foot",
+      "Tips of the toes",
+      "Instep"
+    ],
+    "correct": 2,
+    "tags": [
+      "Reflexology Point Map Short Module"
+    ],
+    "stats": {
+      "correct": 0,
+      "incorrect": 0
+    }
+  },
+  {
+    "id": "Reflexology Point Map Short Module 004",
+    "topic": "Reflexology Point Map Short Module",
+    "difficulty": "intermediate",
+    "question": "Which part of the hand maps to the digestive organs?",
+    "answers": [
+      "Thumb",
+      "Fingertips",
+      "Palm center",
+      "Wrist"
+    ],
+    "correct": 2,
+    "tags": [
+      "Reflexology Point Map Short Module"
+    ],
+    "stats": {
+      "correct": 0,
+      "incorrect": 0
+    }
+  },
+  {
+    "id": "Reflexology Point Map Short Module 005",
+    "topic": "Reflexology Point Map Short Module",
+    "difficulty": "intermediate",
+    "question": "Where would a reflexologist apply pressure to affect the spine?",
+    "answers": [
+      "Medial edge of the foot",
+      "Toes",
+      "Heel",
+      "Ball of foot"
+    ],
+    "correct": 0,
+    "tags": [
+      "Reflexology Point Map Short Module"
+    ],
+    "stats": {
+      "correct": 0,
+      "incorrect": 0
+    }
+  }
+]

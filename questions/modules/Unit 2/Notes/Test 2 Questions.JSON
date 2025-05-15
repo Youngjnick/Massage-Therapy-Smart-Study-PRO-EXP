@@ -1,0 +1,212 @@
+[
+  {
+    "id": "Chakra 001",
+    "topic": "Chakras",
+    "difficulty": "easy",
+    "question": "What is the Sanskrit name for the Root Chakra?",
+    "answers": [
+      "Manipura",
+      "Muladhara",
+      "Anahata",
+      "Vishuddha"
+    ],
+    "correct": 1,
+    "tags": [
+      "Chakras",
+      "Chakras"
+    ],
+    "stats": {
+      "correct": 0,
+      "incorrect": 0
+    }
+  },
+  {
+    "id": "Chakra 002",
+    "topic": "Chakras",
+    "difficulty": "easy",
+    "question": "Which chakra is associated with the color orange?",
+    "answers": [
+      "Root Chakra",
+      "Sacral Chakra",
+      "Solar Plexus Chakra",
+      "Throat Chakra"
+    ],
+    "correct": 1,
+    "tags": [
+      "Chakras",
+      "Chakras"
+    ],
+    "stats": {
+      "correct": 0,
+      "incorrect": 0
+    }
+  },
+  {
+    "id": "Chakra 003",
+    "topic": "Chakras",
+    "difficulty": "easy",
+    "question": "Where is the Heart Chakra located?",
+    "answers": [
+      "At the base of the spine",
+      "In the lower abdomen",
+      "In the center of the chest",
+      "Between the eyebrows"
+    ],
+    "correct": 2,
+    "tags": [
+      "Chakras",
+      "Chakras"
+    ],
+    "stats": {
+      "correct": 0,
+      "incorrect": 0
+    }
+  },
+  {
+    "id": "Chakra 004",
+    "topic": "Chakras",
+    "difficulty": "easy",
+    "question": "What emotion is typically linked to a blocked Throat Chakra?",
+    "answers": [
+      "Fear",
+      "Difficulty expressing oneself",
+      "Lack of confidence",
+      "Overthinking"
+    ],
+    "correct": 1,
+    "tags": [
+      "Chakras",
+      "Chakras"
+    ],
+    "stats": {
+      "correct": 0,
+      "incorrect": 0
+    }
+  },
+  {
+    "id": "Chakra 005",
+    "topic": "Chakras",
+    "difficulty": "easy",
+    "question": "The Crown Chakra is most associated with which of the following?",
+    "answers": [
+      "Personal power",
+      "Creativity",
+      "Spiritual connection",
+      "Emotions and relationships"
+    ],
+    "correct": 2,
+    "tags": [
+      "Chakras",
+      "Chakras"
+    ],
+    "stats": {
+      "correct": 0,
+      "incorrect": 0
+    }
+  },
+  {
+    "id": "Chakra 006",
+    "topic": "Chakras",
+    "difficulty": "easy",
+    "question": "What element is associated with the Solar Plexus Chakra?",
+    "answers": [
+      "Water",
+      "Air",
+      "Fire",
+      "Earth"
+    ],
+    "correct": 2,
+    "tags": [
+      "Chakras",
+      "Chakras"
+    ],
+    "stats": {
+      "correct": 0,
+      "incorrect": 0
+    }
+  },
+  {
+    "id": "Chakra 007",
+    "topic": "Chakras",
+    "difficulty": "easy",
+    "question": "Which chakra is linked to intuition and inner vision?",
+    "answers": [
+      "Third Eye Chakra",
+      "Sacral Chakra",
+      "Solar Plexus Chakra",
+      "Heart Chakra"
+    ],
+    "correct": 0,
+    "tags": [
+      "Chakras",
+      "Chakras"
+    ],
+    "stats": {
+      "correct": 0,
+      "incorrect": 0
+    }
+  },
+  {
+    "id": "Chakra 008",
+    "topic": "Chakras",
+    "difficulty": "easy",
+    "question": "Which of the following can indicate a blocked Sacral Chakra?",
+    "answers": [
+      "Inability to concentrate",
+      "Lack of creativity or sexual energy",
+      "Trouble speaking clearly",
+      "Headaches"
+    ],
+    "correct": 1,
+    "tags": [
+      "Chakras",
+      "Chakras"
+    ],
+    "stats": {
+      "correct": 0,
+      "incorrect": 0
+    }
+  },
+  {
+    "id": "Chakra 009",
+    "topic": "Chakras",
+    "difficulty": "easy",
+    "question": "What color is associated with the Third Eye Chakra?",
+    "answers": [
+      "Yellow",
+      "Indigo",
+      "Blue",
+      "Violet"
+    ],
+    "correct": 1,
+    "tags": [
+      "Chakras",
+      "Chakras"
+    ],
+    "stats": {
+      "correct": 0,
+      "incorrect": 0
+    }
+  },
+  {
+    "id": "Chakra 010",
+    "topic": "Chakras",
+    "difficulty": "easy",
+    "question": "Which chakra is said to govern our sense of grounding and survival?",
+    "answers": [
+      "Root Chakra",
+      "Crown Chakra",
+      "Heart Chakra",
+      "Throat Chakra"
+    ],
+    "correct": 0,
+    "tags": [
+      "Chakras",
+      "Chakras"
+    ],
+    "stats": {
+      "correct": 0,
+      "incorrect": 0
+    }
+  }
+]

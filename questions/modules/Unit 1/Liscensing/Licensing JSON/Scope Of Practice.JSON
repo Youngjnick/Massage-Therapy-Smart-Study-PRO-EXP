@@ -1,0 +1,202 @@
+[
+  {
+    "id": "Scope Of Practice 001",
+    "topic": "Scope Of Practice",
+    "difficulty": "intermediate",
+    "question": "Which of the following is typically within the scope of practice for a licensed massage therapist?",
+    "answers": [
+      "Diagnosing medical conditions",
+      "Prescribing medication",
+      "Providing therapeutic massage for musculoskeletal discomfort",
+      "Performing spinal adjustments"
+    ],
+    "correct": 2,
+    "tags": [
+      "Scope Of Practice"
+    ],
+    "stats": {
+      "correct": 0,
+      "incorrect": 0
+    }
+  },
+  {
+    "id": "Scope Of Practice 002",
+    "topic": "Scope Of Practice",
+    "difficulty": "intermediate",
+    "question": "Massage therapists are generally NOT allowed to:",
+    "answers": [
+      "Suggest stretches",
+      "Prescribe medications",
+      "Provide relaxation techniques",
+      "Educate clients on posture"
+    ],
+    "correct": 1,
+    "tags": [
+      "Scope Of Practice"
+    ],
+    "stats": {
+      "correct": 0,
+      "incorrect": 0
+    }
+  },
+  {
+    "id": "Scope Of Practice 003",
+    "topic": "Scope Of Practice",
+    "difficulty": "intermediate",
+    "question": "What action must a massage therapist take if a client presents with a medical issue outside their scope?",
+    "answers": [
+      "Attempt to treat anyway",
+      "Ignore the concern",
+      "Refer the client to a qualified healthcare professional",
+      "Give a general diagnosis"
+    ],
+    "correct": 2,
+    "tags": [
+      "Scope Of Practice"
+    ],
+    "stats": {
+      "correct": 0,
+      "incorrect": 0
+    }
+  },
+  {
+    "id": "Scope Of Practice 004",
+    "topic": "Scope Of Practice",
+    "difficulty": "intermediate",
+    "question": "Which of the following is considered outside the legal scope of massage therapy?",
+    "answers": [
+      "Manual soft tissue manipulation",
+      "Suggesting hydration post-treatment",
+      "Using protected diagnostic terminology",
+      "Educating on self-care stretches"
+    ],
+    "correct": 2,
+    "tags": [
+      "Scope Of Practice"
+    ],
+    "stats": {
+      "correct": 0,
+      "incorrect": 0
+    }
+  },
+  {
+    "id": "Scope Of Practice 005",
+    "topic": "Scope Of Practice",
+    "difficulty": "intermediate",
+    "question": "Can a massage therapist treat a condition without client consent?",
+    "answers": [
+      "Only in emergencies",
+      "Yes, if it’s minor",
+      "No, informed consent is always required",
+      "Yes, if the client is under 18"
+    ],
+    "correct": 2,
+    "tags": [
+      "Scope Of Practice"
+    ],
+    "stats": {
+      "correct": 0,
+      "incorrect": 0
+    }
+  },
+  {
+    "id": "Scope Of Practice 006",
+    "topic": "Scope Of Practice",
+    "difficulty": "intermediate",
+    "question": "Which statement is true about the massage therapist's role?",
+    "answers": [
+      "They can independently alter treatment plans made by doctors",
+      "They collaborate with other professionals within their defined scope",
+      "They supervise physical therapy plans",
+      "They provide surgical consultations"
+    ],
+    "correct": 1,
+    "tags": [
+      "Scope Of Practice"
+    ],
+    "stats": {
+      "correct": 0,
+      "incorrect": 0
+    }
+  },
+  {
+    "id": "Scope Of Practice 007",
+    "topic": "Scope Of Practice",
+    "difficulty": "intermediate",
+    "question": "Massage therapists are allowed to perform which of the following?",
+    "answers": [
+      "Soft tissue manipulation, hydrotherapy, and postural education",
+      "Acupuncture and chiropractic care",
+      "Diagnosing neurological conditions",
+      "Prescribing physical therapy"
+    ],
+    "correct": 0,
+    "tags": [
+      "Scope Of Practice"
+    ],
+    "stats": {
+      "correct": 0,
+      "incorrect": 0
+    }
+  },
+  {
+    "id": "Scope Of Practice 008",
+    "topic": "Scope Of Practice",
+    "difficulty": "intermediate",
+    "question": "A massage therapist should avoid which of the following during sessions?",
+    "answers": [
+      "Listening to client feedback",
+      "Using deep tissue techniques when requested",
+      "Offering medical diagnoses",
+      "Applying lotion or oil"
+    ],
+    "correct": 2,
+    "tags": [
+      "Scope Of Practice"
+    ],
+    "stats": {
+      "correct": 0,
+      "incorrect": 0
+    }
+  },
+  {
+    "id": "Scope Of Practice 009",
+    "topic": "Scope Of Practice",
+    "difficulty": "intermediate",
+    "question": "What term best describes the legal boundaries of massage practice?",
+    "answers": [
+      "Standards of excellence",
+      "Scope of practice",
+      "Clinical guidelines",
+      "Modality preferences"
+    ],
+    "correct": 1,
+    "tags": [
+      "Scope Of Practice"
+    ],
+    "stats": {
+      "correct": 0,
+      "incorrect": 0
+    }
+  },
+  {
+    "id": "Scope Of Practice 010",
+    "topic": "Scope Of Practice",
+    "difficulty": "intermediate",
+    "question": "Can a massage therapist recommend over-the-counter medications to a client?",
+    "answers": [
+      "Only if they are natural",
+      "Yes, with written documentation",
+      "No, that exceeds the scope of practice",
+      "Yes, but only to regular clients"
+    ],
+    "correct": 2,
+    "tags": [
+      "Scope Of Practice"
+    ],
+    "stats": {
+      "correct": 0,
+      "incorrect": 0
+    }
+  }
+]

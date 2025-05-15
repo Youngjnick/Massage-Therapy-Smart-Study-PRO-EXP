@@ -1,0 +1,202 @@
+[
+  {
+    "id": "Cell Theory 001",
+    "topic": "Cell Theory",
+    "difficulty": "intermediate",
+    "question": "Which scientist is credited with coining the term 'cell'?",
+    "answers": [
+      "Robert Hooke",
+      "Anton van Leeuwenhoek",
+      "Rudolf Virchow",
+      "Theodor Schwann"
+    ],
+    "correct": 0,
+    "tags": [
+      "Cell Theory"
+    ],
+    "stats": {
+      "correct": 0,
+      "incorrect": 0
+    }
+  },
+  {
+    "id": "Cell Theory 002",
+    "topic": "Cell Theory",
+    "difficulty": "intermediate",
+    "question": "Which of the following is NOT part of the classical Cell Theory?",
+    "answers": [
+      "All living things are made of cells",
+      "Cells arise from pre-existing cells",
+      "All cells contain a nucleus",
+      "The cell is the basic unit of life"
+    ],
+    "correct": 2,
+    "tags": [
+      "Cell Theory"
+    ],
+    "stats": {
+      "correct": 0,
+      "incorrect": 0
+    }
+  },
+  {
+    "id": "Cell Theory 003",
+    "topic": "Cell Theory",
+    "difficulty": "intermediate",
+    "question": "Which scientist stated that all animals are made of cells?",
+    "answers": [
+      "Matthias Schleiden",
+      "Theodor Schwann",
+      "Robert Hooke",
+      "Louis Pasteur"
+    ],
+    "correct": 1,
+    "tags": [
+      "Cell Theory"
+    ],
+    "stats": {
+      "correct": 0,
+      "incorrect": 0
+    }
+  },
+  {
+    "id": "Cell Theory 004",
+    "topic": "Cell Theory",
+    "difficulty": "intermediate",
+    "question": "Which scientist concluded that all plants are composed of cells?",
+    "answers": [
+      "Rudolf Virchow",
+      "Anton van Leeuwenhoek",
+      "Robert Brown",
+      "Matthias Schleiden"
+    ],
+    "correct": 3,
+    "tags": [
+      "Cell Theory"
+    ],
+    "stats": {
+      "correct": 0,
+      "incorrect": 0
+    }
+  },
+  {
+    "id": "Cell Theory 005",
+    "topic": "Cell Theory",
+    "difficulty": "intermediate",
+    "question": "Rudolf Virchow contributed to Cell Theory by stating:",
+    "answers": [
+      "Cells can form spontaneously",
+      "Cells are produced only from other cells",
+      "Cells contain chloroplasts",
+      "Cells develop from DNA only"
+    ],
+    "correct": 1,
+    "tags": [
+      "Cell Theory"
+    ],
+    "stats": {
+      "correct": 0,
+      "incorrect": 0
+    }
+  },
+  {
+    "id": "Cell Theory 006",
+    "topic": "Cell Theory",
+    "difficulty": "intermediate",
+    "question": "What does Cell Theory suggest about the function of cells?",
+    "answers": [
+      "Cells do not function independently",
+      "Cells are only used for reproduction",
+      "Cells carry out all vital life processes",
+      "Cells only exist in animals and plants"
+    ],
+    "correct": 2,
+    "tags": [
+      "Cell Theory"
+    ],
+    "stats": {
+      "correct": 0,
+      "incorrect": 0
+    }
+  },
+  {
+    "id": "Cell Theory 007",
+    "topic": "Cell Theory",
+    "difficulty": "intermediate",
+    "question": "Which technology greatly contributed to the development of Cell Theory?",
+    "answers": [
+      "Spectroscopy",
+      "Microscopy",
+      "PCR",
+      "X-ray imaging"
+    ],
+    "correct": 1,
+    "tags": [
+      "Cell Theory"
+    ],
+    "stats": {
+      "correct": 0,
+      "incorrect": 0
+    }
+  },
+  {
+    "id": "Cell Theory 008",
+    "topic": "Cell Theory",
+    "difficulty": "intermediate",
+    "question": "Which of the following is consistent with Cell Theory?",
+    "answers": [
+      "Viruses are living cells",
+      "All organisms begin as a single cell",
+      "Only animals have cells",
+      "Cells can survive without energy"
+    ],
+    "correct": 1,
+    "tags": [
+      "Cell Theory"
+    ],
+    "stats": {
+      "correct": 0,
+      "incorrect": 0
+    }
+  },
+  {
+    "id": "Cell Theory 009",
+    "topic": "Cell Theory",
+    "difficulty": "intermediate",
+    "question": "Cell Theory applies to which of the following organisms?",
+    "answers": [
+      "Animals",
+      "Plants",
+      "Fungi",
+      "All of the above"
+    ],
+    "correct": 3,
+    "tags": [
+      "Cell Theory"
+    ],
+    "stats": {
+      "correct": 0,
+      "incorrect": 0
+    }
+  },
+  {
+    "id": "Cell Theory 010",
+    "topic": "Cell Theory",
+    "difficulty": "intermediate",
+    "question": "How did Anton van Leeuwenhoek contribute to cell studies?",
+    "answers": [
+      "He developed the Cell Theory",
+      "He first observed live cells under a microscope",
+      "He discovered DNA",
+      "He proposed spontaneous generation"
+    ],
+    "correct": 1,
+    "tags": [
+      "Cell Theory"
+    ],
+    "stats": {
+      "correct": 0,
+      "incorrect": 0
+    }
+  }
+]

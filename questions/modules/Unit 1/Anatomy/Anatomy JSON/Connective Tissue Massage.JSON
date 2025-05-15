@@ -1,0 +1,202 @@
+[
+  {
+    "id": "Connective Tissue Massage 001",
+    "topic": "Connective Tissue Massage",
+    "difficulty": "intermediate",
+    "question": "What is the primary goal of connective tissue massage (CTM)?",
+    "answers": [
+      "To apply deep pressure to muscle bellies",
+      "To stimulate the lymphatic system only",
+      "To affect autonomic nervous system responses through dermatomes",
+      "To stretch the tendons directly"
+    ],
+    "correct": 2,
+    "tags": [
+      "Connective Tissue Massage"
+    ],
+    "stats": {
+      "correct": 0,
+      "incorrect": 0
+    }
+  },
+  {
+    "id": "Connective Tissue Massage 002",
+    "topic": "Connective Tissue Massage",
+    "difficulty": "intermediate",
+    "question": "Connective tissue massage was originally developed by:",
+    "answers": [
+      "Ida Rolf",
+      "Elizabeth Dicke",
+      "Per Henrik Ling",
+      "Janet Travell"
+    ],
+    "correct": 1,
+    "tags": [
+      "Connective Tissue Massage"
+    ],
+    "stats": {
+      "correct": 0,
+      "incorrect": 0
+    }
+  },
+  {
+    "id": "Connective Tissue Massage 003",
+    "topic": "Connective Tissue Massage",
+    "difficulty": "intermediate",
+    "question": "Which layer of the body does connective tissue massage primarily target?",
+    "answers": [
+      "Epidermis",
+      "Adipose tissue",
+      "Subcutaneous fascia",
+      "Muscle fibers"
+    ],
+    "correct": 2,
+    "tags": [
+      "Connective Tissue Massage"
+    ],
+    "stats": {
+      "correct": 0,
+      "incorrect": 0
+    }
+  },
+  {
+    "id": "Connective Tissue Massage 004",
+    "topic": "Connective Tissue Massage",
+    "difficulty": "intermediate",
+    "question": "What is a hallmark technique of connective tissue massage?",
+    "answers": [
+      "Gentle rocking and jostling",
+      "Slow, superficial gliding strokes",
+      "Short, pulling strokes that create tension in the skin",
+      "Rhythmic tapping over meridians"
+    ],
+    "correct": 2,
+    "tags": [
+      "Connective Tissue Massage"
+    ],
+    "stats": {
+      "correct": 0,
+      "incorrect": 0
+    }
+  },
+  {
+    "id": "Connective Tissue Massage 005",
+    "topic": "Connective Tissue Massage",
+    "difficulty": "intermediate",
+    "question": "Connective tissue massage is commonly used in Europe to address:",
+    "answers": [
+      "Cardiac arrhythmias",
+      "Visceral dysfunctions and organ referral patterns",
+      "Broken bones",
+      "Acute skin infections"
+    ],
+    "correct": 1,
+    "tags": [
+      "Connective Tissue Massage"
+    ],
+    "stats": {
+      "correct": 0,
+      "incorrect": 0
+    }
+  },
+  {
+    "id": "Connective Tissue Massage 006",
+    "topic": "Connective Tissue Massage",
+    "difficulty": "intermediate",
+    "question": "Which of the following best describes the mechanism behind CTM’s effect on internal organs?",
+    "answers": [
+      "Stimulation of lymph nodes",
+      "Direct contact with nerves under the skin",
+      "Reflexive stimulation through shared spinal segments",
+      "Increased muscle strength"
+    ],
+    "correct": 2,
+    "tags": [
+      "Connective Tissue Massage"
+    ],
+    "stats": {
+      "correct": 0,
+      "incorrect": 0
+    }
+  },
+  {
+    "id": "Connective Tissue Massage 007",
+    "topic": "Connective Tissue Massage",
+    "difficulty": "intermediate",
+    "question": "In connective tissue massage, lines of pull are often determined by:",
+    "answers": [
+      "Trigger points",
+      "Postural patterns",
+      "Dermatomes",
+      "Joint alignment"
+    ],
+    "correct": 2,
+    "tags": [
+      "Connective Tissue Massage"
+    ],
+    "stats": {
+      "correct": 0,
+      "incorrect": 0
+    }
+  },
+  {
+    "id": "Connective Tissue Massage 008",
+    "topic": "Connective Tissue Massage",
+    "difficulty": "intermediate",
+    "question": "What sensation is commonly reported by clients during connective tissue massage?",
+    "answers": [
+      "Numbness",
+      "Tickling",
+      "Burning or stinging as adhesions release",
+      "Cold chills"
+    ],
+    "correct": 2,
+    "tags": [
+      "Connective Tissue Massage"
+    ],
+    "stats": {
+      "correct": 0,
+      "incorrect": 0
+    }
+  },
+  {
+    "id": "Connective Tissue Massage 009",
+    "topic": "Connective Tissue Massage",
+    "difficulty": "intermediate",
+    "question": "Which condition may benefit from CTM's effects on autonomic balance?",
+    "answers": [
+      "High blood pressure",
+      "Asthma",
+      "Liver disease",
+      "All of the above"
+    ],
+    "correct": 3,
+    "tags": [
+      "Connective Tissue Massage"
+    ],
+    "stats": {
+      "correct": 0,
+      "incorrect": 0
+    }
+  },
+  {
+    "id": "Connective Tissue Massage 010",
+    "topic": "Connective Tissue Massage",
+    "difficulty": "intermediate",
+    "question": "Connective tissue massage differs from deep tissue massage in that:",
+    "answers": [
+      "It only uses the elbows for pressure",
+      "It focuses on superficial skin-fascial pulls rather than deep muscle work",
+      "It uses oil for better glide",
+      "It requires physician supervision"
+    ],
+    "correct": 1,
+    "tags": [
+      "Connective Tissue Massage"
+    ],
+    "stats": {
+      "correct": 0,
+      "incorrect": 0
+    }
+  }
+]

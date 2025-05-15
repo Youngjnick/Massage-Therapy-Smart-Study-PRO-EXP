@@ -1,0 +1,202 @@
+[
+  {
+    "id": "Professional Ethics 001",
+    "topic": "Professional Ethics",
+    "difficulty": "intermediate",
+    "question": "What is the primary principle of professional ethics in massage therapy?",
+    "answers": [
+      "Flexibility",
+      "Confidentiality",
+      "Appearance",
+      "Friendship"
+    ],
+    "correct": 1,
+    "tags": [
+      "Professional Ethics"
+    ],
+    "stats": {
+      "correct": 0,
+      "incorrect": 0
+    }
+  },
+  {
+    "id": "Professional Ethics 002",
+    "topic": "Professional Ethics",
+    "difficulty": "intermediate",
+    "question": "What does 'scope of practice' refer to?",
+    "answers": [
+      "Types of oils a therapist can use",
+      "Legal activities a massage therapist is allowed to perform",
+      "Client preferences for technique",
+      "Optional extra services"
+    ],
+    "correct": 1,
+    "tags": [
+      "Professional Ethics"
+    ],
+    "stats": {
+      "correct": 0,
+      "incorrect": 0
+    }
+  },
+  {
+    "id": "Professional Ethics 003",
+    "topic": "Professional Ethics",
+    "difficulty": "intermediate",
+    "question": "What does 'informed consent' mean in massage therapy?",
+    "answers": [
+      "Consent given automatically when a session starts",
+      "Permission after full disclosure of procedures and risks",
+      "Therapist's approval to treat a client",
+      "A waiver signed by the therapist"
+    ],
+    "correct": 1,
+    "tags": [
+      "Professional Ethics"
+    ],
+    "stats": {
+      "correct": 0,
+      "incorrect": 0
+    }
+  },
+  {
+    "id": "Professional Ethics 004",
+    "topic": "Professional Ethics",
+    "difficulty": "intermediate",
+    "question": "What is 'non-maleficence' in ethical practice?",
+    "answers": [
+      "Client's right to know the truth",
+      "Avoiding dual relationships",
+      "The duty to do no harm",
+      "Obtaining liability insurance"
+    ],
+    "correct": 2,
+    "tags": [
+      "Professional Ethics"
+    ],
+    "stats": {
+      "correct": 0,
+      "incorrect": 0
+    }
+  },
+  {
+    "id": "Professional Ethics 005",
+    "topic": "Professional Ethics",
+    "difficulty": "intermediate",
+    "question": "What is a dual relationship in massage therapy?",
+    "answers": [
+      "Treating more than one area of the body",
+      "Having both personal and professional relationships with a client",
+      "Working in two clinics",
+      "Providing two services in one session"
+    ],
+    "correct": 1,
+    "tags": [
+      "Professional Ethics"
+    ],
+    "stats": {
+      "correct": 0,
+      "incorrect": 0
+    }
+  },
+  {
+    "id": "Professional Ethics 006",
+    "topic": "Professional Ethics",
+    "difficulty": "intermediate",
+    "question": "When is it appropriate to breach client confidentiality?",
+    "answers": [
+      "When the client is famous",
+      "If the client misses appointments",
+      "If legally required to protect the client or others",
+      "To improve clinic marketing"
+    ],
+    "correct": 2,
+    "tags": [
+      "Professional Ethics"
+    ],
+    "stats": {
+      "correct": 0,
+      "incorrect": 0
+    }
+  },
+  {
+    "id": "Professional Ethics 007",
+    "topic": "Professional Ethics",
+    "difficulty": "intermediate",
+    "question": "What is veracity in massage therapy ethics?",
+    "answers": [
+      "Right to objective truth and honesty",
+      "Physical boundaries between techniques",
+      "Avoiding personal expression",
+      "Emphasizing spiritual healing"
+    ],
+    "correct": 0,
+    "tags": [
+      "Professional Ethics"
+    ],
+    "stats": {
+      "correct": 0,
+      "incorrect": 0
+    }
+  },
+  {
+    "id": "Professional Ethics 008",
+    "topic": "Professional Ethics",
+    "difficulty": "intermediate",
+    "question": "What organization protects health information under federal law?",
+    "answers": [
+      "HIPAA",
+      "FSMTB",
+      "AMTA",
+      "NCBTMB"
+    ],
+    "correct": 0,
+    "tags": [
+      "Professional Ethics"
+    ],
+    "stats": {
+      "correct": 0,
+      "incorrect": 0
+    }
+  },
+  {
+    "id": "Professional Ethics 009",
+    "topic": "Professional Ethics",
+    "difficulty": "intermediate",
+    "question": "What is a professional boundary?",
+    "answers": [
+      "A technique used near the skin surface",
+      "Predetermined ethical and behavioral limits in therapeutic settings",
+      "A law restricting clinic hours",
+      "A physical limitation from injury"
+    ],
+    "correct": 1,
+    "tags": [
+      "Professional Ethics"
+    ],
+    "stats": {
+      "correct": 0,
+      "incorrect": 0
+    }
+  },
+  {
+    "id": "Professional Ethics 010",
+    "topic": "Professional Ethics",
+    "difficulty": "intermediate",
+    "question": "What should a therapist do if they suspect a power differential is affecting the session?",
+    "answers": [
+      "Ignore it",
+      "Ensure informed consent and reinforce professional boundaries",
+      "End the session immediately",
+      "Refer the client elsewhere without explanation"
+    ],
+    "correct": 1,
+    "tags": [
+      "Professional Ethics"
+    ],
+    "stats": {
+      "correct": 0,
+      "incorrect": 0
+    }
+  }
+]

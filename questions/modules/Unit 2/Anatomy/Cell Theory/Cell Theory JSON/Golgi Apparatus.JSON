@@ -1,0 +1,202 @@
+[
+  {
+    "id": "Golgi Apparatus 001",
+    "topic": "Golgi Apparatus",
+    "difficulty": "intermediate",
+    "question": "What is the main function of the Golgi apparatus?",
+    "answers": [
+      "Energy production",
+      "Protein synthesis",
+      "Modifying, sorting, and packaging proteins and lipids",
+      "DNA replication"
+    ],
+    "correct": 2,
+    "tags": [
+      "Golgi Apparatus"
+    ],
+    "stats": {
+      "correct": 0,
+      "incorrect": 0
+    }
+  },
+  {
+    "id": "Golgi Apparatus 002",
+    "topic": "Golgi Apparatus",
+    "difficulty": "intermediate",
+    "question": "The Golgi apparatus works most closely with which organelle?",
+    "answers": [
+      "Mitochondria",
+      "Nucleolus",
+      "Rough ER",
+      "Centrioles"
+    ],
+    "correct": 2,
+    "tags": [
+      "Golgi Apparatus"
+    ],
+    "stats": {
+      "correct": 0,
+      "incorrect": 0
+    }
+  },
+  {
+    "id": "Golgi Apparatus 003",
+    "topic": "Golgi Apparatus",
+    "difficulty": "intermediate",
+    "question": "What structure describes the flattened sacs that make up the Golgi apparatus?",
+    "answers": [
+      "Thylakoids",
+      "Cristae",
+      "Cisternae",
+      "Vesicles"
+    ],
+    "correct": 2,
+    "tags": [
+      "Golgi Apparatus"
+    ],
+    "stats": {
+      "correct": 0,
+      "incorrect": 0
+    }
+  },
+  {
+    "id": "Golgi Apparatus 004",
+    "topic": "Golgi Apparatus",
+    "difficulty": "intermediate",
+    "question": "Which direction do proteins travel through the Golgi apparatus?",
+    "answers": [
+      "From trans face to cis face",
+      "Randomly",
+      "From nucleus directly to plasma membrane",
+      "From cis face to trans face"
+    ],
+    "correct": 3,
+    "tags": [
+      "Golgi Apparatus"
+    ],
+    "stats": {
+      "correct": 0,
+      "incorrect": 0
+    }
+  },
+  {
+    "id": "Golgi Apparatus 005",
+    "topic": "Golgi Apparatus",
+    "difficulty": "intermediate",
+    "question": "What does the Golgi apparatus create for secretion from the cell?",
+    "answers": [
+      "Microfilaments",
+      "Lysosomes and secretory vesicles",
+      "Ribosomes",
+      "Nucleotides"
+    ],
+    "correct": 1,
+    "tags": [
+      "Golgi Apparatus"
+    ],
+    "stats": {
+      "correct": 0,
+      "incorrect": 0
+    }
+  },
+  {
+    "id": "Golgi Apparatus 006",
+    "topic": "Golgi Apparatus",
+    "difficulty": "intermediate",
+    "question": "The Golgi modifies proteins by adding:",
+    "answers": [
+      "DNA strands",
+      "Cholesterol",
+      "Carbohydrate groups (glycosylation)",
+      "ATP"
+    ],
+    "correct": 2,
+    "tags": [
+      "Golgi Apparatus"
+    ],
+    "stats": {
+      "correct": 0,
+      "incorrect": 0
+    }
+  },
+  {
+    "id": "Golgi Apparatus 007",
+    "topic": "Golgi Apparatus",
+    "difficulty": "intermediate",
+    "question": "Which organelle often receives materials from the Golgi for digestion?",
+    "answers": [
+      "Nucleolus",
+      "Ribosome",
+      "Lysosome",
+      "Chloroplast"
+    ],
+    "correct": 2,
+    "tags": [
+      "Golgi Apparatus"
+    ],
+    "stats": {
+      "correct": 0,
+      "incorrect": 0
+    }
+  },
+  {
+    "id": "Golgi Apparatus 008",
+    "topic": "Golgi Apparatus",
+    "difficulty": "intermediate",
+    "question": "Which face of the Golgi receives transport vesicles from the ER?",
+    "answers": [
+      "Trans face",
+      "Inner membrane",
+      "Cis face",
+      "Basal face"
+    ],
+    "correct": 2,
+    "tags": [
+      "Golgi Apparatus"
+    ],
+    "stats": {
+      "correct": 0,
+      "incorrect": 0
+    }
+  },
+  {
+    "id": "Golgi Apparatus 009",
+    "topic": "Golgi Apparatus",
+    "difficulty": "intermediate",
+    "question": "Golgi vesicles are especially abundant in cells that:",
+    "answers": [
+      "Are undergoing mitosis",
+      "Secrete hormones or enzymes",
+      "Are photosynthetic",
+      "Lack a nucleus"
+    ],
+    "correct": 1,
+    "tags": [
+      "Golgi Apparatus"
+    ],
+    "stats": {
+      "correct": 0,
+      "incorrect": 0
+    }
+  },
+  {
+    "id": "Golgi Apparatus 010",
+    "topic": "Golgi Apparatus",
+    "difficulty": "intermediate",
+    "question": "What is a key distinguishing feature of the Golgi apparatus under a microscope?",
+    "answers": [
+      "Membrane stacks arranged in layers",
+      "Beaded strands of RNA",
+      "Star-like mitochondria",
+      "Circular DNA rings"
+    ],
+    "correct": 0,
+    "tags": [
+      "Golgi Apparatus"
+    ],
+    "stats": {
+      "correct": 0,
+      "incorrect": 0
+    }
+  }
+]

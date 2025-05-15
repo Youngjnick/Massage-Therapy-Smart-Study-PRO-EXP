@@ -1,0 +1,102 @@
+[
+  {
+    "id": "Techniques Clinical Application 001",
+    "topic": "Techniques Clinical Application",
+    "difficulty": "intermediate",
+    "question": "What technique is best to use before athletic activity to stimulate muscle response?",
+    "answers": [
+      "Effleurage",
+      "Petrissage",
+      "Tapotement",
+      "Myofascial release"
+    ],
+    "correct": 2,
+    "tags": [
+      "Techniques Clinical Application"
+    ],
+    "stats": {
+      "correct": 0,
+      "incorrect": 0
+    }
+  },
+  {
+    "id": "Techniques Clinical Application 002",
+    "topic": "Techniques Clinical Application",
+    "difficulty": "intermediate",
+    "question": "Which technique would you use to reduce chronic tension in the neck and shoulders?",
+    "answers": [
+      "Compression",
+      "Effleurage",
+      "Petrissage",
+      "Vibration"
+    ],
+    "correct": 2,
+    "tags": [
+      "Techniques Clinical Application"
+    ],
+    "stats": {
+      "correct": 0,
+      "incorrect": 0
+    }
+  },
+  {
+    "id": "Techniques Clinical Application 003",
+    "topic": "Techniques Clinical Application",
+    "difficulty": "intermediate",
+    "question": "What technique is useful for treating scar tissue and improving mobility?",
+    "answers": [
+      "Friction",
+      "Effleurage",
+      "Tapotement",
+      "Compression"
+    ],
+    "correct": 0,
+    "tags": [
+      "Techniques Clinical Application"
+    ],
+    "stats": {
+      "correct": 0,
+      "incorrect": 0
+    }
+  },
+  {
+    "id": "Techniques Clinical Application 004",
+    "topic": "Techniques Clinical Application",
+    "difficulty": "intermediate",
+    "question": "Which massage technique is best for reducing anxiety and promoting parasympathetic activation?",
+    "answers": [
+      "Tapotement",
+      "Effleurage",
+      "Trigger point therapy",
+      "Friction"
+    ],
+    "correct": 1,
+    "tags": [
+      "Techniques Clinical Application"
+    ],
+    "stats": {
+      "correct": 0,
+      "incorrect": 0
+    }
+  },
+  {
+    "id": "Techniques Clinical Application 005",
+    "topic": "Techniques Clinical Application",
+    "difficulty": "intermediate",
+    "question": "What technique might be used to prepare tissue before deep tissue work?",
+    "answers": [
+      "Friction",
+      "Compression",
+      "Effleurage",
+      "Vibration"
+    ],
+    "correct": 2,
+    "tags": [
+      "Techniques Clinical Application"
+    ],
+    "stats": {
+      "correct": 0,
+      "incorrect": 0
+    }
+  }
+]

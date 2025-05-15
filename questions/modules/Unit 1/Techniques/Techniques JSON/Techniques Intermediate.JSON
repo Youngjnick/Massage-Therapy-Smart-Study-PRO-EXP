@@ -1,0 +1,202 @@
+[
+  {
+    "id": "Techniques Intermediate 001",
+    "topic": "Techniques Intermediate",
+    "difficulty": "intermediate",
+    "question": "Which technique is primarily used to warm tissues and prepare the body for deeper work?",
+    "answers": [
+      "Tapotement",
+      "Friction",
+      "Effleurage",
+      "Trigger Point"
+    ],
+    "correct": 2,
+    "tags": [
+      "Techniques Intermediate"
+    ],
+    "stats": {
+      "correct": 0,
+      "incorrect": 0
+    }
+  },
+  {
+    "id": "Techniques Intermediate 002",
+    "topic": "Techniques Intermediate",
+    "difficulty": "intermediate",
+    "question": "What is the primary purpose of petrissage?",
+    "answers": [
+      "To stimulate the nervous system",
+      "To knead and lift soft tissues, enhancing circulation and flexibility",
+      "To sedate overactive muscles",
+      "To stretch ligaments"
+    ],
+    "correct": 1,
+    "tags": [
+      "Techniques Intermediate"
+    ],
+    "stats": {
+      "correct": 0,
+      "incorrect": 0
+    }
+  },
+  {
+    "id": "Techniques Intermediate 003",
+    "topic": "Techniques Intermediate",
+    "difficulty": "intermediate",
+    "question": "What is a characteristic movement of tapotement?",
+    "answers": [
+      "Rocking and jostling",
+      "Gentle gliding",
+      "Percussive striking",
+      "Circular kneading"
+    ],
+    "correct": 2,
+    "tags": [
+      "Techniques Intermediate"
+    ],
+    "stats": {
+      "correct": 0,
+      "incorrect": 0
+    }
+  },
+  {
+    "id": "Techniques Intermediate 004",
+    "topic": "Techniques Intermediate",
+    "difficulty": "intermediate",
+    "question": "Which technique involves sustained pressure on a tight, tender area within muscle tissue?",
+    "answers": [
+      "Myofascial release",
+      "Effleurage",
+      "Trigger point therapy",
+      "Petrissage"
+    ],
+    "correct": 2,
+    "tags": [
+      "Techniques Intermediate"
+    ],
+    "stats": {
+      "correct": 0,
+      "incorrect": 0
+    }
+  },
+  {
+    "id": "Techniques Intermediate 005",
+    "topic": "Techniques Intermediate",
+    "difficulty": "intermediate",
+    "question": "Friction techniques are most often applied to:",
+    "answers": [
+      "The skin surface to reduce stress",
+      "Deep tissue layers to break up adhesions",
+      "Joints to increase mobility",
+      "Superficial fascia for lymphatic drainage"
+    ],
+    "correct": 1,
+    "tags": [
+      "Techniques Intermediate"
+    ],
+    "stats": {
+      "correct": 0,
+      "incorrect": 0
+    }
+  },
+  {
+    "id": "Techniques Intermediate 006",
+    "topic": "Techniques Intermediate",
+    "difficulty": "intermediate",
+    "question": "Which of the following techniques is often used in sports massage for stimulating effect?",
+    "answers": [
+      "Effleurage",
+      "Tapotement",
+      "Static compression",
+      "Cross-fiber friction"
+    ],
+    "correct": 1,
+    "tags": [
+      "Techniques Intermediate"
+    ],
+    "stats": {
+      "correct": 0,
+      "incorrect": 0
+    }
+  },
+  {
+    "id": "Techniques Intermediate 007",
+    "topic": "Techniques Intermediate",
+    "difficulty": "intermediate",
+    "question": "What is cross-fiber friction intended to achieve?",
+    "answers": [
+      "Reduce inflammation",
+      "Increase circulation in the lymphatic system",
+      "Realign scar tissue and break down adhesions",
+      "Relax muscle spindles"
+    ],
+    "correct": 2,
+    "tags": [
+      "Techniques Intermediate"
+    ],
+    "stats": {
+      "correct": 0,
+      "incorrect": 0
+    }
+  },
+  {
+    "id": "Techniques Intermediate 008",
+    "topic": "Techniques Intermediate",
+    "difficulty": "intermediate",
+    "question": "Which technique uses slow, sustained stretching of the fascia without oil?",
+    "answers": [
+      "Myofascial release",
+      "Effleurage",
+      "Petrissage",
+      "Tapotement"
+    ],
+    "correct": 0,
+    "tags": [
+      "Techniques Intermediate"
+    ],
+    "stats": {
+      "correct": 0,
+      "incorrect": 0
+    }
+  },
+  {
+    "id": "Techniques Intermediate 009",
+    "topic": "Techniques Intermediate",
+    "difficulty": "intermediate",
+    "question": "Which technique is best suited to stimulate proprioception and postural awareness?",
+    "answers": [
+      "Myofascial release",
+      "Oscillation and rocking",
+      "Trigger point release",
+      "Cross-fiber friction"
+    ],
+    "correct": 1,
+    "tags": [
+      "Techniques Intermediate"
+    ],
+    "stats": {
+      "correct": 0,
+      "incorrect": 0
+    }
+  },
+  {
+    "id": "Techniques Intermediate 010",
+    "topic": "Techniques Intermediate",
+    "difficulty": "intermediate",
+    "question": "What technique might a therapist use to reduce spasm in a hypertonic muscle?",
+    "answers": [
+      "Trigger point release",
+      "Vibration",
+      "Tapotement",
+      "Effleurage"
+    ],
+    "correct": 0,
+    "tags": [
+      "Techniques Intermediate"
+    ],
+    "stats": {
+      "correct": 0,
+      "incorrect": 0
+    }
+  }
+]

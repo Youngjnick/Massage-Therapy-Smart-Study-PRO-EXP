@@ -1,0 +1,202 @@
+[
+  {
+    "id": "SOAP Notes Intermediate 001",
+    "topic": "Soap Notes Intermediate",
+    "difficulty": "intermediate",
+    "question": "Which of the following would best fit in the 'Assessment' section of a SOAP note?",
+    "answers": [
+      "Client reports shoulder pain",
+      "Palpable muscle spasm in right trapezius",
+      "Likely rotator cuff involvement causing ROM limitation",
+      "Schedule follow-up in 1 week"
+    ],
+    "correct": 2,
+    "tags": [
+      "Soap Notes Intermediate"
+    ],
+    "stats": {
+      "correct": 0,
+      "incorrect": 0
+    }
+  },
+  {
+    "id": "SOAP Notes Intermediate 002",
+    "topic": "Soap Notes Intermediate",
+    "difficulty": "intermediate",
+    "question": "In which section would you include postural deviations noted during visual assessment?",
+    "answers": [
+      "Subjective",
+      "Objective",
+      "Assessment",
+      "Plan"
+    ],
+    "correct": 1,
+    "tags": [
+      "Soap Notes Intermediate"
+    ],
+    "stats": {
+      "correct": 0,
+      "incorrect": 0
+    }
+  },
+  {
+    "id": "SOAP Notes Intermediate 003",
+    "topic": "Soap Notes Intermediate",
+    "difficulty": "intermediate",
+    "question": "What information belongs in the Plan section of SOAP notes?",
+    "answers": [
+      "Client’s complaint",
+      "Clinical hypothesis",
+      "Observations of tissue tone",
+      "Goals and recommendations for future sessions"
+    ],
+    "correct": 3,
+    "tags": [
+      "Soap Notes Intermediate"
+    ],
+    "stats": {
+      "correct": 0,
+      "incorrect": 0
+    }
+  },
+  {
+    "id": "SOAP Notes Intermediate 004",
+    "topic": "Soap Notes Intermediate",
+    "difficulty": "intermediate",
+    "question": "If a client reports 'sharp pain during shoulder flexion,' where should this be documented?",
+    "answers": [
+      "Objective",
+      "Assessment",
+      "Subjective",
+      "Plan"
+    ],
+    "correct": 2,
+    "tags": [
+      "Soap Notes Intermediate"
+    ],
+    "stats": {
+      "correct": 0,
+      "incorrect": 0
+    }
+  },
+  {
+    "id": "SOAP Notes Intermediate 005",
+    "topic": "Soap Notes Intermediate",
+    "difficulty": "intermediate",
+    "question": "Which of the following is NOT appropriate in a SOAP note?",
+    "answers": [
+      "Using anatomical language",
+      "Recording client preferences",
+      "Documenting irrelevant personal beliefs",
+      "Listing functional goals"
+    ],
+    "correct": 2,
+    "tags": [
+      "Soap Notes Intermediate"
+    ],
+    "stats": {
+      "correct": 0,
+      "incorrect": 0
+    }
+  },
+  {
+    "id": "SOAP Notes Intermediate 006",
+    "topic": "Soap Notes Intermediate",
+    "difficulty": "intermediate",
+    "question": "A therapist notices limited cervical rotation during AROM. Where is this noted?",
+    "answers": [
+      "Assessment",
+      "Plan",
+      "Subjective",
+      "Objective"
+    ],
+    "correct": 3,
+    "tags": [
+      "Soap Notes Intermediate"
+    ],
+    "stats": {
+      "correct": 0,
+      "incorrect": 0
+    }
+  },
+  {
+    "id": "SOAP Notes Intermediate 007",
+    "topic": "Soap Notes Intermediate",
+    "difficulty": "intermediate",
+    "question": "What is the value of SOAP notes in a multi-disciplinary setting?",
+    "answers": [
+      "They allow for billing justification",
+      "They replace intake forms",
+      "They ensure therapists use essential oils",
+      "They substitute for client records"
+    ],
+    "correct": 0,
+    "tags": [
+      "Soap Notes Intermediate"
+    ],
+    "stats": {
+      "correct": 0,
+      "incorrect": 0
+    }
+  },
+  {
+    "id": "SOAP Notes Intermediate 008",
+    "topic": "Soap Notes Intermediate",
+    "difficulty": "intermediate",
+    "question": "The 'Plan' section may include all EXCEPT:",
+    "answers": [
+      "Referral to another provider",
+      "Future session frequency",
+      "Client complaints",
+      "Home care recommendations"
+    ],
+    "correct": 2,
+    "tags": [
+      "Soap Notes Intermediate"
+    ],
+    "stats": {
+      "correct": 0,
+      "incorrect": 0
+    }
+  },
+  {
+    "id": "SOAP Notes Intermediate 009",
+    "topic": "Soap Notes Intermediate",
+    "difficulty": "intermediate",
+    "question": "What would 'palpation of trigger point in left levator scapulae' be classified as?",
+    "answers": [
+      "Subjective",
+      "Objective",
+      "Assessment",
+      "Plan"
+    ],
+    "correct": 1,
+    "tags": [
+      "Soap Notes Intermediate"
+    ],
+    "stats": {
+      "correct": 0,
+      "incorrect": 0
+    }
+  },
+  {
+    "id": "SOAP Notes Intermediate 010",
+    "topic": "Soap Notes Intermediate",
+    "difficulty": "intermediate",
+    "question": "Why is clarity and legibility important in SOAP notes?",
+    "answers": [
+      "They are reviewed by insurance, peers, and legal authorities",
+      "They are displayed in the clinic lobby",
+      "They are used in marketing",
+      "They reduce massage duration"
+    ],
+    "correct": 0,
+    "tags": [
+      "Soap Notes Intermediate"
+    ],
+    "stats": {
+      "correct": 0,
+      "incorrect": 0
+    }
+  }
+]

@@ -1,0 +1,282 @@
+[
+  {
+    "id": "People 001",
+    "topic": "People",
+    "difficulty": "intermediate",
+    "question": "Who is considered the Father of Medicine and promoted the concept of \"anatripsis\" (rubbing up)?",
+    "answers": [
+      "Claudius Galen",
+      "Asclepius",
+      "Hippocrates",
+      "Avicenna"
+    ],
+    "correct": 2,
+    "tags": [
+      "People"
+    ],
+    "stats": {
+      "correct": 0,
+      "incorrect": 0
+    }
+  },
+  {
+    "id": "People 002",
+    "topic": "People",
+    "difficulty": "intermediate",
+    "question": "Who combined exercise and massage into gymnastics in ancient Greek healing practices?",
+    "answers": [
+      "Hippocrates",
+      "Claudius Galen",
+      "Aesclepius",
+      "Johann Mezger"
+    ],
+    "correct": 2,
+    "tags": [
+      "People"
+    ],
+    "stats": {
+      "correct": 0,
+      "incorrect": 0
+    }
+  },
+  {
+    "id": "People 003",
+    "topic": "People",
+    "difficulty": "intermediate",
+    "question": "Who was the Roman physician known for writing extensively about massage and anatomy, especially for gladiators?",
+    "answers": [
+      "Hippocrates",
+      "Claudius Galen",
+      "Avicenna",
+      "Mezger"
+    ],
+    "correct": 1,
+    "tags": [
+      "People"
+    ],
+    "stats": {
+      "correct": 0,
+      "incorrect": 0
+    }
+  },
+  {
+    "id": "People 004",
+    "topic": "People",
+    "difficulty": "intermediate",
+    "question": "Who wrote the *Canon of Medicine*, which included information on massage?",
+    "answers": [
+      "Avicenna",
+      "Razi",
+      "Claudius Claudius Galen",
+      "Per Henrik Ling"
+    ],
+    "correct": 0,
+    "tags": [
+      "People"
+    ],
+    "stats": {
+      "correct": 0,
+      "incorrect": 0
+    }
+  },
+  {
+    "id": "People 005",
+    "topic": "People",
+    "difficulty": "intermediate",
+    "question": "Who coined the terms effleurage, petrissage, and tapotement and helped develop scientific massage?",
+    "answers": [
+      "Per Henrik Ling",
+      "Johann Mezger",
+      "Charles Taylor",
+      "Elizabeth Dicke"
+    ],
+    "correct": 1,
+    "tags": [
+      "People"
+    ],
+    "stats": {
+      "correct": 0,
+      "incorrect": 0
+    }
+  },
+  {
+    "id": "People 006",
+    "topic": "People",
+    "difficulty": "intermediate",
+    "question": "Who is credited with developing Swedish Massage?",
+    "answers": [
+      "Emil Vodder",
+      "Ida Rolf",
+      "Per Henrik Ling",
+      "James Cyriax"
+    ],
+    "correct": 2,
+    "tags": [
+      "People"
+    ],
+    "stats": {
+      "correct": 0,
+      "incorrect": 0
+    }
+  },
+  {
+    "id": "People 007",
+    "topic": "People",
+    "difficulty": "intermediate",
+    "question": "Who introduced Swedish massage to the United States in the 1800s?",
+    "answers": [
+      "Charles Fayette Taylor",
+      "James Cyriax",
+      "Mathias Roth",
+      "John Grosvenor"
+    ],
+    "correct": 0,
+    "tags": [
+      "People"
+    ],
+    "stats": {
+      "correct": 0,
+      "incorrect": 0
+    }
+  },
+  {
+    "id": "People 008",
+    "topic": "People",
+    "difficulty": "intermediate",
+    "question": "Who developed the manual lymph drainage technique?",
+    "answers": [
+      "James Cyriax",
+      "Ida Rolf",
+      "Emil Vodder",
+      "John Upledger"
+    ],
+    "correct": 2,
+    "tags": [
+      "People"
+    ],
+    "stats": {
+      "correct": 0,
+      "incorrect": 0
+    }
+  },
+  {
+    "id": "People 009",
+    "topic": "People",
+    "difficulty": "intermediate",
+    "question": "Who created Connective Tissue Massage, also known as Bindegewebsmassage?",
+    "answers": [
+      "Elizabeth Dicke",
+      "Janet Travell",
+      "Per Henrik Ling",
+      "David Palmer"
+    ],
+    "correct": 0,
+    "tags": [
+      "People"
+    ],
+    "stats": {
+      "correct": 0,
+      "incorrect": 0
+    }
+  },
+  {
+    "id": "People 010",
+    "topic": "People",
+    "difficulty": "intermediate",
+    "question": "Who developed Structural Integration (Rolfing) to align the body through fascia manipulation?",
+    "answers": [
+      "Paul St. John",
+      "Ida Rolf",
+      "Elizabeth Dicke",
+      "Emil Vodder"
+    ],
+    "correct": 1,
+    "tags": [
+      "People"
+    ],
+    "stats": {
+      "correct": 0,
+      "incorrect": 0
+    }
+  },
+  {
+    "id": "People 011",
+    "topic": "People",
+    "difficulty": "intermediate",
+    "question": "Who founded Neuromuscular Therapy (NMT)?",
+    "answers": [
+      "Janet Travell",
+      "Paul St. John",
+      "James Cyriax",
+      "Milton Trager"
+    ],
+    "correct": 1,
+    "tags": [
+      "People"
+    ],
+    "stats": {
+      "correct": 0,
+      "incorrect": 0
+    }
+  },
+  {
+    "id": "People 012",
+    "topic": "People",
+    "difficulty": "intermediate",
+    "question": "Who developed Craniosacral Therapy, emphasizing subtle movement of cranial bones?",
+    "answers": [
+      "John Upledger",
+      "David Palmer",
+      "Per Henrik Ling",
+      "Ida Rolf"
+    ],
+    "correct": 0,
+    "tags": [
+      "People"
+    ],
+    "stats": {
+      "correct": 0,
+      "incorrect": 0
+    }
+  },
+  {
+    "id": "People 013",
+    "topic": "People",
+    "difficulty": "intermediate",
+    "question": "Who invented Chair Massage and brought massage into public spaces like airports?",
+    "answers": [
+      "David Palmer",
+      "John Upledger",
+      "Mathias Roth",
+      "Charles Taylor"
+    ],
+    "correct": 0,
+    "tags": [
+      "People"
+    ],
+    "stats": {
+      "correct": 0,
+      "incorrect": 0
+    }
+  },
+  {
+    "id": "People 014",
+    "topic": "People",
+    "difficulty": "intermediate",
+    "question": "Who was known for Deep Transverse Friction Massage and orthopedic techniques?",
+    "answers": [
+      "James Cyriax",
+      "Paul St. John",
+      "Ida Rolf",
+      "Claudius Galen"
+    ],
+    "correct": 0,
+    "tags": [
+      "People"
+    ],
+    "stats": {
+      "correct": 0,
+      "incorrect": 0
+    }
+  }
+]

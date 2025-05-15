@@ -1,0 +1,182 @@
+[
+  {
+    "id": "Contraindications 001",
+    "topic": "Contraindications",
+    "difficulty": "intermediate",
+    "question": "Which condition requires immediate avoidance of massage and physician referral?",
+    "answers": [
+      "Mild muscle soreness",
+      "Deep vein thrombosis (DVT)",
+      "Dry skin",
+      "Joint stiffness"
+    ],
+    "correct": 1,
+    "tags": [
+      "Contraindications"
+    ],
+    "stats": {
+      "correct": 0,
+      "incorrect": 0
+    }
+  },
+  {
+    "id": "Contraindications 002",
+    "topic": "Contraindications",
+    "difficulty": "intermediate",
+    "question": "Which is considered a total contraindication for massage?",
+    "answers": [
+      "Acute fever",
+      "Old scar tissue",
+      "Chronic back pain",
+      "Mild anxiety"
+    ],
+    "correct": 0,
+    "tags": [
+      "Contraindications"
+    ],
+    "stats": {
+      "correct": 0,
+      "incorrect": 0
+    }
+  },
+  {
+    "id": "Contraindications 003",
+    "topic": "Contraindications",
+    "difficulty": "intermediate",
+    "question": "Massage should be avoided over which of the following conditions?",
+    "answers": [
+      "Scar tissue",
+      "Bruising",
+      "Hematoma",
+      "Stretch marks"
+    ],
+    "correct": 2,
+    "tags": [
+      "Contraindications"
+    ],
+    "stats": {
+      "correct": 0,
+      "incorrect": 0
+    }
+  },
+  {
+    "id": "Contraindications 004",
+    "topic": "Contraindications",
+    "difficulty": "intermediate",
+    "question": "Why is massage contraindicated in the first trimester of pregnancy without clearance?",
+    "answers": [
+      "High risk for miscarriage",
+      "Allergies to oils",
+      "Joint damage",
+      "It affects digestion"
+    ],
+    "correct": 0,
+    "tags": [
+      "Contraindications"
+    ],
+    "stats": {
+      "correct": 0,
+      "incorrect": 0
+    }
+  },
+  {
+    "id": "Contraindications 005",
+    "topic": "Contraindications",
+    "difficulty": "intermediate",
+    "question": "When massaging a client with cancer, what is required?",
+    "answers": [
+      "Medical clearance",
+      "Deeper pressure",
+      "Essential oils",
+      "Vigorous friction"
+    ],
+    "correct": 0,
+    "tags": [
+      "Contraindications"
+    ],
+    "stats": {
+      "correct": 0,
+      "incorrect": 0
+    }
+  },
+  {
+    "id": "Contraindications 006",
+    "topic": "Contraindications",
+    "difficulty": "intermediate",
+    "question": "What should a massage therapist do if a client presents with deep vein thrombosis (DVT)?",
+    "answers": [
+      "Proceed with caution",
+      "Avoid the area",
+      "Apply deep pressure",
+      "Refer out immediately"
+    ],
+    "correct": 3,
+    "tags": [
+      "Contraindications"
+    ],
+    "stats": {
+      "correct": 0,
+      "incorrect": 0
+    }
+  },
+  {
+    "id": "Contraindications 007",
+    "topic": "Contraindications",
+    "difficulty": "intermediate",
+    "question": "What is a local contraindication?",
+    "answers": [
+      "Massage should not be done at all",
+      "Massage is only safe under doctor supervision",
+      "Massage is avoided in a specific area",
+      "Massage must use oil"
+    ],
+    "correct": 2,
+    "tags": [
+      "Contraindications"
+    ],
+    "stats": {
+      "correct": 0,
+      "incorrect": 0
+    }
+  },
+  {
+    "id": "Contraindications 008",
+    "topic": "Contraindications",
+    "difficulty": "intermediate",
+    "question": "Which of the following is an example of a conditional contraindication?",
+    "answers": [
+      "Active fever",
+      "Open wound",
+      "High blood pressure under control",
+      "Deep vein thrombosis"
+    ],
+    "correct": 2,
+    "tags": [
+      "Contraindications"
+    ],
+    "stats": {
+      "correct": 0,
+      "incorrect": 0
+    }
+  },
+  {
+    "id": "Contraindications 009",
+    "topic": "Contraindications",
+    "difficulty": "intermediate",
+    "question": "Massage should be avoided on which of the following skin conditions?",
+    "answers": [
+      "Psoriasis",
+      "Eczema",
+      "Athlete’s foot",
+      "Stretch marks"
+    ],
+    "correct": 2,
+    "tags": [
+      "Contraindications"
+    ],
+    "stats": {
+      "correct": 0,
+      "incorrect": 0
+    }
+  }
+]

@@ -1,0 +1,202 @@
+[
+  {
+    "id": "Scoliosis Kyphosis Lordosis 001",
+    "topic": "Scoliosis Kyphosis Lordosis",
+    "difficulty": "intermediate",
+    "question": "What is scoliosis?",
+    "answers": [
+      "An exaggerated forward curvature of the lumbar spine",
+      "An abnormal lateral curvature of the spine",
+      "An inward curve of the thoracic spine",
+      "A twisted pelvis"
+    ],
+    "correct": 1,
+    "tags": [
+      "Scoliosis Kyphosis Lordosis"
+    ],
+    "stats": {
+      "correct": 0,
+      "incorrect": 0
+    }
+  },
+  {
+    "id": "Scoliosis Kyphosis Lordosis 002",
+    "topic": "Scoliosis Kyphosis Lordosis",
+    "difficulty": "intermediate",
+    "question": "Kyphosis primarily affects which region of the spine?",
+    "answers": [
+      "Cervical",
+      "Lumbar",
+      "Thoracic",
+      "Sacral"
+    ],
+    "correct": 2,
+    "tags": [
+      "Scoliosis Kyphosis Lordosis"
+    ],
+    "stats": {
+      "correct": 0,
+      "incorrect": 0
+    }
+  },
+  {
+    "id": "Scoliosis Kyphosis Lordosis 003",
+    "topic": "Scoliosis Kyphosis Lordosis",
+    "difficulty": "intermediate",
+    "question": "Which spinal curve is exaggerated in lordosis?",
+    "answers": [
+      "Thoracic outward curve",
+      "Lumbar inward curve",
+      "Cervical outward curve",
+      "Sacral backward curve"
+    ],
+    "correct": 1,
+    "tags": [
+      "Scoliosis Kyphosis Lordosis"
+    ],
+    "stats": {
+      "correct": 0,
+      "incorrect": 0
+    }
+  },
+  {
+    "id": "Scoliosis Kyphosis Lordosis 004",
+    "topic": "Scoliosis Kyphosis Lordosis",
+    "difficulty": "intermediate",
+    "question": "What posture is commonly associated with excessive kyphosis?",
+    "answers": [
+      "Sway back",
+      "Flat back",
+      "Rounded shoulders and hunching",
+      "Elevated pelvis"
+    ],
+    "correct": 2,
+    "tags": [
+      "Scoliosis Kyphosis Lordosis"
+    ],
+    "stats": {
+      "correct": 0,
+      "incorrect": 0
+    }
+  },
+  {
+    "id": "Scoliosis Kyphosis Lordosis 005",
+    "topic": "Scoliosis Kyphosis Lordosis",
+    "difficulty": "intermediate",
+    "question": "Which condition involves a sideways 'S' or 'C' curve in the spine?",
+    "answers": [
+      "Kyphosis",
+      "Lordosis",
+      "Scoliosis",
+      "Spina bifida"
+    ],
+    "correct": 2,
+    "tags": [
+      "Scoliosis Kyphosis Lordosis"
+    ],
+    "stats": {
+      "correct": 0,
+      "incorrect": 0
+    }
+  },
+  {
+    "id": "Scoliosis Kyphosis Lordosis 006",
+    "topic": "Scoliosis Kyphosis Lordosis",
+    "difficulty": "intermediate",
+    "question": "Which spinal curvature is most affected in pregnancy or obesity-related postural changes?",
+    "answers": [
+      "Scoliosis",
+      "Kyphosis",
+      "Lordosis",
+      "Flat back"
+    ],
+    "correct": 2,
+    "tags": [
+      "Scoliosis Kyphosis Lordosis"
+    ],
+    "stats": {
+      "correct": 0,
+      "incorrect": 0
+    }
+  },
+  {
+    "id": "Scoliosis Kyphosis Lordosis 007",
+    "topic": "Scoliosis Kyphosis Lordosis",
+    "difficulty": "intermediate",
+    "question": "Massage therapy for scoliosis should focus on:",
+    "answers": [
+      "Strengthening the spinal curves",
+      "Even, deep pressure on both sides of the spine",
+      "Balancing asymmetrical muscle tension and improving mobility",
+      "Avoiding all spinal work"
+    ],
+    "correct": 2,
+    "tags": [
+      "Scoliosis Kyphosis Lordosis"
+    ],
+    "stats": {
+      "correct": 0,
+      "incorrect": 0
+    }
+  },
+  {
+    "id": "Scoliosis Kyphosis Lordosis 008",
+    "topic": "Scoliosis Kyphosis Lordosis",
+    "difficulty": "intermediate",
+    "question": "Kyphosis can lead to which of the following issues?",
+    "answers": [
+      "Improved lung capacity",
+      "Neck strain and restricted thoracic movement",
+      "Increased lumbar flexibility",
+      "Greater spinal stability"
+    ],
+    "correct": 1,
+    "tags": [
+      "Scoliosis Kyphosis Lordosis"
+    ],
+    "stats": {
+      "correct": 0,
+      "incorrect": 0
+    }
+  },
+  {
+    "id": "Scoliosis Kyphosis Lordosis 009",
+    "topic": "Scoliosis Kyphosis Lordosis",
+    "difficulty": "intermediate",
+    "question": "Which of the following may be a result of untreated severe lordosis?",
+    "answers": [
+      "Sciatic compression or lower back pain",
+      "Frozen shoulder",
+      "Thoracic scoliosis",
+      "Cervical instability"
+    ],
+    "correct": 0,
+    "tags": [
+      "Scoliosis Kyphosis Lordosis"
+    ],
+    "stats": {
+      "correct": 0,
+      "incorrect": 0
+    }
+  },
+  {
+    "id": "Scoliosis Kyphosis Lordosis 010",
+    "topic": "Scoliosis Kyphosis Lordosis",
+    "difficulty": "intermediate",
+    "question": "Which two conditions affect the spine's sagittal plane curvature?",
+    "answers": [
+      "Kyphosis and scoliosis",
+      "Scoliosis and lordosis",
+      "Kyphosis and lordosis",
+      "All three conditions"
+    ],
+    "correct": 2,
+    "tags": [
+      "Scoliosis Kyphosis Lordosis"
+    ],
+    "stats": {
+      "correct": 0,
+      "incorrect": 0
+    }
+  }
+]

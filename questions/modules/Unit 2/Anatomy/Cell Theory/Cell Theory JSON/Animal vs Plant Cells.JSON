@@ -1,0 +1,202 @@
+[
+  {
+    "id": "Animal Vs Plant Cells 001",
+    "topic": "Animal Vs Plant Cells",
+    "difficulty": "intermediate",
+    "question": "Which structure is found in plant cells but not in animal cells?",
+    "answers": [
+      "Mitochondria",
+      "Cell wall",
+      "Ribosomes",
+      "Nucleus"
+    ],
+    "correct": 1,
+    "tags": [
+      "Animal Vs Plant Cells"
+    ],
+    "stats": {
+      "correct": 0,
+      "incorrect": 0
+    }
+  },
+  {
+    "id": "Animal Vs Plant Cells 002",
+    "topic": "Animal Vs Plant Cells",
+    "difficulty": "intermediate",
+    "question": "What organelle is responsible for photosynthesis in plant cells?",
+    "answers": [
+      "Mitochondrion",
+      "Golgi apparatus",
+      "Chloroplast",
+      "Lysosome"
+    ],
+    "correct": 2,
+    "tags": [
+      "Animal Vs Plant Cells"
+    ],
+    "stats": {
+      "correct": 0,
+      "incorrect": 0
+    }
+  },
+  {
+    "id": "Animal Vs Plant Cells 003",
+    "topic": "Animal Vs Plant Cells",
+    "difficulty": "intermediate",
+    "question": "Animal cells typically have ______, which are usually absent in plant cells.",
+    "answers": [
+      "Chloroplasts",
+      "Large central vacuoles",
+      "Centrioles",
+      "Cell walls"
+    ],
+    "correct": 2,
+    "tags": [
+      "Animal Vs Plant Cells"
+    ],
+    "stats": {
+      "correct": 0,
+      "incorrect": 0
+    }
+  },
+  {
+    "id": "Animal Vs Plant Cells 004",
+    "topic": "Animal Vs Plant Cells",
+    "difficulty": "intermediate",
+    "question": "Which of the following is found in both plant and animal cells?",
+    "answers": [
+      "Chloroplast",
+      "Cell wall",
+      "Nucleus",
+      "Plasmodesmata"
+    ],
+    "correct": 2,
+    "tags": [
+      "Animal Vs Plant Cells"
+    ],
+    "stats": {
+      "correct": 0,
+      "incorrect": 0
+    }
+  },
+  {
+    "id": "Animal Vs Plant Cells 005",
+    "topic": "Animal Vs Plant Cells",
+    "difficulty": "intermediate",
+    "question": "Plant cells store energy primarily as:",
+    "answers": [
+      "Glycogen",
+      "Cellulose",
+      "Starch",
+      "Protein"
+    ],
+    "correct": 2,
+    "tags": [
+      "Animal Vs Plant Cells"
+    ],
+    "stats": {
+      "correct": 0,
+      "incorrect": 0
+    }
+  },
+  {
+    "id": "Animal Vs Plant Cells 006",
+    "topic": "Animal Vs Plant Cells",
+    "difficulty": "intermediate",
+    "question": "Which structure helps maintain turgor pressure in plant cells?",
+    "answers": [
+      "Nucleus",
+      "Golgi body",
+      "Cell membrane",
+      "Large central vacuole"
+    ],
+    "correct": 3,
+    "tags": [
+      "Animal Vs Plant Cells"
+    ],
+    "stats": {
+      "correct": 0,
+      "incorrect": 0
+    }
+  },
+  {
+    "id": "Animal Vs Plant Cells 007",
+    "topic": "Animal Vs Plant Cells",
+    "difficulty": "intermediate",
+    "question": "Animal cells are typically more ______ in shape compared to plant cells.",
+    "answers": [
+      "Rigid",
+      "Regular",
+      "Round and flexible",
+      "Box-like"
+    ],
+    "correct": 2,
+    "tags": [
+      "Animal Vs Plant Cells"
+    ],
+    "stats": {
+      "correct": 0,
+      "incorrect": 0
+    }
+  },
+  {
+    "id": "Animal Vs Plant Cells 008",
+    "topic": "Animal Vs Plant Cells",
+    "difficulty": "intermediate",
+    "question": "What provides structural support in plant cells?",
+    "answers": [
+      "Cell membrane",
+      "Chloroplast",
+      "Cell wall",
+      "Mitochondria"
+    ],
+    "correct": 2,
+    "tags": [
+      "Animal Vs Plant Cells"
+    ],
+    "stats": {
+      "correct": 0,
+      "incorrect": 0
+    }
+  },
+  {
+    "id": "Animal Vs Plant Cells 009",
+    "topic": "Animal Vs Plant Cells",
+    "difficulty": "intermediate",
+    "question": "Which structure is used for energy conversion in both plant and animal cells?",
+    "answers": [
+      "Chloroplast",
+      "Mitochondria",
+      "Golgi complex",
+      "Smooth ER"
+    ],
+    "correct": 1,
+    "tags": [
+      "Animal Vs Plant Cells"
+    ],
+    "stats": {
+      "correct": 0,
+      "incorrect": 0
+    }
+  },
+  {
+    "id": "Animal Vs Plant Cells 010",
+    "topic": "Animal Vs Plant Cells",
+    "difficulty": "intermediate",
+    "question": "Which of the following structures is not present in most animal cells?",
+    "answers": [
+      "Ribosome",
+      "Mitochondrion",
+      "Cell wall",
+      "Lysosome"
+    ],
+    "correct": 2,
+    "tags": [
+      "Animal Vs Plant Cells"
+    ],
+    "stats": {
+      "correct": 0,
+      "incorrect": 0
+    }
+  }
+]

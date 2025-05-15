@@ -1,0 +1,202 @@
+[
+  {
+    "id": "SOAP Notes Hard 001",
+    "topic": "Soap Notes Hard",
+    "difficulty": "intermediate",
+    "question": "In complex SOAP notes, how should therapists record evolving client conditions?",
+    "answers": [
+      "Cross out old notes and rewrite",
+      "Use progressive documentation with updates in each section",
+      "Delete prior history",
+      "Only update during reassessment"
+    ],
+    "correct": 1,
+    "tags": [
+      "Soap Notes Hard"
+    ],
+    "stats": {
+      "correct": 0,
+      "incorrect": 0
+    }
+  },
+  {
+    "id": "SOAP Notes Hard 002",
+    "topic": "Soap Notes Hard",
+    "difficulty": "intermediate",
+    "question": "What is a defensible SOAP note?",
+    "answers": [
+      "A note written only in medical codes",
+      "A legally sound and clinically accurate record",
+      "A handwritten note kept privately",
+      "A referral from another practitioner"
+    ],
+    "correct": 1,
+    "tags": [
+      "Soap Notes Hard"
+    ],
+    "stats": {
+      "correct": 0,
+      "incorrect": 0
+    }
+  },
+  {
+    "id": "SOAP Notes Hard 003",
+    "topic": "Soap Notes Hard",
+    "difficulty": "intermediate",
+    "question": "In legal or insurance audits, which SOAP section is scrutinized for clinical justification?",
+    "answers": [
+      "Plan",
+      "Subjective",
+      "Assessment",
+      "Objective"
+    ],
+    "correct": 2,
+    "tags": [
+      "Soap Notes Hard"
+    ],
+    "stats": {
+      "correct": 0,
+      "incorrect": 0
+    }
+  },
+  {
+    "id": "SOAP Notes Hard 004",
+    "topic": "Soap Notes Hard",
+    "difficulty": "intermediate",
+    "question": "What method helps reduce bias in the Objective section of SOAP notes?",
+    "answers": [
+      "Using client metaphors",
+      "Stating only measurable findings",
+      "Avoiding documentation of findings",
+      "Adding emotional responses"
+    ],
+    "correct": 1,
+    "tags": [
+      "Soap Notes Hard"
+    ],
+    "stats": {
+      "correct": 0,
+      "incorrect": 0
+    }
+  },
+  {
+    "id": "SOAP Notes Hard 005",
+    "topic": "Soap Notes Hard",
+    "difficulty": "intermediate",
+    "question": "Why is precise anatomical terminology important in SOAP documentation?",
+    "answers": [
+      "To sound professional",
+      "To align with ethical scope and communication across disciplines",
+      "To impress clients",
+      "To reduce SOAP length"
+    ],
+    "correct": 1,
+    "tags": [
+      "Soap Notes Hard"
+    ],
+    "stats": {
+      "correct": 0,
+      "incorrect": 0
+    }
+  },
+  {
+    "id": "SOAP Notes Hard 006",
+    "topic": "Soap Notes Hard",
+    "difficulty": "intermediate",
+    "question": "What legal risk arises from incomplete SOAP notes?",
+    "answers": [
+      "Therapist receives lower tips",
+      "Client may request a refund",
+      "Lack of documentation in claims or complaints",
+      "Therapist gets fewer clients"
+    ],
+    "correct": 2,
+    "tags": [
+      "Soap Notes Hard"
+    ],
+    "stats": {
+      "correct": 0,
+      "incorrect": 0
+    }
+  },
+  {
+    "id": "SOAP Notes Hard 007",
+    "topic": "Soap Notes Hard",
+    "difficulty": "intermediate",
+    "question": "If a client provides inconsistent symptom reports, how should this be reflected?",
+    "answers": [
+      "Document both versions factually in Subjective",
+      "Ignore conflicting statements",
+      "Record only the recent version",
+      "Put it in Plan as a client goal"
+    ],
+    "correct": 0,
+    "tags": [
+      "Soap Notes Hard"
+    ],
+    "stats": {
+      "correct": 0,
+      "incorrect": 0
+    }
+  },
+  {
+    "id": "SOAP Notes Hard 008",
+    "topic": "Soap Notes Hard",
+    "difficulty": "intermediate",
+    "question": "When might a SOAP note be subpoenaed?",
+    "answers": [
+      "In case of a malpractice claim",
+      "For social media content",
+      "For billing a friend",
+      "To apply for a license"
+    ],
+    "correct": 0,
+    "tags": [
+      "Soap Notes Hard"
+    ],
+    "stats": {
+      "correct": 0,
+      "incorrect": 0
+    }
+  },
+  {
+    "id": "SOAP Notes Hard 009",
+    "topic": "Soap Notes Hard",
+    "difficulty": "intermediate",
+    "question": "How should a therapist address unclear findings in the Objective section?",
+    "answers": [
+      "Use vague terms like 'weird'",
+      "Leave it blank",
+      "Note uncertainty clearly and reference reassessment",
+      "Include client opinion instead"
+    ],
+    "correct": 2,
+    "tags": [
+      "Soap Notes Hard"
+    ],
+    "stats": {
+      "correct": 0,
+      "incorrect": 0
+    }
+  },
+  {
+    "id": "SOAP Notes Hard 010",
+    "topic": "Soap Notes Hard",
+    "difficulty": "intermediate",
+    "question": "Which approach best ensures SOAP note quality over time?",
+    "answers": [
+      "Copy-pasting old entries",
+      "Using a template without adjustments",
+      "Continuous learning and adapting documentation practices",
+      "Writing minimal notes"
+    ],
+    "correct": 2,
+    "tags": [
+      "Soap Notes Hard"
+    ],
+    "stats": {
+      "correct": 0,
+      "incorrect": 0
+    }
+  }
+]

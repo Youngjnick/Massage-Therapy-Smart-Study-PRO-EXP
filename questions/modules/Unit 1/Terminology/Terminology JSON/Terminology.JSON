@@ -1,0 +1,222 @@
+[
+  {
+    "id": "Terminology 001",
+    "topic": "Terminology",
+    "difficulty": "intermediate",
+    "question": "What does 'effleurage' mean in massage?",
+    "answers": [
+      "Gliding stroke",
+      "Percussion",
+      "Circular kneading",
+      "Shaking motion"
+    ],
+    "correct": 0,
+    "tags": [
+      "Terminology"
+    ],
+    "stats": {
+      "correct": 0,
+      "incorrect": 0
+    }
+  },
+  {
+    "id": "Terminology 002",
+    "topic": "Terminology",
+    "difficulty": "intermediate",
+    "question": "What does 'petrissage' refer to?",
+    "answers": [
+      "Tapping motion",
+      "Gliding stroke",
+      "Kneading technique",
+      "Wringing or chucking"
+    ],
+    "correct": 2,
+    "tags": [
+      "Terminology"
+    ],
+    "stats": {
+      "correct": 0,
+      "incorrect": 0
+    }
+  },
+  {
+    "id": "Terminology 003",
+    "topic": "Terminology",
+    "difficulty": "intermediate",
+    "question": "What is 'tapotement'?",
+    "answers": [
+      "Sustained compression",
+      "Light percussion or tapping",
+      "Circular friction",
+      "Rocking movement"
+    ],
+    "correct": 1,
+    "tags": [
+      "Terminology"
+    ],
+    "stats": {
+      "correct": 0,
+      "incorrect": 0
+    }
+  },
+  {
+    "id": "Terminology 004",
+    "topic": "Terminology",
+    "difficulty": "intermediate",
+    "question": "What does 'friction' technique involve?",
+    "answers": [
+      "Superficial strokes",
+      "Vibration",
+      "Deep circular or transverse pressure",
+      "Kneading"
+    ],
+    "correct": 2,
+    "tags": [
+      "Terminology"
+    ],
+    "stats": {
+      "correct": 0,
+      "incorrect": 0
+    }
+  },
+  {
+    "id": "Terminology 005",
+    "topic": "Terminology",
+    "difficulty": "intermediate",
+    "question": "What is 'compression' in massage?",
+    "answers": [
+      "Gliding over skin",
+      "Holding pressure against soft tissue",
+      "Vibration of muscles",
+      "Manual lymph movement"
+    ],
+    "correct": 1,
+    "tags": [
+      "Terminology"
+    ],
+    "stats": {
+      "correct": 0,
+      "incorrect": 0
+    }
+  },
+  {
+    "id": "Terminology 006",
+    "topic": "Terminology",
+    "difficulty": "intermediate",
+    "question": "What is 'oscillation' in massage therapy?",
+    "answers": [
+      "Percussion movement",
+      "Circular kneading",
+      "Rocking, shaking, or jostling",
+      "Friction with oils"
+    ],
+    "correct": 2,
+    "tags": [
+      "Terminology"
+    ],
+    "stats": {
+      "correct": 0,
+      "incorrect": 0
+    }
+  },
+  {
+    "id": "Terminology 007",
+    "topic": "Terminology",
+    "difficulty": "intermediate",
+    "question": "What is the definition of 'shearing' in massage?",
+    "answers": [
+      "Sustained compression",
+      "Wringing or sliding tissues past each other",
+      "Kneading strokes",
+      "Tapping motion"
+    ],
+    "correct": 1,
+    "tags": [
+      "Terminology"
+    ],
+    "stats": {
+      "correct": 0,
+      "incorrect": 0
+    }
+  },
+  {
+    "id": "Terminology 008",
+    "topic": "Terminology",
+    "difficulty": "intermediate",
+    "question": "What does 'tractioning' mean?",
+    "answers": [
+      "Twisting tissue",
+      "Pulling or gently stretching a body part",
+      "Tapping soft tissue",
+      "Rubbing with oils"
+    ],
+    "correct": 1,
+    "tags": [
+      "Terminology"
+    ],
+    "stats": {
+      "correct": 0,
+      "incorrect": 0
+    }
+  },
+  {
+    "id": "Terminology 009",
+    "topic": "Terminology",
+    "difficulty": "intermediate",
+    "question": "What does the term 'massage' generally refer to?",
+    "answers": [
+      "The use of only essential oils",
+      "Manual or mechanical manipulation of soft tissue",
+      "Medical diagnosis by palpation",
+      "Only gliding strokes"
+    ],
+    "correct": 1,
+    "tags": [
+      "Terminology"
+    ],
+    "stats": {
+      "correct": 0,
+      "incorrect": 0
+    }
+  },
+  {
+    "id": "Terminology 010",
+    "topic": "Terminology",
+    "difficulty": "intermediate",
+    "question": "What is 'shiatsu'?",
+    "answers": [
+      "A gliding stroke",
+      "Japanese finger pressure technique on acupoints",
+      "Percussion massage",
+      "Deep tissue rolling"
+    ],
+    "correct": 1,
+    "tags": [
+      "Terminology"
+    ],
+    "stats": {
+      "correct": 0,
+      "incorrect": 0
+    }
+  },
+  {
+    "id": "Terminology 011",
+    "topic": "Terminology",
+    "difficulty": "intermediate",
+    "question": "What is 'trigger point therapy' focused on?",
+    "answers": [
+      "Energy field balancing",
+      "Kneading muscle groups",
+      "Sustained pressure on hypersensitive muscle nodules",
+      "Only superficial fascia"
+    ],
+    "correct": 2,
+    "tags": [
+      "Terminology"
+    ],
+    "stats": {
+      "correct": 0,
+      "incorrect": 0
+    }
+  }
+]

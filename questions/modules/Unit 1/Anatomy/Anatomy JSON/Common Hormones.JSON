@@ -1,0 +1,202 @@
+[
+  {
+    "id": "Common Hormones 001",
+    "topic": "Common Hormones",
+    "difficulty": "intermediate",
+    "question": "Which hormone regulates metabolism and is produced by the thyroid gland?",
+    "answers": [
+      "Insulin",
+      "Thyroxine (T4)",
+      "Cortisol",
+      "Testosterone"
+    ],
+    "correct": 1,
+    "tags": [
+      "Common Hormones"
+    ],
+    "stats": {
+      "correct": 0,
+      "incorrect": 0
+    }
+  },
+  {
+    "id": "Common Hormones 002",
+    "topic": "Common Hormones",
+    "difficulty": "intermediate",
+    "question": "Which hormone helps regulate blood sugar by promoting glucose uptake into cells?",
+    "answers": [
+      "Adrenaline",
+      "Glucagon",
+      "Insulin",
+      "Growth Hormone"
+    ],
+    "correct": 2,
+    "tags": [
+      "Common Hormones"
+    ],
+    "stats": {
+      "correct": 0,
+      "incorrect": 0
+    }
+  },
+  {
+    "id": "Common Hormones 003",
+    "topic": "Common Hormones",
+    "difficulty": "intermediate",
+    "question": "Which hormone is released in response to stress and is produced by the adrenal cortex?",
+    "answers": [
+      "Epinephrine",
+      "Cortisol",
+      "Glucagon",
+      "Aldosterone"
+    ],
+    "correct": 1,
+    "tags": [
+      "Common Hormones"
+    ],
+    "stats": {
+      "correct": 0,
+      "incorrect": 0
+    }
+  },
+  {
+    "id": "Common Hormones 004",
+    "topic": "Common Hormones",
+    "difficulty": "intermediate",
+    "question": "What hormone is responsible for the 'fight or flight' response?",
+    "answers": [
+      "Cortisol",
+      "Insulin",
+      "Epinephrine (Adrenaline)",
+      "Melatonin"
+    ],
+    "correct": 2,
+    "tags": [
+      "Common Hormones"
+    ],
+    "stats": {
+      "correct": 0,
+      "incorrect": 0
+    }
+  },
+  {
+    "id": "Common Hormones 005",
+    "topic": "Common Hormones",
+    "difficulty": "intermediate",
+    "question": "Which hormone is released by the pancreas to increase blood glucose levels?",
+    "answers": [
+      "Insulin",
+      "Thyroxine",
+      "Glucagon",
+      "Cortisol"
+    ],
+    "correct": 2,
+    "tags": [
+      "Common Hormones"
+    ],
+    "stats": {
+      "correct": 0,
+      "incorrect": 0
+    }
+  },
+  {
+    "id": "Common Hormones 006",
+    "topic": "Common Hormones",
+    "difficulty": "intermediate",
+    "question": "Which hormone promotes water reabsorption in the kidneys?",
+    "answers": [
+      "Aldosterone",
+      "Cortisol",
+      "Antidiuretic hormone (ADH)",
+      "Calcitonin"
+    ],
+    "correct": 2,
+    "tags": [
+      "Common Hormones"
+    ],
+    "stats": {
+      "correct": 0,
+      "incorrect": 0
+    }
+  },
+  {
+    "id": "Common Hormones 007",
+    "topic": "Common Hormones",
+    "difficulty": "intermediate",
+    "question": "Which hormone regulates the sleep-wake cycle?",
+    "answers": [
+      "Serotonin",
+      "Cortisol",
+      "Melatonin",
+      "Dopamine"
+    ],
+    "correct": 2,
+    "tags": [
+      "Common Hormones"
+    ],
+    "stats": {
+      "correct": 0,
+      "incorrect": 0
+    }
+  },
+  {
+    "id": "Common Hormones 008",
+    "topic": "Common Hormones",
+    "difficulty": "intermediate",
+    "question": "Which hormone is involved in milk ejection during breastfeeding?",
+    "answers": [
+      "Prolactin",
+      "Estrogen",
+      "Oxytocin",
+      "LH"
+    ],
+    "correct": 2,
+    "tags": [
+      "Common Hormones"
+    ],
+    "stats": {
+      "correct": 0,
+      "incorrect": 0
+    }
+  },
+  {
+    "id": "Common Hormones 009",
+    "topic": "Common Hormones",
+    "difficulty": "intermediate",
+    "question": "What hormone stimulates growth and cell reproduction?",
+    "answers": [
+      "Insulin",
+      "Growth Hormone",
+      "Cortisol",
+      "ADH"
+    ],
+    "correct": 1,
+    "tags": [
+      "Common Hormones"
+    ],
+    "stats": {
+      "correct": 0,
+      "incorrect": 0
+    }
+  },
+  {
+    "id": "Common Hormones 010",
+    "topic": "Common Hormones",
+    "difficulty": "intermediate",
+    "question": "Which hormone is primarily responsible for the development of male secondary sex characteristics?",
+    "answers": [
+      "Estrogen",
+      "Progesterone",
+      "Testosterone",
+      "LH"
+    ],
+    "correct": 2,
+    "tags": [
+      "Common Hormones"
+    ],
+    "stats": {
+      "correct": 0,
+      "incorrect": 0
+    }
+  }
+]

@@ -1,0 +1,202 @@
+[
+  {
+    "id": "Anatomy Suffixes 001",
+    "topic": "Anatomy Suffixes",
+    "difficulty": "intermediate",
+    "question": "What does the suffix '-itis' mean?",
+    "answers": [
+      "Tumor",
+      "Inflammation",
+      "Condition",
+      "Surgical removal"
+    ],
+    "correct": 1,
+    "tags": [
+      "Anatomy Suffixes"
+    ],
+    "stats": {
+      "correct": 0,
+      "incorrect": 0
+    }
+  },
+  {
+    "id": "Anatomy Suffixes 002",
+    "topic": "Anatomy Suffixes",
+    "difficulty": "intermediate",
+    "question": "What is indicated by the suffix '-ectomy'?",
+    "answers": [
+      "Pain",
+      "Surgical removal",
+      "Study of",
+      "Disease"
+    ],
+    "correct": 1,
+    "tags": [
+      "Anatomy Suffixes"
+    ],
+    "stats": {
+      "correct": 0,
+      "incorrect": 0
+    }
+  },
+  {
+    "id": "Anatomy Suffixes 003",
+    "topic": "Anatomy Suffixes",
+    "difficulty": "intermediate",
+    "question": "The suffix '-algia' refers to:",
+    "answers": [
+      "Swelling",
+      "Pain",
+      "Enlargement",
+      "Hardening"
+    ],
+    "correct": 1,
+    "tags": [
+      "Anatomy Suffixes"
+    ],
+    "stats": {
+      "correct": 0,
+      "incorrect": 0
+    }
+  },
+  {
+    "id": "Anatomy Suffixes 004",
+    "topic": "Anatomy Suffixes",
+    "difficulty": "intermediate",
+    "question": "What does '-logy' mean in medical terminology?",
+    "answers": [
+      "Study of",
+      "Measurement",
+      "Cutting",
+      "Infection"
+    ],
+    "correct": 0,
+    "tags": [
+      "Anatomy Suffixes"
+    ],
+    "stats": {
+      "correct": 0,
+      "incorrect": 0
+    }
+  },
+  {
+    "id": "Anatomy Suffixes 005",
+    "topic": "Anatomy Suffixes",
+    "difficulty": "intermediate",
+    "question": "The suffix '-megaly' refers to:",
+    "answers": [
+      "Inflammation",
+      "Hardening",
+      "Enlargement",
+      "Displacement"
+    ],
+    "correct": 2,
+    "tags": [
+      "Anatomy Suffixes"
+    ],
+    "stats": {
+      "correct": 0,
+      "incorrect": 0
+    }
+  },
+  {
+    "id": "Anatomy Suffixes 006",
+    "topic": "Anatomy Suffixes",
+    "difficulty": "intermediate",
+    "question": "The suffix '-oma' typically indicates:",
+    "answers": [
+      "Pain",
+      "Condition",
+      "Tumor or mass",
+      "Study"
+    ],
+    "correct": 2,
+    "tags": [
+      "Anatomy Suffixes"
+    ],
+    "stats": {
+      "correct": 0,
+      "incorrect": 0
+    }
+  },
+  {
+    "id": "Anatomy Suffixes 007",
+    "topic": "Anatomy Suffixes",
+    "difficulty": "intermediate",
+    "question": "What does the suffix '-pathy' mean?",
+    "answers": [
+      "Study",
+      "Surgical repair",
+      "Disease",
+      "Formation"
+    ],
+    "correct": 2,
+    "tags": [
+      "Anatomy Suffixes"
+    ],
+    "stats": {
+      "correct": 0,
+      "incorrect": 0
+    }
+  },
+  {
+    "id": "Anatomy Suffixes 008",
+    "topic": "Anatomy Suffixes",
+    "difficulty": "intermediate",
+    "question": "The suffix '-plasty' means:",
+    "answers": [
+      "Surgical repair",
+      "Condition",
+      "Pain",
+      "Destruction"
+    ],
+    "correct": 0,
+    "tags": [
+      "Anatomy Suffixes"
+    ],
+    "stats": {
+      "correct": 0,
+      "incorrect": 0
+    }
+  },
+  {
+    "id": "Anatomy Suffixes 009",
+    "topic": "Anatomy Suffixes",
+    "difficulty": "intermediate",
+    "question": "What does the suffix '-emia' refer to?",
+    "answers": [
+      "Blood condition",
+      "Hardening",
+      "Tumor",
+      "Surgical removal"
+    ],
+    "correct": 0,
+    "tags": [
+      "Anatomy Suffixes"
+    ],
+    "stats": {
+      "correct": 0,
+      "incorrect": 0
+    }
+  },
+  {
+    "id": "Anatomy Suffixes 010",
+    "topic": "Anatomy Suffixes",
+    "difficulty": "intermediate",
+    "question": "The suffix '-stenosis' means:",
+    "answers": [
+      "Widening",
+      "Swelling",
+      "Narrowing",
+      "Bleeding"
+    ],
+    "correct": 2,
+    "tags": [
+      "Anatomy Suffixes"
+    ],
+    "stats": {
+      "correct": 0,
+      "incorrect": 0
+    }
+  }
+]

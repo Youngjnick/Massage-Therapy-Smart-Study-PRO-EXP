@@ -1,0 +1,202 @@
+[
+  {
+    "id": "Gate Control Theory 001",
+    "topic": "Gate Control Theory",
+    "difficulty": "intermediate",
+    "question": "What is the main premise of the Gate Control Theory of pain?",
+    "answers": [
+      "Pain signals are only processed in the brain",
+      "Pain signals can be blocked at the spinal cord level by non-painful input",
+      "Massage removes pain signals from nerves",
+      "Pain only results from injury to bones"
+    ],
+    "correct": 1,
+    "tags": [
+      "Gate Control Theory"
+    ],
+    "stats": {
+      "correct": 0,
+      "incorrect": 0
+    }
+  },
+  {
+    "id": "Gate Control Theory 002",
+    "topic": "Gate Control Theory",
+    "difficulty": "intermediate",
+    "question": "Where in the nervous system does the 'gate' in Gate Control Theory exist?",
+    "answers": [
+      "Cerebral cortex",
+      "Brainstem",
+      "Dorsal horn of the spinal cord",
+      "Peripheral nerves"
+    ],
+    "correct": 2,
+    "tags": [
+      "Gate Control Theory"
+    ],
+    "stats": {
+      "correct": 0,
+      "incorrect": 0
+    }
+  },
+  {
+    "id": "Gate Control Theory 003",
+    "topic": "Gate Control Theory",
+    "difficulty": "intermediate",
+    "question": "Which type of nerve fibers are responsible for closing the pain gate?",
+    "answers": [
+      "C fibers",
+      "A-delta fibers",
+      "A-beta fibers",
+      "Sympathetic fibers"
+    ],
+    "correct": 2,
+    "tags": [
+      "Gate Control Theory"
+    ],
+    "stats": {
+      "correct": 0,
+      "incorrect": 0
+    }
+  },
+  {
+    "id": "Gate Control Theory 004",
+    "topic": "Gate Control Theory",
+    "difficulty": "intermediate",
+    "question": "What role does massage play in the Gate Control Theory?",
+    "answers": [
+      "It activates pain fibers directly",
+      "It stimulates fast-conducting A-beta fibers to inhibit pain",
+      "It bypasses spinal nerves",
+      "It increases pain sensitivity"
+    ],
+    "correct": 1,
+    "tags": [
+      "Gate Control Theory"
+    ],
+    "stats": {
+      "correct": 0,
+      "incorrect": 0
+    }
+  },
+  {
+    "id": "Gate Control Theory 005",
+    "topic": "Gate Control Theory",
+    "difficulty": "intermediate",
+    "question": "Which of the following sensations can help 'close the gate' on pain?",
+    "answers": [
+      "Light touch and vibration",
+      "Sharp stabbing pain",
+      "Pressure from a deep wound",
+      "Sudden trauma"
+    ],
+    "correct": 0,
+    "tags": [
+      "Gate Control Theory"
+    ],
+    "stats": {
+      "correct": 0,
+      "incorrect": 0
+    }
+  },
+  {
+    "id": "Gate Control Theory 006",
+    "topic": "Gate Control Theory",
+    "difficulty": "intermediate",
+    "question": "Why is Gate Control Theory important in massage therapy?",
+    "answers": [
+      "It explains how massage decreases lymph flow",
+      "It shows how certain strokes may worsen inflammation",
+      "It provides a neurological basis for massage's pain-relieving effects",
+      "It proves massage can realign spinal vertebrae"
+    ],
+    "correct": 2,
+    "tags": [
+      "Gate Control Theory"
+    ],
+    "stats": {
+      "correct": 0,
+      "incorrect": 0
+    }
+  },
+  {
+    "id": "Gate Control Theory 007",
+    "topic": "Gate Control Theory",
+    "difficulty": "intermediate",
+    "question": "How does deep pressure affect the gate control mechanism?",
+    "answers": [
+      "It closes the gate faster than light pressure",
+      "It may stimulate pain fibers and open the gate",
+      "It deactivates nerve pathways",
+      "It has no effect on the gate"
+    ],
+    "correct": 1,
+    "tags": [
+      "Gate Control Theory"
+    ],
+    "stats": {
+      "correct": 0,
+      "incorrect": 0
+    }
+  },
+  {
+    "id": "Gate Control Theory 008",
+    "topic": "Gate Control Theory",
+    "difficulty": "intermediate",
+    "question": "Which technique best aligns with Gate Control Theory to reduce pain?",
+    "answers": [
+      "Effleurage and vibration",
+      "Tapotement and friction",
+      "Trigger point therapy",
+      "Myofascial release"
+    ],
+    "correct": 0,
+    "tags": [
+      "Gate Control Theory"
+    ],
+    "stats": {
+      "correct": 0,
+      "incorrect": 0
+    }
+  },
+  {
+    "id": "Gate Control Theory 009",
+    "topic": "Gate Control Theory",
+    "difficulty": "intermediate",
+    "question": "What happens when the pain gate is 'open'?",
+    "answers": [
+      "Pain perception decreases",
+      "Non-painful signals are enhanced",
+      "Pain signals reach the brain more easily",
+      "The spinal cord stops processing input"
+    ],
+    "correct": 2,
+    "tags": [
+      "Gate Control Theory"
+    ],
+    "stats": {
+      "correct": 0,
+      "incorrect": 0
+    }
+  },
+  {
+    "id": "Gate Control Theory 010",
+    "topic": "Gate Control Theory",
+    "difficulty": "intermediate",
+    "question": "Which best describes the relationship between sensory input and pain modulation in Gate Control Theory?",
+    "answers": [
+      "Sensory input has no effect on pain",
+      "Stimulating sensory receptors can inhibit pain perception",
+      "Sensory input always increases pain signals",
+      "Pain only occurs with sensory loss"
+    ],
+    "correct": 1,
+    "tags": [
+      "Gate Control Theory"
+    ],
+    "stats": {
+      "correct": 0,
+      "incorrect": 0
+    }
+  }
+]

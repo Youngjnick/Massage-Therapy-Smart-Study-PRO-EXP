@@ -1,0 +1,1802 @@
+[
+  {
+    "id": "Anatomy Prefixes 001",
+    "topic": "Anatomy Prefixes",
+    "difficulty": "intermediate",
+    "question": "What does the root 'cardi/o' refer to?",
+    "answers": [
+      "Lungs",
+      "Heart",
+      "Liver",
+      "Kidney"
+    ],
+    "correct": 1,
+    "tags": [
+      "Anatomy Prefixes"
+    ],
+    "stats": {
+      "correct": 0,
+      "incorrect": 0
+    }
+  },
+  {
+    "id": "Anatomy Prefixes 002",
+    "topic": "Anatomy Prefixes",
+    "difficulty": "intermediate",
+    "question": "The root 'hepat/o' means:",
+    "answers": [
+      "Liver",
+      "Blood",
+      "Skin",
+      "Stomach"
+    ],
+    "correct": 0,
+    "tags": [
+      "Anatomy Prefixes"
+    ],
+    "stats": {
+      "correct": 0,
+      "incorrect": 0
+    }
+  },
+  {
+    "id": "Anatomy Prefixes 003",
+    "topic": "Anatomy Prefixes",
+    "difficulty": "intermediate",
+    "question": "What does 'neur/o' refer to?",
+    "answers": [
+      "Bone",
+      "Nerve",
+      "Muscle",
+      "Kidney"
+    ],
+    "correct": 1,
+    "tags": [
+      "Anatomy Prefixes"
+    ],
+    "stats": {
+      "correct": 0,
+      "incorrect": 0
+    }
+  },
+  {
+    "id": "Anatomy Prefixes 004",
+    "topic": "Anatomy Prefixes",
+    "difficulty": "intermediate",
+    "question": "The root 'dermat/o' means:",
+    "answers": [
+      "Skin",
+      "Tissue",
+      "Nerve",
+      "Muscle"
+    ],
+    "correct": 0,
+    "tags": [
+      "Anatomy Prefixes"
+    ],
+    "stats": {
+      "correct": 0,
+      "incorrect": 0
+    }
+  },
+  {
+    "id": "Anatomy Prefixes 005",
+    "topic": "Anatomy Prefixes",
+    "difficulty": "intermediate",
+    "question": "What does the root 'oste/o' refer to?",
+    "answers": [
+      "Bone",
+      "Muscle",
+      "Skin",
+      "Fat"
+    ],
+    "correct": 0,
+    "tags": [
+      "Anatomy Prefixes"
+    ],
+    "stats": {
+      "correct": 0,
+      "incorrect": 0
+    }
+  },
+  {
+    "id": "Anatomy Prefixes 006",
+    "topic": "Anatomy Prefixes",
+    "difficulty": "intermediate",
+    "question": "The root 'gastr/o' means:",
+    "answers": [
+      "Stomach",
+      "Liver",
+      "Muscle",
+      "Kidney"
+    ],
+    "correct": 0,
+    "tags": [
+      "Anatomy Prefixes"
+    ],
+    "stats": {
+      "correct": 0,
+      "incorrect": 0
+    }
+  },
+  {
+    "id": "Anatomy Prefixes 007",
+    "topic": "Anatomy Prefixes",
+    "difficulty": "intermediate",
+    "question": "What does 'arthr/o' refer to?",
+    "answers": [
+      "Joint",
+      "Lung",
+      "Eye",
+      "Skin"
+    ],
+    "correct": 0,
+    "tags": [
+      "Anatomy Prefixes"
+    ],
+    "stats": {
+      "correct": 0,
+      "incorrect": 0
+    }
+  },
+  {
+    "id": "Anatomy Prefixes 008",
+    "topic": "Anatomy Prefixes",
+    "difficulty": "intermediate",
+    "question": "The root 'my/o' refers to:",
+    "answers": [
+      "Brain",
+      "Muscle",
+      "Lung",
+      "Skin"
+    ],
+    "correct": 1,
+    "tags": [
+      "Anatomy Prefixes"
+    ],
+    "stats": {
+      "correct": 0,
+      "incorrect": 0
+    }
+  },
+  {
+    "id": "Anatomy Prefixes 009",
+    "topic": "Anatomy Prefixes",
+    "difficulty": "intermediate",
+    "question": "What does 'nephr/o' refer to?",
+    "answers": [
+      "Kidney",
+      "Liver",
+      "Pancreas",
+      "Bone"
+    ],
+    "correct": 0,
+    "tags": [
+      "Anatomy Prefixes"
+    ],
+    "stats": {
+      "correct": 0,
+      "incorrect": 0
+    }
+  },
+  {
+    "id": "Anatomy Prefixes 010",
+    "topic": "Anatomy Prefixes",
+    "difficulty": "intermediate",
+    "question": "The root 'pulmon/o' means:",
+    "answers": [
+      "Liver",
+      "Lung",
+      "Heart",
+      "Skin"
+    ],
+    "correct": 1,
+    "tags": [
+      "Anatomy Prefixes"
+    ],
+    "stats": {
+      "correct": 0,
+      "incorrect": 0
+    }
+  },
+  {
+    "id": "Anatomy Suffixes 001",
+    "topic": "Anatomy Suffixes",
+    "difficulty": "intermediate",
+    "question": "What does the suffix '-itis' mean?",
+    "answers": [
+      "Tumor",
+      "Inflammation",
+      "Condition",
+      "Surgical removal"
+    ],
+    "correct": 1,
+    "tags": [
+      "Anatomy Suffixes"
+    ],
+    "stats": {
+      "correct": 0,
+      "incorrect": 0
+    }
+  },
+  {
+    "id": "Anatomy Suffixes 002",
+    "topic": "Anatomy Suffixes",
+    "difficulty": "intermediate",
+    "question": "What is indicated by the suffix '-ectomy'?",
+    "answers": [
+      "Pain",
+      "Surgical removal",
+      "Study of",
+      "Disease"
+    ],
+    "correct": 1,
+    "tags": [
+      "Anatomy Suffixes"
+    ],
+    "stats": {
+      "correct": 0,
+      "incorrect": 0
+    }
+  },
+  {
+    "id": "Anatomy Suffixes 003",
+    "topic": "Anatomy Suffixes",
+    "difficulty": "intermediate",
+    "question": "The suffix '-algia' refers to:",
+    "answers": [
+      "Swelling",
+      "Pain",
+      "Enlargement",
+      "Hardening"
+    ],
+    "correct": 1,
+    "tags": [
+      "Anatomy Suffixes"
+    ],
+    "stats": {
+      "correct": 0,
+      "incorrect": 0
+    }
+  },
+  {
+    "id": "Anatomy Suffixes 004",
+    "topic": "Anatomy Suffixes",
+    "difficulty": "intermediate",
+    "question": "What does '-logy' mean in medical terminology?",
+    "answers": [
+      "Study of",
+      "Measurement",
+      "Cutting",
+      "Infection"
+    ],
+    "correct": 0,
+    "tags": [
+      "Anatomy Suffixes"
+    ],
+    "stats": {
+      "correct": 0,
+      "incorrect": 0
+    }
+  },
+  {
+    "id": "Anatomy Suffixes 005",
+    "topic": "Anatomy Suffixes",
+    "difficulty": "intermediate",
+    "question": "The suffix '-megaly' refers to:",
+    "answers": [
+      "Inflammation",
+      "Hardening",
+      "Enlargement",
+      "Displacement"
+    ],
+    "correct": 2,
+    "tags": [
+      "Anatomy Suffixes"
+    ],
+    "stats": {
+      "correct": 0,
+      "incorrect": 0
+    }
+  },
+  {
+    "id": "Anatomy Suffixes 006",
+    "topic": "Anatomy Suffixes",
+    "difficulty": "intermediate",
+    "question": "The suffix '-oma' typically indicates:",
+    "answers": [
+      "Pain",
+      "Condition",
+      "Tumor or mass",
+      "Study"
+    ],
+    "correct": 2,
+    "tags": [
+      "Anatomy Suffixes"
+    ],
+    "stats": {
+      "correct": 0,
+      "incorrect": 0
+    }
+  },
+  {
+    "id": "Anatomy Suffixes 007",
+    "topic": "Anatomy Suffixes",
+    "difficulty": "intermediate",
+    "question": "What does the suffix '-pathy' mean?",
+    "answers": [
+      "Study",
+      "Surgical repair",
+      "Disease",
+      "Formation"
+    ],
+    "correct": 2,
+    "tags": [
+      "Anatomy Suffixes"
+    ],
+    "stats": {
+      "correct": 0,
+      "incorrect": 0
+    }
+  },
+  {
+    "id": "Anatomy Suffixes 008",
+    "topic": "Anatomy Suffixes",
+    "difficulty": "intermediate",
+    "question": "The suffix '-plasty' means:",
+    "answers": [
+      "Surgical repair",
+      "Condition",
+      "Pain",
+      "Destruction"
+    ],
+    "correct": 0,
+    "tags": [
+      "Anatomy Suffixes"
+    ],
+    "stats": {
+      "correct": 0,
+      "incorrect": 0
+    }
+  },
+  {
+    "id": "Anatomy Suffixes 009",
+    "topic": "Anatomy Suffixes",
+    "difficulty": "intermediate",
+    "question": "What does the suffix '-emia' refer to?",
+    "answers": [
+      "Blood condition",
+      "Hardening",
+      "Tumor",
+      "Surgical removal"
+    ],
+    "correct": 0,
+    "tags": [
+      "Anatomy Suffixes"
+    ],
+    "stats": {
+      "correct": 0,
+      "incorrect": 0
+    }
+  },
+  {
+    "id": "Anatomy Suffixes 010",
+    "topic": "Anatomy Suffixes",
+    "difficulty": "intermediate",
+    "question": "The suffix '-stenosis' means:",
+    "answers": [
+      "Widening",
+      "Swelling",
+      "Narrowing",
+      "Bleeding"
+    ],
+    "correct": 2,
+    "tags": [
+      "Anatomy Suffixes"
+    ],
+    "stats": {
+      "correct": 0,
+      "incorrect": 0
+    }
+  },
+  {
+    "id": "Common Hormones 001",
+    "topic": "Common Hormones",
+    "difficulty": "intermediate",
+    "question": "Which hormone regulates metabolism and is produced by the thyroid gland?",
+    "answers": [
+      "Insulin",
+      "Thyroxine (T4)",
+      "Cortisol",
+      "Testosterone"
+    ],
+    "correct": 1,
+    "tags": [
+      "Common Hormones"
+    ],
+    "stats": {
+      "correct": 0,
+      "incorrect": 0
+    }
+  },
+  {
+    "id": "Common Hormones 002",
+    "topic": "Common Hormones",
+    "difficulty": "intermediate",
+    "question": "Which hormone helps regulate blood sugar by promoting glucose uptake into cells?",
+    "answers": [
+      "Adrenaline",
+      "Glucagon",
+      "Insulin",
+      "Growth Hormone"
+    ],
+    "correct": 2,
+    "tags": [
+      "Common Hormones"
+    ],
+    "stats": {
+      "correct": 0,
+      "incorrect": 0
+    }
+  },
+  {
+    "id": "Common Hormones 003",
+    "topic": "Common Hormones",
+    "difficulty": "intermediate",
+    "question": "Which hormone is released in response to stress and is produced by the adrenal cortex?",
+    "answers": [
+      "Epinephrine",
+      "Cortisol",
+      "Glucagon",
+      "Aldosterone"
+    ],
+    "correct": 1,
+    "tags": [
+      "Common Hormones"
+    ],
+    "stats": {
+      "correct": 0,
+      "incorrect": 0
+    }
+  },
+  {
+    "id": "Common Hormones 004",
+    "topic": "Common Hormones",
+    "difficulty": "intermediate",
+    "question": "What hormone is responsible for the 'fight or flight' response?",
+    "answers": [
+      "Cortisol",
+      "Insulin",
+      "Epinephrine (Adrenaline)",
+      "Melatonin"
+    ],
+    "correct": 2,
+    "tags": [
+      "Common Hormones"
+    ],
+    "stats": {
+      "correct": 0,
+      "incorrect": 0
+    }
+  },
+  {
+    "id": "Common Hormones 005",
+    "topic": "Common Hormones",
+    "difficulty": "intermediate",
+    "question": "Which hormone is released by the pancreas to increase blood glucose levels?",
+    "answers": [
+      "Insulin",
+      "Thyroxine",
+      "Glucagon",
+      "Cortisol"
+    ],
+    "correct": 2,
+    "tags": [
+      "Common Hormones"
+    ],
+    "stats": {
+      "correct": 0,
+      "incorrect": 0
+    }
+  },
+  {
+    "id": "Common Hormones 006",
+    "topic": "Common Hormones",
+    "difficulty": "intermediate",
+    "question": "Which hormone promotes water reabsorption in the kidneys?",
+    "answers": [
+      "Aldosterone",
+      "Cortisol",
+      "Antidiuretic hormone (ADH)",
+      "Calcitonin"
+    ],
+    "correct": 2,
+    "tags": [
+      "Common Hormones"
+    ],
+    "stats": {
+      "correct": 0,
+      "incorrect": 0
+    }
+  },
+  {
+    "id": "Common Hormones 007",
+    "topic": "Common Hormones",
+    "difficulty": "intermediate",
+    "question": "Which hormone regulates the sleep-wake cycle?",
+    "answers": [
+      "Serotonin",
+      "Cortisol",
+      "Melatonin",
+      "Dopamine"
+    ],
+    "correct": 2,
+    "tags": [
+      "Common Hormones"
+    ],
+    "stats": {
+      "correct": 0,
+      "incorrect": 0
+    }
+  },
+  {
+    "id": "Common Hormones 008",
+    "topic": "Common Hormones",
+    "difficulty": "intermediate",
+    "question": "Which hormone is involved in milk ejection during breastfeeding?",
+    "answers": [
+      "Prolactin",
+      "Estrogen",
+      "Oxytocin",
+      "LH"
+    ],
+    "correct": 2,
+    "tags": [
+      "Common Hormones"
+    ],
+    "stats": {
+      "correct": 0,
+      "incorrect": 0
+    }
+  },
+  {
+    "id": "Common Hormones 009",
+    "topic": "Common Hormones",
+    "difficulty": "intermediate",
+    "question": "What hormone stimulates growth and cell reproduction?",
+    "answers": [
+      "Insulin",
+      "Growth Hormone",
+      "Cortisol",
+      "ADH"
+    ],
+    "correct": 1,
+    "tags": [
+      "Common Hormones"
+    ],
+    "stats": {
+      "correct": 0,
+      "incorrect": 0
+    }
+  },
+  {
+    "id": "Common Hormones 010",
+    "topic": "Common Hormones",
+    "difficulty": "intermediate",
+    "question": "Which hormone is primarily responsible for the development of male secondary sex characteristics?",
+    "answers": [
+      "Estrogen",
+      "Progesterone",
+      "Testosterone",
+      "LH"
+    ],
+    "correct": 2,
+    "tags": [
+      "Common Hormones"
+    ],
+    "stats": {
+      "correct": 0,
+      "incorrect": 0
+    }
+  },
+  {
+    "id": "Connective Tissue Massage 001",
+    "topic": "Connective Tissue Massage",
+    "difficulty": "intermediate",
+    "question": "What is the primary goal of connective tissue massage (CTM)?",
+    "answers": [
+      "To apply deep pressure to muscle bellies",
+      "To stimulate the lymphatic system only",
+      "To affect autonomic nervous system responses through dermatomes",
+      "To stretch the tendons directly"
+    ],
+    "correct": 2,
+    "tags": [
+      "Connective Tissue Massage"
+    ],
+    "stats": {
+      "correct": 0,
+      "incorrect": 0
+    }
+  },
+  {
+    "id": "Connective Tissue Massage 002",
+    "topic": "Connective Tissue Massage",
+    "difficulty": "intermediate",
+    "question": "Connective tissue massage was originally developed by:",
+    "answers": [
+      "Ida Rolf",
+      "Elizabeth Dicke",
+      "Per Henrik Ling",
+      "Janet Travell"
+    ],
+    "correct": 1,
+    "tags": [
+      "Connective Tissue Massage"
+    ],
+    "stats": {
+      "correct": 0,
+      "incorrect": 0
+    }
+  },
+  {
+    "id": "Connective Tissue Massage 003",
+    "topic": "Connective Tissue Massage",
+    "difficulty": "intermediate",
+    "question": "Which layer of the body does connective tissue massage primarily target?",
+    "answers": [
+      "Epidermis",
+      "Adipose tissue",
+      "Subcutaneous fascia",
+      "Muscle fibers"
+    ],
+    "correct": 2,
+    "tags": [
+      "Connective Tissue Massage"
+    ],
+    "stats": {
+      "correct": 0,
+      "incorrect": 0
+    }
+  },
+  {
+    "id": "Connective Tissue Massage 004",
+    "topic": "Connective Tissue Massage",
+    "difficulty": "intermediate",
+    "question": "What is a hallmark technique of connective tissue massage?",
+    "answers": [
+      "Gentle rocking and jostling",
+      "Slow, superficial gliding strokes",
+      "Short, pulling strokes that create tension in the skin",
+      "Rhythmic tapping over meridians"
+    ],
+    "correct": 2,
+    "tags": [
+      "Connective Tissue Massage"
+    ],
+    "stats": {
+      "correct": 0,
+      "incorrect": 0
+    }
+  },
+  {
+    "id": "Connective Tissue Massage 005",
+    "topic": "Connective Tissue Massage",
+    "difficulty": "intermediate",
+    "question": "Connective tissue massage is commonly used in Europe to address:",
+    "answers": [
+      "Cardiac arrhythmias",
+      "Visceral dysfunctions and organ referral patterns",
+      "Broken bones",
+      "Acute skin infections"
+    ],
+    "correct": 1,
+    "tags": [
+      "Connective Tissue Massage"
+    ],
+    "stats": {
+      "correct": 0,
+      "incorrect": 0
+    }
+  },
+  {
+    "id": "Connective Tissue Massage 006",
+    "topic": "Connective Tissue Massage",
+    "difficulty": "intermediate",
+    "question": "Which of the following best describes the mechanism behind CTM’s effect on internal organs?",
+    "answers": [
+      "Stimulation of lymph nodes",
+      "Direct contact with nerves under the skin",
+      "Reflexive stimulation through shared spinal segments",
+      "Increased muscle strength"
+    ],
+    "correct": 2,
+    "tags": [
+      "Connective Tissue Massage"
+    ],
+    "stats": {
+      "correct": 0,
+      "incorrect": 0
+    }
+  },
+  {
+    "id": "Connective Tissue Massage 007",
+    "topic": "Connective Tissue Massage",
+    "difficulty": "intermediate",
+    "question": "In connective tissue massage, lines of pull are often determined by:",
+    "answers": [
+      "Trigger points",
+      "Postural patterns",
+      "Dermatomes",
+      "Joint alignment"
+    ],
+    "correct": 2,
+    "tags": [
+      "Connective Tissue Massage"
+    ],
+    "stats": {
+      "correct": 0,
+      "incorrect": 0
+    }
+  },
+  {
+    "id": "Connective Tissue Massage 008",
+    "topic": "Connective Tissue Massage",
+    "difficulty": "intermediate",
+    "question": "What sensation is commonly reported by clients during connective tissue massage?",
+    "answers": [
+      "Numbness",
+      "Tickling",
+      "Burning or stinging as adhesions release",
+      "Cold chills"
+    ],
+    "correct": 2,
+    "tags": [
+      "Connective Tissue Massage"
+    ],
+    "stats": {
+      "correct": 0,
+      "incorrect": 0
+    }
+  },
+  {
+    "id": "Connective Tissue Massage 009",
+    "topic": "Connective Tissue Massage",
+    "difficulty": "intermediate",
+    "question": "Which condition may benefit from CTM's effects on autonomic balance?",
+    "answers": [
+      "High blood pressure",
+      "Asthma",
+      "Liver disease",
+      "All of the above"
+    ],
+    "correct": 3,
+    "tags": [
+      "Connective Tissue Massage"
+    ],
+    "stats": {
+      "correct": 0,
+      "incorrect": 0
+    }
+  },
+  {
+    "id": "Connective Tissue Massage 010",
+    "topic": "Connective Tissue Massage",
+    "difficulty": "intermediate",
+    "question": "Connective tissue massage differs from deep tissue massage in that:",
+    "answers": [
+      "It only uses the elbows for pressure",
+      "It focuses on superficial skin-fascial pulls rather than deep muscle work",
+      "It uses oil for better glide",
+      "It requires physician supervision"
+    ],
+    "correct": 1,
+    "tags": [
+      "Connective Tissue Massage"
+    ],
+    "stats": {
+      "correct": 0,
+      "incorrect": 0
+    }
+  },
+  {
+    "id": "Connective Tissue 001",
+    "topic": "Connective Tissue",
+    "difficulty": "intermediate",
+    "question": "What is the primary function of connective tissue?",
+    "answers": [
+      "Conduct electrical impulses",
+      "Line body cavities",
+      "Support, bind, and protect other tissues",
+      "Secrete digestive enzymes"
+    ],
+    "correct": 2,
+    "tags": [
+      "Connective Tissue"
+    ],
+    "stats": {
+      "correct": 0,
+      "incorrect": 0
+    }
+  },
+  {
+    "id": "Connective Tissue 002",
+    "topic": "Connective Tissue",
+    "difficulty": "intermediate",
+    "question": "Which of the following is a type of connective tissue?",
+    "answers": [
+      "Epithelial tissue",
+      "Muscle tissue",
+      "Adipose tissue",
+      "Neural tissue"
+    ],
+    "correct": 2,
+    "tags": [
+      "Connective Tissue"
+    ],
+    "stats": {
+      "correct": 0,
+      "incorrect": 0
+    }
+  },
+  {
+    "id": "Connective Tissue 003",
+    "topic": "Connective Tissue",
+    "difficulty": "intermediate",
+    "question": "What is the extracellular matrix in connective tissue composed of?",
+    "answers": [
+      "DNA and proteins",
+      "Plasma and organelles",
+      "Fibers and ground substance",
+      "Cholesterol and enzymes"
+    ],
+    "correct": 2,
+    "tags": [
+      "Connective Tissue"
+    ],
+    "stats": {
+      "correct": 0,
+      "incorrect": 0
+    }
+  },
+  {
+    "id": "Connective Tissue 004",
+    "topic": "Connective Tissue",
+    "difficulty": "intermediate",
+    "question": "Which connective tissue acts as a fat storage site and cushions organs?",
+    "answers": [
+      "Cartilage",
+      "Adipose tissue",
+      "Areolar tissue",
+      "Dense regular tissue"
+    ],
+    "correct": 1,
+    "tags": [
+      "Connective Tissue"
+    ],
+    "stats": {
+      "correct": 0,
+      "incorrect": 0
+    }
+  },
+  {
+    "id": "Connective Tissue 005",
+    "topic": "Connective Tissue",
+    "difficulty": "intermediate",
+    "question": "Which connective tissue type connects muscle to bone?",
+    "answers": [
+      "Ligaments",
+      "Cartilage",
+      "Tendons",
+      "Adipose"
+    ],
+    "correct": 2,
+    "tags": [
+      "Connective Tissue"
+    ],
+    "stats": {
+      "correct": 0,
+      "incorrect": 0
+    }
+  },
+  {
+    "id": "Connective Tissue 006",
+    "topic": "Connective Tissue",
+    "difficulty": "intermediate",
+    "question": "Ligaments connect:",
+    "answers": [
+      "Muscle to bone",
+      "Bone to bone",
+      "Bone to cartilage",
+      "Muscle to muscle"
+    ],
+    "correct": 1,
+    "tags": [
+      "Connective Tissue"
+    ],
+    "stats": {
+      "correct": 0,
+      "incorrect": 0
+    }
+  },
+  {
+    "id": "Connective Tissue 007",
+    "topic": "Connective Tissue",
+    "difficulty": "intermediate",
+    "question": "Which type of connective tissue is found in the dermis of the skin and provides strength in multiple directions?",
+    "answers": [
+      "Dense irregular connective tissue",
+      "Loose connective tissue",
+      "Cartilage",
+      "Compact bone"
+    ],
+    "correct": 0,
+    "tags": [
+      "Connective Tissue"
+    ],
+    "stats": {
+      "correct": 0,
+      "incorrect": 0
+    }
+  },
+  {
+    "id": "Connective Tissue 008",
+    "topic": "Connective Tissue",
+    "difficulty": "intermediate",
+    "question": "What cell type is primarily responsible for producing connective tissue fibers?",
+    "answers": [
+      "Osteocytes",
+      "Chondrocytes",
+      "Fibroblasts",
+      "Erythrocytes"
+    ],
+    "correct": 2,
+    "tags": [
+      "Connective Tissue"
+    ],
+    "stats": {
+      "correct": 0,
+      "incorrect": 0
+    }
+  },
+  {
+    "id": "Connective Tissue 009",
+    "topic": "Connective Tissue",
+    "difficulty": "intermediate",
+    "question": "Which of the following is NOT a fiber found in connective tissue?",
+    "answers": [
+      "Collagen",
+      "Elastin",
+      "Keratin",
+      "Reticular"
+    ],
+    "correct": 2,
+    "tags": [
+      "Connective Tissue"
+    ],
+    "stats": {
+      "correct": 0,
+      "incorrect": 0
+    }
+  },
+  {
+    "id": "Connective Tissue 010",
+    "topic": "Connective Tissue",
+    "difficulty": "intermediate",
+    "question": "Which connective tissue has a solid, mineralized matrix and supports the body structurally?",
+    "answers": [
+      "Cartilage",
+      "Bone tissue",
+      "Adipose tissue",
+      "Blood"
+    ],
+    "correct": 1,
+    "tags": [
+      "Connective Tissue"
+    ],
+    "stats": {
+      "correct": 0,
+      "incorrect": 0
+    }
+  },
+  {
+    "id": "Fungi Vs Bacteria 001",
+    "topic": "Fungi Vs Bacteria",
+    "difficulty": "intermediate",
+    "question": "Which of the following is true about bacteria?",
+    "answers": [
+      "They are multicellular organisms",
+      "They have membrane-bound organelles",
+      "They are prokaryotic and lack a nucleus",
+      "They perform photosynthesis only"
+    ],
+    "correct": 2,
+    "tags": [
+      "Fungi Vs Bacteria"
+    ],
+    "stats": {
+      "correct": 0,
+      "incorrect": 0
+    }
+  },
+  {
+    "id": "Fungi Vs Bacteria 002",
+    "topic": "Fungi Vs Bacteria",
+    "difficulty": "intermediate",
+    "question": "Which of the following best describes fungi?",
+    "answers": [
+      "Unicellular and photosynthetic",
+      "Prokaryotic and anaerobic",
+      "Eukaryotic and can be unicellular or multicellular",
+      "Viruses with cell walls"
+    ],
+    "correct": 2,
+    "tags": [
+      "Fungi Vs Bacteria"
+    ],
+    "stats": {
+      "correct": 0,
+      "incorrect": 0
+    }
+  },
+  {
+    "id": "Fungi Vs Bacteria 003",
+    "topic": "Fungi Vs Bacteria",
+    "difficulty": "intermediate",
+    "question": "Which kingdom do fungi belong to?",
+    "answers": [
+      "Protista",
+      "Monera",
+      "Plantae",
+      "Fungi"
+    ],
+    "correct": 3,
+    "tags": [
+      "Fungi Vs Bacteria"
+    ],
+    "stats": {
+      "correct": 0,
+      "incorrect": 0
+    }
+  },
+  {
+    "id": "Fungi Vs Bacteria 004",
+    "topic": "Fungi Vs Bacteria",
+    "difficulty": "intermediate",
+    "question": "Bacteria reproduce primarily through which process?",
+    "answers": [
+      "Binary fission",
+      "Budding",
+      "Spore formation",
+      "Sexual reproduction"
+    ],
+    "correct": 0,
+    "tags": [
+      "Fungi Vs Bacteria"
+    ],
+    "stats": {
+      "correct": 0,
+      "incorrect": 0
+    }
+  },
+  {
+    "id": "Fungi Vs Bacteria 005",
+    "topic": "Fungi Vs Bacteria",
+    "difficulty": "intermediate",
+    "question": "What structure is commonly found in fungi but not in bacteria?",
+    "answers": [
+      "Peptidoglycan",
+      "Chlorophyll",
+      "Chitin cell walls",
+      "Capsules"
+    ],
+    "correct": 2,
+    "tags": [
+      "Fungi Vs Bacteria"
+    ],
+    "stats": {
+      "correct": 0,
+      "incorrect": 0
+    }
+  },
+  {
+    "id": "Fungi Vs Bacteria 006",
+    "topic": "Fungi Vs Bacteria",
+    "difficulty": "intermediate",
+    "question": "Which of the following is true about bacterial cell walls?",
+    "answers": [
+      "They are made of cellulose",
+      "They lack a cell wall",
+      "They are made of peptidoglycan",
+      "They are identical to animal cells"
+    ],
+    "correct": 2,
+    "tags": [
+      "Fungi Vs Bacteria"
+    ],
+    "stats": {
+      "correct": 0,
+      "incorrect": 0
+    }
+  },
+  {
+    "id": "Fungi Vs Bacteria 007",
+    "topic": "Fungi Vs Bacteria",
+    "difficulty": "intermediate",
+    "question": "Which of the following organisms can cause ringworm?",
+    "answers": [
+      "Virus",
+      "Bacterium",
+      "Fungus",
+      "Protozoan"
+    ],
+    "correct": 2,
+    "tags": [
+      "Fungi Vs Bacteria"
+    ],
+    "stats": {
+      "correct": 0,
+      "incorrect": 0
+    }
+  },
+  {
+    "id": "Fungi Vs Bacteria 008",
+    "topic": "Fungi Vs Bacteria",
+    "difficulty": "intermediate",
+    "question": "Which of the following diseases is caused by bacteria?",
+    "answers": [
+      "Athlete’s foot",
+      "Strep throat",
+      "Candidiasis",
+      "Aspergillosis"
+    ],
+    "correct": 1,
+    "tags": [
+      "Fungi Vs Bacteria"
+    ],
+    "stats": {
+      "correct": 0,
+      "incorrect": 0
+    }
+  },
+  {
+    "id": "Fungi Vs Bacteria 009",
+    "topic": "Fungi Vs Bacteria",
+    "difficulty": "intermediate",
+    "question": "Which is a key structural difference between fungi and bacteria?",
+    "answers": [
+      "Fungi have no cell membrane",
+      "Bacteria have mitochondria",
+      "Fungi have nuclei, bacteria do not",
+      "Bacteria are larger than fungi"
+    ],
+    "correct": 2,
+    "tags": [
+      "Fungi Vs Bacteria"
+    ],
+    "stats": {
+      "correct": 0,
+      "incorrect": 0
+    }
+  },
+  {
+    "id": "Fungi Vs Bacteria 010",
+    "topic": "Fungi Vs Bacteria",
+    "difficulty": "intermediate",
+    "question": "How do fungi primarily obtain nutrients?",
+    "answers": [
+      "Photosynthesis",
+      "Consuming other animals",
+      "Absorption of organic material",
+      "Engulfing bacteria"
+    ],
+    "correct": 2,
+    "tags": [
+      "Fungi Vs Bacteria"
+    ],
+    "stats": {
+      "correct": 0,
+      "incorrect": 0
+    }
+  },
+  {
+    "id": "Gate Control Theory 001",
+    "topic": "Gate Control Theory",
+    "difficulty": "intermediate",
+    "question": "What is the main premise of the Gate Control Theory of pain?",
+    "answers": [
+      "Pain signals are only processed in the brain",
+      "Pain signals can be blocked at the spinal cord level by non-painful input",
+      "Massage removes pain signals from nerves",
+      "Pain only results from injury to bones"
+    ],
+    "correct": 1,
+    "tags": [
+      "Gate Control Theory"
+    ],
+    "stats": {
+      "correct": 0,
+      "incorrect": 0
+    }
+  },
+  {
+    "id": "Gate Control Theory 002",
+    "topic": "Gate Control Theory",
+    "difficulty": "intermediate",
+    "question": "Where in the nervous system does the 'gate' in Gate Control Theory exist?",
+    "answers": [
+      "Cerebral cortex",
+      "Brainstem",
+      "Dorsal horn of the spinal cord",
+      "Peripheral nerves"
+    ],
+    "correct": 2,
+    "tags": [
+      "Gate Control Theory"
+    ],
+    "stats": {
+      "correct": 0,
+      "incorrect": 0
+    }
+  },
+  {
+    "id": "Gate Control Theory 003",
+    "topic": "Gate Control Theory",
+    "difficulty": "intermediate",
+    "question": "Which type of nerve fibers are responsible for closing the pain gate?",
+    "answers": [
+      "C fibers",
+      "A-delta fibers",
+      "A-beta fibers",
+      "Sympathetic fibers"
+    ],
+    "correct": 2,
+    "tags": [
+      "Gate Control Theory"
+    ],
+    "stats": {
+      "correct": 0,
+      "incorrect": 0
+    }
+  },
+  {
+    "id": "Gate Control Theory 004",
+    "topic": "Gate Control Theory",
+    "difficulty": "intermediate",
+    "question": "What role does massage play in the Gate Control Theory?",
+    "answers": [
+      "It activates pain fibers directly",
+      "It stimulates fast-conducting A-beta fibers to inhibit pain",
+      "It bypasses spinal nerves",
+      "It increases pain sensitivity"
+    ],
+    "correct": 1,
+    "tags": [
+      "Gate Control Theory"
+    ],
+    "stats": {
+      "correct": 0,
+      "incorrect": 0
+    }
+  },
+  {
+    "id": "Gate Control Theory 005",
+    "topic": "Gate Control Theory",
+    "difficulty": "intermediate",
+    "question": "Which of the following sensations can help 'close the gate' on pain?",
+    "answers": [
+      "Light touch and vibration",
+      "Sharp stabbing pain",
+      "Pressure from a deep wound",
+      "Sudden trauma"
+    ],
+    "correct": 0,
+    "tags": [
+      "Gate Control Theory"
+    ],
+    "stats": {
+      "correct": 0,
+      "incorrect": 0
+    }
+  },
+  {
+    "id": "Gate Control Theory 006",
+    "topic": "Gate Control Theory",
+    "difficulty": "intermediate",
+    "question": "Why is Gate Control Theory important in massage therapy?",
+    "answers": [
+      "It explains how massage decreases lymph flow",
+      "It shows how certain strokes may worsen inflammation",
+      "It provides a neurological basis for massage's pain-relieving effects",
+      "It proves massage can realign spinal vertebrae"
+    ],
+    "correct": 2,
+    "tags": [
+      "Gate Control Theory"
+    ],
+    "stats": {
+      "correct": 0,
+      "incorrect": 0
+    }
+  },
+  {
+    "id": "Gate Control Theory 007",
+    "topic": "Gate Control Theory",
+    "difficulty": "intermediate",
+    "question": "How does deep pressure affect the gate control mechanism?",
+    "answers": [
+      "It closes the gate faster than light pressure",
+      "It may stimulate pain fibers and open the gate",
+      "It deactivates nerve pathways",
+      "It has no effect on the gate"
+    ],
+    "correct": 1,
+    "tags": [
+      "Gate Control Theory"
+    ],
+    "stats": {
+      "correct": 0,
+      "incorrect": 0
+    }
+  },
+  {
+    "id": "Gate Control Theory 008",
+    "topic": "Gate Control Theory",
+    "difficulty": "intermediate",
+    "question": "Which technique best aligns with Gate Control Theory to reduce pain?",
+    "answers": [
+      "Effleurage and vibration",
+      "Tapotement and friction",
+      "Trigger point therapy",
+      "Myofascial release"
+    ],
+    "correct": 0,
+    "tags": [
+      "Gate Control Theory"
+    ],
+    "stats": {
+      "correct": 0,
+      "incorrect": 0
+    }
+  },
+  {
+    "id": "Gate Control Theory 009",
+    "topic": "Gate Control Theory",
+    "difficulty": "intermediate",
+    "question": "What happens when the pain gate is 'open'?",
+    "answers": [
+      "Pain perception decreases",
+      "Non-painful signals are enhanced",
+      "Pain signals reach the brain more easily",
+      "The spinal cord stops processing input"
+    ],
+    "correct": 2,
+    "tags": [
+      "Gate Control Theory"
+    ],
+    "stats": {
+      "correct": 0,
+      "incorrect": 0
+    }
+  },
+  {
+    "id": "Gate Control Theory 010",
+    "topic": "Gate Control Theory",
+    "difficulty": "intermediate",
+    "question": "Which best describes the relationship between sensory input and pain modulation in Gate Control Theory?",
+    "answers": [
+      "Sensory input has no effect on pain",
+      "Stimulating sensory receptors can inhibit pain perception",
+      "Sensory input always increases pain signals",
+      "Pain only occurs with sensory loss"
+    ],
+    "correct": 1,
+    "tags": [
+      "Gate Control Theory"
+    ],
+    "stats": {
+      "correct": 0,
+      "incorrect": 0
+    }
+  },
+  {
+    "id": "Joint Types 001",
+    "topic": "Joint Types",
+    "difficulty": "intermediate",
+    "question": "What type of joint allows for the greatest range of motion?",
+    "answers": [
+      "Hinge joint",
+      "Saddle joint",
+      "Ball-and-socket joint",
+      "Pivot joint"
+    ],
+    "correct": 2,
+    "tags": [
+      "Joint Types"
+    ],
+    "stats": {
+      "correct": 0,
+      "incorrect": 0
+    }
+  },
+  {
+    "id": "Joint Types 002",
+    "topic": "Joint Types",
+    "difficulty": "intermediate",
+    "question": "Which joint type is found in the elbow and knee?",
+    "answers": [
+      "Gliding joint",
+      "Ball-and-socket joint",
+      "Hinge joint",
+      "Pivot joint"
+    ],
+    "correct": 2,
+    "tags": [
+      "Joint Types"
+    ],
+    "stats": {
+      "correct": 0,
+      "incorrect": 0
+    }
+  },
+  {
+    "id": "Joint Types 003",
+    "topic": "Joint Types",
+    "difficulty": "intermediate",
+    "question": "Where in the body would you find a pivot joint?",
+    "answers": [
+      "Shoulder",
+      "Thumb",
+      "Neck (between atlas and axis)",
+      "Hip"
+    ],
+    "correct": 2,
+    "tags": [
+      "Joint Types"
+    ],
+    "stats": {
+      "correct": 0,
+      "incorrect": 0
+    }
+  },
+  {
+    "id": "Joint Types 004",
+    "topic": "Joint Types",
+    "difficulty": "intermediate",
+    "question": "Which joint type allows bones to slide past one another?",
+    "answers": [
+      "Hinge joint",
+      "Gliding joint",
+      "Ball-and-socket joint",
+      "Pivot joint"
+    ],
+    "correct": 1,
+    "tags": [
+      "Joint Types"
+    ],
+    "stats": {
+      "correct": 0,
+      "incorrect": 0
+    }
+  },
+  {
+    "id": "Joint Types 005",
+    "topic": "Joint Types",
+    "difficulty": "intermediate",
+    "question": "What type of joint is found at the base of the thumb?",
+    "answers": [
+      "Ball-and-socket joint",
+      "Saddle joint",
+      "Pivot joint",
+      "Gliding joint"
+    ],
+    "correct": 1,
+    "tags": [
+      "Joint Types"
+    ],
+    "stats": {
+      "correct": 0,
+      "incorrect": 0
+    }
+  },
+  {
+    "id": "Joint Types 006",
+    "topic": "Joint Types",
+    "difficulty": "intermediate",
+    "question": "Which joint type allows for rotation around a single axis?",
+    "answers": [
+      "Pivot joint",
+      "Hinge joint",
+      "Condyloid joint",
+      "Suture"
+    ],
+    "correct": 0,
+    "tags": [
+      "Joint Types"
+    ],
+    "stats": {
+      "correct": 0,
+      "incorrect": 0
+    }
+  },
+  {
+    "id": "Joint Types 007",
+    "topic": "Joint Types",
+    "difficulty": "intermediate",
+    "question": "Synovial joints are characterized by:",
+    "answers": [
+      "Fibrous connections",
+      "Cartilage fusion",
+      "A fluid-filled joint cavity",
+      "Bone fusion"
+    ],
+    "correct": 2,
+    "tags": [
+      "Joint Types"
+    ],
+    "stats": {
+      "correct": 0,
+      "incorrect": 0
+    }
+  },
+  {
+    "id": "Joint Types 008",
+    "topic": "Joint Types",
+    "difficulty": "intermediate",
+    "question": "Which joint is an example of a ball-and-socket joint?",
+    "answers": [
+      "Knee",
+      "Shoulder",
+      "Elbow",
+      "Wrist"
+    ],
+    "correct": 1,
+    "tags": [
+      "Joint Types"
+    ],
+    "stats": {
+      "correct": 0,
+      "incorrect": 0
+    }
+  },
+  {
+    "id": "Joint Types 009",
+    "topic": "Joint Types",
+    "difficulty": "intermediate",
+    "question": "Which of the following joints is immovable?",
+    "answers": [
+      "Suture",
+      "Hinge",
+      "Ball-and-socket",
+      "Gliding"
+    ],
+    "correct": 0,
+    "tags": [
+      "Joint Types"
+    ],
+    "stats": {
+      "correct": 0,
+      "incorrect": 0
+    }
+  },
+  {
+    "id": "Joint Types 010",
+    "topic": "Joint Types",
+    "difficulty": "intermediate",
+    "question": "Condyloid joints allow movement in:",
+    "answers": [
+      "One plane only",
+      "Two planes (biaxial motion)",
+      "All directions",
+      "Rotation only"
+    ],
+    "correct": 1,
+    "tags": [
+      "Joint Types"
+    ],
+    "stats": {
+      "correct": 0,
+      "incorrect": 0
+    }
+  },
+  {
+    "id": "Neurotransmitters 001",
+    "topic": "Neurotransmitters",
+    "difficulty": "intermediate",
+    "question": "Which neurotransmitter is primarily responsible for muscle contraction?",
+    "answers": [
+      "Dopamine",
+      "Serotonin",
+      "Acetylcholine",
+      "Norepinephrine"
+    ],
+    "correct": 2,
+    "tags": [
+      "Neurotransmitters"
+    ],
+    "stats": {
+      "correct": 0,
+      "incorrect": 0
+    }
+  },
+  {
+    "id": "Neurotransmitters 002",
+    "topic": "Neurotransmitters",
+    "difficulty": "intermediate",
+    "question": "Which neurotransmitter is associated with mood regulation, appetite, and sleep?",
+    "answers": [
+      "Dopamine",
+      "GABA",
+      "Serotonin",
+      "Glutamate"
+    ],
+    "correct": 2,
+    "tags": [
+      "Neurotransmitters"
+    ],
+    "stats": {
+      "correct": 0,
+      "incorrect": 0
+    }
+  },
+  {
+    "id": "Neurotransmitters 003",
+    "topic": "Neurotransmitters",
+    "difficulty": "intermediate",
+    "question": "Dopamine plays a significant role in which of the following?",
+    "answers": [
+      "Muscle contraction",
+      "Pain inhibition",
+      "Motor control, reward, and motivation",
+      "Sleep regulation"
+    ],
+    "correct": 2,
+    "tags": [
+      "Neurotransmitters"
+    ],
+    "stats": {
+      "correct": 0,
+      "incorrect": 0
+    }
+  },
+  {
+    "id": "Neurotransmitters 004",
+    "topic": "Neurotransmitters",
+    "difficulty": "intermediate",
+    "question": "Which neurotransmitter is the main excitatory chemical in the brain?",
+    "answers": [
+      "GABA",
+      "Serotonin",
+      "Norepinephrine",
+      "Glutamate"
+    ],
+    "correct": 3,
+    "tags": [
+      "Neurotransmitters"
+    ],
+    "stats": {
+      "correct": 0,
+      "incorrect": 0
+    }
+  },
+  {
+    "id": "Neurotransmitters 005",
+    "topic": "Neurotransmitters",
+    "difficulty": "intermediate",
+    "question": "Which neurotransmitter is the most common inhibitory neurotransmitter in the central nervous system?",
+    "answers": [
+      "GABA",
+      "Dopamine",
+      "Serotonin",
+      "Norepinephrine"
+    ],
+    "correct": 0,
+    "tags": [
+      "Neurotransmitters"
+    ],
+    "stats": {
+      "correct": 0,
+      "incorrect": 0
+    }
+  },
+  {
+    "id": "Neurotransmitters 006",
+    "topic": "Neurotransmitters",
+    "difficulty": "intermediate",
+    "question": "Which neurotransmitter is involved in the fight-or-flight response?",
+    "answers": [
+      "GABA",
+      "Norepinephrine",
+      "Dopamine",
+      "Acetylcholine"
+    ],
+    "correct": 1,
+    "tags": [
+      "Neurotransmitters"
+    ],
+    "stats": {
+      "correct": 0,
+      "incorrect": 0
+    }
+  },
+  {
+    "id": "Neurotransmitters 007",
+    "topic": "Neurotransmitters",
+    "difficulty": "intermediate",
+    "question": "Low levels of which neurotransmitter are associated with depression?",
+    "answers": [
+      "Serotonin",
+      "Acetylcholine",
+      "Dopamine",
+      "Glutamate"
+    ],
+    "correct": 0,
+    "tags": [
+      "Neurotransmitters"
+    ],
+    "stats": {
+      "correct": 0,
+      "incorrect": 0
+    }
+  },
+  {
+    "id": "Neurotransmitters 008",
+    "topic": "Neurotransmitters",
+    "difficulty": "intermediate",
+    "question": "What is the primary function of endorphins?",
+    "answers": [
+      "Stimulate digestion",
+      "Regulate mood swings",
+      "Block pain and promote a sense of well-being",
+      "Trigger reflexes"
+    ],
+    "correct": 2,
+    "tags": [
+      "Neurotransmitters"
+    ],
+    "stats": {
+      "correct": 0,
+      "incorrect": 0
+    }
+  },
+  {
+    "id": "Neurotransmitters 009",
+    "topic": "Neurotransmitters",
+    "difficulty": "intermediate",
+    "question": "Which neurotransmitter helps regulate circadian rhythms and sleep cycles?",
+    "answers": [
+      "Acetylcholine",
+      "Dopamine",
+      "Melatonin",
+      "Serotonin"
+    ],
+    "correct": 2,
+    "tags": [
+      "Neurotransmitters"
+    ],
+    "stats": {
+      "correct": 0,
+      "incorrect": 0
+    }
+  },
+  {
+    "id": "Neurotransmitters 010",
+    "topic": "Neurotransmitters",
+    "difficulty": "intermediate",
+    "question": "Which neurotransmitter is elevated during alertness and stress responses?",
+    "answers": [
+      "GABA",
+      "Norepinephrine",
+      "Serotonin",
+      "Dopamine"
+    ],
+    "correct": 1,
+    "tags": [
+      "Neurotransmitters"
+    ],
+    "stats": {
+      "correct": 0,
+      "incorrect": 0
+    }
+  }
+]

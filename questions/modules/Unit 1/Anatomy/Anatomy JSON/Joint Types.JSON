@@ -1,0 +1,202 @@
+[
+  {
+    "id": "Joint Types 001",
+    "topic": "Joint Types",
+    "difficulty": "intermediate",
+    "question": "What type of joint allows for the greatest range of motion?",
+    "answers": [
+      "Hinge joint",
+      "Saddle joint",
+      "Ball-and-socket joint",
+      "Pivot joint"
+    ],
+    "correct": 2,
+    "tags": [
+      "Joint Types"
+    ],
+    "stats": {
+      "correct": 0,
+      "incorrect": 0
+    }
+  },
+  {
+    "id": "Joint Types 002",
+    "topic": "Joint Types",
+    "difficulty": "intermediate",
+    "question": "Which joint type is found in the elbow and knee?",
+    "answers": [
+      "Gliding joint",
+      "Ball-and-socket joint",
+      "Hinge joint",
+      "Pivot joint"
+    ],
+    "correct": 2,
+    "tags": [
+      "Joint Types"
+    ],
+    "stats": {
+      "correct": 0,
+      "incorrect": 0
+    }
+  },
+  {
+    "id": "Joint Types 003",
+    "topic": "Joint Types",
+    "difficulty": "intermediate",
+    "question": "Where in the body would you find a pivot joint?",
+    "answers": [
+      "Shoulder",
+      "Thumb",
+      "Neck (between atlas and axis)",
+      "Hip"
+    ],
+    "correct": 2,
+    "tags": [
+      "Joint Types"
+    ],
+    "stats": {
+      "correct": 0,
+      "incorrect": 0
+    }
+  },
+  {
+    "id": "Joint Types 004",
+    "topic": "Joint Types",
+    "difficulty": "intermediate",
+    "question": "Which joint type allows bones to slide past one another?",
+    "answers": [
+      "Hinge joint",
+      "Gliding joint",
+      "Ball-and-socket joint",
+      "Pivot joint"
+    ],
+    "correct": 1,
+    "tags": [
+      "Joint Types"
+    ],
+    "stats": {
+      "correct": 0,
+      "incorrect": 0
+    }
+  },
+  {
+    "id": "Joint Types 005",
+    "topic": "Joint Types",
+    "difficulty": "intermediate",
+    "question": "What type of joint is found at the base of the thumb?",
+    "answers": [
+      "Ball-and-socket joint",
+      "Saddle joint",
+      "Pivot joint",
+      "Gliding joint"
+    ],
+    "correct": 1,
+    "tags": [
+      "Joint Types"
+    ],
+    "stats": {
+      "correct": 0,
+      "incorrect": 0
+    }
+  },
+  {
+    "id": "Joint Types 006",
+    "topic": "Joint Types",
+    "difficulty": "intermediate",
+    "question": "Which joint type allows for rotation around a single axis?",
+    "answers": [
+      "Pivot joint",
+      "Hinge joint",
+      "Condyloid joint",
+      "Suture"
+    ],
+    "correct": 0,
+    "tags": [
+      "Joint Types"
+    ],
+    "stats": {
+      "correct": 0,
+      "incorrect": 0
+    }
+  },
+  {
+    "id": "Joint Types 007",
+    "topic": "Joint Types",
+    "difficulty": "intermediate",
+    "question": "Synovial joints are characterized by:",
+    "answers": [
+      "Fibrous connections",
+      "Cartilage fusion",
+      "A fluid-filled joint cavity",
+      "Bone fusion"
+    ],
+    "correct": 2,
+    "tags": [
+      "Joint Types"
+    ],
+    "stats": {
+      "correct": 0,
+      "incorrect": 0
+    }
+  },
+  {
+    "id": "Joint Types 008",
+    "topic": "Joint Types",
+    "difficulty": "intermediate",
+    "question": "Which joint is an example of a ball-and-socket joint?",
+    "answers": [
+      "Knee",
+      "Shoulder",
+      "Elbow",
+      "Wrist"
+    ],
+    "correct": 1,
+    "tags": [
+      "Joint Types"
+    ],
+    "stats": {
+      "correct": 0,
+      "incorrect": 0
+    }
+  },
+  {
+    "id": "Joint Types 009",
+    "topic": "Joint Types",
+    "difficulty": "intermediate",
+    "question": "Which of the following joints is immovable?",
+    "answers": [
+      "Suture",
+      "Hinge",
+      "Ball-and-socket",
+      "Gliding"
+    ],
+    "correct": 0,
+    "tags": [
+      "Joint Types"
+    ],
+    "stats": {
+      "correct": 0,
+      "incorrect": 0
+    }
+  },
+  {
+    "id": "Joint Types 010",
+    "topic": "Joint Types",
+    "difficulty": "intermediate",
+    "question": "Condyloid joints allow movement in:",
+    "answers": [
+      "One plane only",
+      "Two planes (biaxial motion)",
+      "All directions",
+      "Rotation only"
+    ],
+    "correct": 1,
+    "tags": [
+      "Joint Types"
+    ],
+    "stats": {
+      "correct": 0,
+      "incorrect": 0
+    }
+  }
+]

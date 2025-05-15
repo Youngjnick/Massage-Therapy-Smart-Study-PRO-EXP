@@ -1,0 +1,202 @@
+[
+  {
+    "id": "Cytoplasm Cytosol 001",
+    "topic": "Cytoplasm Cytosol",
+    "difficulty": "intermediate",
+    "question": "What is cytoplasm?",
+    "answers": [
+      "The outer covering of the nucleus",
+      "The jelly-like material inside the cell, excluding the nucleus",
+      "The site of DNA replication",
+      "The rigid structure outside the plasma membrane"
+    ],
+    "correct": 1,
+    "tags": [
+      "Cytoplasm Cytosol"
+    ],
+    "stats": {
+      "correct": 0,
+      "incorrect": 0
+    }
+  },
+  {
+    "id": "Cytoplasm Cytosol 002",
+    "topic": "Cytoplasm Cytosol",
+    "difficulty": "intermediate",
+    "question": "Cytosol refers specifically to:",
+    "answers": [
+      "The entire cell content",
+      "The fluid portion of the cytoplasm, not including organelles",
+      "The nucleus only",
+      "The membrane structure"
+    ],
+    "correct": 1,
+    "tags": [
+      "Cytoplasm Cytosol"
+    ],
+    "stats": {
+      "correct": 0,
+      "incorrect": 0
+    }
+  },
+  {
+    "id": "Cytoplasm Cytosol 003",
+    "topic": "Cytoplasm Cytosol",
+    "difficulty": "intermediate",
+    "question": "Which of the following occurs in the cytoplasm?",
+    "answers": [
+      "Photosynthesis",
+      "Transcription",
+      "Glycolysis",
+      "DNA replication"
+    ],
+    "correct": 2,
+    "tags": [
+      "Cytoplasm Cytosol"
+    ],
+    "stats": {
+      "correct": 0,
+      "incorrect": 0
+    }
+  },
+  {
+    "id": "Cytoplasm Cytosol 004",
+    "topic": "Cytoplasm Cytosol",
+    "difficulty": "intermediate",
+    "question": "Cytoplasm includes which of the following?",
+    "answers": [
+      "Only water and ions",
+      "Only the nucleus",
+      "Organelles and cytosol",
+      "Only mitochondria"
+    ],
+    "correct": 2,
+    "tags": [
+      "Cytoplasm Cytosol"
+    ],
+    "stats": {
+      "correct": 0,
+      "incorrect": 0
+    }
+  },
+  {
+    "id": "Cytoplasm Cytosol 005",
+    "topic": "Cytoplasm Cytosol",
+    "difficulty": "intermediate",
+    "question": "What is one of the main functions of the cytosol?",
+    "answers": [
+      "Protein packaging",
+      "DNA storage",
+      "Site of many metabolic reactions",
+      "Lipid digestion"
+    ],
+    "correct": 2,
+    "tags": [
+      "Cytoplasm Cytosol"
+    ],
+    "stats": {
+      "correct": 0,
+      "incorrect": 0
+    }
+  },
+  {
+    "id": "Cytoplasm Cytosol 006",
+    "topic": "Cytoplasm Cytosol",
+    "difficulty": "intermediate",
+    "question": "Which of the following would be found suspended in the cytosol?",
+    "answers": [
+      "Mitochondria",
+      "Plasma membrane",
+      "Cell wall",
+      "Nucleolus"
+    ],
+    "correct": 0,
+    "tags": [
+      "Cytoplasm Cytosol"
+    ],
+    "stats": {
+      "correct": 0,
+      "incorrect": 0
+    }
+  },
+  {
+    "id": "Cytoplasm Cytosol 007",
+    "topic": "Cytoplasm Cytosol",
+    "difficulty": "intermediate",
+    "question": "What percentage of the cytosol is typically water?",
+    "answers": [
+      "10%",
+      "30%",
+      "70%",
+      "100%"
+    ],
+    "correct": 2,
+    "tags": [
+      "Cytoplasm Cytosol"
+    ],
+    "stats": {
+      "correct": 0,
+      "incorrect": 0
+    }
+  },
+  {
+    "id": "Cytoplasm Cytosol 008",
+    "topic": "Cytoplasm Cytosol",
+    "difficulty": "intermediate",
+    "question": "The cytoplasm does NOT include the:",
+    "answers": [
+      "Nucleus",
+      "Ribosomes",
+      "Cytosol",
+      "Endoplasmic reticulum"
+    ],
+    "correct": 0,
+    "tags": [
+      "Cytoplasm Cytosol"
+    ],
+    "stats": {
+      "correct": 0,
+      "incorrect": 0
+    }
+  },
+  {
+    "id": "Cytoplasm Cytosol 009",
+    "topic": "Cytoplasm Cytosol",
+    "difficulty": "intermediate",
+    "question": "In animal cells, where does anaerobic respiration begin?",
+    "answers": [
+      "Mitochondria",
+      "Nucleus",
+      "Cytosol",
+      "Golgi apparatus"
+    ],
+    "correct": 2,
+    "tags": [
+      "Cytoplasm Cytosol"
+    ],
+    "stats": {
+      "correct": 0,
+      "incorrect": 0
+    }
+  },
+  {
+    "id": "Cytoplasm Cytosol 010",
+    "topic": "Cytoplasm Cytosol",
+    "difficulty": "intermediate",
+    "question": "Which of the following best describes the cytosol?",
+    "answers": [
+      "A lipid layer",
+      "A viscous fluid that bathes organelles",
+      "A protein synthesis site",
+      "A cell wall attachment"
+    ],
+    "correct": 1,
+    "tags": [
+      "Cytoplasm Cytosol"
+    ],
+    "stats": {
+      "correct": 0,
+      "incorrect": 0
+    }
+  }
+]

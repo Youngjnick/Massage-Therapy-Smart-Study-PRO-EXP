@@ -1,0 +1,102 @@
+[
+  {
+    "id": "Techniques Effects 001",
+    "topic": "Techniques Effects",
+    "difficulty": "intermediate",
+    "question": "Which technique is most associated with stimulating the nervous system?",
+    "answers": [
+      "Tapotement",
+      "Effleurage",
+      "Compression",
+      "Myofascial Release"
+    ],
+    "correct": 0,
+    "tags": [
+      "Techniques Effects"
+    ],
+    "stats": {
+      "correct": 0,
+      "incorrect": 0
+    }
+  },
+  {
+    "id": "Techniques Effects 002",
+    "topic": "Techniques Effects",
+    "difficulty": "intermediate",
+    "question": "Which massage effect is primarily mechanical?",
+    "answers": [
+      "Improved blood circulation from gliding strokes",
+      "Emotional relaxation",
+      "Improved sleep quality",
+      "Endorphin release"
+    ],
+    "correct": 0,
+    "tags": [
+      "Techniques Effects"
+    ],
+    "stats": {
+      "correct": 0,
+      "incorrect": 0
+    }
+  },
+  {
+    "id": "Techniques Effects 003",
+    "topic": "Techniques Effects",
+    "difficulty": "intermediate",
+    "question": "What effect does effleurage have on capillaries?",
+    "answers": [
+      "Dilates capillaries and increases circulation",
+      "Constricts vessels",
+      "No effect",
+      "Disrupts nerve signals"
+    ],
+    "correct": 0,
+    "tags": [
+      "Techniques Effects"
+    ],
+    "stats": {
+      "correct": 0,
+      "incorrect": 0
+    }
+  },
+  {
+    "id": "Techniques Effects 004",
+    "topic": "Techniques Effects",
+    "difficulty": "intermediate",
+    "question": "Which type of massage effect is mediated through the nervous system?",
+    "answers": [
+      "Reflexive effect",
+      "Mechanical effect",
+      "Frictional force",
+      "Muscle tension"
+    ],
+    "correct": 0,
+    "tags": [
+      "Techniques Effects"
+    ],
+    "stats": {
+      "correct": 0,
+      "incorrect": 0
+    }
+  },
+  {
+    "id": "Techniques Effects 005",
+    "topic": "Techniques Effects",
+    "difficulty": "intermediate",
+    "question": "Which technique is commonly used to induce a sedative effect?",
+    "answers": [
+      "Effleurage",
+      "Tapotement",
+      "Stretching",
+      "Shiatsu"
+    ],
+    "correct": 0,
+    "tags": [
+      "Techniques Effects"
+    ],
+    "stats": {
+      "correct": 0,
+      "incorrect": 0
+    }
+  }
+]

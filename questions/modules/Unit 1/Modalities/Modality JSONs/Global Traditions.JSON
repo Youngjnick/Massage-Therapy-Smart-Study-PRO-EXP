@@ -1,0 +1,202 @@
+[
+  {
+    "id": "Global Traditions 001",
+    "topic": "Global Traditions",
+    "difficulty": "intermediate",
+    "question": "Which massage style incorporates assisted stretching and acupressure in rhythmic sequences?",
+    "answers": [
+      "Swedish",
+      "Thai",
+      "Shiatsu",
+      "Lomi Lomi"
+    ],
+    "correct": 1,
+    "tags": [
+      "Global Traditions"
+    ],
+    "stats": {
+      "correct": 0,
+      "incorrect": 0
+    }
+  },
+  {
+    "id": "Global Traditions 002",
+    "topic": "Global Traditions",
+    "difficulty": "intermediate",
+    "question": "Which style of massage is known for long, flowing strokes and originates in Hawaii?",
+    "answers": [
+      "Tuina",
+      "Shiatsu",
+      "Lomi Lomi",
+      "Rolfing"
+    ],
+    "correct": 2,
+    "tags": [
+      "Global Traditions"
+    ],
+    "stats": {
+      "correct": 0,
+      "incorrect": 0
+    }
+  },
+  {
+    "id": "Global Traditions 003",
+    "topic": "Global Traditions",
+    "difficulty": "intermediate",
+    "question": "Which Japanese technique focuses on applying finger pressure to meridian points?",
+    "answers": [
+      "Shiatsu",
+      "Swedish",
+      "Reflexology",
+      "Craniosacral"
+    ],
+    "correct": 0,
+    "tags": [
+      "Global Traditions"
+    ],
+    "stats": {
+      "correct": 0,
+      "incorrect": 0
+    }
+  },
+  {
+    "id": "Global Traditions 004",
+    "topic": "Global Traditions",
+    "difficulty": "intermediate",
+    "question": "Which massage style stems from Traditional Chinese Medicine and involves manipulation along energy pathways?",
+    "answers": [
+      "Swedish",
+      "Tuina",
+      "Ayurvedic",
+      "Myofascial Release"
+    ],
+    "correct": 1,
+    "tags": [
+      "Global Traditions"
+    ],
+    "stats": {
+      "correct": 0,
+      "incorrect": 0
+    }
+  },
+  {
+    "id": "Global Traditions 005",
+    "topic": "Global Traditions",
+    "difficulty": "intermediate",
+    "question": "Which massage style uses herbal oils and is rooted in Indian medicine?",
+    "answers": [
+      "Shiatsu",
+      "Swedish",
+      "Ayurvedic",
+      "Reflexology"
+    ],
+    "correct": 2,
+    "tags": [
+      "Global Traditions"
+    ],
+    "stats": {
+      "correct": 0,
+      "incorrect": 0
+    }
+  },
+  {
+    "id": "Global Traditions 006",
+    "topic": "Global Traditions",
+    "difficulty": "intermediate",
+    "question": "Which Western massage style emphasizes relaxation and incorporates effleurage and petrissage?",
+    "answers": [
+      "Rolfing",
+      "Lomi Lomi",
+      "Swedish",
+      "Thai"
+    ],
+    "correct": 2,
+    "tags": [
+      "Global Traditions"
+    ],
+    "stats": {
+      "correct": 0,
+      "incorrect": 0
+    }
+  },
+  {
+    "id": "Global Traditions 007",
+    "topic": "Global Traditions",
+    "difficulty": "intermediate",
+    "question": "Which massage style focuses on aligning fascia and posture over a series of sessions?",
+    "answers": [
+      "Shiatsu",
+      "Rolfing",
+      "Thai",
+      "Tuina"
+    ],
+    "correct": 1,
+    "tags": [
+      "Global Traditions"
+    ],
+    "stats": {
+      "correct": 0,
+      "incorrect": 0
+    }
+  },
+  {
+    "id": "Global Traditions 008",
+    "topic": "Global Traditions",
+    "difficulty": "intermediate",
+    "question": "Which modality born out of Egypt uses pressure points on the feet and hands to influence the entire body?",
+    "answers": [
+      "Ayurvedic",
+      "Shiatsu",
+      "Reflexology",
+      "Lomi Lomi"
+    ],
+    "correct": 2,
+    "tags": [
+      "Global Traditions"
+    ],
+    "stats": {
+      "correct": 0,
+      "incorrect": 0
+    }
+  },
+  {
+    "id": "Global Traditions 009",
+    "topic": "Global Traditions",
+    "difficulty": "intermediate",
+    "question": "Which massage technique is most commonly used in clinical and spa settings in the West?",
+    "answers": [
+      "Thai",
+      "Shiatsu",
+      "Swedish",
+      "Ayurvedic"
+    ],
+    "correct": 2,
+    "tags": [
+      "Global Traditions"
+    ],
+    "stats": {
+      "correct": 0,
+      "incorrect": 0
+    }
+  },
+  {
+    "id": "Global Traditions 010",
+    "topic": "Global Traditions",
+    "difficulty": "intermediate",
+    "question": "Which massage system uses marma points and energy channels known as nadis?",
+    "answers": [
+      "Shiatsu",
+      "Ayurvedic",
+      "Rolfing",
+      "Tuina"
+    ],
+    "correct": 1,
+    "tags": [
+      "Global Traditions"
+    ],
+    "stats": {
+      "correct": 0,
+      "incorrect": 0
+    }
+  }
+]

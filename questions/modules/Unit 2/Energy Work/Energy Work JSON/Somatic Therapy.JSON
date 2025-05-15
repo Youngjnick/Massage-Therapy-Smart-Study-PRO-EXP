@@ -1,0 +1,155 @@
+[
+  {
+    "id": "Somatic 001",
+    "topic": "Somatic Therapy",
+    "difficulty": "medium",
+    "question": "What is the primary focus of somatic therapy?",
+    "answers": [
+      "Cognitive restructuring",
+      "Analyzing dreams",
+      "Releasing trauma stored in the body",
+      "Increasing medication adherence"
+    ],
+    "correct": 2,
+    "tags": [
+      "Somatic",
+      "Trauma",
+      "Mind Body"
+    ],
+    "stats": {
+      "correct": 0,
+      "incorrect": 0
+    }
+  },
+  {
+    "id": "Somatic 002",
+    "topic": "Somatic Therapy",
+    "difficulty": "medium",
+    "question": "Which of the following is a core principle of somatic experiencing (SE)?",
+    "answers": [
+      "Prolonged exposure to trauma triggers",
+      "Reliving traumatic events",
+      "Discharging excess survival energy",
+      "Challenging automatic thoughts"
+    ],
+    "correct": 2,
+    "tags": [
+      "Somatic Experiencing",
+      "Trauma"
+    ],
+    "stats": {
+      "correct": 0,
+      "incorrect": 0
+    }
+  },
+  {
+    "id": "Somatic 003",
+    "topic": "Somatic Therapy",
+    "difficulty": "medium",
+    "question": "What role does interoception play in somatic therapies?",
+    "answers": [
+      "Regulating sleep patterns",
+      "Improving digestion",
+      "Enhancing body awareness",
+      "Correcting posture"
+    ],
+    "correct": 2,
+    "tags": [
+      "Interoception",
+      "Somatic",
+      "Body Awareness"
+    ],
+    "stats": {
+      "correct": 0,
+      "incorrect": 0
+    }
+  },
+  {
+    "id": "Somatic 004",
+    "topic": "Somatic Therapy",
+    "difficulty": "medium",
+    "question": "Peter Levine is most associated with which somatic therapy approach?",
+    "answers": [
+      "Hakomi",
+      "Somatic Experiencing",
+      "Bioenergetics",
+      "EMDR"
+    ],
+    "correct": 1,
+    "tags": [
+      "Peter Levine",
+      "Somatic Experiencing",
+      "Pioneers"
+    ],
+    "stats": {
+      "correct": 0,
+      "incorrect": 0
+    }
+  },
+  {
+    "id": "Somatic 005",
+    "topic": "Somatic Therapy",
+    "difficulty": "medium",
+    "question": "In Hakomi therapy, mindfulness is used primarily to:",
+    "answers": [
+      "Diagnose mental disorders",
+      "Enhance cardiovascular fitness",
+      "Access unconscious core material",
+      "Practice mantra-based meditation"
+    ],
+    "correct": 2,
+    "tags": [
+      "Hakomi",
+      "Mindfulness",
+      "Somatic"
+    ],
+    "stats": {
+      "correct": 0,
+      "incorrect": 0
+    }
+  },
+  {
+    "id": "Somatic 006",
+    "topic": "Somatic Therapy",
+    "difficulty": "medium",
+    "question": "Which nervous system branch is often targeted in somatic regulation practices?",
+    "answers": [
+      "Sympathetic",
+      "Parasympathetic",
+      "Central",
+      "Enteric"
+    ],
+    "correct": 1,
+    "tags": [
+      "Autonomic Nervous System",
+      "Parasympathetic",
+      "Somatic"
+    ],
+    "stats": {
+      "correct": 0,
+      "incorrect": 0
+    }
+  },
+  {
+    "id": "Somatic 007",
+    "topic": "Somatic Therapy",
+    "difficulty": "medium",
+    "question": "A common goal of somatic therapy is to:",
+    "answers": [
+      "Increase intellectual insight",
+      "Promote cathartic reliving",
+      "Restore nervous system balance",
+      "Repress traumatic memories"
+    ],
+    "correct": 2,
+    "tags": [
+      "Regulation",
+      "Nervous System",
+      "Somatic Goals"
+    ],
+    "stats": {
+      "correct": 0,
+      "incorrect": 0
+    }
+  }
+]

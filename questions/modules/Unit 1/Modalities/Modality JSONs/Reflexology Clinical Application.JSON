@@ -1,0 +1,102 @@
+[
+  {
+    "id": "Reflexology Clinical Application 001",
+    "topic": "Reflexology Clinical Application",
+    "difficulty": "intermediate",
+    "question": "Which condition is commonly supported through reflexology by stimulating the solar plexus point?",
+    "answers": [
+      "Constipation",
+      "Anxiety",
+      "Skin irritation",
+      "Muscle fatigue"
+    ],
+    "correct": 1,
+    "tags": [
+      "Reflexology Clinical Application"
+    ],
+    "stats": {
+      "correct": 0,
+      "incorrect": 0
+    }
+  },
+  {
+    "id": "Reflexology Clinical Application 002",
+    "topic": "Reflexology Clinical Application",
+    "difficulty": "intermediate",
+    "question": "What is the benefit of stimulating the intestinal reflex zones?",
+    "answers": [
+      "Improves lung capacity",
+      "Enhances digestion and bowel movement",
+      "Relaxes neck tension",
+      "Increases alertness"
+    ],
+    "correct": 1,
+    "tags": [
+      "Reflexology Clinical Application"
+    ],
+    "stats": {
+      "correct": 0,
+      "incorrect": 0
+    }
+  },
+  {
+    "id": "Reflexology Clinical Application 003",
+    "topic": "Reflexology Clinical Application",
+    "difficulty": "intermediate",
+    "question": "Which system of the body is targeted through the kidney, ureter, and bladder reflexes?",
+    "answers": [
+      "Nervous",
+      "Respiratory",
+      "Urinary",
+      "Lymphatic"
+    ],
+    "correct": 2,
+    "tags": [
+      "Reflexology Clinical Application"
+    ],
+    "stats": {
+      "correct": 0,
+      "incorrect": 0
+    }
+  },
+  {
+    "id": "Reflexology Clinical Application 004",
+    "topic": "Reflexology Clinical Application",
+    "difficulty": "intermediate",
+    "question": "Reflexology may help with sleep issues by stimulating points related to the:",
+    "answers": [
+      "Spine",
+      "Pineal gland",
+      "Sinuses",
+      "Liver"
+    ],
+    "correct": 1,
+    "tags": [
+      "Reflexology Clinical Application"
+    ],
+    "stats": {
+      "correct": 0,
+      "incorrect": 0
+    }
+  },
+  {
+    "id": "Reflexology Clinical Application 005",
+    "topic": "Reflexology Clinical Application",
+    "difficulty": "intermediate",
+    "question": "Which reflex point is targeted to help with headaches?",
+    "answers": [
+      "Heel",
+      "Tips of the toes",
+      "Ball of the foot",
+      "Arch of the foot"
+    ],
+    "correct": 1,
+    "tags": [
+      "Reflexology Clinical Application"
+    ],
+    "stats": {
+      "correct": 0,
+      "incorrect": 0
+    }
+  }
+]

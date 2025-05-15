@@ -1,0 +1,202 @@
+[
+  {
+    "id": "Shiatsu 001",
+    "topic": "Shiatsu",
+    "difficulty": "intermediate",
+    "question": "What is the meaning of 'Shiatsu' in Japanese?",
+    "answers": [
+      "Deep stroke",
+      "Healing energy",
+      "Finger pressure",
+      "Body alignment"
+    ],
+    "correct": 2,
+    "tags": [
+      "Shiatsu"
+    ],
+    "stats": {
+      "correct": 0,
+      "incorrect": 0
+    }
+  },
+  {
+    "id": "Shiatsu 002",
+    "topic": "Shiatsu",
+    "difficulty": "intermediate",
+    "question": "Which traditional healing system is Shiatsu based on?",
+    "answers": [
+      "Traditional Chinese Medicine",
+      "Ayurveda",
+      "Western anatomy",
+      "Homeopathy"
+    ],
+    "correct": 0,
+    "tags": [
+      "Shiatsu"
+    ],
+    "stats": {
+      "correct": 0,
+      "incorrect": 0
+    }
+  },
+  {
+    "id": "Shiatsu 003",
+    "topic": "Shiatsu",
+    "difficulty": "intermediate",
+    "question": "Shiatsu is primarily applied using:",
+    "answers": [
+      "Oils and gliding strokes",
+      "Thumb, finger, and palm pressure",
+      "Elbow kneading",
+      "Hot stones"
+    ],
+    "correct": 1,
+    "tags": [
+      "Shiatsu"
+    ],
+    "stats": {
+      "correct": 0,
+      "incorrect": 0
+    }
+  },
+  {
+    "id": "Shiatsu 004",
+    "topic": "Shiatsu",
+    "difficulty": "intermediate",
+    "question": "Shiatsu therapy aims to balance:",
+    "answers": [
+      "Lymph nodes",
+      "Qi (life energy)",
+      "Heart rate",
+      "Calcium levels"
+    ],
+    "correct": 1,
+    "tags": [
+      "Shiatsu"
+    ],
+    "stats": {
+      "correct": 0,
+      "incorrect": 0
+    }
+  },
+  {
+    "id": "Shiatsu 005",
+    "topic": "Shiatsu",
+    "difficulty": "intermediate",
+    "question": "Which concept is central to Shiatsu practice?",
+    "answers": [
+      "Meridians",
+      "Reflex zones",
+      "Muscle chains",
+      "Tissue layers"
+    ],
+    "correct": 0,
+    "tags": [
+      "Shiatsu"
+    ],
+    "stats": {
+      "correct": 0,
+      "incorrect": 0
+    }
+  },
+  {
+    "id": "Shiatsu 006",
+    "topic": "Shiatsu",
+    "difficulty": "intermediate",
+    "question": "Shiatsu is typically performed with the client:",
+    "answers": [
+      "Covered in oils",
+      "Fully clothed on a floor mat",
+      "Immersed in water",
+      "Lying in sand"
+    ],
+    "correct": 1,
+    "tags": [
+      "Shiatsu"
+    ],
+    "stats": {
+      "correct": 0,
+      "incorrect": 0
+    }
+  },
+  {
+    "id": "Shiatsu 007",
+    "topic": "Shiatsu",
+    "difficulty": "intermediate",
+    "question": "Which of the following is NOT a Shiatsu principle?",
+    "answers": [
+      "Using body weight to apply pressure",
+      "Following energy lines",
+      "Quick feather-light strokes",
+      "Maintaining calm breathing"
+    ],
+    "correct": 2,
+    "tags": [
+      "Shiatsu"
+    ],
+    "stats": {
+      "correct": 0,
+      "incorrect": 0
+    }
+  },
+  {
+    "id": "Shiatsu 008",
+    "topic": "Shiatsu",
+    "difficulty": "intermediate",
+    "question": "What distinguishes Zen Shiatsu from other styles?",
+    "answers": [
+      "It uses only elbows",
+      "It is performed standing",
+      "It emphasizes meditation and intuitive touch",
+      "It incorporates herbs"
+    ],
+    "correct": 2,
+    "tags": [
+      "Shiatsu"
+    ],
+    "stats": {
+      "correct": 0,
+      "incorrect": 0
+    }
+  },
+  {
+    "id": "Shiatsu 009",
+    "topic": "Shiatsu",
+    "difficulty": "intermediate",
+    "question": "Shiatsu is often recommended for which of the following?",
+    "answers": [
+      "Improving digestion, stress relief, joint mobility",
+      "Raising body temperature",
+      "Reducing cholesterol",
+      "Muscle growth"
+    ],
+    "correct": 0,
+    "tags": [
+      "Shiatsu"
+    ],
+    "stats": {
+      "correct": 0,
+      "incorrect": 0
+    }
+  },
+  {
+    "id": "Shiatsu 010",
+    "topic": "Shiatsu",
+    "difficulty": "intermediate",
+    "question": "Shiatsu typically avoids treatment in cases of:",
+    "answers": [
+      "Pregnancy",
+      "High blood pressure",
+      "Severe fractures or contagious illness",
+      "Mild fatigue"
+    ],
+    "correct": 2,
+    "tags": [
+      "Shiatsu"
+    ],
+    "stats": {
+      "correct": 0,
+      "incorrect": 0
+    }
+  }
+]

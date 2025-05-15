@@ -1,0 +1,202 @@
+[
+  {
+    "id": "Modalities Schools 001",
+    "topic": "Modalities Schools",
+    "difficulty": "intermediate",
+    "question": "Which massage school emphasizes structural integration through manipulation of fascia?",
+    "answers": [
+      "Swedish Massage",
+      "Trager Method",
+      "Rolfing",
+      "Shiatsu"
+    ],
+    "correct": 2,
+    "tags": [
+      "Modalities Schools"
+    ],
+    "stats": {
+      "correct": 0,
+      "incorrect": 0
+    }
+  },
+  {
+    "id": "Modalities Schools 002",
+    "topic": "Modalities Schools",
+    "difficulty": "intermediate",
+    "question": "Which school of massage originated in Sweden and emphasizes relaxation and circulation?",
+    "answers": [
+      "Shiatsu",
+      "Swedish Massage",
+      "Tui-na",
+      "Ayurvedic Massage"
+    ],
+    "correct": 1,
+    "tags": [
+      "Modalities Schools"
+    ],
+    "stats": {
+      "correct": 0,
+      "incorrect": 0
+    }
+  },
+  {
+    "id": "Modalities Schools 003",
+    "topic": "Modalities Schools",
+    "difficulty": "intermediate",
+    "question": "Shiatsu is based on which of the following principles?",
+    "answers": [
+      "Lymphatic drainage and joint mobility",
+      "Trigger points and fascia release",
+      "Energy flow through meridians and acupressure points",
+      "Muscle hypertrophy and stimulation"
+    ],
+    "correct": 2,
+    "tags": [
+      "Modalities Schools"
+    ],
+    "stats": {
+      "correct": 0,
+      "incorrect": 0
+    }
+  },
+  {
+    "id": "Modalities Schools 004",
+    "topic": "Modalities Schools",
+    "difficulty": "intermediate",
+    "question": "Which massage system uses herbal oils and marma points for balancing energy?",
+    "answers": [
+      "Rolfing",
+      "Ayurvedic Massage",
+      "Shiatsu",
+      "Swedish Massage"
+    ],
+    "correct": 1,
+    "tags": [
+      "Modalities Schools"
+    ],
+    "stats": {
+      "correct": 0,
+      "incorrect": 0
+    }
+  },
+  {
+    "id": "Modalities Schools 005",
+    "topic": "Modalities Schools",
+    "difficulty": "intermediate",
+    "question": "The Trager Method is most known for:",
+    "answers": [
+      "Using cross-fiber friction for deep tissue release",
+      "Gentle rocking and mentastics for nervous system reeducation",
+      "Firm tapping to stimulate muscles",
+      "Heat therapy combined with oils"
+    ],
+    "correct": 1,
+    "tags": [
+      "Modalities Schools"
+    ],
+    "stats": {
+      "correct": 0,
+      "incorrect": 0
+    }
+  },
+  {
+    "id": "Modalities Schools 006",
+    "topic": "Modalities Schools",
+    "difficulty": "intermediate",
+    "question": "Which massage school developed 'effleurage,' 'petrissage,' and 'tapotement' techniques?",
+    "answers": [
+      "Tui-na",
+      "Ayurvedic Massage",
+      "Swedish Massage",
+      "Reflexology"
+    ],
+    "correct": 2,
+    "tags": [
+      "Modalities Schools"
+    ],
+    "stats": {
+      "correct": 0,
+      "incorrect": 0
+    }
+  },
+  {
+    "id": "Modalities Schools 007",
+    "topic": "Modalities Schools",
+    "difficulty": "intermediate",
+    "question": "Tui-na is a component of which traditional medical system?",
+    "answers": [
+      "Ayurvedic Medicine",
+      "Traditional Chinese Medicine",
+      "Naturopathy",
+      "Allopathy"
+    ],
+    "correct": 1,
+    "tags": [
+      "Modalities Schools"
+    ],
+    "stats": {
+      "correct": 0,
+      "incorrect": 0
+    }
+  },
+  {
+    "id": "Modalities Schools 008",
+    "topic": "Modalities Schools",
+    "difficulty": "intermediate",
+    "question": "Which modality works with polarity and energy balancing through touch and intention?",
+    "answers": [
+      "Myofascial Release",
+      "Polarity Therapy",
+      "Shiatsu",
+      "Reflexology"
+    ],
+    "correct": 1,
+    "tags": [
+      "Modalities Schools"
+    ],
+    "stats": {
+      "correct": 0,
+      "incorrect": 0
+    }
+  },
+  {
+    "id": "Modalities Schools 009",
+    "topic": "Modalities Schools",
+    "difficulty": "intermediate",
+    "question": "Which system applies pressure to mapped zones on feet and hands to affect internal organs?",
+    "answers": [
+      "Trager Method",
+      "Reflexology",
+      "Amma",
+      "Shiatsu"
+    ],
+    "correct": 1,
+    "tags": [
+      "Modalities Schools"
+    ],
+    "stats": {
+      "correct": 0,
+      "incorrect": 0
+    }
+  },
+  {
+    "id": "Modalities Schools 010",
+    "topic": "Modalities Schools",
+    "difficulty": "intermediate",
+    "question": "Which massage system emphasizes aligning the body with gravity in a 10-session series?",
+    "answers": [
+      "Tui-na",
+      "Rolfing",
+      "Shiatsu",
+      "Lomi Lomi"
+    ],
+    "correct": 1,
+    "tags": [
+      "Modalities Schools"
+    ],
+    "stats": {
+      "correct": 0,
+      "incorrect": 0
+    }
+  }
+]

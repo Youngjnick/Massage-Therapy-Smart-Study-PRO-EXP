@@ -1,0 +1,202 @@
+[
+  {
+    "id": "Homeostasis 001",
+    "topic": "Homeostasis",
+    "difficulty": "intermediate",
+    "question": "What is homeostasis?",
+    "answers": [
+      "A rapid immune response",
+      "The maintenance of a stable internal environment",
+      "The process of cellular reproduction",
+      "The growth of tissues and organs"
+    ],
+    "correct": 1,
+    "tags": [
+      "Homeostasis"
+    ],
+    "stats": {
+      "correct": 0,
+      "incorrect": 0
+    }
+  },
+  {
+    "id": "Homeostasis 002",
+    "topic": "Homeostasis",
+    "difficulty": "intermediate",
+    "question": "Which body system is primarily responsible for regulating homeostasis?",
+    "answers": [
+      "Digestive system",
+      "Skeletal system",
+      "Nervous system",
+      "Lymphatic system"
+    ],
+    "correct": 2,
+    "tags": [
+      "Homeostasis"
+    ],
+    "stats": {
+      "correct": 0,
+      "incorrect": 0
+    }
+  },
+  {
+    "id": "Homeostasis 003",
+    "topic": "Homeostasis",
+    "difficulty": "intermediate",
+    "question": "Which of the following is an example of a negative feedback loop in homeostasis?",
+    "answers": [
+      "Increased bleeding after injury",
+      "Rising blood glucose triggering insulin release",
+      "Muscle cramps from overuse",
+      "Increased heart rate during exercise"
+    ],
+    "correct": 1,
+    "tags": [
+      "Homeostasis"
+    ],
+    "stats": {
+      "correct": 0,
+      "incorrect": 0
+    }
+  },
+  {
+    "id": "Homeostasis 004",
+    "topic": "Homeostasis",
+    "difficulty": "intermediate",
+    "question": "What organ helps regulate blood glucose levels through the secretion of insulin?",
+    "answers": [
+      "Liver",
+      "Pancreas",
+      "Stomach",
+      "Kidney"
+    ],
+    "correct": 1,
+    "tags": [
+      "Homeostasis"
+    ],
+    "stats": {
+      "correct": 0,
+      "incorrect": 0
+    }
+  },
+  {
+    "id": "Homeostasis 005",
+    "topic": "Homeostasis",
+    "difficulty": "intermediate",
+    "question": "Which of the following would be a homeostatic response to high body temperature?",
+    "answers": [
+      "Vasoconstriction",
+      "Sweating",
+      "Shivering",
+      "Pupil dilation"
+    ],
+    "correct": 1,
+    "tags": [
+      "Homeostasis"
+    ],
+    "stats": {
+      "correct": 0,
+      "incorrect": 0
+    }
+  },
+  {
+    "id": "Homeostasis 006",
+    "topic": "Homeostasis",
+    "difficulty": "intermediate",
+    "question": "Which two systems work closely together to maintain homeostasis?",
+    "answers": [
+      "Nervous and endocrine systems",
+      "Digestive and reproductive systems",
+      "Lymphatic and skeletal systems",
+      "Integumentary and muscular systems"
+    ],
+    "correct": 0,
+    "tags": [
+      "Homeostasis"
+    ],
+    "stats": {
+      "correct": 0,
+      "incorrect": 0
+    }
+  },
+  {
+    "id": "Homeostasis 007",
+    "topic": "Homeostasis",
+    "difficulty": "intermediate",
+    "question": "How does the body respond to low blood pressure to restore homeostasis?",
+    "answers": [
+      "Increasing heart rate and constricting blood vessels",
+      "Slowing down metabolism",
+      "Dilating capillaries",
+      "Decreasing water retention"
+    ],
+    "correct": 0,
+    "tags": [
+      "Homeostasis"
+    ],
+    "stats": {
+      "correct": 0,
+      "incorrect": 0
+    }
+  },
+  {
+    "id": "Homeostasis 008",
+    "topic": "Homeostasis",
+    "difficulty": "intermediate",
+    "question": "Which hormone helps regulate water balance in the body?",
+    "answers": [
+      "Adrenaline",
+      "Melatonin",
+      "Antidiuretic hormone (ADH)",
+      "Insulin"
+    ],
+    "correct": 2,
+    "tags": [
+      "Homeostasis"
+    ],
+    "stats": {
+      "correct": 0,
+      "incorrect": 0
+    }
+  },
+  {
+    "id": "Homeostasis 009",
+    "topic": "Homeostasis",
+    "difficulty": "intermediate",
+    "question": "Which feedback mechanism enhances or intensifies a change in the body?",
+    "answers": [
+      "Negative feedback",
+      "Homeostatic buffering",
+      "Positive feedback",
+      "Reversal loop"
+    ],
+    "correct": 2,
+    "tags": [
+      "Homeostasis"
+    ],
+    "stats": {
+      "correct": 0,
+      "incorrect": 0
+    }
+  },
+  {
+    "id": "Homeostasis 010",
+    "topic": "Homeostasis",
+    "difficulty": "intermediate",
+    "question": "Which of the following is an example of positive feedback?",
+    "answers": [
+      "Blood sugar regulation",
+      "Thermoregulation",
+      "Uterine contractions during childbirth",
+      "Sweating during exercise"
+    ],
+    "correct": 2,
+    "tags": [
+      "Homeostasis"
+    ],
+    "stats": {
+      "correct": 0,
+      "incorrect": 0
+    }
+  }
+]

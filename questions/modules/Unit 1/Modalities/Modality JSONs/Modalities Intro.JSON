@@ -1,0 +1,282 @@
+[
+  {
+    "id": "Modalities Intro 001",
+    "topic": "Modalities Intro",
+    "difficulty": "intermediate",
+    "question": "Which massage style originated in Sweden and uses techniques like effleurage and petrissage?",
+    "answers": [
+      "Shiatsu",
+      "Swedish",
+      "Ayurvedic",
+      "Tuina"
+    ],
+    "correct": 1,
+    "tags": [
+      "Modalities Intro"
+    ],
+    "stats": {
+      "correct": 0,
+      "incorrect": 0
+    }
+  },
+  {
+    "id": "Modalities Intro 002",
+    "topic": "Modalities Intro",
+    "difficulty": "intermediate",
+    "question": "Which massage style uses finger pressure along meridians and originated in Japan?",
+    "answers": [
+      "Shiatsu",
+      "Swedish",
+      "Thai",
+      "Polarity"
+    ],
+    "correct": 0,
+    "tags": [
+      "Modalities Intro"
+    ],
+    "stats": {
+      "correct": 0,
+      "incorrect": 0
+    }
+  },
+  {
+    "id": "Modalities Intro 003",
+    "topic": "Modalities Intro",
+    "difficulty": "intermediate",
+    "question": "Which traditional Indian massage system is part of a broader medical philosophy and includes herbal oils?",
+    "answers": [
+      "Tuina",
+      "Ayurvedic",
+      "Rolfing",
+      "Reflexology"
+    ],
+    "correct": 1,
+    "tags": [
+      "Modalities Intro"
+    ],
+    "stats": {
+      "correct": 0,
+      "incorrect": 0
+    }
+  },
+  {
+    "id": "Modalities Intro 004",
+    "topic": "Modalities Intro",
+    "difficulty": "intermediate",
+    "question": "Which Chinese massage system involves acupressure and rhythmic strokes along energy channels?",
+    "answers": [
+      "Thai",
+      "Shiatsu",
+      "Tuina",
+      "Lomi Lomi"
+    ],
+    "correct": 2,
+    "tags": [
+      "Modalities Intro"
+    ],
+    "stats": {
+      "correct": 0,
+      "incorrect": 0
+    }
+  },
+  {
+    "id": "Modalities Intro 005",
+    "topic": "Modalities Intro",
+    "difficulty": "intermediate",
+    "question": "Which Hawaiian massage style emphasizes long, flowing strokes using forearms and intuitive rhythm?",
+    "answers": [
+      "Swedish",
+      "Shiatsu",
+      "Lomi Lomi",
+      "Ayurvedic"
+    ],
+    "correct": 2,
+    "tags": [
+      "Modalities Intro"
+    ],
+    "stats": {
+      "correct": 0,
+      "incorrect": 0
+    }
+  },
+  {
+    "id": "Modalities Intro 006",
+    "topic": "Modalities Intro",
+    "difficulty": "intermediate",
+    "question": "Which Southeast Asian massage style combines acupressure with assisted yoga-like stretches?",
+    "answers": [
+      "Thai",
+      "Tuina",
+      "Rolfing",
+      "Reflexology"
+    ],
+    "correct": 0,
+    "tags": [
+      "Modalities Intro"
+    ],
+    "stats": {
+      "correct": 0,
+      "incorrect": 0
+    }
+  },
+  {
+    "id": "Modalities Intro 007",
+    "topic": "Modalities Intro",
+    "difficulty": "intermediate",
+    "question": "Which massage system was developed by Ida Rolf and focuses on manipulating fascia for alignment?",
+    "answers": [
+      "Craniosacral",
+      "Rolfing",
+      "Ayurvedic",
+      "Shiatsu"
+    ],
+    "correct": 1,
+    "tags": [
+      "Modalities Intro"
+    ],
+    "stats": {
+      "correct": 0,
+      "incorrect": 0
+    }
+  },
+  {
+    "id": "Modalities Intro 008",
+    "topic": "Modalities Intro",
+    "difficulty": "intermediate",
+    "question": "Which massage technique is based on stimulating points on the feet and hands that correspond to body organs?",
+    "answers": [
+      "Tuina",
+      "Trigger Point Therapy",
+      "Reflexology",
+      "Lomi Lomi"
+    ],
+    "correct": 2,
+    "tags": [
+      "Modalities Intro"
+    ],
+    "stats": {
+      "correct": 0,
+      "incorrect": 0
+    }
+  },
+  {
+    "id": "Modalities Intro 009",
+    "topic": "Modalities Intro",
+    "difficulty": "intermediate",
+    "question": "Which style of massage includes mentastics and gentle rocking developed by Milton Trager?",
+    "answers": [
+      "Polarity Therapy",
+      "Trager Method",
+      "Thai",
+      "Shiatsu"
+    ],
+    "correct": 1,
+    "tags": [
+      "Modalities Intro"
+    ],
+    "stats": {
+      "correct": 0,
+      "incorrect": 0
+    }
+  },
+  {
+    "id": "Modalities Intro 010",
+    "topic": "Modalities Intro",
+    "difficulty": "intermediate",
+    "question": "Which therapy combines Eastern energy principles with Western bodywork developed by Randolph Stone?",
+    "answers": [
+      "Shiatsu",
+      "Polarity Therapy",
+      "Rolfing",
+      "Craniosacral"
+    ],
+    "correct": 1,
+    "tags": [
+      "Modalities Intro"
+    ],
+    "stats": {
+      "correct": 0,
+      "incorrect": 0
+    }
+  },
+  {
+    "id": "Modalities Intro 011",
+    "topic": "Modalities Intro",
+    "difficulty": "intermediate",
+    "question": "Which modality uses deep, sustained pressure to release fascia restrictions?",
+    "answers": [
+      "Swedish Massage",
+      "Myofascial Release",
+      "Shiatsu",
+      "Polarity Therapy"
+    ],
+    "correct": 1,
+    "tags": [
+      "Modalities Intro"
+    ],
+    "stats": {
+      "correct": 0,
+      "incorrect": 0
+    }
+  },
+  {
+    "id": "Modalities Intro 012",
+    "topic": "Modalities Intro",
+    "difficulty": "intermediate",
+    "question": "Which therapy uses gentle touch to relieve restrictions in the cranial bones and cerebrospinal fluid?",
+    "answers": [
+      "Trigger Point Therapy",
+      "Craniosacral Therapy",
+      "Swedish Massage",
+      "Thai Massage"
+    ],
+    "correct": 1,
+    "tags": [
+      "Modalities Intro"
+    ],
+    "stats": {
+      "correct": 0,
+      "incorrect": 0
+    }
+  },
+  {
+    "id": "Modalities Intro 013",
+    "topic": "Modalities Intro",
+    "difficulty": "intermediate",
+    "question": "Which technique applies pressure to 'knots' to reduce referred pain patterns?",
+    "answers": [
+      "Shiatsu",
+      "Trigger Point Therapy",
+      "Lomi Lomi",
+      "Effleurage"
+    ],
+    "correct": 1,
+    "tags": [
+      "Modalities Intro"
+    ],
+    "stats": {
+      "correct": 0,
+      "incorrect": 0
+    }
+  },
+  {
+    "id": "Modalities Intro 014",
+    "topic": "Modalities Intro",
+    "difficulty": "intermediate",
+    "question": "Which modality is based on balancing energy flow between poles in the body?",
+    "answers": [
+      "Polarity Therapy",
+      "Craniosacral Therapy",
+      "Myofascial Release",
+      "Trigger Point Therapy"
+    ],
+    "correct": 0,
+    "tags": [
+      "Modalities Intro"
+    ],
+    "stats": {
+      "correct": 0,
+      "incorrect": 0
+    }
+  }
+]

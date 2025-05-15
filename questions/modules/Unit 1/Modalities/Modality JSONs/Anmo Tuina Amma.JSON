@@ -1,0 +1,202 @@
+[
+  {
+    "id": "Anmo Tuina Amma 001",
+    "topic": "Anmo Tuina Amma",
+    "difficulty": "intermediate",
+    "question": "What is Anmo?",
+    "answers": [
+      "A Western deep tissue massage technique",
+      "An ancient Chinese practice involving rubbing and pressing the body",
+      "A form of spinal alignment",
+      "A Japanese oil-based massage"
+    ],
+    "correct": 1,
+    "tags": [
+      "Anmo Tuina Amma"
+    ],
+    "stats": {
+      "correct": 0,
+      "incorrect": 0
+    }
+  },
+  {
+    "id": "Anmo Tuina Amma 002",
+    "topic": "Anmo Tuina Amma",
+    "difficulty": "intermediate",
+    "question": "Tui-na is characterized by which of the following techniques?",
+    "answers": [
+      "Stretch and slap",
+      "Push and pull manipulations",
+      "Static pressure only",
+      "Long gliding strokes"
+    ],
+    "correct": 1,
+    "tags": [
+      "Anmo Tuina Amma"
+    ],
+    "stats": {
+      "correct": 0,
+      "incorrect": 0
+    }
+  },
+  {
+    "id": "Anmo Tuina Amma 003",
+    "topic": "Anmo Tuina Amma",
+    "difficulty": "intermediate",
+    "question": "Which culture developed the massage form known as Amma?",
+    "answers": [
+      "Korean",
+      "Japanese",
+      "Chinese",
+      "Indian"
+    ],
+    "correct": 1,
+    "tags": [
+      "Anmo Tuina Amma"
+    ],
+    "stats": {
+      "correct": 0,
+      "incorrect": 0
+    }
+  },
+  {
+    "id": "Anmo Tuina Amma 004",
+    "topic": "Anmo Tuina Amma",
+    "difficulty": "intermediate",
+    "question": "Amma is derived from which earlier practice?",
+    "answers": [
+      "Reflexology",
+      "Ayurveda",
+      "Anmo",
+      "Shiatsu"
+    ],
+    "correct": 2,
+    "tags": [
+      "Anmo Tuina Amma"
+    ],
+    "stats": {
+      "correct": 0,
+      "incorrect": 0
+    }
+  },
+  {
+    "id": "Anmo Tuina Amma 005",
+    "topic": "Anmo Tuina Amma",
+    "difficulty": "intermediate",
+    "question": "What are 'tsubo' in traditional Japanese massage?",
+    "answers": [
+      "Areas of muscle spasm",
+      "Energy pathways that guide manipulation",
+      "Points on the body pressed to stimulate energy and circulation",
+      "Bones along the spine"
+    ],
+    "correct": 2,
+    "tags": [
+      "Anmo Tuina Amma"
+    ],
+    "stats": {
+      "correct": 0,
+      "incorrect": 0
+    }
+  },
+  {
+    "id": "Anmo Tuina Amma 006",
+    "topic": "Anmo Tuina Amma",
+    "difficulty": "intermediate",
+    "question": "What is the purpose of stimulating tsubo points?",
+    "answers": [
+      "To release toxins through the skin",
+      "To align bones",
+      "To enhance energy flow and blood circulation",
+      "To stretch connective tissue"
+    ],
+    "correct": 2,
+    "tags": [
+      "Anmo Tuina Amma"
+    ],
+    "stats": {
+      "correct": 0,
+      "incorrect": 0
+    }
+  },
+  {
+    "id": "Anmo Tuina Amma 007",
+    "topic": "Anmo Tuina Amma",
+    "difficulty": "intermediate",
+    "question": "Which of the following best reflects the technique of Anmo?",
+    "answers": [
+      "Strong percussion and deep muscle penetration",
+      "Gentle gliding and lymphatic movement",
+      "Rubbing, pressing, and rhythmic manipulation of soft tissues",
+      "Manual traction and joint cracking"
+    ],
+    "correct": 2,
+    "tags": [
+      "Anmo Tuina Amma"
+    ],
+    "stats": {
+      "correct": 0,
+      "incorrect": 0
+    }
+  },
+  {
+    "id": "Anmo Tuina Amma 008",
+    "topic": "Anmo Tuina Amma",
+    "difficulty": "intermediate",
+    "question": "Which massage style is most focused on balancing energy using tsubo points?",
+    "answers": [
+      "Tui-na",
+      "Amma",
+      "Swedish",
+      "Rolfing"
+    ],
+    "correct": 1,
+    "tags": [
+      "Anmo Tuina Amma"
+    ],
+    "stats": {
+      "correct": 0,
+      "incorrect": 0
+    }
+  },
+  {
+    "id": "Anmo Tuina Amma 009",
+    "topic": "Anmo Tuina Amma",
+    "difficulty": "intermediate",
+    "question": "In which country did Tui-na originate?",
+    "answers": [
+      "Japan",
+      "China",
+      "India",
+      "Thailand"
+    ],
+    "correct": 1,
+    "tags": [
+      "Anmo Tuina Amma"
+    ],
+    "stats": {
+      "correct": 0,
+      "incorrect": 0
+    }
+  },
+  {
+    "id": "Anmo Tuina Amma 010",
+    "topic": "Anmo Tuina Amma",
+    "difficulty": "intermediate",
+    "question": "Tui-na is traditionally used in conjunction with what system of medicine?",
+    "answers": [
+      "Ayurveda",
+      "Naturopathy",
+      "Traditional Chinese Medicine",
+      "Allopathy"
+    ],
+    "correct": 2,
+    "tags": [
+      "Anmo Tuina Amma"
+    ],
+    "stats": {
+      "correct": 0,
+      "incorrect": 0
+    }
+  }
+]

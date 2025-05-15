@@ -1,0 +1,202 @@
+[
+  {
+    "id": "Neurotransmitters 001",
+    "topic": "Neurotransmitters",
+    "difficulty": "intermediate",
+    "question": "Which neurotransmitter is primarily responsible for muscle contraction?",
+    "answers": [
+      "Dopamine",
+      "Serotonin",
+      "Acetylcholine",
+      "Norepinephrine"
+    ],
+    "correct": 2,
+    "tags": [
+      "Neurotransmitters"
+    ],
+    "stats": {
+      "correct": 0,
+      "incorrect": 0
+    }
+  },
+  {
+    "id": "Neurotransmitters 002",
+    "topic": "Neurotransmitters",
+    "difficulty": "intermediate",
+    "question": "Which neurotransmitter is associated with mood regulation, appetite, and sleep?",
+    "answers": [
+      "Dopamine",
+      "GABA",
+      "Serotonin",
+      "Glutamate"
+    ],
+    "correct": 2,
+    "tags": [
+      "Neurotransmitters"
+    ],
+    "stats": {
+      "correct": 0,
+      "incorrect": 0
+    }
+  },
+  {
+    "id": "Neurotransmitters 003",
+    "topic": "Neurotransmitters",
+    "difficulty": "intermediate",
+    "question": "Dopamine plays a significant role in which of the following?",
+    "answers": [
+      "Muscle contraction",
+      "Pain inhibition",
+      "Motor control, reward, and motivation",
+      "Sleep regulation"
+    ],
+    "correct": 2,
+    "tags": [
+      "Neurotransmitters"
+    ],
+    "stats": {
+      "correct": 0,
+      "incorrect": 0
+    }
+  },
+  {
+    "id": "Neurotransmitters 004",
+    "topic": "Neurotransmitters",
+    "difficulty": "intermediate",
+    "question": "Which neurotransmitter is the main excitatory chemical in the brain?",
+    "answers": [
+      "GABA",
+      "Serotonin",
+      "Norepinephrine",
+      "Glutamate"
+    ],
+    "correct": 3,
+    "tags": [
+      "Neurotransmitters"
+    ],
+    "stats": {
+      "correct": 0,
+      "incorrect": 0
+    }
+  },
+  {
+    "id": "Neurotransmitters 005",
+    "topic": "Neurotransmitters",
+    "difficulty": "intermediate",
+    "question": "Which neurotransmitter is the most common inhibitory neurotransmitter in the central nervous system?",
+    "answers": [
+      "GABA",
+      "Dopamine",
+      "Serotonin",
+      "Norepinephrine"
+    ],
+    "correct": 0,
+    "tags": [
+      "Neurotransmitters"
+    ],
+    "stats": {
+      "correct": 0,
+      "incorrect": 0
+    }
+  },
+  {
+    "id": "Neurotransmitters 006",
+    "topic": "Neurotransmitters",
+    "difficulty": "intermediate",
+    "question": "Which neurotransmitter is involved in the fight-or-flight response?",
+    "answers": [
+      "GABA",
+      "Norepinephrine",
+      "Dopamine",
+      "Acetylcholine"
+    ],
+    "correct": 1,
+    "tags": [
+      "Neurotransmitters"
+    ],
+    "stats": {
+      "correct": 0,
+      "incorrect": 0
+    }
+  },
+  {
+    "id": "Neurotransmitters 007",
+    "topic": "Neurotransmitters",
+    "difficulty": "intermediate",
+    "question": "Low levels of which neurotransmitter are associated with depression?",
+    "answers": [
+      "Serotonin",
+      "Acetylcholine",
+      "Dopamine",
+      "Glutamate"
+    ],
+    "correct": 0,
+    "tags": [
+      "Neurotransmitters"
+    ],
+    "stats": {
+      "correct": 0,
+      "incorrect": 0
+    }
+  },
+  {
+    "id": "Neurotransmitters 008",
+    "topic": "Neurotransmitters",
+    "difficulty": "intermediate",
+    "question": "What is the primary function of endorphins?",
+    "answers": [
+      "Stimulate digestion",
+      "Regulate mood swings",
+      "Block pain and promote a sense of well-being",
+      "Trigger reflexes"
+    ],
+    "correct": 2,
+    "tags": [
+      "Neurotransmitters"
+    ],
+    "stats": {
+      "correct": 0,
+      "incorrect": 0
+    }
+  },
+  {
+    "id": "Neurotransmitters 009",
+    "topic": "Neurotransmitters",
+    "difficulty": "intermediate",
+    "question": "Which neurotransmitter helps regulate circadian rhythms and sleep cycles?",
+    "answers": [
+      "Acetylcholine",
+      "Dopamine",
+      "Melatonin",
+      "Serotonin"
+    ],
+    "correct": 2,
+    "tags": [
+      "Neurotransmitters"
+    ],
+    "stats": {
+      "correct": 0,
+      "incorrect": 0
+    }
+  },
+  {
+    "id": "Neurotransmitters 010",
+    "topic": "Neurotransmitters",
+    "difficulty": "intermediate",
+    "question": "Which neurotransmitter is elevated during alertness and stress responses?",
+    "answers": [
+      "GABA",
+      "Norepinephrine",
+      "Serotonin",
+      "Dopamine"
+    ],
+    "correct": 1,
+    "tags": [
+      "Neurotransmitters"
+    ],
+    "stats": {
+      "correct": 0,
+      "incorrect": 0
+    }
+  }
+]

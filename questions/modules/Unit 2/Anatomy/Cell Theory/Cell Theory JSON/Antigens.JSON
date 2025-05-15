@@ -1,0 +1,202 @@
+[
+  {
+    "id": "Antigens 001",
+    "topic": "Antigens",
+    "difficulty": "intermediate",
+    "question": "What is an antigen?",
+    "answers": [
+      "A type of antibody",
+      "A protein that triggers an immune response",
+      "A white blood cell",
+      "A digestive enzyme"
+    ],
+    "correct": 1,
+    "tags": [
+      "Antigens"
+    ],
+    "stats": {
+      "correct": 0,
+      "incorrect": 0
+    }
+  },
+  {
+    "id": "Antigens 002",
+    "topic": "Antigens",
+    "difficulty": "intermediate",
+    "question": "Where are antigens commonly found?",
+    "answers": [
+      "On the surface of pathogens",
+      "Inside lysosomes",
+      "Within the cell nucleus",
+      "In mitochondria"
+    ],
+    "correct": 0,
+    "tags": [
+      "Antigens"
+    ],
+    "stats": {
+      "correct": 0,
+      "incorrect": 0
+    }
+  },
+  {
+    "id": "Antigens 003",
+    "topic": "Antigens",
+    "difficulty": "intermediate",
+    "question": "Which immune system cells recognize antigens?",
+    "answers": [
+      "Red blood cells",
+      "Neurons",
+      "T cells and B cells",
+      "Platelets"
+    ],
+    "correct": 2,
+    "tags": [
+      "Antigens"
+    ],
+    "stats": {
+      "correct": 0,
+      "incorrect": 0
+    }
+  },
+  {
+    "id": "Antigens 004",
+    "topic": "Antigens",
+    "difficulty": "intermediate",
+    "question": "What is the result of antigen recognition by B cells?",
+    "answers": [
+      "Secretion of digestive enzymes",
+      "Production of antibodies",
+      "Cell lysis",
+      "Increased oxygen transport"
+    ],
+    "correct": 1,
+    "tags": [
+      "Antigens"
+    ],
+    "stats": {
+      "correct": 0,
+      "incorrect": 0
+    }
+  },
+  {
+    "id": "Antigens 005",
+    "topic": "Antigens",
+    "difficulty": "intermediate",
+    "question": "Which type of antigen is produced by the body and normally not targeted by the immune system?",
+    "answers": [
+      "Foreign antigen",
+      "Self antigen",
+      "Pathogenic antigen",
+      "Autoantigen"
+    ],
+    "correct": 1,
+    "tags": [
+      "Antigens"
+    ],
+    "stats": {
+      "correct": 0,
+      "incorrect": 0
+    }
+  },
+  {
+    "id": "Antigens 006",
+    "topic": "Antigens",
+    "difficulty": "intermediate",
+    "question": "Which of the following best describes a vaccine’s role in immunity?",
+    "answers": [
+      "It directly kills pathogens",
+      "It introduces antigens to stimulate immune memory",
+      "It eliminates toxins from the body",
+      "It increases red blood cell production"
+    ],
+    "correct": 1,
+    "tags": [
+      "Antigens"
+    ],
+    "stats": {
+      "correct": 0,
+      "incorrect": 0
+    }
+  },
+  {
+    "id": "Antigens 007",
+    "topic": "Antigens",
+    "difficulty": "intermediate",
+    "question": "An allergic reaction results from the immune system misidentifying what as harmful?",
+    "answers": [
+      "Self antigens",
+      "Water",
+      "Harmless foreign antigens",
+      "Antibodies"
+    ],
+    "correct": 2,
+    "tags": [
+      "Antigens"
+    ],
+    "stats": {
+      "correct": 0,
+      "incorrect": 0
+    }
+  },
+  {
+    "id": "Antigens 008",
+    "topic": "Antigens",
+    "difficulty": "intermediate",
+    "question": "Major Histocompatibility Complex (MHC) proteins present antigens to:",
+    "answers": [
+      "Bacteria",
+      "T cells",
+      "Red blood cells",
+      "Platelets"
+    ],
+    "correct": 1,
+    "tags": [
+      "Antigens"
+    ],
+    "stats": {
+      "correct": 0,
+      "incorrect": 0
+    }
+  },
+  {
+    "id": "Antigens 009",
+    "topic": "Antigens",
+    "difficulty": "intermediate",
+    "question": "Which cells produce antibodies in response to antigens?",
+    "answers": [
+      "Macrophages",
+      "Helper T cells",
+      "Plasma B cells",
+      "Neutrophils"
+    ],
+    "correct": 2,
+    "tags": [
+      "Antigens"
+    ],
+    "stats": {
+      "correct": 0,
+      "incorrect": 0
+    }
+  },
+  {
+    "id": "Antigens 010",
+    "topic": "Antigens",
+    "difficulty": "intermediate",
+    "question": "What happens when the immune system attacks self antigens?",
+    "answers": [
+      "Viral infection occurs",
+      "A fever develops",
+      "An autoimmune disorder may result",
+      "Immunity is enhanced"
+    ],
+    "correct": 2,
+    "tags": [
+      "Antigens"
+    ],
+    "stats": {
+      "correct": 0,
+      "incorrect": 0
+    }
+  }
+]

@@ -1,0 +1,202 @@
+[
+  {
+    "id": "Techniques Intro 001",
+    "topic": "Techniques Intro",
+    "difficulty": "intermediate",
+    "question": "Which technique involves gliding strokes along the length of the muscle?",
+    "answers": [
+      "Petrissage",
+      "Effleurage",
+      "Tapotement",
+      "Friction"
+    ],
+    "correct": 1,
+    "tags": [
+      "Techniques Intro"
+    ],
+    "stats": {
+      "correct": 0,
+      "incorrect": 0
+    }
+  },
+  {
+    "id": "Techniques Intro 002",
+    "topic": "Techniques Intro",
+    "difficulty": "intermediate",
+    "question": "Which technique involves kneading, rolling, and lifting of the soft tissues?",
+    "answers": [
+      "Tapotement",
+      "Vibration",
+      "Petrissage",
+      "Effleurage"
+    ],
+    "correct": 2,
+    "tags": [
+      "Techniques Intro"
+    ],
+    "stats": {
+      "correct": 0,
+      "incorrect": 0
+    }
+  },
+  {
+    "id": "Techniques Intro 003",
+    "topic": "Techniques Intro",
+    "difficulty": "intermediate",
+    "question": "Which massage technique uses rhythmic tapping or percussion movements?",
+    "answers": [
+      "Tapotement",
+      "Compression",
+      "Friction",
+      "Vibration"
+    ],
+    "correct": 0,
+    "tags": [
+      "Techniques Intro"
+    ],
+    "stats": {
+      "correct": 0,
+      "incorrect": 0
+    }
+  },
+  {
+    "id": "Techniques Intro 004",
+    "topic": "Techniques Intro",
+    "difficulty": "intermediate",
+    "question": "Which massage technique involves rubbing one surface over another to create heat or break up adhesions?",
+    "answers": [
+      "Friction",
+      "Petrissage",
+      "Effleurage",
+      "Vibration"
+    ],
+    "correct": 0,
+    "tags": [
+      "Techniques Intro"
+    ],
+    "stats": {
+      "correct": 0,
+      "incorrect": 0
+    }
+  },
+  {
+    "id": "Techniques Intro 005",
+    "topic": "Techniques Intro",
+    "difficulty": "intermediate",
+    "question": "Which technique uses rapid shaking or trembling motions to stimulate tissue?",
+    "answers": [
+      "Vibration",
+      "Compression",
+      "Friction",
+      "Effleurage"
+    ],
+    "correct": 0,
+    "tags": [
+      "Techniques Intro"
+    ],
+    "stats": {
+      "correct": 0,
+      "incorrect": 0
+    }
+  },
+  {
+    "id": "Techniques Intro 006",
+    "topic": "Techniques Intro",
+    "difficulty": "intermediate",
+    "question": "Which technique involves pressing down into soft tissue and then releasing?",
+    "answers": [
+      "Compression",
+      "Petrissage",
+      "Effleurage",
+      "Vibration"
+    ],
+    "correct": 0,
+    "tags": [
+      "Techniques Intro"
+    ],
+    "stats": {
+      "correct": 0,
+      "incorrect": 0
+    }
+  },
+  {
+    "id": "Techniques Intro 007",
+    "topic": "Techniques Intro",
+    "difficulty": "intermediate",
+    "question": "Which of the following is a primary benefit of effleurage?",
+    "answers": [
+      "Loosening of scar tissue",
+      "Stimulating muscle contractions",
+      "Promoting relaxation and circulation",
+      "Releasing trigger points"
+    ],
+    "correct": 2,
+    "tags": [
+      "Techniques Intro"
+    ],
+    "stats": {
+      "correct": 0,
+      "incorrect": 0
+    }
+  },
+  {
+    "id": "Techniques Intro 008",
+    "topic": "Techniques Intro",
+    "difficulty": "intermediate",
+    "question": "Which technique is most useful in preparing muscles for deeper work?",
+    "answers": [
+      "Effleurage",
+      "Tapotement",
+      "Friction",
+      "Vibration"
+    ],
+    "correct": 0,
+    "tags": [
+      "Techniques Intro"
+    ],
+    "stats": {
+      "correct": 0,
+      "incorrect": 0
+    }
+  },
+  {
+    "id": "Techniques Intro 009",
+    "topic": "Techniques Intro",
+    "difficulty": "intermediate",
+    "question": "Which massage technique is best for stimulating muscles before athletic activity?",
+    "answers": [
+      "Compression",
+      "Tapotement",
+      "Petrissage",
+      "Effleurage"
+    ],
+    "correct": 1,
+    "tags": [
+      "Techniques Intro"
+    ],
+    "stats": {
+      "correct": 0,
+      "incorrect": 0
+    }
+  },
+  {
+    "id": "Techniques Intro 010",
+    "topic": "Techniques Intro",
+    "difficulty": "intermediate",
+    "question": "Which of these techniques can be used to break up adhesions and realign scar tissue?",
+    "answers": [
+      "Vibration",
+      "Friction",
+      "Effleurage",
+      "Compression"
+    ],
+    "correct": 1,
+    "tags": [
+      "Techniques Intro"
+    ],
+    "stats": {
+      "correct": 0,
+      "incorrect": 0
+    }
+  }
+]

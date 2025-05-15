@@ -1,0 +1,202 @@
+[
+  {
+    "id": "Cytology 001",
+    "topic": "Cytology",
+    "difficulty": "intermediate",
+    "question": "What is cytology the study of?",
+    "answers": [
+      "Tissues",
+      "Cells",
+      "Organs",
+      "Organ systems"
+    ],
+    "correct": 1,
+    "tags": [
+      "Cytology"
+    ],
+    "stats": {
+      "correct": 0,
+      "incorrect": 0
+    }
+  },
+  {
+    "id": "Cytology 002",
+    "topic": "Cytology",
+    "difficulty": "intermediate",
+    "question": "Which staining technique is commonly used in cytology to highlight cell nuclei?",
+    "answers": [
+      "Hematoxylin and Eosin",
+      "Gram stain",
+      "Crystal violet",
+      "Iodine stain"
+    ],
+    "correct": 0,
+    "tags": [
+      "Cytology"
+    ],
+    "stats": {
+      "correct": 0,
+      "incorrect": 0
+    }
+  },
+  {
+    "id": "Cytology 003",
+    "topic": "Cytology",
+    "difficulty": "intermediate",
+    "question": "Which tool is essential in the study of cytology?",
+    "answers": [
+      "Scalpel",
+      "Telescope",
+      "Microscope",
+      "Centrifuge"
+    ],
+    "correct": 2,
+    "tags": [
+      "Cytology"
+    ],
+    "stats": {
+      "correct": 0,
+      "incorrect": 0
+    }
+  },
+  {
+    "id": "Cytology 004",
+    "topic": "Cytology",
+    "difficulty": "intermediate",
+    "question": "What branch of cytology focuses on detecting cancer cells?",
+    "answers": [
+      "Histopathology",
+      "Oncocytology",
+      "Genomics",
+      "Neurology"
+    ],
+    "correct": 1,
+    "tags": [
+      "Cytology"
+    ],
+    "stats": {
+      "correct": 0,
+      "incorrect": 0
+    }
+  },
+  {
+    "id": "Cytology 005",
+    "topic": "Cytology",
+    "difficulty": "intermediate",
+    "question": "Which cell component is analyzed for genetic mutations in cytological testing?",
+    "answers": [
+      "Ribosomes",
+      "Cytoplasm",
+      "Nucleus",
+      "Golgi apparatus"
+    ],
+    "correct": 2,
+    "tags": [
+      "Cytology"
+    ],
+    "stats": {
+      "correct": 0,
+      "incorrect": 0
+    }
+  },
+  {
+    "id": "Cytology 006",
+    "topic": "Cytology",
+    "difficulty": "intermediate",
+    "question": "What is a common cytological sample used in cervical cancer screening?",
+    "answers": [
+      "Urine",
+      "Pap smear",
+      "Saliva",
+      "Blood plasma"
+    ],
+    "correct": 1,
+    "tags": [
+      "Cytology"
+    ],
+    "stats": {
+      "correct": 0,
+      "incorrect": 0
+    }
+  },
+  {
+    "id": "Cytology 007",
+    "topic": "Cytology",
+    "difficulty": "intermediate",
+    "question": "Which type of cells are often studied in exfoliative cytology?",
+    "answers": [
+      "Blood cells",
+      "Muscle cells",
+      "Shed epithelial cells",
+      "Nerve cells"
+    ],
+    "correct": 2,
+    "tags": [
+      "Cytology"
+    ],
+    "stats": {
+      "correct": 0,
+      "incorrect": 0
+    }
+  },
+  {
+    "id": "Cytology 008",
+    "topic": "Cytology",
+    "difficulty": "intermediate",
+    "question": "Cytotechnologists typically examine samples under what magnification?",
+    "answers": [
+      "2x",
+      "10x",
+      "400x",
+      "1000x"
+    ],
+    "correct": 2,
+    "tags": [
+      "Cytology"
+    ],
+    "stats": {
+      "correct": 0,
+      "incorrect": 0
+    }
+  },
+  {
+    "id": "Cytology 009",
+    "topic": "Cytology",
+    "difficulty": "intermediate",
+    "question": "Which part of a cell is typically stained dark blue/purple in H&E staining?",
+    "answers": [
+      "Golgi apparatus",
+      "Cytoplasm",
+      "Nucleus",
+      "Lysosomes"
+    ],
+    "correct": 2,
+    "tags": [
+      "Cytology"
+    ],
+    "stats": {
+      "correct": 0,
+      "incorrect": 0
+    }
+  },
+  {
+    "id": "Cytology 010",
+    "topic": "Cytology",
+    "difficulty": "intermediate",
+    "question": "Why is cytology important in diagnostics?",
+    "answers": [
+      "It identifies nutrient deficiencies",
+      "It allows detection of cellular abnormalities and disease",
+      "It helps determine heart rate",
+      "It promotes exercise recovery"
+    ],
+    "correct": 1,
+    "tags": [
+      "Cytology"
+    ],
+    "stats": {
+      "correct": 0,
+      "incorrect": 0
+    }
+  }
+]

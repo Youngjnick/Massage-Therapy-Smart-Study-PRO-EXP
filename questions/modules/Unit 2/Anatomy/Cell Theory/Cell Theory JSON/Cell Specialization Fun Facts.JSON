@@ -1,0 +1,202 @@
+[
+  {
+    "id": "Cell Specialization Fun Facts 001",
+    "topic": "Cell Specialization Fun Facts",
+    "difficulty": "intermediate",
+    "question": "Which organelle would be most abundant in cells that produce steroid hormones or lipids?",
+    "answers": [
+      "Rough ER",
+      "Golgi apparatus",
+      "Smooth ER",
+      "Mitochondria"
+    ],
+    "correct": 2,
+    "tags": [
+      "Cell Specialization Fun Facts"
+    ],
+    "stats": {
+      "correct": 0,
+      "incorrect": 0
+    }
+  },
+  {
+    "id": "Cell Specialization Fun Facts 002",
+    "topic": "Cell Specialization Fun Facts",
+    "difficulty": "intermediate",
+    "question": "Cardiac muscle cells require large amounts of energy. Which organelle is especially abundant in them?",
+    "answers": [
+      "Ribosomes",
+      "Lysosomes",
+      "Mitochondria",
+      "Nucleus"
+    ],
+    "correct": 2,
+    "tags": [
+      "Cell Specialization Fun Facts"
+    ],
+    "stats": {
+      "correct": 0,
+      "incorrect": 0
+    }
+  },
+  {
+    "id": "Cell Specialization Fun Facts 003",
+    "topic": "Cell Specialization Fun Facts",
+    "difficulty": "intermediate",
+    "question": "Which cells contain no nucleus at maturity?",
+    "answers": [
+      "White blood cells",
+      "Red blood cells",
+      "Neurons",
+      "Muscle cells"
+    ],
+    "correct": 1,
+    "tags": [
+      "Cell Specialization Fun Facts"
+    ],
+    "stats": {
+      "correct": 0,
+      "incorrect": 0
+    }
+  },
+  {
+    "id": "Cell Specialization Fun Facts 004",
+    "topic": "Cell Specialization Fun Facts",
+    "difficulty": "intermediate",
+    "question": "Which type of human cell has the longest axon?",
+    "answers": [
+      "Epithelial cell",
+      "Skeletal muscle cell",
+      "Neuron",
+      "Red blood cell"
+    ],
+    "correct": 2,
+    "tags": [
+      "Cell Specialization Fun Facts"
+    ],
+    "stats": {
+      "correct": 0,
+      "incorrect": 0
+    }
+  },
+  {
+    "id": "Cell Specialization Fun Facts 005",
+    "topic": "Cell Specialization Fun Facts",
+    "difficulty": "intermediate",
+    "question": "Why is the axon of some neurons so long?",
+    "answers": [
+      "To carry nutrients to the skin",
+      "To transfer blood",
+      "To transmit electrical signals over long distances",
+      "To store energy"
+    ],
+    "correct": 2,
+    "tags": [
+      "Cell Specialization Fun Facts"
+    ],
+    "stats": {
+      "correct": 0,
+      "incorrect": 0
+    }
+  },
+  {
+    "id": "Cell Specialization Fun Facts 006",
+    "topic": "Cell Specialization Fun Facts",
+    "difficulty": "intermediate",
+    "question": "What is the main reason red blood cells lack a nucleus?",
+    "answers": [
+      "To reproduce faster",
+      "To allow more space for hemoglobin",
+      "To divide more efficiently",
+      "To absorb oxygen directly"
+    ],
+    "correct": 1,
+    "tags": [
+      "Cell Specialization Fun Facts"
+    ],
+    "stats": {
+      "correct": 0,
+      "incorrect": 0
+    }
+  },
+  {
+    "id": "Cell Specialization Fun Facts 007",
+    "topic": "Cell Specialization Fun Facts",
+    "difficulty": "intermediate",
+    "question": "Cells with abundant rough ER are likely specialized for producing:",
+    "answers": [
+      "Lipids",
+      "Steroid hormones",
+      "Proteins",
+      "ATP"
+    ],
+    "correct": 2,
+    "tags": [
+      "Cell Specialization Fun Facts"
+    ],
+    "stats": {
+      "correct": 0,
+      "incorrect": 0
+    }
+  },
+  {
+    "id": "Cell Specialization Fun Facts 008",
+    "topic": "Cell Specialization Fun Facts",
+    "difficulty": "intermediate",
+    "question": "Which of the following is true about skeletal muscle cells?",
+    "answers": [
+      "They are usually uninucleated",
+      "They conduct electrical signals across synapses",
+      "They are long and multinucleated",
+      "They absorb nutrients via phagocytosis"
+    ],
+    "correct": 2,
+    "tags": [
+      "Cell Specialization Fun Facts"
+    ],
+    "stats": {
+      "correct": 0,
+      "incorrect": 0
+    }
+  },
+  {
+    "id": "Cell Specialization Fun Facts 009",
+    "topic": "Cell Specialization Fun Facts",
+    "difficulty": "intermediate",
+    "question": "Which cells are especially rich in lysosomes to digest pathogens?",
+    "answers": [
+      "Red blood cells",
+      "Muscle cells",
+      "White blood cells",
+      "Neurons"
+    ],
+    "correct": 2,
+    "tags": [
+      "Cell Specialization Fun Facts"
+    ],
+    "stats": {
+      "correct": 0,
+      "incorrect": 0
+    }
+  },
+  {
+    "id": "Cell Specialization Fun Facts 010",
+    "topic": "Cell Specialization Fun Facts",
+    "difficulty": "intermediate",
+    "question": "Which type of cell forms the lining of the digestive tract and often has microvilli for absorption?",
+    "answers": [
+      "Neurons",
+      "Epithelial cells",
+      "Cardiac cells",
+      "Adipocytes"
+    ],
+    "correct": 1,
+    "tags": [
+      "Cell Specialization Fun Facts"
+    ],
+    "stats": {
+      "correct": 0,
+      "incorrect": 0
+    }
+  }
+]

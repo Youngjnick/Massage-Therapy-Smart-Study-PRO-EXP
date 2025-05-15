@@ -1,0 +1,202 @@
+[
+  {
+    "id": "Plasma Membrane 001",
+    "topic": "Plasma Membrane",
+    "difficulty": "intermediate",
+    "question": "What is the primary function of the plasma membrane?",
+    "answers": [
+      "To produce energy",
+      "To support the cell wall",
+      "To regulate what enters and exits the cell",
+      "To store genetic material"
+    ],
+    "correct": 2,
+    "tags": [
+      "Plasma Membrane"
+    ],
+    "stats": {
+      "correct": 0,
+      "incorrect": 0
+    }
+  },
+  {
+    "id": "Plasma Membrane 002",
+    "topic": "Plasma Membrane",
+    "difficulty": "intermediate",
+    "question": "The plasma membrane is composed mainly of:",
+    "answers": [
+      "Proteins and RNA",
+      "Lipids and cellulose",
+      "Phospholipids bilayer, cholesterol, and proteins",
+      "DNA and sugars"
+    ],
+    "correct": 2,
+    "tags": [
+      "Plasma Membrane"
+    ],
+    "stats": {
+      "correct": 0,
+      "incorrect": 0
+    }
+  },
+  {
+    "id": "Plasma Membrane 003",
+    "topic": "Plasma Membrane",
+    "difficulty": "intermediate",
+    "question": "What is the term for the plasma membrane's ability to allow some substances through but not others?",
+    "answers": [
+      "Selective permeability",
+      "Osmosis",
+      "Fluidity",
+      "Passive diffusion"
+    ],
+    "correct": 0,
+    "tags": [
+      "Plasma Membrane"
+    ],
+    "stats": {
+      "correct": 0,
+      "incorrect": 0
+    }
+  },
+  {
+    "id": "Plasma Membrane 004",
+    "topic": "Plasma Membrane",
+    "difficulty": "intermediate",
+    "question": "Which part of the phospholipid bilayer is hydrophobic?",
+    "answers": [
+      "Phosphate heads",
+      "Lipid tails",
+      "Protein channels",
+      "Carbohydrate chains"
+    ],
+    "correct": 1,
+    "tags": [
+      "Plasma Membrane"
+    ],
+    "stats": {
+      "correct": 0,
+      "incorrect": 0
+    }
+  },
+  {
+    "id": "Plasma Membrane 005",
+    "topic": "Plasma Membrane",
+    "difficulty": "intermediate",
+    "question": "Which of the following processes requires energy to move substances across the plasma membrane?",
+    "answers": [
+      "Osmosis",
+      "Facilitated diffusion",
+      "Active transport",
+      "Simple diffusion"
+    ],
+    "correct": 2,
+    "tags": [
+      "Plasma Membrane"
+    ],
+    "stats": {
+      "correct": 0,
+      "incorrect": 0
+    }
+  },
+  {
+    "id": "Plasma Membrane 006",
+    "topic": "Plasma Membrane",
+    "difficulty": "intermediate",
+    "question": "What role do proteins play in the plasma membrane?",
+    "answers": [
+      "They store energy",
+      "They form the entire membrane",
+      "They assist in transport and communication",
+      "They absorb sunlight for photosynthesis"
+    ],
+    "correct": 2,
+    "tags": [
+      "Plasma Membrane"
+    ],
+    "stats": {
+      "correct": 0,
+      "incorrect": 0
+    }
+  },
+  {
+    "id": "Plasma Membrane 007",
+    "topic": "Plasma Membrane",
+    "difficulty": "intermediate",
+    "question": "Cholesterol in the plasma membrane functions to:",
+    "answers": [
+      "Make the membrane rigid and inflexible",
+      "Break down lipids",
+      "Maintain fluidity and stability of the membrane",
+      "Transport oxygen"
+    ],
+    "correct": 2,
+    "tags": [
+      "Plasma Membrane"
+    ],
+    "stats": {
+      "correct": 0,
+      "incorrect": 0
+    }
+  },
+  {
+    "id": "Plasma Membrane 008",
+    "topic": "Plasma Membrane",
+    "difficulty": "intermediate",
+    "question": "Which transport method moves molecules from high to low concentration without energy?",
+    "answers": [
+      "Endocytosis",
+      "Active transport",
+      "Facilitated diffusion",
+      "Exocytosis"
+    ],
+    "correct": 2,
+    "tags": [
+      "Plasma Membrane"
+    ],
+    "stats": {
+      "correct": 0,
+      "incorrect": 0
+    }
+  },
+  {
+    "id": "Plasma Membrane 009",
+    "topic": "Plasma Membrane",
+    "difficulty": "intermediate",
+    "question": "What is endocytosis?",
+    "answers": [
+      "Movement of ions via protein pumps",
+      "The fusion of vesicles to expel waste",
+      "The process of bringing large molecules into the cell via vesicles",
+      "The passive movement of water"
+    ],
+    "correct": 2,
+    "tags": [
+      "Plasma Membrane"
+    ],
+    "stats": {
+      "correct": 0,
+      "incorrect": 0
+    }
+  },
+  {
+    "id": "Plasma Membrane 010",
+    "topic": "Plasma Membrane",
+    "difficulty": "intermediate",
+    "question": "Which structure is embedded within the membrane to help transport substances?",
+    "answers": [
+      "DNA strands",
+      "Ribosomes",
+      "Membrane proteins",
+      "Cytoskeleton fibers"
+    ],
+    "correct": 2,
+    "tags": [
+      "Plasma Membrane"
+    ],
+    "stats": {
+      "correct": 0,
+      "incorrect": 0
+    }
+  }
+]

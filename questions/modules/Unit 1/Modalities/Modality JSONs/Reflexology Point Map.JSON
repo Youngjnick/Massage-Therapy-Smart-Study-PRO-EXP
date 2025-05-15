@@ -1,0 +1,202 @@
+[
+  {
+    "id": "Reflexology Point Map 001",
+    "topic": "Reflexology Point Map",
+    "difficulty": "intermediate",
+    "question": "Where on the foot is the reflex point for the lungs located?",
+    "answers": [
+      "Toes",
+      "Ball of the foot",
+      "Arch of the foot",
+      "Heel"
+    ],
+    "correct": 1,
+    "tags": [
+      "Reflexology Point Map"
+    ],
+    "stats": {
+      "correct": 0,
+      "incorrect": 0
+    }
+  },
+  {
+    "id": "Reflexology Point Map 002",
+    "topic": "Reflexology Point Map",
+    "difficulty": "intermediate",
+    "question": "Which reflex area corresponds to the liver?",
+    "answers": [
+      "Left arch",
+      "Right arch",
+      "Both heels",
+      "Top of the toes"
+    ],
+    "correct": 1,
+    "tags": [
+      "Reflexology Point Map"
+    ],
+    "stats": {
+      "correct": 0,
+      "incorrect": 0
+    }
+  },
+  {
+    "id": "Reflexology Point Map 003",
+    "topic": "Reflexology Point Map",
+    "difficulty": "intermediate",
+    "question": "Where is the reflex point for the head and brain located?",
+    "answers": [
+      "Heel",
+      "Ball of the foot",
+      "Tips of the toes",
+      "Instep"
+    ],
+    "correct": 2,
+    "tags": [
+      "Reflexology Point Map"
+    ],
+    "stats": {
+      "correct": 0,
+      "incorrect": 0
+    }
+  },
+  {
+    "id": "Reflexology Point Map 004",
+    "topic": "Reflexology Point Map",
+    "difficulty": "intermediate",
+    "question": "Which part of the hand maps to the digestive organs?",
+    "answers": [
+      "Thumb",
+      "Fingertips",
+      "Palm center",
+      "Wrist"
+    ],
+    "correct": 2,
+    "tags": [
+      "Reflexology Point Map"
+    ],
+    "stats": {
+      "correct": 0,
+      "incorrect": 0
+    }
+  },
+  {
+    "id": "Reflexology Point Map 005",
+    "topic": "Reflexology Point Map",
+    "difficulty": "intermediate",
+    "question": "Where would a reflexologist apply pressure to affect the spine?",
+    "answers": [
+      "Medial edge of the foot",
+      "Toes",
+      "Heel",
+      "Ball of foot"
+    ],
+    "correct": 0,
+    "tags": [
+      "Reflexology Point Map"
+    ],
+    "stats": {
+      "correct": 0,
+      "incorrect": 0
+    }
+  },
+  {
+    "id": "Reflexology Point Map 006",
+    "topic": "Reflexology Point Map",
+    "difficulty": "intermediate",
+    "question": "Where is the reflex point for the heart primarily located?",
+    "answers": [
+      "Left ball of the foot",
+      "Right heel",
+      "Big toe",
+      "Lateral arch"
+    ],
+    "correct": 0,
+    "tags": [
+      "Reflexology Point Map"
+    ],
+    "stats": {
+      "correct": 0,
+      "incorrect": 0
+    }
+  },
+  {
+    "id": "Reflexology Point Map 007",
+    "topic": "Reflexology Point Map",
+    "difficulty": "intermediate",
+    "question": "Which part of the foot corresponds to the small intestine?",
+    "answers": [
+      "Tips of the toes",
+      "Medial arch",
+      "Center of the arch",
+      "Ball of the foot"
+    ],
+    "correct": 2,
+    "tags": [
+      "Reflexology Point Map"
+    ],
+    "stats": {
+      "correct": 0,
+      "incorrect": 0
+    }
+  },
+  {
+    "id": "Reflexology Point Map 008",
+    "topic": "Reflexology Point Map",
+    "difficulty": "intermediate",
+    "question": "The reflex zone for the bladder is found where on the foot?",
+    "answers": [
+      "Base of the toes",
+      "Center of the arch",
+      "Just above the heel",
+      "Big toe"
+    ],
+    "correct": 2,
+    "tags": [
+      "Reflexology Point Map"
+    ],
+    "stats": {
+      "correct": 0,
+      "incorrect": 0
+    }
+  },
+  {
+    "id": "Reflexology Point Map 009",
+    "topic": "Reflexology Point Map",
+    "difficulty": "intermediate",
+    "question": "The reflex point for the kidneys is closest to which area of the foot?",
+    "answers": [
+      "Heel",
+      "Center of the arch",
+      "Tip of the big toe",
+      "Outer edge of the ball"
+    ],
+    "correct": 1,
+    "tags": [
+      "Reflexology Point Map"
+    ],
+    "stats": {
+      "correct": 0,
+      "incorrect": 0
+    }
+  },
+  {
+    "id": "Reflexology Point Map 010",
+    "topic": "Reflexology Point Map",
+    "difficulty": "intermediate",
+    "question": "The reflex point for the eyes is located on which toes?",
+    "answers": [
+      "Big toes",
+      "Second and third toes",
+      "Fourth and fifth toes",
+      "All toes equally"
+    ],
+    "correct": 1,
+    "tags": [
+      "Reflexology Point Map"
+    ],
+    "stats": {
+      "correct": 0,
+      "incorrect": 0
+    }
+  }
+]

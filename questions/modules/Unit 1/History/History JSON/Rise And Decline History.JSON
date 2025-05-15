@@ -1,0 +1,202 @@
+[
+  {
+    "id": "Rise And Decline 001",
+    "topic": "Rise And Decline",
+    "difficulty": "intermediate",
+    "question": "Which ancient civilization first documented massage in medical texts?",
+    "answers": [
+      "Greece",
+      "India",
+      "Egypt",
+      "China"
+    ],
+    "correct": 3,
+    "tags": [
+      "Rise And Decline"
+    ],
+    "stats": {
+      "correct": 0,
+      "incorrect": 0
+    }
+  },
+  {
+    "id": "Rise And Decline 002",
+    "topic": "Rise And Decline",
+    "difficulty": "intermediate",
+    "question": "The term 'massage' is believed to have originated from which language?",
+    "answers": [
+      "Latin",
+      "French",
+      "Arabic",
+      "Greek"
+    ],
+    "correct": 2,
+    "tags": [
+      "Rise And Decline"
+    ],
+    "stats": {
+      "correct": 0,
+      "incorrect": 0
+    }
+  },
+  {
+    "id": "Rise And Decline 003",
+    "topic": "Rise And Decline",
+    "difficulty": "intermediate",
+    "question": "Which famous Greek physician promoted massage as part of health and exercise regimens?",
+    "answers": [
+      "Hippocrates",
+      "Galen",
+      "Avicenna",
+      "Socrates"
+    ],
+    "correct": 0,
+    "tags": [
+      "Rise And Decline"
+    ],
+    "stats": {
+      "correct": 0,
+      "incorrect": 0
+    }
+  },
+  {
+    "id": "Rise And Decline 004",
+    "topic": "Rise And Decline",
+    "difficulty": "intermediate",
+    "question": "During which period did massage see a decline due to association with immorality in Western societies?",
+    "answers": [
+      "Renaissance",
+      "Industrial Revolution",
+      "Middle Ages",
+      "Early 1900s"
+    ],
+    "correct": 3,
+    "tags": [
+      "Rise And Decline"
+    ],
+    "stats": {
+      "correct": 0,
+      "incorrect": 0
+    }
+  },
+  {
+    "id": "Rise And Decline 005",
+    "topic": "Rise And Decline",
+    "difficulty": "intermediate",
+    "question": "Which 19th-century physician developed the Swedish Massage System?",
+    "answers": [
+      "Dr. George Taylor",
+      "Per Henrik Ling",
+      "Ida Rolf",
+      "William Fitzgerald"
+    ],
+    "correct": 1,
+    "tags": [
+      "Rise And Decline"
+    ],
+    "stats": {
+      "correct": 0,
+      "incorrect": 0
+    }
+  },
+  {
+    "id": "Rise And Decline 006",
+    "topic": "Rise And Decline",
+    "difficulty": "intermediate",
+    "question": "Why did massage decline in popularity during the early 20th century?",
+    "answers": [
+      "Modern pharmaceuticals and medical technology overshadowed manual therapies",
+      "It became too expensive",
+      "Massage schools were closed due to weather",
+      "Licensing was made illegal"
+    ],
+    "correct": 0,
+    "tags": [
+      "Rise And Decline"
+    ],
+    "stats": {
+      "correct": 0,
+      "incorrect": 0
+    }
+  },
+  {
+    "id": "Rise And Decline 007",
+    "topic": "Rise And Decline",
+    "difficulty": "intermediate",
+    "question": "What helped restore the credibility of massage in the West during the late 20th century?",
+    "answers": [
+      "Social media",
+      "Celebrity endorsements",
+      "Research and integration into healthcare settings",
+      "The rise of spas"
+    ],
+    "correct": 2,
+    "tags": [
+      "Rise And Decline"
+    ],
+    "stats": {
+      "correct": 0,
+      "incorrect": 0
+    }
+  },
+  {
+    "id": "Rise And Decline 008",
+    "topic": "Rise And Decline",
+    "difficulty": "intermediate",
+    "question": "Which world event temporarily revived massage therapy for medical rehabilitation?",
+    "answers": [
+      "World War I",
+      "The Great Depression",
+      "World War II",
+      "The Cold War"
+    ],
+    "correct": 0,
+    "tags": [
+      "Rise And Decline"
+    ],
+    "stats": {
+      "correct": 0,
+      "incorrect": 0
+    }
+  },
+  {
+    "id": "Rise And Decline 009",
+    "topic": "Rise And Decline",
+    "difficulty": "intermediate",
+    "question": "Which ancient Indian text outlines Ayurvedic practices including massage?",
+    "answers": [
+      "Bhagavad Gita",
+      "Charaka Samhita",
+      "Vedas",
+      "Rig Veda"
+    ],
+    "correct": 1,
+    "tags": [
+      "Rise And Decline"
+    ],
+    "stats": {
+      "correct": 0,
+      "incorrect": 0
+    }
+  },
+  {
+    "id": "Rise And Decline 010",
+    "topic": "Rise And Decline",
+    "difficulty": "intermediate",
+    "question": "Massage therapy saw renewed interest in the 1970s in connection with:",
+    "answers": [
+      "Military training programs",
+      "The holistic health movement and mind-body awareness",
+      "Increased muscle strain in factories",
+      "Decline of chiropractic care"
+    ],
+    "correct": 1,
+    "tags": [
+      "Rise And Decline"
+    ],
+    "stats": {
+      "correct": 0,
+      "incorrect": 0
+    }
+  }
+]

@@ -1,0 +1,202 @@
+[
+  {
+    "id": "Histology 001",
+    "topic": "Histology",
+    "difficulty": "intermediate",
+    "question": "What does histology study?",
+    "answers": [
+      "The structure of organs",
+      "The body's electrical activity",
+      "The microscopic structure of tissues",
+      "Chemical properties of cells"
+    ],
+    "correct": 2,
+    "tags": [
+      "Histology"
+    ],
+    "stats": {
+      "correct": 0,
+      "incorrect": 0
+    }
+  },
+  {
+    "id": "Histology 002",
+    "topic": "Histology",
+    "difficulty": "intermediate",
+    "question": "Which tool is essential for studying histology?",
+    "answers": [
+      "CT scanner",
+      "Telescope",
+      "Microscope",
+      "Stethoscope"
+    ],
+    "correct": 2,
+    "tags": [
+      "Histology"
+    ],
+    "stats": {
+      "correct": 0,
+      "incorrect": 0
+    }
+  },
+  {
+    "id": "Histology 003",
+    "topic": "Histology",
+    "difficulty": "intermediate",
+    "question": "Which of the following is NOT one of the four basic tissue types?",
+    "answers": [
+      "Epithelial",
+      "Connective",
+      "Muscular",
+      "Skeletal"
+    ],
+    "correct": 3,
+    "tags": [
+      "Histology"
+    ],
+    "stats": {
+      "correct": 0,
+      "incorrect": 0
+    }
+  },
+  {
+    "id": "Histology 004",
+    "topic": "Histology",
+    "difficulty": "intermediate",
+    "question": "Which tissue type covers body surfaces and lines hollow organs?",
+    "answers": [
+      "Connective",
+      "Muscle",
+      "Epithelial",
+      "Nervous"
+    ],
+    "correct": 2,
+    "tags": [
+      "Histology"
+    ],
+    "stats": {
+      "correct": 0,
+      "incorrect": 0
+    }
+  },
+  {
+    "id": "Histology 005",
+    "topic": "Histology",
+    "difficulty": "intermediate",
+    "question": "Which tissue type is responsible for transmitting electrical signals?",
+    "answers": [
+      "Muscle",
+      "Connective",
+      "Epithelial",
+      "Nervous"
+    ],
+    "correct": 3,
+    "tags": [
+      "Histology"
+    ],
+    "stats": {
+      "correct": 0,
+      "incorrect": 0
+    }
+  },
+  {
+    "id": "Histology 006",
+    "topic": "Histology",
+    "difficulty": "intermediate",
+    "question": "What is the function of connective tissue?",
+    "answers": [
+      "Secretes hormones",
+      "Contracts to produce movement",
+      "Supports and binds other tissues",
+      "Initiates nerve impulses"
+    ],
+    "correct": 2,
+    "tags": [
+      "Histology"
+    ],
+    "stats": {
+      "correct": 0,
+      "incorrect": 0
+    }
+  },
+  {
+    "id": "Histology 007",
+    "topic": "Histology",
+    "difficulty": "intermediate",
+    "question": "Which stain is commonly used to highlight nuclei in histological samples?",
+    "answers": [
+      "Gram stain",
+      "Hematoxylin",
+      "Eosin",
+      "Safranin"
+    ],
+    "correct": 1,
+    "tags": [
+      "Histology"
+    ],
+    "stats": {
+      "correct": 0,
+      "incorrect": 0
+    }
+  },
+  {
+    "id": "Histology 008",
+    "topic": "Histology",
+    "difficulty": "intermediate",
+    "question": "Muscle tissue is specialized for what function?",
+    "answers": [
+      "Secretion",
+      "Conduction",
+      "Contraction",
+      "Absorption"
+    ],
+    "correct": 2,
+    "tags": [
+      "Histology"
+    ],
+    "stats": {
+      "correct": 0,
+      "incorrect": 0
+    }
+  },
+  {
+    "id": "Histology 009",
+    "topic": "Histology",
+    "difficulty": "intermediate",
+    "question": "Which connective tissue has a liquid matrix?",
+    "answers": [
+      "Adipose",
+      "Cartilage",
+      "Bone",
+      "Blood"
+    ],
+    "correct": 3,
+    "tags": [
+      "Histology"
+    ],
+    "stats": {
+      "correct": 0,
+      "incorrect": 0
+    }
+  },
+  {
+    "id": "Histology 010",
+    "topic": "Histology",
+    "difficulty": "intermediate",
+    "question": "What is a pathologist most likely to use histology for?",
+    "answers": [
+      "Determining oxygen levels in the blood",
+      "Diagnosing tissue abnormalities or disease",
+      "Measuring heart rate",
+      "Performing surgery"
+    ],
+    "correct": 1,
+    "tags": [
+      "Histology"
+    ],
+    "stats": {
+      "correct": 0,
+      "incorrect": 0
+    }
+  }
+]

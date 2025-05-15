@@ -1,0 +1,202 @@
+[
+  {
+    "id": "Fungi Vs Bacteria 001",
+    "topic": "Fungi Vs Bacteria",
+    "difficulty": "intermediate",
+    "question": "Which of the following is true about bacteria?",
+    "answers": [
+      "They are multicellular organisms",
+      "They have membrane-bound organelles",
+      "They are prokaryotic and lack a nucleus",
+      "They perform photosynthesis only"
+    ],
+    "correct": 2,
+    "tags": [
+      "Fungi Vs Bacteria"
+    ],
+    "stats": {
+      "correct": 0,
+      "incorrect": 0
+    }
+  },
+  {
+    "id": "Fungi Vs Bacteria 002",
+    "topic": "Fungi Vs Bacteria",
+    "difficulty": "intermediate",
+    "question": "Which of the following best describes fungi?",
+    "answers": [
+      "Unicellular and photosynthetic",
+      "Prokaryotic and anaerobic",
+      "Eukaryotic and can be unicellular or multicellular",
+      "Viruses with cell walls"
+    ],
+    "correct": 2,
+    "tags": [
+      "Fungi Vs Bacteria"
+    ],
+    "stats": {
+      "correct": 0,
+      "incorrect": 0
+    }
+  },
+  {
+    "id": "Fungi Vs Bacteria 003",
+    "topic": "Fungi Vs Bacteria",
+    "difficulty": "intermediate",
+    "question": "Which kingdom do fungi belong to?",
+    "answers": [
+      "Protista",
+      "Monera",
+      "Plantae",
+      "Fungi"
+    ],
+    "correct": 3,
+    "tags": [
+      "Fungi Vs Bacteria"
+    ],
+    "stats": {
+      "correct": 0,
+      "incorrect": 0
+    }
+  },
+  {
+    "id": "Fungi Vs Bacteria 004",
+    "topic": "Fungi Vs Bacteria",
+    "difficulty": "intermediate",
+    "question": "Bacteria reproduce primarily through which process?",
+    "answers": [
+      "Binary fission",
+      "Budding",
+      "Spore formation",
+      "Sexual reproduction"
+    ],
+    "correct": 0,
+    "tags": [
+      "Fungi Vs Bacteria"
+    ],
+    "stats": {
+      "correct": 0,
+      "incorrect": 0
+    }
+  },
+  {
+    "id": "Fungi Vs Bacteria 005",
+    "topic": "Fungi Vs Bacteria",
+    "difficulty": "intermediate",
+    "question": "What structure is commonly found in fungi but not in bacteria?",
+    "answers": [
+      "Peptidoglycan",
+      "Chlorophyll",
+      "Chitin cell walls",
+      "Capsules"
+    ],
+    "correct": 2,
+    "tags": [
+      "Fungi Vs Bacteria"
+    ],
+    "stats": {
+      "correct": 0,
+      "incorrect": 0
+    }
+  },
+  {
+    "id": "Fungi Vs Bacteria 006",
+    "topic": "Fungi Vs Bacteria",
+    "difficulty": "intermediate",
+    "question": "Which of the following is true about bacterial cell walls?",
+    "answers": [
+      "They are made of cellulose",
+      "They lack a cell wall",
+      "They are made of peptidoglycan",
+      "They are identical to animal cells"
+    ],
+    "correct": 2,
+    "tags": [
+      "Fungi Vs Bacteria"
+    ],
+    "stats": {
+      "correct": 0,
+      "incorrect": 0
+    }
+  },
+  {
+    "id": "Fungi Vs Bacteria 007",
+    "topic": "Fungi Vs Bacteria",
+    "difficulty": "intermediate",
+    "question": "Which of the following organisms can cause ringworm?",
+    "answers": [
+      "Virus",
+      "Bacterium",
+      "Fungus",
+      "Protozoan"
+    ],
+    "correct": 2,
+    "tags": [
+      "Fungi Vs Bacteria"
+    ],
+    "stats": {
+      "correct": 0,
+      "incorrect": 0
+    }
+  },
+  {
+    "id": "Fungi Vs Bacteria 008",
+    "topic": "Fungi Vs Bacteria",
+    "difficulty": "intermediate",
+    "question": "Which of the following diseases is caused by bacteria?",
+    "answers": [
+      "Athlete’s foot",
+      "Strep throat",
+      "Candidiasis",
+      "Aspergillosis"
+    ],
+    "correct": 1,
+    "tags": [
+      "Fungi Vs Bacteria"
+    ],
+    "stats": {
+      "correct": 0,
+      "incorrect": 0
+    }
+  },
+  {
+    "id": "Fungi Vs Bacteria 009",
+    "topic": "Fungi Vs Bacteria",
+    "difficulty": "intermediate",
+    "question": "Which is a key structural difference between fungi and bacteria?",
+    "answers": [
+      "Fungi have no cell membrane",
+      "Bacteria have mitochondria",
+      "Fungi have nuclei, bacteria do not",
+      "Bacteria are larger than fungi"
+    ],
+    "correct": 2,
+    "tags": [
+      "Fungi Vs Bacteria"
+    ],
+    "stats": {
+      "correct": 0,
+      "incorrect": 0
+    }
+  },
+  {
+    "id": "Fungi Vs Bacteria 010",
+    "topic": "Fungi Vs Bacteria",
+    "difficulty": "intermediate",
+    "question": "How do fungi primarily obtain nutrients?",
+    "answers": [
+      "Photosynthesis",
+      "Consuming other animals",
+      "Absorption of organic material",
+      "Engulfing bacteria"
+    ],
+    "correct": 2,
+    "tags": [
+      "Fungi Vs Bacteria"
+    ],
+    "stats": {
+      "correct": 0,
+      "incorrect": 0
+    }
+  }
+]

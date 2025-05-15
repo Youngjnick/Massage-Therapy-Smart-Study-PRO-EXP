@@ -1,0 +1,242 @@
+[
+  {
+    "id": "Massage History 001",
+    "topic": "Massage History",
+    "difficulty": "intermediate",
+    "question": "What ancient Chinese text discussed massage, medicinal plants, and health?",
+    "answers": [
+      "Ayur-Veda",
+      "The Cong Fou of Tao-Tse",
+      "Canon of Medicine",
+      "Laws of Manu"
+    ],
+    "correct": 1,
+    "tags": [
+      "Massage History"
+    ],
+    "stats": {
+      "correct": 0,
+      "incorrect": 0
+    }
+  },
+  {
+    "id": "Massage History 002",
+    "topic": "Massage History",
+    "difficulty": "intermediate",
+    "question": "When was massage first documented in historical records?",
+    "answers": [
+      "3000 BCE",
+      "1800 BCE",
+      "500 BCE",
+      "1500 CE"
+    ],
+    "correct": 0,
+    "tags": [
+      "Massage History"
+    ],
+    "stats": {
+      "correct": 0,
+      "incorrect": 0
+    }
+  },
+  {
+    "id": "Massage History 003",
+    "topic": "Massage History",
+    "difficulty": "intermediate",
+    "question": "What is the Ayur-Veda?",
+    "answers": [
+      "A Greek medical manuscript",
+      "A Japanese acupressure technique",
+      "The Indian 'Art of Life' text written around 1800 BCE",
+      "A Chinese energy healing text"
+    ],
+    "correct": 2,
+    "tags": [
+      "Massage History"
+    ],
+    "stats": {
+      "correct": 0,
+      "incorrect": 0
+    }
+  },
+  {
+    "id": "Massage History 004",
+    "topic": "Massage History",
+    "difficulty": "intermediate",
+    "question": "What are the 'Laws of Manu'?",
+    "answers": [
+      "Roman laws regulating massage",
+      "A Greek athletic code",
+      "Duties of everyday life written around 300 BCE",
+      "A Japanese martial art manual"
+    ],
+    "correct": 2,
+    "tags": [
+      "Massage History"
+    ],
+    "stats": {
+      "correct": 0,
+      "incorrect": 0
+    }
+  },
+  {
+    "id": "Massage History 005",
+    "topic": "Massage History",
+    "difficulty": "intermediate",
+    "question": "What term did Hippocrates use to describe massage?",
+    "answers": [
+      "Anatripsis",
+      "Tapotement",
+      "Petrissage",
+      "Shiatsu"
+    ],
+    "correct": 0,
+    "tags": [
+      "Massage History"
+    ],
+    "stats": {
+      "correct": 0,
+      "incorrect": 0
+    }
+  },
+  {
+    "id": "Massage History 006",
+    "topic": "Massage History",
+    "difficulty": "intermediate",
+    "question": "Why did massage decline in Europe after the Fall of Rome?",
+    "answers": [
+      "Association with magic and loss of hygiene",
+      "Better surgical tools replaced it",
+      "Religious support faded",
+      "Laws banned it entirely"
+    ],
+    "correct": 0,
+    "tags": [
+      "Massage History"
+    ],
+    "stats": {
+      "correct": 0,
+      "incorrect": 0
+    }
+  },
+  {
+    "id": "Massage History 007",
+    "topic": "Massage History",
+    "difficulty": "intermediate",
+    "question": "How was massage knowledge preserved during the Dark Ages?",
+    "answers": [
+      "By ancient Roman emperors",
+      "Through European universities",
+      "By Islamic scholars and folk healers",
+      "Through papal decrees"
+    ],
+    "correct": 2,
+    "tags": [
+      "Massage History"
+    ],
+    "stats": {
+      "correct": 0,
+      "incorrect": 0
+    }
+  },
+  {
+    "id": "Massage History 008",
+    "topic": "Massage History",
+    "difficulty": "intermediate",
+    "question": "What sparked the revival of massage during the Renaissance?",
+    "answers": [
+      "New technology",
+      "Rediscovery of classical texts and arts",
+      "Chinese influence",
+      "Emergence of hospitals"
+    ],
+    "correct": 1,
+    "tags": [
+      "Massage History"
+    ],
+    "stats": {
+      "correct": 0,
+      "incorrect": 0
+    }
+  },
+  {
+    "id": "Massage History 009",
+    "topic": "Massage History",
+    "difficulty": "intermediate",
+    "question": "What cultural center in Ancient Greece incorporated massage as part of education and athletics?",
+    "answers": [
+      "Acropolis",
+      "Gymnasium",
+      "Agora",
+      "Stoa"
+    ],
+    "correct": 1,
+    "tags": [
+      "Massage History"
+    ],
+    "stats": {
+      "correct": 0,
+      "incorrect": 0
+    }
+  },
+  {
+    "id": "Massage History 010",
+    "topic": "Massage History",
+    "difficulty": "intermediate",
+    "question": "Which Indian practice used oils and rubbing techniques in bathhouses?",
+    "answers": [
+      "Shiatsu",
+      "Anmo",
+      "Tschanpua",
+      "Tuina"
+    ],
+    "correct": 2,
+    "tags": [
+      "Massage History"
+    ],
+    "stats": {
+      "correct": 0,
+      "incorrect": 0
+    }
+  },
+  {
+    "id": "Massage History 011",
+    "topic": "Massage History",
+    "difficulty": "intermediate",
+    "question": "Which term refers to Japanese massage involving acupressure on 'tsubo' points?",
+    "answers": [
+      "Shiatsu",
+      "Amma",
+      "Ayurveda",
+      "Rolfing"
+    ],
+    "correct": 0,
+    "tags": [
+      "Massage History"
+    ],
+    "stats": {
+      "correct": 0,
+      "incorrect": 0
+    }
+  },
+  {
+    "id": "Massage History 012",
+    "topic": "Massage History",
+    "difficulty": "intermediate",
+    "question": "Which ancient Chinese techniques are predecessors to modern acupressure and massage?",
+    "answers": [
+      "Amma and Shiatsu",
+      "Tuina and Anmo",
+      "Swedish and Reflexology",
+      "Trager and Rolfing"
+    ],
+    "correct": 1,
+    "tags": [
+      "Massage History"
+    ],
+    "stats": {
+      "correct": 0,
+      "incorrect": 0
+    }
+  }
+]

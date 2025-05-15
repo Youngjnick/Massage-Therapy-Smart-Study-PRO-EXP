@@ -1,0 +1,202 @@
+[
+  {
+    "id": "Modalities Intro Global 001",
+    "topic": "Modalities Intro Global",
+    "difficulty": "intermediate",
+    "question": "Which massage style involves acupressure and assisted stretching along energy lines?",
+    "answers": [
+      "Swedish",
+      "Thai",
+      "Rolfing",
+      "Reflexology"
+    ],
+    "correct": 1,
+    "tags": [
+      "Modalities Intro Global"
+    ],
+    "stats": {
+      "correct": 0,
+      "incorrect": 0
+    }
+  },
+  {
+    "id": "Modalities Intro Global 002",
+    "topic": "Modalities Intro Global",
+    "difficulty": "intermediate",
+    "question": "Which massage system uses long, flowing strokes and is rooted in Hawaiian tradition?",
+    "answers": [
+      "Shiatsu",
+      "Lomi Lomi",
+      "Tui-na",
+      "Ayurvedic"
+    ],
+    "correct": 1,
+    "tags": [
+      "Modalities Intro Global"
+    ],
+    "stats": {
+      "correct": 0,
+      "incorrect": 0
+    }
+  },
+  {
+    "id": "Modalities Intro Global 003",
+    "topic": "Modalities Intro Global",
+    "difficulty": "intermediate",
+    "question": "Which global style of massage is primarily focused on applying pressure to reflex zones on the feet and hands?",
+    "answers": [
+      "Shiatsu",
+      "Reflexology",
+      "Rolfing",
+      "Swedish"
+    ],
+    "correct": 1,
+    "tags": [
+      "Modalities Intro Global"
+    ],
+    "stats": {
+      "correct": 0,
+      "incorrect": 0
+    }
+  },
+  {
+    "id": "Modalities Intro Global 004",
+    "topic": "Modalities Intro Global",
+    "difficulty": "intermediate",
+    "question": "Which massage style is based on Traditional Chinese Medicine and focuses on pushing, pulling, and acupressure techniques?",
+    "answers": [
+      "Tui-na",
+      "Ayurvedic",
+      "Shiatsu",
+      "Lomi Lomi"
+    ],
+    "correct": 0,
+    "tags": [
+      "Modalities Intro Global"
+    ],
+    "stats": {
+      "correct": 0,
+      "incorrect": 0
+    }
+  },
+  {
+    "id": "Modalities Intro Global 005",
+    "topic": "Modalities Intro Global",
+    "difficulty": "intermediate",
+    "question": "Which Japanese massage technique uses finger pressure along meridian points to balance energy?",
+    "answers": [
+      "Amma",
+      "Reflexology",
+      "Shiatsu",
+      "Myofascial Release"
+    ],
+    "correct": 2,
+    "tags": [
+      "Modalities Intro Global"
+    ],
+    "stats": {
+      "correct": 0,
+      "incorrect": 0
+    }
+  },
+  {
+    "id": "Modalities Intro Global 006",
+    "topic": "Modalities Intro Global",
+    "difficulty": "intermediate",
+    "question": "Which massage style is deeply intertwined with Indian health philosophy and uses warm oils and marma point therapy?",
+    "answers": [
+      "Thai",
+      "Ayurvedic",
+      "Tui-na",
+      "Shiatsu"
+    ],
+    "correct": 1,
+    "tags": [
+      "Modalities Intro Global"
+    ],
+    "stats": {
+      "correct": 0,
+      "incorrect": 0
+    }
+  },
+  {
+    "id": "Modalities Intro Global 007",
+    "topic": "Modalities Intro Global",
+    "difficulty": "intermediate",
+    "question": "Which technique is widely taught in Western schools and emphasizes techniques like effleurage and petrissage?",
+    "answers": [
+      "Swedish Massage",
+      "Shiatsu",
+      "Lomi Lomi",
+      "Tui-na"
+    ],
+    "correct": 0,
+    "tags": [
+      "Modalities Intro Global"
+    ],
+    "stats": {
+      "correct": 0,
+      "incorrect": 0
+    }
+  },
+  {
+    "id": "Modalities Intro Global 008",
+    "topic": "Modalities Intro Global",
+    "difficulty": "intermediate",
+    "question": "Which massage modality is structured as a 10-session series designed to align the body with gravity?",
+    "answers": [
+      "Rolfing",
+      "Ayurvedic",
+      "Thai",
+      "Shiatsu"
+    ],
+    "correct": 0,
+    "tags": [
+      "Modalities Intro Global"
+    ],
+    "stats": {
+      "correct": 0,
+      "incorrect": 0
+    }
+  },
+  {
+    "id": "Modalities Intro Global 009",
+    "topic": "Modalities Intro Global",
+    "difficulty": "intermediate",
+    "question": "Which massage style traditionally includes movement meditation called 'mentastics'?",
+    "answers": [
+      "Swedish",
+      "Trager Method",
+      "Shiatsu",
+      "Reflexology"
+    ],
+    "correct": 1,
+    "tags": [
+      "Modalities Intro Global"
+    ],
+    "stats": {
+      "correct": 0,
+      "incorrect": 0
+    }
+  },
+  {
+    "id": "Modalities Intro Global 010",
+    "topic": "Modalities Intro Global",
+    "difficulty": "intermediate",
+    "question": "Which massage systems primarily follow the concept of energy channels or meridians?",
+    "answers": [
+      "Swedish and Rolfing",
+      "Shiatsu and Tui-na",
+      "Ayurvedic and Reflexology",
+      "Thai and Swedish"
+    ],
+    "correct": 1,
+    "tags": [
+      "Modalities Intro Global"
+    ],
+    "stats": {
+      "correct": 0,
+      "incorrect": 0
+    }
+  }
+]

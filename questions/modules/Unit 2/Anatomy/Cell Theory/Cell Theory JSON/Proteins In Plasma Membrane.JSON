@@ -1,0 +1,402 @@
+[
+  {
+    "id": "Proteins In Plasma Membrane 001",
+    "topic": "Proteins In Plasma Membrane",
+    "difficulty": "intermediate",
+    "question": "What is the primary function of channel proteins in the plasma membrane?",
+    "answers": [
+      "To generate ATP",
+      "To serve as hormone receptors",
+      "To allow specific ions to pass through the membrane",
+      "To catalyze protein synthesis"
+    ],
+    "correct": 2,
+    "tags": [
+      "Proteins In Plasma Membrane"
+    ],
+    "stats": {
+      "correct": 0,
+      "incorrect": 0
+    }
+  },
+  {
+    "id": "Proteins In Plasma Membrane 002",
+    "topic": "Proteins In Plasma Membrane",
+    "difficulty": "intermediate",
+    "question": "Which membrane proteins help substances move against their concentration gradient using energy?",
+    "answers": [
+      "Receptors",
+      "Transporters",
+      "Linkers",
+      "Channels"
+    ],
+    "correct": 1,
+    "tags": [
+      "Proteins In Plasma Membrane"
+    ],
+    "stats": {
+      "correct": 0,
+      "incorrect": 0
+    }
+  },
+  {
+    "id": "Proteins In Plasma Membrane 003",
+    "topic": "Proteins In Plasma Membrane",
+    "difficulty": "intermediate",
+    "question": "Which type of membrane protein detects signals like hormones and initiates a response?",
+    "answers": [
+      "Enzymes",
+      "Receptors",
+      "Glycoproteins",
+      "Linkers"
+    ],
+    "correct": 1,
+    "tags": [
+      "Proteins In Plasma Membrane"
+    ],
+    "stats": {
+      "correct": 0,
+      "incorrect": 0
+    }
+  },
+  {
+    "id": "Proteins In Plasma Membrane 004",
+    "topic": "Proteins In Plasma Membrane",
+    "difficulty": "intermediate",
+    "question": "Which protein type speeds up chemical reactions at the cell membrane?",
+    "answers": [
+      "Channel proteins",
+      "Enzymes",
+      "Transporters",
+      "Linkers"
+    ],
+    "correct": 1,
+    "tags": [
+      "Proteins In Plasma Membrane"
+    ],
+    "stats": {
+      "correct": 0,
+      "incorrect": 0
+    }
+  },
+  {
+    "id": "Proteins In Plasma Membrane 005",
+    "topic": "Proteins In Plasma Membrane",
+    "difficulty": "intermediate",
+    "question": "What is the 'lock and key' model used to describe?",
+    "answers": [
+      "Ion transport in channels",
+      "The attachment of cells via linkers",
+      "How enzymes bind to specific substrates",
+      "Cholesterol's effect on fluidity"
+    ],
+    "correct": 2,
+    "tags": [
+      "Proteins In Plasma Membrane"
+    ],
+    "stats": {
+      "correct": 0,
+      "incorrect": 0
+    }
+  },
+  {
+    "id": "Proteins In Plasma Membrane 006",
+    "topic": "Proteins In Plasma Membrane",
+    "difficulty": "intermediate",
+    "question": "Linker proteins function to:",
+    "answers": [
+      "Form lipid bilayers",
+      "Anchor the membrane to the cytoskeleton and extracellular structures",
+      "Produce hormones",
+      "Store energy"
+    ],
+    "correct": 1,
+    "tags": [
+      "Proteins In Plasma Membrane"
+    ],
+    "stats": {
+      "correct": 0,
+      "incorrect": 0
+    }
+  },
+  {
+    "id": "Proteins In Plasma Membrane 007",
+    "topic": "Proteins In Plasma Membrane",
+    "difficulty": "intermediate",
+    "question": "Cell identity markers are primarily involved in:",
+    "answers": [
+      "Catalyzing reactions",
+      "Transporting proteins",
+      "Recognizing self vs non-self cells",
+      "Producing ATP"
+    ],
+    "correct": 2,
+    "tags": [
+      "Proteins In Plasma Membrane"
+    ],
+    "stats": {
+      "correct": 0,
+      "incorrect": 0
+    }
+  },
+  {
+    "id": "Proteins In Plasma Membrane 008",
+    "topic": "Proteins In Plasma Membrane",
+    "difficulty": "intermediate",
+    "question": "Which of the following contributes to the glycocalyx and functions in cell recognition?",
+    "answers": [
+      "Cholesterol",
+      "Glycolipids",
+      "Alpha-helix proteins",
+      "Peripheral proteins"
+    ],
+    "correct": 1,
+    "tags": [
+      "Proteins In Plasma Membrane"
+    ],
+    "stats": {
+      "correct": 0,
+      "incorrect": 0
+    }
+  },
+  {
+    "id": "Proteins In Plasma Membrane 009",
+    "topic": "Proteins In Plasma Membrane",
+    "difficulty": "intermediate",
+    "question": "What is the role of glycoproteins in the plasma membrane?",
+    "answers": [
+      "They help regulate pH",
+      "They act as receptors and identity markers",
+      "They synthesize DNA",
+      "They form phospholipid tails"
+    ],
+    "correct": 1,
+    "tags": [
+      "Proteins In Plasma Membrane"
+    ],
+    "stats": {
+      "correct": 0,
+      "incorrect": 0
+    }
+  },
+  {
+    "id": "Proteins In Plasma Membrane 010",
+    "topic": "Proteins In Plasma Membrane",
+    "difficulty": "intermediate",
+    "question": "Which proteins span the entire lipid bilayer?",
+    "answers": [
+      "Peripheral proteins",
+      "Alpha-helix proteins",
+      "Integral proteins",
+      "Glycolipids"
+    ],
+    "correct": 2,
+    "tags": [
+      "Proteins In Plasma Membrane"
+    ],
+    "stats": {
+      "correct": 0,
+      "incorrect": 0
+    }
+  },
+  {
+    "id": "Proteins In Plasma Membrane 011",
+    "topic": "Proteins In Plasma Membrane",
+    "difficulty": "intermediate",
+    "question": "Peripheral proteins are typically located:",
+    "answers": [
+      "Deep inside the nucleus",
+      "On the inner or outer surface of the membrane",
+      "Spanning across the entire membrane",
+      "Inside the lysosome"
+    ],
+    "correct": 1,
+    "tags": [
+      "Proteins In Plasma Membrane"
+    ],
+    "stats": {
+      "correct": 0,
+      "incorrect": 0
+    }
+  },
+  {
+    "id": "Proteins In Plasma Membrane 012",
+    "topic": "Proteins In Plasma Membrane",
+    "difficulty": "intermediate",
+    "question": "What structural motif do many integral proteins exhibit to pass through membranes?",
+    "answers": [
+      "Beta sheets",
+      "Globular folds",
+      "Alpha-helix structures",
+      "Triple helices"
+    ],
+    "correct": 2,
+    "tags": [
+      "Proteins In Plasma Membrane"
+    ],
+    "stats": {
+      "correct": 0,
+      "incorrect": 0
+    }
+  },
+  {
+    "id": "Proteins In Plasma Membrane 013",
+    "topic": "Proteins In Plasma Membrane",
+    "difficulty": "intermediate",
+    "question": "Which of the following is NOT a protein but is embedded in the membrane and affects its fluidity?",
+    "answers": [
+      "Cholesterol",
+      "Globular protein",
+      "Linker",
+      "Receptor"
+    ],
+    "correct": 0,
+    "tags": [
+      "Proteins In Plasma Membrane"
+    ],
+    "stats": {
+      "correct": 0,
+      "incorrect": 0
+    }
+  },
+  {
+    "id": "Proteins In Plasma Membrane 014",
+    "topic": "Proteins In Plasma Membrane",
+    "difficulty": "intermediate",
+    "question": "Globular proteins in the membrane are characterized by:",
+    "answers": [
+      "Linear shape with no folding",
+      "Highly folded, compact structure with specific functions",
+      "DNA storage roles",
+      "Formation of lipid layers"
+    ],
+    "correct": 1,
+    "tags": [
+      "Proteins In Plasma Membrane"
+    ],
+    "stats": {
+      "correct": 0,
+      "incorrect": 0
+    }
+  },
+  {
+    "id": "Proteins In Plasma Membrane 015",
+    "topic": "Proteins In Plasma Membrane",
+    "difficulty": "intermediate",
+    "question": "The Na+/K+ pump is an example of which type of membrane protein?",
+    "answers": [
+      "Receptor",
+      "Enzyme",
+      "Transporter",
+      "Linker"
+    ],
+    "correct": 2,
+    "tags": [
+      "Proteins In Plasma Membrane"
+    ],
+    "stats": {
+      "correct": 0,
+      "incorrect": 0
+    }
+  },
+  {
+    "id": "Proteins In Plasma Membrane 016",
+    "topic": "Proteins In Plasma Membrane",
+    "difficulty": "intermediate",
+    "question": "Cholesterol's role in the plasma membrane is to:",
+    "answers": [
+      "Decrease membrane thickness",
+      "Add rigidity and maintain fluidity",
+      "Break down proteins",
+      "Signal neurotransmitters"
+    ],
+    "correct": 1,
+    "tags": [
+      "Proteins In Plasma Membrane"
+    ],
+    "stats": {
+      "correct": 0,
+      "incorrect": 0
+    }
+  },
+  {
+    "id": "Proteins In Plasma Membrane 017",
+    "topic": "Proteins In Plasma Membrane",
+    "difficulty": "intermediate",
+    "question": "Which of the following best describes the function of the glycocalyx?",
+    "answers": [
+      "Energy production",
+      "Structural reinforcement",
+      "Protection and cell recognition",
+      "Synthesis of cholesterol"
+    ],
+    "correct": 2,
+    "tags": [
+      "Proteins In Plasma Membrane"
+    ],
+    "stats": {
+      "correct": 0,
+      "incorrect": 0
+    }
+  },
+  {
+    "id": "Proteins In Plasma Membrane 018",
+    "topic": "Proteins In Plasma Membrane",
+    "difficulty": "intermediate",
+    "question": "Membrane receptors typically bind to:",
+    "answers": [
+      "Ions",
+      "Hormones or signaling molecules",
+      "DNA",
+      "ATP"
+    ],
+    "correct": 1,
+    "tags": [
+      "Proteins In Plasma Membrane"
+    ],
+    "stats": {
+      "correct": 0,
+      "incorrect": 0
+    }
+  },
+  {
+    "id": "Proteins In Plasma Membrane 019",
+    "topic": "Proteins In Plasma Membrane",
+    "difficulty": "intermediate",
+    "question": "What is the overall role of proteins in the plasma membrane?",
+    "answers": [
+      "They solely act as passive barriers",
+      "They serve diverse roles in transport, signaling, and structural support",
+      "They reduce cell metabolism",
+      "They produce cell wall components"
+    ],
+    "correct": 1,
+    "tags": [
+      "Proteins In Plasma Membrane"
+    ],
+    "stats": {
+      "correct": 0,
+      "incorrect": 0
+    }
+  },
+  {
+    "id": "Proteins In Plasma Membrane 020",
+    "topic": "Proteins In Plasma Membrane",
+    "difficulty": "intermediate",
+    "question": "Which protein type would be most involved in immune system cell-cell communication?",
+    "answers": [
+      "Transporters",
+      "Channel proteins",
+      "Cell identity markers",
+      "Enzymes"
+    ],
+    "correct": 2,
+    "tags": [
+      "Proteins In Plasma Membrane"
+    ],
+    "stats": {
+      "correct": 0,
+      "incorrect": 0
+    }
+  }
+]
