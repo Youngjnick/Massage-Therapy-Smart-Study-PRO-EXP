@@ -830,3 +830,24 @@ select.control[data-topic] {
   font-size: 1rem;
   outline: 2px solid #fff;
 }
+
+/* Add to your CSS file */
+.feedback .explanation {
+  margin-top: 8px;
+  font-size: 0.95em;
+  color: #555;
+  background: #f3f3f3;
+  padding: 8px;
+  border-left: 4px solid #e3342f;
+  border-radius: 4px;
+}
+.explanation.hidden {
+  display: none;
+}
+
+/* Make the question text larger */
+.question-block,
+.question-text {
+  font-size: 1.5rem; /* or any size you prefer, e.g., 2rem */
+  font-weight: 700;
+}
