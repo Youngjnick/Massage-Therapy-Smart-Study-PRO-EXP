@@ -186,7 +186,30 @@ function setupUI() {
   const topicSelect = document.querySelector(SELECTORS.topicSelect);
   const lengthSelect = document.querySelector(SELECTORS.lengthSelect);
   const startBtn = document.querySelector(SELECTORS.startBtn);
+  const quizCard = document.querySelector('.quiz-card');
+  const flashcardsCard = document.querySelector('.flashcards-card');
 
+  function autoStart() {
+    if (topicSelect.value && lengthSelect.value) {
+      if (topicSelect.value === "vocabulary") {
+        quizCard.style.display = 'none';
+        flashcardsCard.style.display = 'block';
+        selectedTopic = topicSelect.value;
+        flashcardPool = shuffle([...vocabulary]);
+        flashcardIndex = 0;
+        renderFlashcard();
+      } else {
+        quizCard.style.display = 'block';
+        flashcardsCard.style.display = 'none';
+        startQuiz();
+      }
+    }
+  }
+
+  if (topicSelect) topicSelect.addEventListener("change", autoStart);
+  if (lengthSelect) lengthSelect.addEventListener("change", autoStart);
+
+  // ...rest of setupUI...
   function updateStartBtn() {
     if (startBtn) startBtn.disabled = !(topicSelect.value && lengthSelect.value);
   }
@@ -208,10 +231,6 @@ function setupUI() {
   document.querySelectorAll(".settings a, .settings-link").forEach(link =>
     link.addEventListener("click", showSettingsModal)
   );
-
-  const modeSelect = document.getElementById('mode-select');
-  const quizCard = document.querySelector('.quiz-card');
-  const flashcardsCard = document.querySelector('.flashcards-card');
 
   startBtn.addEventListener('click', async () => {
     if (modeSelect.value === 'flashcards') {
