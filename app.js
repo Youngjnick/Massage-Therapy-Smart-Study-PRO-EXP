@@ -136,7 +136,7 @@ function preloadImages(questionsArr) {
       const img = new Image();
       img.src = q.image;
     }
-  });
+    });
 }
 
 // --- EVENT LISTENERS & UI SETUP ---
@@ -500,33 +500,12 @@ function handleAnswerClick(isCorrect, btn) {
   updateStreak(isCorrect);
   updateProgress(current + 1, quiz.length);
 
-  const feedback = document.querySelector(SELECTORS.feedback);
   const qid = quiz[current].id;
 
-  if (!isCorrect) {
-    const correctAnswer = quiz[current].answers[quiz[current].correct];
-    feedback.textContent = `Incorrect! The correct answer is: ${correctAnswer}`;
-    feedback.style.color = "red";
-    if (!missedQuestions.includes(qid)) {
-      missedQuestions.push(qid);
-      saveUserData();
-    }
-    quiz[current].stats = quiz[current].stats || { correct: 0, incorrect: 0 };
-    quiz[current].stats.incorrect++;
-    localStorage.setItem("review_" + qid, JSON.stringify({
-      lastMissed: Date.now(),
-      interval: 24 * 60 * 60 * 1000
-    }));
-  } else {
-    feedback.textContent = "Correct!";
-    feedback.style.color = "green";
-    missedQuestions = missedQuestions.filter(id => id !== qid);
-    saveUserData();
-    quiz[current].stats = quiz[current].stats || { correct: 0, incorrect: 0 };
-    quiz[current].stats.correct++;
-  }
-  const explanation = quiz[current].explanation || "";
-  feedback.innerHTML += explanation ? `<br><em>${explanation}</em>` : "";
+  // ...existing missed/correct logic...
+
+  showFeedback(isCorrect, quiz[current]);
+
   if (isCorrect) correct++;
   unansweredQuestions = unansweredQuestions.filter(q => q.id !== qid);
 
@@ -773,6 +752,15 @@ function showSettingsModal(e) {
         <input type="checkbox" id="adaptiveModeToggle" /> Enable Adaptive Mode
       </label>
       <br />
+      <label>
+        Always Show Explanations:
+        <select id="showExplanationSetting">
+          <option value="always">Always</option>
+          <option value="toggle">Show with Toggle</option>
+          <option value="never">Never</option>
+        </select>
+      </label>
+      <br />
       <button type="submit">Save Settings</button>
     </form>
     <hr />
@@ -788,13 +776,15 @@ function showSettingsModal(e) {
   document.getElementById("difficultySelect").value = settings.difficulty || "easy";
   document.getElementById("timerToggle").checked = !!settings.timerEnabled;
   document.getElementById("adaptiveModeToggle").checked = settings.adaptiveMode !== false;
+  document.getElementById("showExplanationSetting").value = settings.showExplanationSetting || "always";
 
   form.addEventListener("submit", (event) => {
     event.preventDefault();
     const newSettings = {
       difficulty: document.getElementById("difficultySelect").value,
       timerEnabled: document.getElementById("timerToggle").checked,
-      adaptiveMode: document.getElementById("adaptiveModeToggle").checked
+      adaptiveMode: document.getElementById("adaptiveModeToggle").checked,
+      showExplanationSetting: document.getElementById("showExplanationSetting").value
     };
     localStorage.setItem("settings", JSON.stringify(newSettings));
     showNotification("Settings Saved", "Your preferences have been saved.", "badges/summary.png");
@@ -857,36 +847,43 @@ function renderHistoryChart() {
   const ctx = document.getElementById("historyChart")?.getContext("2d");
   if (!ctx) return;
   if (historyChart) historyChart.destroy();
-  historyChart = new Chart(ctx, {
-    type: "line",
-    data: {
-      labels: results.length ? results.map(r => new Date(r.date).toLocaleDateString()) : ["No Data"],
-      datasets: [
-        {
-          label: "Accuracy (%)",
-          data: results.length
-            ? results.map(r =>
-                r.total > 0 && typeof r.score === "number"
-                  ? Math.max(0, Math.round((r.score / r.total) * 100))
-                  : 0
-              )
-            : [0],
-          borderColor: "#007bff",
-          fill: false,
-        },
-        {
-          label: "Streak",
-          data: results.length
-            ? results.map(r => typeof r.streak === "number" ? Math.max(0, r.streak) : 0)
-            : [0],
-          borderColor: "#FFD93D",
-          fill: false,
+    historyChart = new Chart(ctx, {
+      type: "line",
+      data: {
+        labels: results.length ? results.map(r => new Date(r.date).toLocaleDateString()) : ["No Data"],
+        datasets: [
+          {
+            label: "Accuracy (%)",
+            data: results.length
+              ? results.map(r =>
+                  r.total > 0 && typeof r.score === "number"
+                    ? Math.max(0, Math.round((r.score / r.total) * 100))
+                    : 0
+                )
+              : [0],
+            borderColor: "#007bff",
+            fill: false,
+          },
+          {
+            label: "Streak",
+            data: results.length
+              ? results.map(r => typeof r.streak === "number" ? Math.max(0, r.streak) : 0)
+              : [0],
+            borderColor: "#FFD93D",
+            fill: false,
+          }
+        ]
+      },
+      options: {
+        responsive: true,
+        scales: {
+          y: {
+            beginAtZero: true
+          }
         }
-      ]
-    },
-    options: { responsive: true }
-  });
-}
+      }
+    });
+  }
 
 // --- NOTIFICATIONS ---
 /**
