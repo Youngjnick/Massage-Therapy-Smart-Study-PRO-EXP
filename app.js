@@ -5,7 +5,8 @@
 
 // --- GLOBAL STATE & SELECTORS ---
 const SELECTORS = {
-  quizCard: ".quiz-card",
+  quizCard: "#quiz-card",
+  flashcardsCard: "#flashcards-card",
   topicSelect: ".control[data-topic]",
   lengthSelect: ".control[data-quiz-length]",
   startBtn: ".start-btn",
@@ -23,9 +24,14 @@ let missedQuestions = [];
 let unansweredQuestions = [];
 let bookmarkedQuestions = [];
 let questions = [];
+let currentTopic = "";
+let questionsByTopic = {}; // ✅ ADD THIS
+let quizIndex = 0;
+let score = 0;
 let historyChart;
 let accuracyChart;
 let xp = parseInt(localStorage.getItem("xp") || "0", 10);
+let vocabulary = [];
 
 /**
  * @typedef {Object} Badge
@@ -124,6 +130,15 @@ async function loadQuestions() {
     showNotification("Error", "Failed to load questions.", "badges/summary.png");
     console.error("Error loading questions:", err);
   }
+
+  // Build a lookup object after loading questions
+  questionsByTopic = {};
+  questions.forEach(question => {
+    const topicKey = (question.topic || "").trim().toLowerCase();
+    if (!topicKey) return;
+    questionsByTopic[topicKey] = questionsByTopic[topicKey] || [];
+    questionsByTopic[topicKey].push(question);
+  });
 }
 
 /**
@@ -142,8 +157,10 @@ function preloadImages(questionsArr) {
 // --- EVENT LISTENERS & UI SETUP ---
 document.addEventListener("DOMContentLoaded", async () => {
   await loadQuestions();
+  await loadVocabulary();
   setupUI();
   const topics = questions.map(q => q.topic);
+  console.log([...new Set(questions.map(q => q.topic))]);
   populateTopicDropdown(topics);
   updateXPBar(); // <-- Add this line
   showNotification(
@@ -152,6 +169,14 @@ document.addEventListener("DOMContentLoaded", async () => {
     "badges/welcome.png"
   );
   renderChartsOnLoad();
+  console.log(questions.filter(q => q.topic && q.topic.trim().toLowerCase() === "animal vs plant cells".toLowerCase()));
+  console.log(questions.filter(q => q.topic && q.topic.includes("Anatomy Prefixes")));
+  const topicCounts = {};
+  questions.forEach(q => {
+    const t = (q.topic || "").trim().toLowerCase();
+    topicCounts[t] = (topicCounts[t] || 0) + 1;
+  });
+  console.log(topicCounts);
 });
 
 /**
@@ -183,6 +208,62 @@ function setupUI() {
   document.querySelectorAll(".settings a, .settings-link").forEach(link =>
     link.addEventListener("click", showSettingsModal)
   );
+
+  const modeSelect = document.getElementById('mode-select');
+  const quizCard = document.querySelector('.quiz-card');
+  const flashcardsCard = document.querySelector('.flashcards-card');
+
+  startBtn.addEventListener('click', async () => {
+    if (modeSelect.value === 'flashcards') {
+      quizCard.style.display = 'none';
+      flashcardsCard.style.display = 'block';
+      selectedTopic = topicSelect.value; // <-- Add this line
+      if (topicSelect.value === "vocabulary") {
+        flashcardPool = shuffle([...vocabulary]);
+      } else {
+        // ...existing question logic...
+      }
+      flashcardIndex = 0;
+      renderFlashcard();
+    } else {
+      // Always reload questions to ensure a fresh pool
+      await loadQuestions(); // <-- reloads from cache or manifest
+      // Reset topic if it's not a real topic
+      if (["vocabulary", "unanswered", "missed", "bookmarked", ""].includes(topicSelect.value) ||
+          ![...topicSelect.options].some(opt => opt.value === topicSelect.value)) {
+        const firstRealTopic = Array.from(topicSelect.options)
+          .find(opt => opt.value && !["vocabulary", "unanswered", "missed", "bookmarked"].includes(opt.value));
+        if (firstRealTopic) topicSelect.value = firstRealTopic.value;
+      }
+      quizCard.style.display = 'block';
+      flashcardsCard.style.display = 'none';
+      // Debug logs
+      console.log("Switching to quiz mode...");
+      console.log("Current topic:", topicSelect.value);
+      console.log("Questions loaded:", questions.length);
+      startQuiz();
+    }
+  });
+
+  let flashcardFlipped = false;
+  document.getElementById('flashcard').addEventListener('click', () => {
+    flashcardFlipped = !flashcardFlipped;
+    document.getElementById('flashcard-front').style.display = flashcardFlipped ? 'none' : 'block';
+    document.getElementById('flashcard-back').style.display = flashcardFlipped ? 'block' : 'none';
+  });
+
+  document.getElementById('prev-flashcard').addEventListener('click', () => {
+    if (flashcardPool.length) {
+      flashcardIndex = (flashcardIndex - 1 + flashcardPool.length) % flashcardPool.length;
+      renderFlashcard();
+    }
+  });
+  document.getElementById('next-flashcard').addEventListener('click', () => {
+    if (flashcardPool.length) {
+      flashcardIndex = (flashcardIndex + 1) % flashcardPool.length;
+      renderFlashcard();
+    }
+  });
 }
 
 function populateTopicDropdown(topics) {
@@ -195,7 +276,8 @@ function populateTopicDropdown(topics) {
     { value: "", text: "-- Select Topic --", disabled: true, selected: true },
     { value: "unanswered", text: "Unanswered Questions" },
     { value: "missed", text: "Missed Questions" },
-    { value: "bookmarked", text: "Bookmarked Questions" }
+    { value: "bookmarked", text: "Bookmarked Questions" },
+    { value: "vocabulary", text: "Vocabulary Flashcards" }
   ];
 
   staticOptions.forEach(opt => {
@@ -207,50 +289,58 @@ function populateTopicDropdown(topics) {
     dropdown.appendChild(option);
   });
 
-  const uniqueTopics = [...new Set(topics)].filter(Boolean).sort((a, b) => a.localeCompare(b));
+  const uniqueTopics = [...new Set(questions.map(q => q.topic && q.topic.trim().toLowerCase()))].filter(Boolean).sort();
   uniqueTopics.forEach(topic => {
     const option = document.createElement("option");
-    option.value = topic;
-    option.textContent = formatTitle(topic); // Use your humanizing function
+    option.value = topic; // normalized value
+    option.textContent = formatTitle(topic); // display text
     dropdown.appendChild(option);
   });
 }
 
-// --- QUIZ LOGIC ---
-/**
- * Start a quiz based on selected topic and length.
- */
-async function startQuiz() {
-  const topicSelect = document.querySelector(SELECTORS.topicSelect);
-  const lengthSelect = document.querySelector(SELECTORS.lengthSelect);
-  const topic = topicSelect.value;
-  const length = lengthSelect.value === "all" ? 9999 : parseInt(lengthSelect.value, 10);
+function startQuiz(selectedTopic) {
+  // If called from an event, get the topic from the dropdown
+  if (typeof selectedTopic !== "string") {
+    const topicSelect = document.querySelector(SELECTORS.topicSelect);
+    selectedTopic = topicSelect ? topicSelect.value : "";
+  }
+  const topic = selectedTopic || currentTopic || "";
+  const key = typeof topic === "string" ? topic.trim().toLowerCase() : "";
 
-  if (topic && topic.match(/\.json$/i)) {
-    try {
-      const res = await fetch(topic);
-      const data = await res.json();
-      quiz = shuffle([...data]).slice(0, length);
-      current = 0; correct = 0; streak = 0;
-      selectedTopic = formatTitle(topic.split('/').pop());
-      document.querySelector(SELECTORS.quizCard).classList.remove("hidden");
-      renderQuestion();
-      return;
-    } catch (err) {
-      showNotification("Error", "Failed to load questions from file.", "badges/summary.png");
-      console.error("Error loading quiz file:", err);
-      return;
+  if (!key || !questionsByTopic[key]) {
+    console.log("⚠️ Invalid or missing topic selection.");
+    return;
+  }
+  questions = questionsByTopic[key] || [];
+
+  console.log("Selected topic for quiz:", selectedTopic);
+  console.log("Using currentTopic fallback:", currentTopic);
+  console.log("Normalized key:", key);
+  console.log("Questions loaded:", questions.length);
+
+  if (questions.length === 0) {
+    showNotification("No questions", "No questions available for this topic!", "badges/summary.png");
+    // Only update the quiz header and clear other children, do NOT replace innerHTML!
+    const quizCard = document.querySelector(SELECTORS.quizCard);
+    if (quizCard) {
+      const quizHeader = quizCard.querySelector('.quiz-header');
+      if (quizHeader) quizHeader.textContent = "No questions available for this topic!";
+      const questionText = quizCard.querySelector('.question-text');
+      if (questionText) questionText.textContent = "";
+      const answers = quizCard.querySelector('#answers');
+      if (answers) answers.innerHTML = "";
     }
+    return;
   }
 
-  let quizPool = [];
-  if (topic === "unanswered") quizPool = unansweredQuestions;
-  else if (topic === "missed") quizPool = missedQuestions.map(id => questions.find(q => q.id === id)).filter(Boolean);
-  else if (topic === "bookmarked") quizPool = bookmarkedQuestions;
-  else quizPool = questions.filter(q => q.topic === topic);
+  // Reset quiz state
+  quiz = shuffle([...questions]);
+  quizIndex = 0;
+  score = 0;
+  current = 0;
+  correct = 0;
+  streak = 0;
 
-  quiz = shuffle([...quizPool]).slice(0, length);
-  current = 0; correct = 0; streak = 0;
   document.querySelector(SELECTORS.quizCard).classList.remove("hidden");
   renderQuestion();
 }
@@ -259,10 +349,31 @@ async function startQuiz() {
  * Render the current quiz question and answers.
  */
 function renderQuestion() {
-  if (!quiz || quiz.length === 0) {
-    document.querySelector(SELECTORS.quizCard).innerHTML = "<p>No missed questions to review!</p>";
+  const quizCard = document.querySelector(SELECTORS.quizCard);
+  if (!quizCard) {
+    console.warn('Quiz card element not found!');
     return;
   }
+  const quizHeader = quizCard.querySelector('.quiz-header');
+  if (!quizHeader) {
+    console.warn('Quiz header element not found!');
+    return;
+  }
+
+  if (!quiz || quiz.length === 0) {
+    let msg = "No questions available for this topic!";
+    if (selectedTopic === "missed") msg = "No missed questions to review!";
+    if (selectedTopic === "unanswered") msg = "No unanswered questions to review!";
+    if (selectedTopic === "bookmarked") msg = "No bookmarked questions to review!";
+    // Show the message in quizHeader or another child
+    quizHeader.textContent = msg;
+    // Optionally hide other children
+    quizCard.querySelector('.question-text').textContent = "";
+    const answers = quizCard.querySelector('#answers');
+    if (answers) answers.innerHTML = "";
+    return;
+  }
+
   const q = quiz[current];
   if (!q) {
     document.querySelector(SELECTORS.quizCard).classList.add("hidden");
@@ -277,7 +388,7 @@ function renderQuestion() {
 
   renderQuizHeader(q);
 
-  document.querySelector(".quiz-header strong").textContent = formatTopicName(selectedTopic);
+  document.querySelector(".quiz-header").textContent = formatTopicName(selectedTopic);
   document.querySelector(".question-text").textContent = q.question;
   renderAnswers(answerObjs);
   document.querySelector(SELECTORS.feedback).textContent = "";
@@ -285,37 +396,23 @@ function renderQuestion() {
   document.querySelector(SELECTORS.quizCard).querySelectorAll(".question-actions").forEach(el => el.remove());
 
   renderQuestionActions(q);
+
+  console.log('quizCard:', quizCard);
+  console.log('quizHeader:', quizHeader);
+  console.log('questionText:', quizCard.querySelector('.question-text'));
+  console.log('answers:', quizCard.querySelector('#answers'));
 }
 
 /**
  * Render the quiz header row with topic, streak, and bookmark button.
  */
-function renderQuizHeader(q) {
-  const quizHeader = document.querySelector(".quiz-header");
-  quizHeader.querySelector(".quiz-header-row")?.remove();
-
-  const headerRow = document.createElement("div");
-  headerRow.className = "quiz-header-row";
-  headerRow.innerHTML = `
-    <div class="topic-streak">
-      <span>TOPIC: <strong>${selectedTopic}</strong></span>
-      <span style="margin-left: 16px;">Streak: <span id="quizStreak">${streak}</span></span>
-    </div>
-  `;
-
-  const bookmarkBtn = document.createElement("button");
-  bookmarkBtn.className = "bookmark-btn";
-  bookmarkBtn.textContent = q.bookmarked ? "Unbookmark" : "Bookmark";
-  bookmarkBtn.setAttribute("aria-label", q.bookmarked ? "Unbookmark this question" : "Bookmark this question");
-  bookmarkBtn.addEventListener("click", () => {
-    q.bookmarked = !q.bookmarked;
-    bookmarkBtn.textContent = q.bookmarked ? "Unbookmark" : "Bookmark";
-    toggleBookmark(q.id);
-    bookmarkedQuestions = getBookmarkedQuestions(questions);
-  });
-
-  headerRow.appendChild(bookmarkBtn);
-  quizHeader.appendChild(headerRow);
+function renderQuizHeader() {
+  const quizHeader = document.querySelector('.quiz-card .quiz-header');
+  if (!quizHeader) {
+    console.warn('quizHeader not found!');
+    return;
+  }
+  quizHeader.textContent = formatTopicName(selectedTopic);
 }
 
 /**
@@ -1099,4 +1196,34 @@ function updateXPBar() {
   if (xpBar) xpBar.style.width = getXPProgressPercent() + "%";
   if (xpLabel) xpLabel.textContent = `Level ${getXPLevel()} — ${xp % 100} / 100 XP`;
 }
-// --- END OF FILE ---
+
+async function loadVocabulary() {
+  try {
+    const res = await fetch('vocabulary.json');
+    vocabulary = await res.json();
+  } catch (err) {
+    console.error("Failed to load vocabulary:", err);
+  }
+}
+
+let flashcardIndex = 0;
+let flashcardPool = [];
+
+function renderFlashcard() {
+  if (!flashcardPool.length) return;
+  const card = flashcardPool[flashcardIndex];
+  if (selectedTopic === "vocabulary") {
+    document.getElementById('flashcard-front').textContent = card.term;
+    document.getElementById('flashcard-back').textContent = card.definition;
+  } else if (card.answers && typeof card.correct === "number") {
+    document.getElementById('flashcard-front').textContent = card.question;
+    document.getElementById('flashcard-back').textContent = card.answers[card.correct];
+  } else {
+    document.getElementById('flashcard-front').textContent = "Invalid flashcard data";
+    document.getElementById('flashcard-back').textContent = "";
+  }
+  // Reset flip state
+  flashcardFlipped = false;
+  document.getElementById('flashcard-front').style.display = 'block';
+  document.getElementById('flashcard-back').style.display = 'none';
+}
