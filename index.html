@@ -15,62 +15,70 @@
   <script src="https://www.gstatic.com/firebasejs/9.6.1/firebase-app-compat.js"></script>
   <!-- Firestore -->
   <script src="https://www.gstatic.com/firebasejs/9.6.1/firebase-firestore-compat.js"></script>
-  <script defer src="app.js?v=8"></script>
+  <script src="firebaseConfig.js"></script>
+  <script src="app.js" type="module"></script>
 </head>
 <body>
   <a href="#question" class="skip-link" tabindex="0">Skip to main content</a>
-  <header role="banner" class="title-bar-box">
+  <header role="banner">
     <div class="app-container">
-      <div class="title-bar">
-        <img alt="App Icon" class="app-icon" src="icon-512x512.png"/>
-        <div class="title-text">
-          <h1>Massage Therapy</h1>
-          <h2>Smart Study Pro</h2>
+      <header class="title-bar-box">
+        <div class="title-bar">
+          <img alt="App Icon" class="app-icon" src="icon-512x512.png"/>
+          <div class="title-text">
+            <h1>Massage Therapy</h1>
+            <h2>Smart Study Pro</h2>
+          </div>
         </div>
-      </div>
-      <div class="header-controls">
-        <select class="control" data-topic></select>
-        <select class="control" data-quiz-length>
-          <option value="5">5 Questions</option>
-          <option value="10">10 Questions</option>
-          <option value="20">20 Questions</option>
-          <option value="all">All Questions</option>
-        </select>
-        <button class="start-btn" disabled>Start</button>
-      </div>
-      <div class="header-actions" style="display: flex; gap: 24px; align-items: center; justify-content: space-evenly;">
-        <div class="smart-learning">
-          <a href="#" class="smart-learning-link" style="text-decoration: none; color: white; display: flex; align-items: center;">
-            <svg fill="white" height="16" viewBox="0 0 24 24" width="16" style="vertical-align: middle; margin-right: 8px;">
-              <path d="M20.3 5.7a1 1 0 00-1.4-1.4L9 14.17l-3.9-3.9a1 1 0 10-1.4 1.42l4.6 4.6a1 1 0 001.4 0l11-11z"></path>
-            </svg>
-            Smart Learning
-          </a>
+        <div class="header-controls">
+          <select class="control" data-topic></select>
+          <select class="control" data-quiz-length>
+            <option value="5">5 Questions</option>
+            <option value="10">10 Questions</option>
+            <option value="20">20 Questions</option>
+            <option value="all">All Questions</option>
+          </select>
+          <button class="start-btn" disabled>Start Quiz</button>
         </div>
-        <div class="view-analytics">
-          <a href="#" class="analytics-link" style="text-decoration: none; color: white; display: flex; align-items: center;">
-            <svg fill="white" height="16" viewBox="0 0 24 24" width="16" style="vertical-align: middle; margin-right: 4px;">
-              <path d="M3 17h2v-7H3v7zm4 0h2v-4H7v4zm4 0h2V7h-2v10zm4 0h2v-2h-2v2zm4 0h2v-10h-2v10z"></path>
-            </svg> View Analytics
-          </a>
+        <div class="header-actions" style="display: flex; gap: 24px; align-items: center; justify-content: space-evenly;">
+          <div class="smart-learning">
+            <a href="#" class="smart-learning-link" style="text-decoration: none; color: white; display: flex; align-items: center;">
+              <svg fill="white" height="16" viewBox="0 0 24 24" width="16" style="vertical-align: middle; margin-right: 8px;">
+                <path d="M20.3 5.7a1 1 0 00-1.4-1.4L9 14.17l-3.9-3.9a1 1 0 10-1.4 1.42l4.6 4.6a1 1 0 001.4 0l11-11z"></path>
+              </svg>
+              Smart Learning
+            </a>
+          </div>
+          <div class="view-analytics">
+            <a href="#" class="analytics-link" style="text-decoration: none; color: white; display: flex; align-items: center;">
+              <svg fill="white" height="16" viewBox="0 0 24 24" width="16" style="vertical-align: middle; margin-right: 4px;">
+                <path d="M3 17h2v-7H3v7zm4 0h2v-4H7v4zm4 0h2V7h-2v10zm4 0h2v-2h-2v2zm4 0h2v-10h-2v10z"></path>
+              </svg> View Analytics
+            </a>
+          </div>
+          <div class="settings">
+            <a href="#" class="settings-link" style="text-decoration: none; color: white; display: flex; align-items: center;">
+              <svg fill="white" height="16" viewBox="0 0 24 24" width="16" style="vertical-align: middle; margin-right: 4px;"></svg>
+              <svg fill="white" height="16" viewBox="0 0 24 24" width="16" style="vertical-align: middle; margin-right: 4px;">
+                <path d="M12 1a2 2 0 0 1 2 2v1.1a7.96 7.96 0 0 1 2.83 1.17l.78-.78a2 2 0 1 1 2.83 2.83l-.78.78A7.96 7.96 0 0 1 20.9 10H22a2 2 0 1 1 0 4h-1.1a7.96 7.96 0 0 1-1.17 2.83l.78.78a2 2 0 1 1-2.83 2.83l-.78-.78A7.96 7.96 0 0 1 14 20.9V22a2 2 0 1 1-4 0v-1.1a7.96 7.96 0 0 1-2.83-1.17l-.78.78a2 2 0 1 1-2.83-2.83l.78-.78A7.96 7.96 0 0 1 3.1 14H2a2 2 0 1 1 0-4h1.1a7.96 7.96 0 0 1 1.17-2.83l-.78-.78a2 2 0 1 1 2.83-2.83l.78.78A7.96 7.96 0 0 1 10 3.1V2a2 2 0 0 1 2-2zm0 5a5 5 0 1 0 0 10 5 5 0 0 0 0-10z"></path>
+              </svg>
+              Settings
+            </a>
+          </div>
         </div>
-        <div class="settings">
-          <a href="#" class="settings-link" style="text-decoration: none; color: white; display: flex; align-items: center;">
-            <svg fill="white" height="16" viewBox="0 0 24 24" width="16" style="vertical-align: middle; margin-right: 4px;"></svg>
-            <svg fill="white" height="16" viewBox="0 0 24 24" width="16" style="vertical-align: middle; margin-right: 4px;">
-              <path d="M12 1a2 2 0 0 1 2 2v1.1a7.96 7.96 0 0 1 2.83 1.17l.78-.78a2 2 0 1 1 2.83 2.83l-.78.78A7.96 7.96 0 0 1 20.9 10H22a2 2 0 1 1 0 4h-1.1a7.96 7.96 0 0 1-1.17 2.83l.78.78a2 2 0 1 1-2.83 2.83l-.78-.78A7.96 7.96 0 0 1 14 20.9V22a2 2 0 1 1-4 0v-1.1a7.96 7.96 0 0 1-2.83-1.17l-.78.78a2 2 0 1 1-2.83-2.83l.78-.78A7.96 7.96 0 0 1 3.1 14H2a2 2 0 1 1 0-4h1.1a7.96 7.96 0 0 1 1.17-2.83l-.78-.78a2 2 0 1 1 2.83-2.83l.78.78A7.96 7.96 0 0 1 10 3.1V2a2 2 0 0 1 2-2zm0 5a5 5 0 1 0 0 10 5 5 0 0 0 0-10z"></path>
-            </svg>
-            Settings
-          </a>
-        </div>
-      </div>
+      </header>
     </div>
   </header>
   <main role="main">
-    <div class="quiz-card" id="quiz-card" role="region" aria-label="Quiz Area">
-      <div class="quiz-header" aria-live="polite"></div>
-      <div class="question-text"></div>
-      <div id="answers"></div>
+    <div class="quiz-card visible" role="region" aria-label="Quiz Area">
+      <div class="quiz-header" role="region" aria-label="Quiz Header"></div>
+      <div class="question-meta">
+        <span class="question-progress"></span>
+        <span class="accuracy-tracker"></span>
+        <span class="streak-count"></span>
+      </div>
+      <div class="question-text" id="question" aria-live="polite">Select Topic & "Start Quiz" to load Question!</div>
+      <div class="answers" id="answers"></div>
       <div class="feedback" id="feedback" aria-live="assertive"></div>
       <div class="progress-section">
         <span>Progress</span>
@@ -79,29 +87,12 @@
         </div>
         <span>0%</span>
       </div>
-      <!-- XP Progress Bar -->
-      <div style="margin: 16px 0;">
-        <div style="font-weight: bold; margin-bottom: 4px;" id="xp-label">Level 1 — 0 / 100 XP</div>
-        <div style="background: #eee; border-radius: 8px; height: 18px; width: 100%; max-width: 400px;">
-          <div id="xp-progress-bar" style="background: linear-gradient(90deg,#FFD93D,#6BCB77); height: 100%; width: 0%; border-radius: 8px; transition: width 0.3s;"></div>
-        </div>
-      </div>
       <div id="loading" style="text-align:center; margin-top:2em;">Loading questions...</div>
       <canvas id="historyChart" width="300" height="120"></canvas>
       <div class="question-actions">
         <button class="suggest-btn">Suggest a Question</button>
         <button class="flag-unclear-btn" disabled>Flag as Unclear</button>
         <button class="report-btn" disabled>Report Question</button>
-      </div>
-    </div>
-    <div class="flashcards-card" id="flashcards-card" style="display:none;" role="region" aria-label="Flashcards Area">
-      <div class="flashcard" id="flashcard" tabindex="0" style="cursor:pointer;">
-        <div class="flashcard-front" id="flashcard-front">Front</div>
-        <div class="flashcard-back" id="flashcard-back" style="display:none;">Back</div>
-      </div>
-      <div class="flashcard-actions">
-        <button id="prev-flashcard">Previous</button>
-        <button id="next-flashcard">Next</button>
       </div>
     </div>
   </main>
