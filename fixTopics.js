@@ -3,6 +3,21 @@ const path = require('path');
 
 const QUESTIONS_DIR = path.join(__dirname, 'questions');
 
+// 1. Rename all .JSON to .json first
+function renameJsonFiles(dir) {
+  fs.readdirSync(dir).forEach(file => {
+    const fullPath = path.join(dir, file);
+    if (fs.statSync(fullPath).isDirectory()) {
+      renameJsonFiles(fullPath);
+    } else if (file.endsWith('.JSON')) {
+      const newPath = path.join(dir, file.replace(/\.JSON$/, '.json'));
+      fs.renameSync(fullPath, newPath);
+      console.log(`Renamed: ${fullPath} -> ${newPath}`);
+    }
+  });
+}
+renameJsonFiles(QUESTIONS_DIR);
+
 function humanizeTopic(topic) {
   if (!topic) return topic;
   // Always capitalize SOAP
