@@ -142,6 +142,17 @@ body {
   background: linear-gradient(to right, #b0f2b6, #7be495);
   transition: width 0.4s ease;
 }
+.question-text {
+  font-size: 1.6em;
+  font-family: 'Inter', 'Segoe UI', Arial, sans-serif;
+  font-weight: 600;
+  line-height: 1.5;
+  color: #fff;
+  padding: 16px 0 12px 0;
+  letter-spacing: 0.01em;
+  /* Optional: add a subtle shadow for contrast */
+  text-shadow: 0 2px 8px rgba(0,0,0,0.18);
+}
 
 /* Glow & Glassmorphism Enhancements */
 .title-bar-box,
@@ -829,25 +840,4 @@ select.control[data-topic] {
   height: auto;
   font-size: 1rem;
   outline: 2px solid #fff;
-}
-
-/* Add to your CSS file */
-.feedback .explanation {
-  margin-top: 8px;
-  font-size: 0.95em;
-  color: #555;
-  background: #f3f3f3;
-  padding: 8px;
-  border-left: 4px solid #e3342f;
-  border-radius: 4px;
-}
-.explanation.hidden {
-  display: none;
-}
-
-/* Make the question text larger */
-.question-block,
-.question-text {
-  font-size: 1.5rem; /* or any size you prefer, e.g., 2rem */
-  font-weight: 700;
 }
