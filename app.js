@@ -1,12 +1,11 @@
 // ===============================
 // Massage Therapy Smart Study PRO
-// Main App Logic
+// Main App Logic (Refactored)
 // ===============================
 
 // --- GLOBAL STATE & SELECTORS ---
 const SELECTORS = {
-  quizCard: "#quiz-card",
-  flashcardsCard: "#flashcards-card",
+  quizCard: ".quiz-card",
   topicSelect: ".control[data-topic]",
   lengthSelect: ".control[data-quiz-length]",
   startBtn: ".start-btn",
@@ -24,24 +23,10 @@ let missedQuestions = [];
 let unansweredQuestions = [];
 let bookmarkedQuestions = [];
 let questions = [];
-let currentTopic = "";
-let questionsByTopic = {}; // ✅ ADD THIS
-let quizIndex = 0;
-let score = 0;
 let historyChart;
 let accuracyChart;
-let xp = parseInt(localStorage.getItem("xp") || "0", 10);
-let vocabulary = [];
 
-/**
- * @typedef {Object} Badge
- * @property {string} id
- * @property {string} name
- * @property {string} description
- * @property {() => boolean} condition
- */
-
-/** @type {Badge[]} */
+// --- BADGES ---
 const badges = [
   { id: "streak_10", name: "Streak Master", description: "Achieve a streak of 10 correct answers.", condition: () => streak >= 10 },
   { id: "accuracy_90", name: "Accuracy Pro", description: "Achieve 90% accuracy in a quiz.", condition: () => (correct / quiz.length) >= 0.9 },
@@ -52,11 +37,6 @@ let earnedBadges = JSON.parse(localStorage.getItem("earnedBadges")) || [];
 earnedBadges = earnedBadges.filter(badgeId => badges.some(b => b.id === badgeId));
 
 // --- UTILITY FUNCTIONS ---
-/**
- * Shuffle an array in place.
- * @param {Array} array
- * @returns {Array}
- */
 function shuffle(array) {
   let m = array.length, t, i;
   while (m) {
@@ -68,148 +48,65 @@ function shuffle(array) {
   return array;
 }
 
-/**
- * Format a filename or topic string to a human-readable title.
- * @param {string} filename
- * @returns {string}
- */
-function formatTitle(filename) {
-  return filename.replace(/_/g, ' ').replace(/\.json$/i, '').replace(/\b\w/g, c => c.toUpperCase());
+function prettifyName(name) {
+  const replacements = { soap: "SOAP", vs: "vs", mblex: "MBLEx", cpr: "CPR" };
+  name = name.replace(/\.json$/i, '').replace(/[-_]/g, ' ').replace(/\s+/g, ' ').trim();
+  const lower = name.toLowerCase();
+  if (replacements[lower]) return replacements[lower];
+  return name.replace(/\w\S*/g, txt =>
+    replacements[txt.toLowerCase()] || txt.charAt(0).toUpperCase() + txt.substr(1).toLowerCase()
+  );
 }
 
 function formatTopicName(topic) {
   if (!topic) return "";
-  const cleaned = topic
-    .replace(/_/g, " ")
-    .replace(/\bsoap\b/gi, "SOAP") // force SOAP to be uppercase
-    .replace(/\b\w/g, c => c.toUpperCase()); // capitalize each word
-  return cleaned;
+  return topic.replace(/_/g, " ").replace(/\bsoap\b/gi, "SOAP").replace(/\b\w/g, c => c.toUpperCase());
 }
 
-// --- QUESTION LOADING & INITIALIZATION ---
-/**
- * Load questions from localStorage or manifest.
- */
-async function loadQuestions() {
-  const cachedQuestions = localStorage.getItem("questions");
+// --- FIREBASE CONFIG ---
+firebase.initializeApp(window.firebaseConfig);
+const db = firebase.firestore();
+
+// --- QUESTION LOADING ---
+async function loadQuestionsFromFirestore() {
   try {
-    if (cachedQuestions) {
-      questions = JSON.parse(cachedQuestions);
-    } else {
-      // Fetch all questions from manifest
-      questions = [];
-      const manifestPaths = await getManifestPaths();
-      for (const path of manifestPaths) {
-        try {
-          const fileRes = await fetch(path);
-          const data = await fileRes.json();
-          if (Array.isArray(data)) {
-            questions.push(...data);
-          } else if (data && typeof data === "object") {
-            questions.push(data);
-          }
-        } catch (err) {
-          console.error("Error loading questions from file:", path, err);
-        }
-      }
-      localStorage.setItem("questions", JSON.stringify(questions));
-    }
-    // Bookmarks and unanswered
-    const bookmarks = JSON.parse(localStorage.getItem("bookmarkedQuestions")) || [];
-    questions.forEach(q => { q.bookmarked = bookmarks.includes(q.id); });
-    unansweredQuestions = [...questions];
-    loadUserData();
-    const startBtn = document.querySelector(SELECTORS.startBtn);
-    if (startBtn) startBtn.disabled = false;
-    const loading = document.getElementById("loading");
-    if (loading) loading.style.display = "none";
-    preloadImages(questions);
-    bookmarkedQuestions = getBookmarkedQuestions(questions);
+    // This will get all documents in any 'items' subcollection under 'questions'
+    const snapshot = await db.collectionGroup("items").get();
+    const loadedQuestions = [];
+    snapshot.forEach(doc => loadedQuestions.push({ id: doc.id, ...doc.data() }));
+    console.log("✅ Loaded questions from Firestore:", loadedQuestions);
+    return loadedQuestions;
   } catch (err) {
-    localStorage.removeItem("questions");
-    showNotification("Error", "Failed to load questions.", "badges/summary.png");
-    console.error("Error loading questions:", err);
+    console.error("❌ Error loading questions from Firestore:", err);
+    return [];
   }
-
-  // Build a lookup object after loading questions
-  questionsByTopic = {};
-  questions.forEach(question => {
-    const topicKey = (question.topic || "").trim().toLowerCase();
-    if (!topicKey) return;
-    questionsByTopic[topicKey] = questionsByTopic[topicKey] || [];
-    questionsByTopic[topicKey].push(question);
-  });
-}
-
-/**
- * Preload images for all questions to improve quiz performance.
- * @param {Array} questionsArr
- */
-function preloadImages(questionsArr) {
-  questionsArr.forEach(q => {
-    if (q.image) {
-      const img = new Image();
-      img.src = q.image;
-    }
-    });
 }
 
 // --- EVENT LISTENERS & UI SETUP ---
 document.addEventListener("DOMContentLoaded", async () => {
-  await loadQuestions();
-  await loadVocabulary();
+  const statusElem = document.querySelector("#status");
+  if (statusElem) statusElem.innerText = "Loading questions...";
+
+  questions = await loadQuestionsFromFirestore();
+  if (questions.length === 0) {
+    if (statusElem) statusElem.innerText = "No questions found!";
+    return;
+  }
+  if (statusElem) statusElem.innerText = "";
+
+  startQuiz(questions);
   setupUI();
-  const topics = questions.map(q => q.topic);
-  console.log([...new Set(questions.map(q => q.topic))]);
-  populateTopicDropdown(topics);
-  updateXPBar(); // <-- Add this line
-  showNotification(
-    "Welcome!",
-    "Challenge your skills with Massage Therapy Smart Study PRO!",
-    "badges/welcome.png"
-  );
+  populateTopicDropdown();
+  showNotification("Welcome!", "Challenge your skills with Massage Therapy Smart Study PRO!", "badges/welcome.png");
   renderChartsOnLoad();
-  console.log(questions.filter(q => q.topic && q.topic.trim().toLowerCase() === "animal vs plant cells".toLowerCase()));
-  console.log(questions.filter(q => q.topic && q.topic.includes("Anatomy Prefixes")));
-  const topicCounts = {};
-  questions.forEach(q => {
-    const t = (q.topic || "").trim().toLowerCase();
-    topicCounts[t] = (topicCounts[t] || 0) + 1;
-  });
-  console.log(topicCounts);
 });
 
-/**
- * Setup UI event listeners for dropdowns, buttons, and modals.
- */
+// --- UI & QUIZ LOGIC ---
 function setupUI() {
   const topicSelect = document.querySelector(SELECTORS.topicSelect);
   const lengthSelect = document.querySelector(SELECTORS.lengthSelect);
   const startBtn = document.querySelector(SELECTORS.startBtn);
-  const quizCard = document.querySelector('.quiz-card');
-  const flashcardsCard = document.querySelector('.flashcards-card');
 
-  function autoStart() {
-    if (topicSelect.value && lengthSelect.value) {
-      if (topicSelect.value === "vocabulary") {
-        quizCard.style.display = 'none';
-        flashcardsCard.style.display = 'block';
-        selectedTopic = topicSelect.value;
-        flashcardPool = shuffle([...vocabulary]);
-        flashcardIndex = 0;
-        renderFlashcard();
-      } else {
-        quizCard.style.display = 'block';
-        flashcardsCard.style.display = 'none';
-        startQuiz();
-      }
-    }
-  }
-
-  if (topicSelect) topicSelect.addEventListener("change", autoStart);
-  if (lengthSelect) lengthSelect.addEventListener("change", autoStart);
-
-  // ...rest of setupUI...
   function updateStartBtn() {
     if (startBtn) startBtn.disabled = !(topicSelect.value && lengthSelect.value);
   }
@@ -220,7 +117,26 @@ function setupUI() {
     });
   }
   if (lengthSelect) lengthSelect.addEventListener("change", updateStartBtn);
-  if (startBtn) startBtn.addEventListener("click", startQuiz);
+  if (startBtn) startBtn.addEventListener("click", () => {
+    let quizPool = [];
+    const topic = topicSelect.value;
+    const length = lengthSelect.value === "all" ? 9999 : parseInt(lengthSelect.value, 10);
+
+    if (topic === "unanswered") quizPool = unansweredQuestions;
+    else if (topic === "missed") quizPool = missedQuestions.map(id => questions.find(q => q.id === id)).filter(Boolean);
+    else if (topic === "bookmarked") quizPool = bookmarkedQuestions;
+    else if (topic === "review_unmastered") quizPool = getQuestionsMastered(0);
+    else if (topic === "review_most_missed") quizPool = getMostErroredQuestions();
+    else if (topic === "adaptive_quiz") quizPool = getAdaptiveQuiz();
+    else if (topicSelect.value.includes("::")) {
+      const [topic, unit] = topicSelect.value.split("::");
+      quizPool = questions.filter(q => q.topic.trim() === topic && q.unit.trim() === unit);
+    } else {
+      quizPool = questions.filter(q => q.topic === topicSelect.value);
+    }
+
+    startQuiz(quizPool.slice(0, length));
+  });
 
   document.querySelectorAll(".smart-learning a, .smart-learning-link").forEach(link =>
     link.addEventListener("click", showSmartLearningModal)
@@ -231,75 +147,23 @@ function setupUI() {
   document.querySelectorAll(".settings a, .settings-link").forEach(link =>
     link.addEventListener("click", showSettingsModal)
   );
-
-  startBtn.addEventListener('click', async () => {
-    if (modeSelect.value === 'flashcards') {
-      quizCard.style.display = 'none';
-      flashcardsCard.style.display = 'block';
-      selectedTopic = topicSelect.value; // <-- Add this line
-      if (topicSelect.value === "vocabulary") {
-        flashcardPool = shuffle([...vocabulary]);
-      } else {
-        // ...existing question logic...
-      }
-      flashcardIndex = 0;
-      renderFlashcard();
-    } else {
-      // Always reload questions to ensure a fresh pool
-      await loadQuestions(); // <-- reloads from cache or manifest
-      // Reset topic if it's not a real topic
-      if (["vocabulary", "unanswered", "missed", "bookmarked", ""].includes(topicSelect.value) ||
-          ![...topicSelect.options].some(opt => opt.value === topicSelect.value)) {
-        const firstRealTopic = Array.from(topicSelect.options)
-          .find(opt => opt.value && !["vocabulary", "unanswered", "missed", "bookmarked"].includes(opt.value));
-        if (firstRealTopic) topicSelect.value = firstRealTopic.value;
-      }
-      quizCard.style.display = 'block';
-      flashcardsCard.style.display = 'none';
-      // Debug logs
-      console.log("Switching to quiz mode...");
-      console.log("Current topic:", topicSelect.value);
-      console.log("Questions loaded:", questions.length);
-      startQuiz();
-    }
-  });
-
-  let flashcardFlipped = false;
-  document.getElementById('flashcard').addEventListener('click', () => {
-    flashcardFlipped = !flashcardFlipped;
-    document.getElementById('flashcard-front').style.display = flashcardFlipped ? 'none' : 'block';
-    document.getElementById('flashcard-back').style.display = flashcardFlipped ? 'block' : 'none';
-  });
-
-  document.getElementById('prev-flashcard').addEventListener('click', () => {
-    if (flashcardPool.length) {
-      flashcardIndex = (flashcardIndex - 1 + flashcardPool.length) % flashcardPool.length;
-      renderFlashcard();
-    }
-  });
-  document.getElementById('next-flashcard').addEventListener('click', () => {
-    if (flashcardPool.length) {
-      flashcardIndex = (flashcardIndex + 1) % flashcardPool.length;
-      renderFlashcard();
-    }
-  });
 }
 
-function populateTopicDropdown(topics) {
+async function populateTopicDropdown() {
   const dropdown = document.querySelector("[data-topic]");
   if (!dropdown) return;
-  dropdown.setAttribute("aria-label", "Select quiz topic");
-  dropdown.innerHTML = ""; // Clear old options
+  dropdown.innerHTML = "";
 
-  const staticOptions = [
-    { value: "", text: "-- Select Topic --", disabled: true, selected: true },
-    { value: "unanswered", text: "Unanswered Questions" },
-    { value: "missed", text: "Missed Questions" },
-    { value: "bookmarked", text: "Bookmarked Questions" },
-    { value: "vocabulary", text: "Vocabulary Flashcards" }
-  ];
-
-  staticOptions.forEach(opt => {
+  // Add smart quiz options first
+  [
+    { value: "", text: "📝 -- Select Topic --", disabled: true, selected: true },
+    { value: "unanswered", text: "❓ Unanswered Questions" },
+    { value: "missed", text: "❌ Missed Questions" },
+    { value: "bookmarked", text: "🔖 Bookmarked Questions" },
+    { value: "review_unmastered", text: "🧠 Review Unmastered" },
+    { value: "review_most_missed", text: "🔥 Most Missed" },
+    { value: "adaptive_quiz", text: "🤖 Adaptive Quiz" }
+  ].forEach(opt => {
     const option = document.createElement("option");
     option.value = opt.value;
     option.textContent = opt.text;
@@ -308,94 +172,51 @@ function populateTopicDropdown(topics) {
     dropdown.appendChild(option);
   });
 
-  const uniqueTopics = [...new Set(questions.map(q => q.topic && q.topic.trim().toLowerCase()))].filter(Boolean).sort();
-  uniqueTopics.forEach(topic => {
-    const option = document.createElement("option");
-    option.value = topic; // normalized value
-    option.textContent = formatTitle(topic); // display text
-    dropdown.appendChild(option);
+  // Group unique, trimmed units by topic
+  const grouped = {};
+  questions.forEach(q => {
+    if (!q.topic || !q.unit) return;
+    const topic = q.topic.trim();
+    const unit = q.unit.trim();
+    if (!grouped[topic]) grouped[topic] = new Set();
+    grouped[topic].add(unit);
+  });
+  console.log(grouped);
+
+  Object.entries(grouped).sort().forEach(([topic, units]) => {
+    const optgroup = document.createElement("optgroup");
+    optgroup.label = prettifyName(topic);
+    Array.from(units).sort().forEach(unit => {
+      const option = document.createElement("option");
+      option.value = `${topic}::${unit}`;
+      option.textContent = prettifyName(unit);
+      optgroup.appendChild(option);
+    });
+    dropdown.appendChild(optgroup);
   });
 }
 
-function startQuiz(selectedTopic) {
-  // If called from an event, get the topic from the dropdown
-  if (typeof selectedTopic !== "string") {
-    const topicSelect = document.querySelector(SELECTORS.topicSelect);
-    selectedTopic = topicSelect ? topicSelect.value : "";
-  }
-  const topic = selectedTopic || currentTopic || "";
-  const key = typeof topic === "string" ? topic.trim().toLowerCase() : "";
-
-  if (!key || !questionsByTopic[key]) {
-    console.log("⚠️ Invalid or missing topic selection.");
-    return;
-  }
-  questions = questionsByTopic[key] || [];
-
-  console.log("Selected topic for quiz:", selectedTopic);
-  console.log("Using currentTopic fallback:", currentTopic);
-  console.log("Normalized key:", key);
-  console.log("Questions loaded:", questions.length);
-
-  if (questions.length === 0) {
-    showNotification("No questions", "No questions available for this topic!", "badges/summary.png");
-    // Only update the quiz header and clear other children, do NOT replace innerHTML!
-    const quizCard = document.querySelector(SELECTORS.quizCard);
-    if (quizCard) {
-      const quizHeader = quizCard.querySelector('.quiz-header');
-      if (quizHeader) quizHeader.textContent = "No questions available for this topic!";
-      const questionText = quizCard.querySelector('.question-text');
-      if (questionText) questionText.textContent = "";
-      const answers = quizCard.querySelector('#answers');
-      if (answers) answers.innerHTML = "";
-    }
-    return;
-  }
-
-  // Reset quiz state
-  quiz = shuffle([...questions]);
-  quizIndex = 0;
-  score = 0;
-  current = 0;
-  correct = 0;
-  streak = 0;
-
-  document.querySelector(SELECTORS.quizCard).classList.remove("hidden");
+function startQuiz(quizPool) {
+  // Only include valid questions with an answers array
+  quiz = shuffle([...quizPool].filter(q => Array.isArray(q.answers)));
+  current = 0; correct = 0; streak = 0;
+  const quizCard = document.querySelector(SELECTORS.quizCard);
+  if (quizCard) quizCard.classList.remove("hidden");
   renderQuestion();
 }
 
-/**
- * Render the current quiz question and answers.
- */
-function renderQuestion() {
+function renderQuestion(q) {
+  q = q || quiz[current];
   const quizCard = document.querySelector(SELECTORS.quizCard);
-  if (!quizCard) {
-    console.warn('Quiz card element not found!');
-    return;
-  }
-  const quizHeader = quizCard.querySelector('.quiz-header');
-  if (!quizHeader) {
-    console.warn('Quiz header element not found!');
-    return;
-  }
 
   if (!quiz || quiz.length === 0) {
-    let msg = "No questions available for this topic!";
-    if (selectedTopic === "missed") msg = "No missed questions to review!";
-    if (selectedTopic === "unanswered") msg = "No unanswered questions to review!";
-    if (selectedTopic === "bookmarked") msg = "No bookmarked questions to review!";
-    // Show the message in quizHeader or another child
-    quizHeader.textContent = msg;
-    // Optionally hide other children
-    quizCard.querySelector('.question-text').textContent = "";
-    const answers = quizCard.querySelector('#answers');
-    if (answers) answers.innerHTML = "";
+    if (quizCard) quizCard.innerHTML = "<p>No questions available for this quiz!</p>";
     return;
   }
 
-  const q = quiz[current];
-  if (!q) {
-    document.querySelector(SELECTORS.quizCard).classList.add("hidden");
+  if (!q || !Array.isArray(q.answers)) {
+    console.error("Invalid question object:", q);
+    if (quizCard) quizCard.innerHTML = "<p>Invalid question data. Please try another quiz or topic.</p>";
     return;
   }
 
@@ -407,31 +228,50 @@ function renderQuestion() {
 
   renderQuizHeader(q);
 
-  document.querySelector(".quiz-header").textContent = formatTopicName(selectedTopic);
-  document.querySelector(".question-text").textContent = q.question;
+  const quizHeaderStrong = document.querySelector(".quiz-header strong");
+  if (quizHeaderStrong) quizHeaderStrong.textContent = formatTopicName(selectedTopic);
+
+  const questionText = document.querySelector(".question-text");
+  if (questionText) questionText.textContent = q.question;
+
   renderAnswers(answerObjs);
-  document.querySelector(SELECTORS.feedback).textContent = "";
 
-  document.querySelector(SELECTORS.quizCard).querySelectorAll(".question-actions").forEach(el => el.remove());
+  const feedbackElem = document.querySelector(SELECTORS.feedback);
+  if (feedbackElem) feedbackElem.textContent = "";
 
+  quizCard.querySelectorAll(".question-actions").forEach(el => el.remove());
   renderQuestionActions(q);
-
-  console.log('quizCard:', quizCard);
-  console.log('quizHeader:', quizHeader);
-  console.log('questionText:', quizCard.querySelector('.question-text'));
-  console.log('answers:', quizCard.querySelector('#answers'));
 }
 
 /**
  * Render the quiz header row with topic, streak, and bookmark button.
  */
-function renderQuizHeader() {
-  const quizHeader = document.querySelector('.quiz-card .quiz-header');
-  if (!quizHeader) {
-    console.warn('quizHeader not found!');
-    return;
-  }
-  quizHeader.textContent = formatTopicName(selectedTopic);
+function renderQuizHeader(q) {
+  const quizHeader = document.querySelector(".quiz-header");
+  quizHeader.querySelector(".quiz-header-row")?.remove();
+
+  const headerRow = document.createElement("div");
+  headerRow.className = "quiz-header-row";
+  headerRow.innerHTML = `
+    <div class="topic-streak">
+      <span>TOPIC: <strong>${selectedTopic}</strong></span>
+      <span style="margin-left: 16px;">Streak: <span id="quizStreak">${streak}</span></span>
+    </div>
+  `;
+
+  const bookmarkBtn = document.createElement("button");
+  bookmarkBtn.className = "bookmark-btn";
+  bookmarkBtn.textContent = q.bookmarked ? "Unbookmark" : "Bookmark";
+  bookmarkBtn.setAttribute("aria-label", q.bookmarked ? "Unbookmark this question" : "Bookmark this question");
+  bookmarkBtn.addEventListener("click", () => {
+    q.bookmarked = !q.bookmarked;
+    bookmarkBtn.textContent = q.bookmarked ? "Unbookmark" : "Bookmark";
+    toggleBookmark(q.id);
+    bookmarkedQuestions = getBookmarkedQuestions(questions);
+  });
+
+  headerRow.appendChild(bookmarkBtn);
+  quizHeader.appendChild(headerRow);
 }
 
 /**
@@ -616,20 +456,36 @@ function handleAnswerClick(isCorrect, btn) {
   updateStreak(isCorrect);
   updateProgress(current + 1, quiz.length);
 
+  const feedback = document.querySelector(SELECTORS.feedback);
   const qid = quiz[current].id;
 
-  // ...existing missed/correct logic...
-
-  showFeedback(isCorrect, quiz[current]);
-
+  if (!isCorrect) {
+    const correctAnswer = quiz[current].answers[quiz[current].correct];
+    feedback.textContent = `Incorrect! The correct answer is: ${correctAnswer}`;
+    feedback.style.color = "red";
+    if (!missedQuestions.includes(qid)) {
+      missedQuestions.push(qid);
+      saveUserData();
+    }
+    quiz[current].stats = quiz[current].stats || { correct: 0, incorrect: 0 };
+    quiz[current].stats.incorrect++;
+    localStorage.setItem("review_" + qid, JSON.stringify({
+      lastMissed: Date.now(),
+      interval: 24 * 60 * 60 * 1000
+    }));
+    recordWrongAnswer(qid, btn.textContent);
+  } else {
+    feedback.textContent = "Correct!";
+    feedback.style.color = "green";
+    missedQuestions = missedQuestions.filter(id => id !== qid);
+    saveUserData();
+    quiz[current].stats = quiz[current].stats || { correct: 0, incorrect: 0 };
+    quiz[current].stats.correct++;
+  }
+  const explanation = quiz[current].explanation || "";
+  feedback.innerHTML += explanation ? `<br><em>${explanation}</em>` : "";
   if (isCorrect) correct++;
   unansweredQuestions = unansweredQuestions.filter(q => q.id !== qid);
-
-  if (isCorrect) {
-    addXP(10); // 10 XP for correct
-  } else {
-    addXP(2); // 2 XP for incorrect
-  }
 
   setTimeout(() => {
     current++;
@@ -640,6 +496,7 @@ function handleAnswerClick(isCorrect, btn) {
     renderQuestion();
     renderAccuracyChart(correct, current - correct, quiz.length - current);
   }, 1500);
+  updateQuestionMeta(qid, isCorrect);
 }
 
 /**
@@ -712,6 +569,16 @@ function showSmartReviewBtn() {
   }, 500);
 }
 
+/**
+ * Start a review session for unmastered questions.
+ */
+function startUnmasteredReview() {
+  quiz = shuffle(getQuestionsMastered(0)); // Or set a threshold
+  current = 0; correct = 0; streak = 0;
+  document.querySelector(SELECTORS.quizCard).classList.remove("hidden");
+  renderQuestion();
+}
+
 // --- MODALS ---
 /**
  * Open a modal dialog with the given title and content.
@@ -776,61 +643,57 @@ function showSmartLearningModal(e) {
  */
 function showAnalyticsModal(e) {
   e.preventDefault();
-  const totalQuestions = questions.length;
-  const answered = questions.filter(q => (q.stats?.correct || 0) + (q.stats?.incorrect || 0) > 0).length;
-  const correctCount = questions.reduce((sum, q) => sum + (q.stats?.correct || 0), 0);
-  const incorrectCount = questions.reduce((sum, q) => sum + (q.stats?.incorrect || 0), 0);
-  const accuracy = (correctCount + incorrectCount) > 0 ? Math.round((correctCount / (correctCount + incorrectCount)) * 100) : 0;
+  const totalQuestions = quiz.length;
+  const unansweredQuestionsCount = totalQuestions - current;
+  const incorrectAnswers = current - correct;
+  const accuracy = totalQuestions > 0 ? Math.round((correct / totalQuestions) * 100) : 0;
+  const stats = { totalQuestions, correctAnswers: correct, incorrectAnswers, unansweredQuestions: unansweredQuestionsCount, accuracy, streak };
+  const topicStats = getTopicMastery();
 
-  // Per-topic stats
-  const topicStats = {};
-  questions.forEach(q => {
-    if (!q.topic) return;
-    if (!topicStats[q.topic]) topicStats[q.topic] = { correct: 0, incorrect: 0, total: 0 };
-    topicStats[q.topic].correct += q.stats?.correct || 0;
-    topicStats[q.topic].incorrect += q.stats?.incorrect || 0;
-    topicStats[q.topic].total += (q.stats?.correct || 0) + (q.stats?.incorrect || 0);
-  });
-
-  const masteryHtml = Object.entries(topicStats).map(([topic, stat]) => {
-    const acc = stat.total ? stat.correct / stat.total : 0;
-    return `<li style="background:${masteryColor(acc)};padding:4px 8px;border-radius:4px;margin:2px 0;">
-      <strong>${formatTopicName(topic)}:</strong> ${(acc*100).toFixed(0)}% mastery (${stat.correct}/${stat.total})
+  // --- NEW: Meta stats for each question ---
+  const metaMap = JSON.parse(localStorage.getItem("questionMeta") || "{}");
+  const metaHtml = questions.map(q => {
+    const meta = metaMap[q.id] || {};
+    const attempts = meta.attempts || 0;
+    const correct = meta.correct || 0;
+    const incorrect = meta.incorrect || 0;
+    const lastAttempt = meta.lastAttempt ? new Date(meta.lastAttempt).toLocaleString() : "Never";
+    const acc = attempts > 0 ? Math.round((correct / attempts) * 100) : 0;
+    return `<li>
+      <strong>${q.question}</strong>
+      <br>Attempts: ${attempts}, Accuracy: ${acc}%, Last Attempt: ${lastAttempt}
     </li>`;
   }).join("");
 
-  openModal("Enhanced Analytics", `
-    <p><strong>XP:</strong> ${xp} (Level ${getXPLevel()})</p>
-    <ul style="list-style: none; padding: 0;">
-      <li><strong>Questions Answered:</strong> ${answered}</li>
-      <li><strong>Correct:</strong> ${correctCount}</li>
-      <li><strong>Incorrect:</strong> ${incorrectCount}</li>
-      <li><strong>Accuracy:</strong> ${accuracy}%</li>
-    </ul>
-    <h4 style="margin-top:16px;">Per Topic Stats</h4>
-    <ul style="margin-top:0">${masteryHtml}</ul>
-    <h4 style="margin-top:16px;">Chart Visualization</h4>
-    <canvas id="analyticsChart" width="300" height="120"></canvas>
+  openModal("View Analytics", `
+    <p>Track your progress, accuracy, and streaks over time to measure your improvement.</p>
+    <div style="display: flex; flex-direction: column; align-items: center; gap: 20px;">
+      <canvas id="accuracyChart" width="200" height="200"></canvas>
+      <ul style="list-style: none; padding: 0; text-align: left;">
+        <li><strong>Total Questions Attempted:</strong> ${stats.totalQuestions}</li>
+        <li><strong>Correct Answers:</strong> ${stats.correctAnswers}</li>
+        <li><strong>Incorrect Answers:</strong> ${stats.incorrectAnswers}</li>
+        <li><strong>Unanswered Questions:</strong> ${stats.unansweredQuestions}</li>
+        <li><strong>Accuracy:</strong> ${stats.accuracy}%</li>
+        <li><strong>Current Streak:</strong> ${stats.streak}</li>
+      </ul>
+      <h4 style="margin-top:16px;">Mastery by Topic</h4>
+      <ul style="margin-top:0">${Object.entries(topicStats).map(([topic, stat]) => {
+        const acc = stat.total ? stat.correct / stat.total : 0;
+        return `<li style="background:${masteryColor(acc)};padding:4px 8px;border-radius:4px;margin:2px 0;">
+          <strong>${topic}:</strong> ${(acc*100).toFixed(0)}% mastery
+        </li>`;
+      }).join("")}</ul>
+      <h4 style="margin-top:16px;">Quiz History</h4>
+      <canvas id="historyChart" width="300" height="120"></canvas>
+      <h4 style="margin-top:16px;">Per-Question Meta</h4>
+      <ul style="max-height:200px;overflow:auto;">${metaHtml}</ul>
+    </div>
   `);
-
-  // Chart: Correct vs Incorrect
-  setTimeout(() => {
-    const ctx = document.getElementById("analyticsChart")?.getContext("2d");
-    if (ctx) {
-      new Chart(ctx, {
-        type: "bar",
-        data: {
-          labels: ["Correct", "Incorrect"],
-          datasets: [{
-            label: "Answers",
-            data: [correctCount, incorrectCount],
-            backgroundColor: ["#6BCB77", "#FF6B6B"]
-          }]
-        },
-        options: { responsive: true }
-      });
-    }
-  }, 100);
+  requestAnimationFrame(() => {
+    renderAccuracyChart(stats.correctAnswers, stats.incorrectAnswers, stats.unansweredQuestions);
+    renderHistoryChart();
+  });
 }
 
 /**
@@ -868,15 +731,6 @@ function showSettingsModal(e) {
         <input type="checkbox" id="adaptiveModeToggle" /> Enable Adaptive Mode
       </label>
       <br />
-      <label>
-        Always Show Explanations:
-        <select id="showExplanationSetting">
-          <option value="always">Always</option>
-          <option value="toggle">Show with Toggle</option>
-          <option value="never">Never</option>
-        </select>
-      </label>
-      <br />
       <button type="submit">Save Settings</button>
     </form>
     <hr />
@@ -892,15 +746,13 @@ function showSettingsModal(e) {
   document.getElementById("difficultySelect").value = settings.difficulty || "easy";
   document.getElementById("timerToggle").checked = !!settings.timerEnabled;
   document.getElementById("adaptiveModeToggle").checked = settings.adaptiveMode !== false;
-  document.getElementById("showExplanationSetting").value = settings.showExplanationSetting || "always";
 
   form.addEventListener("submit", (event) => {
     event.preventDefault();
     const newSettings = {
       difficulty: document.getElementById("difficultySelect").value,
       timerEnabled: document.getElementById("timerToggle").checked,
-      adaptiveMode: document.getElementById("adaptiveModeToggle").checked,
-      showExplanationSetting: document.getElementById("showExplanationSetting").value
+      adaptiveMode: document.getElementById("adaptiveModeToggle").checked
     };
     localStorage.setItem("settings", JSON.stringify(newSettings));
     showNotification("Settings Saved", "Your preferences have been saved.", "badges/summary.png");
@@ -963,43 +815,36 @@ function renderHistoryChart() {
   const ctx = document.getElementById("historyChart")?.getContext("2d");
   if (!ctx) return;
   if (historyChart) historyChart.destroy();
-    historyChart = new Chart(ctx, {
-      type: "line",
-      data: {
-        labels: results.length ? results.map(r => new Date(r.date).toLocaleDateString()) : ["No Data"],
-        datasets: [
-          {
-            label: "Accuracy (%)",
-            data: results.length
-              ? results.map(r =>
-                  r.total > 0 && typeof r.score === "number"
-                    ? Math.max(0, Math.round((r.score / r.total) * 100))
-                    : 0
-                )
-              : [0],
-            borderColor: "#007bff",
-            fill: false,
-          },
-          {
-            label: "Streak",
-            data: results.length
-              ? results.map(r => typeof r.streak === "number" ? Math.max(0, r.streak) : 0)
-              : [0],
-            borderColor: "#FFD93D",
-            fill: false,
-          }
-        ]
-      },
-      options: {
-        responsive: true,
-        scales: {
-          y: {
-            beginAtZero: true
-          }
+  historyChart = new Chart(ctx, {
+    type: "line",
+    data: {
+      labels: results.length ? results.map(r => new Date(r.date).toLocaleDateString()) : ["No Data"],
+      datasets: [
+        {
+          label: "Accuracy (%)",
+          data: results.length
+            ? results.map(r =>
+                r.total > 0 && typeof r.score === "number"
+                  ? Math.max(0, Math.round((r.score / r.total) * 100))
+                  : 0
+              )
+            : [0],
+          borderColor: "#007bff",
+          fill: false,
+        },
+        {
+          label: "Streak",
+          data: results.length
+            ? results.map(r => typeof r.streak === "number" ? Math.max(0, r.streak) : 0)
+            : [0],
+          borderColor: "#FFD93D",
+          fill: false,
         }
-      }
-    });
-  }
+      ]
+    },
+    options: { responsive: true }
+  });
+}
 
 // --- NOTIFICATIONS ---
 /**
@@ -1099,6 +944,21 @@ function saveQuizResult() {
   renderHistoryChart();
 }
 
+/**
+ * Update question metadata (attempts, correct/incorrect count, last attempt time).
+ */
+function updateQuestionMeta(qid, isCorrect) {
+  const metaMap = JSON.parse(localStorage.getItem("questionMeta") || "{}");
+  if (!metaMap[qid]) {
+    metaMap[qid] = { attempts: 0, correct: 0, incorrect: 0, lastAttempt: null };
+  }
+  metaMap[qid].attempts++;
+  if (isCorrect) metaMap[qid].correct++;
+  else metaMap[qid].incorrect++;
+  metaMap[qid].lastAttempt = Date.now();
+  localStorage.setItem("questionMeta", JSON.stringify(metaMap));
+}
+
 // --- ANALYTICS ---
 /**
  * Get mastery stats for each topic.
@@ -1133,6 +993,110 @@ function getQuestionsForSmartReview() {
   return questions.filter(q => (q.stats?.incorrect || 0) > 1 || ((q.stats?.correct || 0) / ((q.stats?.correct || 0) + (q.stats?.incorrect || 0))) < 0.7);
 }
 
+/**
+ * Get accuracy stats for each topic.
+ * @returns {Object}
+ */
+function getAccuracyPerTopic() {
+  const stats = {};
+  questions.forEach(q => {
+    if (!q.topic) return;
+    if (!stats[q.topic]) stats[q.topic] = { correct: 0, total: 0 };
+    stats[q.topic].correct += q.stats?.correct || 0;
+    stats[q.topic].total += (q.stats?.correct || 0) + (q.stats?.incorrect || 0);
+  });
+  Object.keys(stats).forEach(topic => {
+    stats[topic].accuracy = stats[topic].total > 0 ? Math.round((stats[topic].correct / stats[topic].total) * 100) : 0;
+  });
+  return stats;
+}
+
+/**
+ * Get questions that have been mastered.
+ * @param {number} [threshold=3] - The number of correct answers required to consider a question mastered.
+ * @returns {Array}
+ */
+function getQuestionsMastered(threshold = 3) {
+  return questions.filter(q => q.stats?.correct >= threshold);
+}
+
+/**
+ * Get questions that have been repeated.
+ * @returns {Array}
+ */
+function getQuestionsRepeated() {
+  return questions.filter(q => (q.stats?.correct || 0) + (q.stats?.incorrect || 0) > 1);
+}
+
+/**
+ * Get topics with the lowest accuracy.
+ * @param {number} [n=3] - The number of topics to return.
+ * @returns {Array}
+ */
+function getLowestAccuracyTopics(n = 3) {
+  const acc = getAccuracyPerTopic();
+  return Object.entries(acc)
+    .sort((a, b) => a[1].accuracy - b[1].accuracy)
+    .slice(0, n)
+    .map(([topic]) => topic);
+}
+
+/**
+ * Get questions with the most errors.
+ * @param {number} [n=5] - The number of questions to return.
+ * @returns {Array}
+ */
+function getMostErroredQuestions(n = 5) {
+  const errorMap = JSON.parse(localStorage.getItem("errorFrequencyMap") || "{}");
+  return Object.entries(errorMap)
+    .map(([qid, errors]) => ({
+      qid,
+      totalErrors: Object.values(errors).reduce((a, b) => a + b, 0)
+    }))
+    .sort((a, b) => b.totalErrors - a.totalErrors)
+    .slice(0, n)
+    .map(e => questions.find(q => q.id === e.qid))
+    .filter(Boolean);
+}
+
+/**
+ * Get adaptive quiz questions based on user performance.
+ * Focus on most missed and low mastery questions.
+ */
+function getAdaptiveQuiz() {
+  // Example adaptive logic: focus on most missed and low mastery questions
+  const mostMissed = getMostErroredQuestions(10);
+  const lowMastery = questions.filter(q => {
+    const stats = q.stats || {};
+    const total = (stats.correct || 0) + (stats.incorrect || 0);
+    return total > 0 && ((stats.correct || 0) / total) < 0.7;
+  });
+  // Combine and remove duplicates
+  const adaptivePool = [...new Set([...mostMissed, ...lowMastery])];
+  return adaptivePool.length > 0 ? adaptivePool : questions;
+}
+
+/**
+ * Get smart quiz questions based on lowest accuracy and least recent attempts.
+ * @param {number} [limit=20] - The maximum number of questions to return.
+ * @returns {Array}
+ */
+function getSmartQuizQuestions(limit = 20) {
+  const metaMap = JSON.parse(localStorage.getItem("questionMeta") || "{}");
+  // Sort by lowest accuracy and least recently attempted
+  const sorted = questions
+    .map(q => {
+      const meta = metaMap[q.id] || {};
+      const accuracy = meta.attempts ? (meta.correct || 0) / meta.attempts : 0;
+      return { ...q, meta, accuracy };
+    })
+    .sort((a, b) => {
+      if (a.accuracy !== b.accuracy) return a.accuracy - b.accuracy;
+      return (a.meta.lastAttempt || 0) - (b.meta.lastAttempt || 0);
+    });
+  return sorted.slice(0, limit);
+}
+
 // --- BOOKMARKS ---
 /**
  * Toggle bookmark state for a question.
@@ -1152,28 +1116,23 @@ function getBookmarkedQuestions(allQuestions) {
   return allQuestions.filter(q => bookmarks.includes(q.id));
 }
 
-// --- MANIFEST & TOPIC DROPDOWN ---
-/**
- * Fetch manifest paths for external question modules.
- */
-async function getManifestPaths() {
-  const res = await fetch('manifestquestions.json');
-  return await res.json();
+// --- TOPIC DROPDOWN ---
+// Example: Group questions by unit (top-level folder)
+function groupQuestionsByUnit(manifest) {
+  const units = {};
+  manifest.forEach(path => {
+    // Extract the unit name (first folder after 'questions/')
+    const match = path.match(/^questions\/([^/]+)\//);
+    if (match) {
+      const unit = match[1];
+      if (!units[unit]) units[unit] = [];
+      units[unit].push(path);
+    }
+  });
+  return units;
 }
 
-// --- FIREBASE CONFIG ---
-// NOTE: Do not commit real secrets to public repos. Use environment variables or config files for production.
-const firebaseConfig = {
-  apiKey: "YOUR_API_KEY",
-  authDomain: "YOUR_PROJECT_ID.firebaseapp.com",
-  projectId: "YOUR_PROJECT_ID",
-};
-firebase.initializeApp(firebaseConfig);
-const db = firebase.firestore();
-
-/**
- * Submit a suggested question to Firestore.
- */
+// --- FIREBASE HELPERS ---
 async function submitSuggestionToFirestore(suggestion) {
   try {
     await db.collection("suggestedQuestions").add(suggestion);
@@ -1183,9 +1142,6 @@ async function submitSuggestionToFirestore(suggestion) {
   }
 }
 
-/**
- * Submit a reported question to Firestore.
- */
 async function submitReportToFirestore(report) {
   try {
     await db.collection("reportedQuestions").add(report);
@@ -1195,54 +1151,12 @@ async function submitReportToFirestore(report) {
   }
 }
 
-function addXP(amount) {
-  xp += amount;
-  localStorage.setItem("xp", xp);
-  updateXPBar();
+function recordWrongAnswer(qid, answerText) {
+  // Track frequency of wrong answers per question in localStorage
+  const errorMap = JSON.parse(localStorage.getItem("errorFrequencyMap") || "{}");
+  if (!errorMap[qid]) errorMap[qid] = {};
+  errorMap[qid][answerText] = (errorMap[qid][answerText] || 0) + 1;
+  localStorage.setItem("errorFrequencyMap", JSON.stringify(errorMap));
 }
 
-function getXPLevel() {
-  return Math.floor(xp / 100) + 1;
-}
-
-function getXPProgressPercent() {
-  return (xp % 100);
-}
-
-function updateXPBar() {
-  const xpBar = document.getElementById("xp-progress-bar");
-  const xpLabel = document.getElementById("xp-label");
-  if (xpBar) xpBar.style.width = getXPProgressPercent() + "%";
-  if (xpLabel) xpLabel.textContent = `Level ${getXPLevel()} — ${xp % 100} / 100 XP`;
-}
-
-async function loadVocabulary() {
-  try {
-    const res = await fetch('vocabulary.json');
-    vocabulary = await res.json();
-  } catch (err) {
-    console.error("Failed to load vocabulary:", err);
-  }
-}
-
-let flashcardIndex = 0;
-let flashcardPool = [];
-
-function renderFlashcard() {
-  if (!flashcardPool.length) return;
-  const card = flashcardPool[flashcardIndex];
-  if (selectedTopic === "vocabulary") {
-    document.getElementById('flashcard-front').textContent = card.term;
-    document.getElementById('flashcard-back').textContent = card.definition;
-  } else if (card.answers && typeof card.correct === "number") {
-    document.getElementById('flashcard-front').textContent = card.question;
-    document.getElementById('flashcard-back').textContent = card.answers[card.correct];
-  } else {
-    document.getElementById('flashcard-front').textContent = "Invalid flashcard data";
-    document.getElementById('flashcard-back').textContent = "";
-  }
-  // Reset flip state
-  flashcardFlipped = false;
-  document.getElementById('flashcard-front').style.display = 'block';
-  document.getElementById('flashcard-back').style.display = 'none';
-}
+// --- END OF FILE ---
