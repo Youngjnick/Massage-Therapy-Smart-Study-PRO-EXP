@@ -66,6 +66,7 @@ function formatTopicName(topic) {
 // --- FIREBASE CONFIG ---
 firebase.initializeApp(window.firebaseConfig);
 const db = firebase.firestore();
+const auth = firebase.auth();
 
 // --- QUESTION LOADING ---
 async function loadQuestionsFromFirestore() {
@@ -1159,4 +1160,61 @@ function recordWrongAnswer(qid, answerText) {
   localStorage.setItem("errorFrequencyMap", JSON.stringify(errorMap));
 }
 
+// --- AUTHENTICATION ---
+// Firebase Authentication
+document.getElementById('profileBtn')?.addEventListener('click', () => {
+  const user = auth.currentUser;
+  openModal("Profile", `
+    <div style="text-align:center;">
+      <img src="${user?.photoURL || 'default-avatar.png'}" alt="Avatar" style="width:64px;height:64px;border-radius:50%;" />
+      <p style="margin:12px 0 0 0;">${user?.displayName || user?.email || "Not signed in"}</p>
+      ${user ? `
+        <button id="signOutBtn" class="modal-btn">Sign Out</button>
+      ` : `
+        <button id="signInBtn" class="modal-btn">Sign In with Google</button>
+      `}
+    </div>
+  `);
+  document.getElementById('signInBtn')?.addEventListener('click', () => {
+    const provider = new firebase.auth.GoogleAuthProvider();
+    auth.signInWithPopup(provider);
+  });
+  document.getElementById('signOutBtn')?.addEventListener('click', () => auth.signOut());
+});
+
+auth.onAuthStateChanged(user => {
+  const avatar = document.getElementById('profileAvatar');
+  if (user && avatar) {
+    avatar.src = user.photoURL || 'default-avatar.png';
+    avatar.title = user.displayName || user.email || 'Profile';
+  } else if (avatar) {
+    avatar.src = 'default-avatar.png';
+    avatar.title = 'Sign in';
+  }
+});
+
+// Example: Save/load user progress to Firestore
+async function saveUserProfile(uid, data) {
+  await db.collection('users').doc(uid).set(data, { merge: true });
+}
+async function loadUserProfile(uid) {
+  const doc = await db.collection('users').doc(uid).get();
+  if (doc.exists) {
+    // Merge Firestore data into your app state
+    const data = doc.data();
+    // e.g. missedQuestions = data.missedQuestions || [];
+    //      correct = data.correct || 0;
+    //      etc.
+  }
+}
+
 // --- END OF FILE ---
+document.querySelector('.analytics-link')?.addEventListener('click', (e) => {
+  e.preventDefault();
+  document.getElementById('analyticsModal').style.display = 'block';
+  renderHistoryChart(); // Your function to draw the chart
+});
+
+document.getElementById('closeAnalyticsModal')?.addEventListener('click', () => {
+  document.getElementById('analyticsModal').style.display = 'none';
+});

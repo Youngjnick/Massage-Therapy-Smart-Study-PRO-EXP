@@ -15,6 +15,8 @@
   <script src="https://www.gstatic.com/firebasejs/9.6.1/firebase-app-compat.js"></script>
   <!-- Firestore -->
   <script src="https://www.gstatic.com/firebasejs/9.6.1/firebase-firestore-compat.js"></script>
+  <!-- Auth -->
+  <script src="https://www.gstatic.com/firebasejs/9.6.1/firebase-auth-compat.js"></script>
   <script src="firebaseConfig.js"></script>
   <script src="app.js" type="module"></script>
 </head>
@@ -28,6 +30,9 @@
           <div class="title-text">
             <h1>Massage Therapy</h1>
             <h2>Smart Study Pro</h2>
+          </div>
+          <div class="profile-btn" id="profileBtn" tabindex="0" aria-label="User Profile" style="margin-left:auto; display:flex; align-items:center;">
+            <img id="profileAvatar" src="default-avatar.png" alt="Profile" style="width:70px; height:70px; border-radius:50%;"/>
           </div>
         </div>
         <div class="header-controls">
@@ -88,7 +93,6 @@
         <span>0%</span>
       </div>
       <div id="loading" style="text-align:center; margin-top:2em;">Loading questions...</div>
-      <canvas id="historyChart" width="300" height="120"></canvas>
       <div class="question-actions">
         <button class="suggest-btn">Suggest a Question</button>
         <button class="flag-unclear-btn" disabled>Flag as Unclear</button>
@@ -99,5 +103,13 @@
   <nav role="navigation">
     <!-- Navigation content goes here -->
   </nav>
+  <div id="analyticsModal" class="modal" style="display:none;">
+    <div class="modal-content">
+      <span class="close-modal" id="closeAnalyticsModal" tabindex="0" aria-label="Close Analytics">&times;</span>
+      <h2>Analytics</h2>
+      <canvas id="historyChart" width="300" height="120"></canvas>
+      <!-- Add more charts or stats here as needed -->
+    </div>
+  </div>
 </body>
 </html>

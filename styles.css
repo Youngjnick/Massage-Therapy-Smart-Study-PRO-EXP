@@ -841,3 +841,11 @@ select.control[data-topic] {
   font-size: 1rem;
   outline: 2px solid #fff;
 }
+
+.profile-btn {
+  cursor: pointer;
+  transition: box-shadow 0.2s;
+}
+.profile-btn:focus, .profile-btn:hover {
+  box-shadow: 0 0 0 2px #00c896;
+}
